@@ -57,6 +57,22 @@ const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.id}`;
     <Content />
   </article>
 
+  <!-- Randocomune CTA -->
+  <div class="rando-cta">
+    <div class="rando-cta-text">
+      <h3>Esplora altri comuni</h3>
+      <p>Hai visitato {comune.data.name}? Con <strong>Randocomune</strong> scopri un comune a caso e pianifica la prossima avventura nella provincia di Brescia.</p>
+    </div>
+    <a
+      class="rando-cta-btn"
+      href="https://ranturismo.com/randomcomune"
+      target="_blank"
+      rel="noopener"
+    >
+      🎲 Prova Randocomune →
+    </a>
+  </div>
+
   <!-- Nearby comuni -->
   {nearbyComuni.length > 0 && (
     <aside class="nearby-section">

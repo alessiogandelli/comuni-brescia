@@ -13,10 +13,25 @@ const base = import.meta.env.BASE_URL;
   description="Guida completa ai comuni della provincia di Brescia: storia, luoghi da visitare, popolazione e informazioni utili."
   canonicalUrl={`${import.meta.env.SITE}${base}/`}
 >
-  <section class="hero" style="margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-md)) var(--spacing-xl);">
+  <section class="hero" style="margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-md)) var(--spacing-lg);">
     <h1>Comuni della Provincia di Brescia</h1>
     <p>Esplora i comuni bresciani: storia, cultura, luoghi da visitare e molto altro.</p>
   </section>
+
+  <div class="rando-cta">
+    <div class="rando-cta-text">
+      <h3>Non sai quale comune visitare?</h3>
+      <p>Prova <strong>Randocomune</strong> — scopri un comune a caso e pianifica la tua prossima avventura.</p>
+    </div>
+    <a
+      class="rando-cta-btn"
+      href="https://ranturismo.com/randomcomune"
+      target="_blank"
+      rel="noopener"
+    >
+      🎲 Vai a Randocomune →
+    </a>
+  </div>
 
   <div class="stats-row">
     <span>📍 <strong>{comuni.length}</strong> comuni</span>
