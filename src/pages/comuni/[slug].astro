@@ -1,28 +1,28 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
   const comuni = await getCollection('comuni');
   return comuni.map((comune) => ({
-    params: { slug: comune.slug },
+    params: { slug: comune.id },
     props: { comune },
   }));
 }
 
 const { comune } = Astro.props;
-const { Content } = await comune.render();
+const { Content } = await render(comune);
 
 // Resolve nearby comuni entries
 const allComuni = await getCollection('comuni');
 const nearbyComuni = comune.data.nearby
-  .map((slug) => allComuni.find((c) => c.slug === slug))
+  .map((slug) => allComuni.find((c) => c.id === slug))
   .filter(Boolean);
 
 const base = import.meta.env.BASE_URL;
 
 const pageDescription = `Scopri ${comune.data.name}: cosa fare, luoghi importanti, storia e informazioni utili sul comune della provincia di ${comune.data.province}.`;
-const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.slug}`;
+const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.id}`;
 ---
 
 <Layout
@@ -64,7 +64,7 @@ const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.slug}`;
       <ul class="nearby-list">
         {nearbyComuni.map((nearby) => (
           <li>
-            <a href={`${base}/comuni/${nearby!.slug}`}>
+            <a href={`${base}/comuni/${nearby!.id}`}>
               {nearby!.data.name}
             </a>
           </li>

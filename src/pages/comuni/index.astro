@@ -30,7 +30,7 @@ const base = import.meta.env.BASE_URL;
           🏛️ Prov. {comune.data.province} &nbsp;·&nbsp;
           👥 {comune.data.population.toLocaleString('it-IT')} ab.
         </p>
-        <a class="card-link" href={`${base}/comuni/${comune.slug}`}>
+        <a class="card-link" href={`${base}/comuni/${comune.id}`}>
           Scopri {comune.data.name} →
         </a>
       </article>

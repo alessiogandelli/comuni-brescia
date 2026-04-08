@@ -1,7 +1,8 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const comuni = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/comuni' }),
   schema: z.object({
     name: z.string(),
     province: z.string(),
