@@ -1,0 +1,75 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const comuni = await getCollection('comuni');
+  return comuni.map((comune) => ({
+    params: { slug: comune.slug },
+    props: { comune },
+  }));
+}
+
+const { comune } = Astro.props;
+const { Content } = await comune.render();
+
+// Resolve nearby comuni entries
+const allComuni = await getCollection('comuni');
+const nearbyComuni = comune.data.nearby
+  .map((slug) => allComuni.find((c) => c.slug === slug))
+  .filter(Boolean);
+
+const base = import.meta.env.BASE_URL;
+
+const pageDescription = `Scopri ${comune.data.name}: cosa fare, luoghi importanti, storia e informazioni utili sul comune della provincia di ${comune.data.province}.`;
+const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.slug}`;
+---
+
+<Layout
+  title={comune.data.name}
+  description={pageDescription}
+  canonicalUrl={canonicalUrl}
+>
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={base || '/'}>Home</a>
+    <span aria-hidden="true">›</span>
+    <a href={`${base}/comuni`}>Comuni</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">{comune.data.name}</span>
+  </nav>
+
+  <!-- Comune header -->
+  <header class="comune-header">
+    <h1>{comune.data.name}</h1>
+    <div class="comune-meta">
+      <span class="meta-item">🏛️ Provincia di {comune.data.province}</span>
+      <span class="meta-item">👥 {comune.data.population.toLocaleString('it-IT')} abitanti</span>
+      <span class="meta-item">
+        📍 {comune.data.coordinates[0].toFixed(4)}° N,
+        {comune.data.coordinates[1].toFixed(4)}° E
+      </span>
+    </div>
+  </header>
+
+  <!-- Main content from markdown -->
+  <article class="comune-content">
+    <Content />
+  </article>
+
+  <!-- Nearby comuni -->
+  {nearbyComuni.length > 0 && (
+    <aside class="nearby-section">
+      <p class="nearby-title">📍 Comuni vicini</p>
+      <ul class="nearby-list">
+        {nearbyComuni.map((nearby) => (
+          <li>
+            <a href={`${base}/comuni/${nearby!.slug}`}>
+              {nearby!.data.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  )}
+</Layout>

@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const comuni = await getCollection('comuni');
+comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout
+  title="Tutti i Comuni"
+  description="Elenco completo dei comuni della provincia di Brescia con informazioni su popolazione, posizione e luoghi da visitare."
+  canonicalUrl={`${import.meta.env.SITE}${base}/comuni`}
+>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href={base || '/'}>Home</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">Comuni</span>
+  </nav>
+
+  <h1>Tutti i Comuni</h1>
+  <p>Elenco completo dei {comuni.length} comuni della provincia di Brescia presenti nella guida.</p>
+
+  <div class="card-grid" style="margin-top: var(--spacing-lg);">
+    {comuni.map((comune) => (
+      <article class="card">
+        <h2 class="card-title">{comune.data.name}</h2>
+        <p class="card-meta">
+          🏛️ Prov. {comune.data.province} &nbsp;·&nbsp;
+          👥 {comune.data.population.toLocaleString('it-IT')} ab.
+        </p>
+        <a class="card-link" href={`${base}/comuni/${comune.slug}`}>
+          Scopri {comune.data.name} →
+        </a>
+      </article>
+    ))}
+  </div>
+</Layout>
