@@ -1,30 +1,106 @@
 ---
-name: Rezzato
-province: BS
-population: 13500
-coordinates: [45.5000, 10.3167]
+name: "Rezzato"
+slug: "rezzato"
+province: "BS"
+population: 13537
+area: 18.29
+coordinates: [45.5187, 10.3195]
+centroid: [45.50738, 10.3172]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 99
 nearby:
-  - brescia
-  - concesio
-  - mazzano
+  - "botticino"
+  - "mazzano"
+  - "nuvolera"
+  - "nuvolento"
+  - "serle"
+bordering:
+  - "botticino"
+  - "brescia"
+  - "castenedolo"
+  - "mazzano"
+  - "nuvolera"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: ""
 ---
 
-Rezzato è un comune della provincia di Brescia situato alle porte della città capoluogo, ai piedi del Monte Maddalena. Il territorio è caratterizzato dall'industria lapidea, essendo uno dei principali centri mondiali per la lavorazione del marmo e della pietra.
+# Rezzato
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Rezzato si trova a circa 9 km a est di Brescia. Superficie: 18.29 km². Densità abitativa: 740 ab/km². Strade principali: A4, SPBS11TS, SS11, SS45bis, Tangenziale Est.
 
 ## Cosa fare
 
-Rezzato è un punto di partenza ideale per escursioni sul Monte Maddalena, con sentieri che offrono viste panoramiche sulla pianura padana e sul lago di Garda. Il Museo del Marmo illustra la storia dell'industria lapidea locale, una delle più importanti d'Europa. Il centro storico, con la sua piazza e la chiesa parrocchiale, merita una breve visita.
-
-Nelle vicinanze si trovano diversi percorsi cicloturistici che attraversano la campagna bresciana. In estate vengono organizzate sagre e feste locali che animano la vita del paese.
+- Arrampicata: **Virle - settore est**
+- Arrampicata: **La Cava - settore nord**
+- Arrampicata: **La Cava - settore sud**
+- Monte Peladolo (219 m)
+- Colle San Pietro (211 m)
+- Poggio San Martino (241 m)
 
 ## Luoghi importanti
 
-**Santuario della Madonna della Stella** – Antico luogo di culto del XVI secolo arroccato sulle pendici del Monte Maddalena, meta di pellegrinaggi e passeggiate.
+- **ex stazione di Rezzato FRV** — Rovine
+- **Padre Ottorino Marcolini** — Monumento
+- **Tempio di Bacco** — Monumento
+- **Ex tiro a segno** — Rovine
 
-**Museo del Marmo** – Centro espositivo dedicato alla storia e alle tecniche della lavorazione lapidea, con campioni di marmi pregiati da tutto il mondo.
+## Dove mangiare
 
-**Chiesa Parrocchiale di San Zenone** – Edificio barocco del XVIII secolo con un pregevole organo storico e opere pittoriche di artisti bresciani.
+- **Sbaff** (Ristorante)
+- **Bar Tabacchi Le Bistrò** (Ristorante)
+- **Cocorico cafè** (Bar)
+- **Niko Niko** (Ristorante)
+- **La Bellezza di Cleopatra** (Ristorante)
+- **Richs** (Bar)
 
-**Cava di Santa Filomena** – Storica cava di marmo bianco a cielo aperto, esempio della tradizione lapidea locale ancora attiva.
+## Dove dormire
 
-**Monte Maddalena** – La montagna simbolo di Brescia, raggiungibile da Rezzato con sentieri escursionistici immersi nel bosco.
+- **Hotel La Pina** (Hotel)
+- **La Sosta** (Hotel)
+- **Villa Fenaroli Palace Hotel** (Hotel)
+- **Hotel Sogno** (Hotel)
+- **Rifugio Aldo Vitali** (Rifugio alpino)
+- **Centro Ricreativo Estivo** (Ostello)
+
+## Servizi
+
+- **Lidl** — Supermercato
+- **Farmacia Comunale San Carlo** — Farmacia
+- **Sala Civica Italo Calvino** — Centro civico
+- **Biblioteca Comunale di Rezzato** — Biblioteca
+- **Oratorio Don Bosco** — Centro civico
+- **Azienda Tutela Salute** — Ospedale
+
+## Come arrivare
+
+- Autostrada: **A4**
+- Superstrada: **SPBS11TS**
+- Superstrada: **SS11**
+
+## Comuni vicini
+
+- [Botticino](/brescia/comuni/botticino/) — 1.2 km
+- [Mazzano](/brescia/comuni/mazzano/) — 2.8 km
+- [Nuvolera](/brescia/comuni/nuvolera/) — 4.1 km
+- [Nuvolento](/brescia/comuni/nuvolento/) — 5.3 km
+- [Serle](/brescia/comuni/serle/) — 5.5 km
+
+## Comuni confinanti
+
+- [Botticino](/brescia/comuni/botticino/)
+- [Brescia](/brescia/comuni/brescia/)
+- [Castenedolo](/brescia/comuni/castenedolo/)
+- [Mazzano](/brescia/comuni/mazzano/)
+- [Nuvolera](/brescia/comuni/nuvolera/)

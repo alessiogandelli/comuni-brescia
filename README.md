@@ -2,7 +2,7 @@
 
 Sito statico con [Astro](https://astro.build) che raccoglie informazioni sui comuni della provincia di Brescia: storia, luoghi da visitare, popolazione e comuni vicini.
 
-Deploy automatico su GitHub Pages: **https://alessiogandelli.github.io/comuni-brescia/**
+Deploy automatico su GitHub Pages: **https://alessiogandelli.github.io/comuni/**
 
 ## Come funziona
 

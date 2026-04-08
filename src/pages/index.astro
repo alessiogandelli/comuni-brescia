@@ -5,6 +5,9 @@ import Layout from '../layouts/Layout.astro';
 const comuni = await getCollection('comuni');
 comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 
+// Pick a random comune for the hero
+const randomComune = comuni[Math.floor(Math.random() * comuni.length)];
+
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -13,50 +16,58 @@ const base = import.meta.env.BASE_URL;
   description="Guida completa ai comuni della provincia di Brescia: storia, luoghi da visitare, popolazione e informazioni utili."
   canonicalUrl={`${import.meta.env.SITE}${base}/`}
 >
-  <section class="hero" style="margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-md)) var(--spacing-lg);">
-    <h1>Comuni della Provincia di Brescia</h1>
-    <p>Esplora i comuni bresciani: storia, cultura, luoghi da visitare e molto altro.</p>
+  <section class="hero-featured" style="margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-md)) var(--spacing-xl);">
+    <div class="hero-content">
+      <div class="hero-label">Oggi ti portiamo a scoprire</div>
+      <h1 class="hero-title">{randomComune.data.name}</h1>
+      <div class="hero-meta">
+        <span class="hero-badge">📍 {randomComune.data.province}</span>
+        <span class="hero-badge">👥 {randomComune.data.population.toLocaleString('it-IT')} abitanti</span>
+        {randomComune.data.boundary?.areaKm2 && (
+          <span class="hero-badge">📐 {randomComune.data.boundary.areaKm2.toFixed(1)} km²</span>
+        )}
+      </div>
+      {randomComune.data.description && (
+        <p class="hero-description">{randomComune.data.description.substring(0, 180)}...</p>
+      )}
+      <div class="hero-actions">
+        <a class="hero-btn-primary" href={`${base}/comuni/${randomComune.id}`}>
+          Esplora {randomComune.data.name} →
+        </a>
+        <button class="hero-btn-secondary" onclick="window.location.reload()">
+          🎲 Cambia comune
+        </button>
+      </div>
+    </div>
   </section>
 
-  <div class="rando-cta">
-    <div class="rando-cta-text">
-      <h3>Non sai quale comune visitare?</h3>
-      <p>Prova <strong>Randocomune</strong> — scopri un comune a caso e pianifica la tua prossima avventura.</p>
-    </div>
-    <a
-      class="rando-cta-btn"
-      href="https://ranturismo.com/randomcomune"
-      target="_blank"
-      rel="noopener"
-    >
-      🎲 Vai a Randocomune →
-    </a>
-  </div>
-
-  <div class="stats-row">
-    <span>📍 <strong>{comuni.length}</strong> comuni</span>
-    <span>🏙️ Provincia di Brescia</span>
+  <div class="page-intro">
+    <h2 class="section-title">Tutti i Comuni della Provincia di Brescia</h2>
+    <p class="section-subtitle">
+      Esplora {comuni.length} comuni bresciani: storia, cultura, luoghi da visitare e informazioni utili.
+    </p>
   </div>
 
   <div class="filter-bar">
     <input
       type="search"
       id="search-input"
-      placeholder="Cerca un comune..."
+      placeholder="🔍 Cerca un comune per nome..."
       aria-label="Cerca un comune"
     />
+    <div class="filter-results" id="filter-results"></div>
   </div>
 
   <div class="card-grid" id="comuni-grid">
     {comuni.map((comune) => (
       <article class="card" data-name={comune.data.name.toLowerCase()}>
-        <h2 class="card-title">{comune.data.name}</h2>
+        <h3 class="card-title">{comune.data.name}</h3>
         <p class="card-meta">
-          🏛️ Provincia {comune.data.province} &nbsp;·&nbsp;
-          👥 {comune.data.population.toLocaleString('it-IT')} ab.
+          {comune.data.population.toLocaleString('it-IT')} abitanti
+          {comune.data.boundary?.areaKm2 && ` · ${comune.data.boundary.areaKm2.toFixed(0)} km²`}
         </p>
         <a class="card-link" href={`${base}/comuni/${comune.id}`}>
-          Scopri {comune.data.name} →
+          Scopri di più →
         </a>
       </article>
     ))}
@@ -66,12 +77,203 @@ const base = import.meta.env.BASE_URL;
 <script>
   const input = document.getElementById('search-input') as HTMLInputElement;
   const cards = document.querySelectorAll<HTMLElement>('#comuni-grid .card');
+  const resultsDiv = document.getElementById('filter-results');
 
-  input?.addEventListener('input', () => {
+  function updateFilter() {
     const query = input.value.toLowerCase().trim();
+    let visibleCount = 0;
+    
     cards.forEach((card) => {
       const name = card.dataset.name ?? '';
-      card.style.display = name.includes(query) ? '' : 'none';
+      const isVisible = !query || name.includes(query);
+      card.style.display = isVisible ? '' : 'none';
+      if (isVisible) visibleCount++;
     });
-  });
+
+    // Show results count
+    if (resultsDiv) {
+      if (query) {
+        resultsDiv.textContent = `${visibleCount} ${visibleCount === 1 ? 'comune trovato' : 'comuni trovati'}`;
+        resultsDiv.style.display = 'block';
+      } else {
+        resultsDiv.style.display = 'none';
+      }
+    }
+  }
+
+  input?.addEventListener('input', updateFilter);
 </script>
+
+<style>
+  .hero-featured {
+    background: linear-gradient(135deg, #3b5bdb 0%, #2845b8 50%, #1a3aa8 100%);
+    color: #fff;
+    padding: 3.5rem 1.5rem;
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-featured::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(255,255,255,0.08) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .hero-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-label {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.8);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    font-weight: 800;
+  }
+
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-badge {
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.95);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-btn-primary {
+    background: #fff;
+    color: var(--color-primary);
+    padding: 0.875rem 2rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    border: none;
+    cursor: pointer;
+  }
+
+  .hero-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.2);
+    text-decoration: none;
+  }
+
+  .hero-btn-secondary {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 0.875rem 1.75rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s;
+    border: 1px solid rgba(255,255,255,0.3);
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .hero-btn-secondary:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateY(-2px);
+  }
+
+  .page-intro {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    color: var(--color-text);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .section-subtitle {
+    font-size: 1.05rem;
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .filter-results {
+    display: none;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .hero-description {
+      font-size: 1rem;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .hero-btn-primary,
+    .hero-btn-secondary {
+      width: 100%;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+    }
+  }
+</style>

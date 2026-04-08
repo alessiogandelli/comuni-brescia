@@ -1,30 +1,89 @@
 ---
-name: Cellatica
-province: BS
-population: 4700
-coordinates: [45.5600, 10.1833]
+name: "Cellatica"
+slug: "cellatica"
+province: "BS"
+population: 4967
+area: 6.54
+coordinates: [45.5704, 10.1748]
+centroid: [45.57862, 10.17848]
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 14
 nearby:
-  - brescia
-  - concesio
-  - nave
+  - "gussago"
+  - "collebeato"
+  - "bovezzo"
+  - "brescia"
+  - "concesio"
+bordering:
+  - "brescia"
+  - "collebeato"
+  - "concesio"
+  - "gussago"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: ""
 ---
 
-Cellatica è un piccolo comune collinare della provincia di Brescia, famoso per la produzione del vino DOC Cellatica, uno dei più antichi vini rossi doc della Lombardia. Il paese sorge su dolci colline che si affacciano sulla pianura bresciana, offrendo panorami suggestivi.
+# Cellatica
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Cellatica si trova a circa 4 km a nord-ovest di Brescia. Superficie: 6.54 km². Densità abitativa: 759 ab/km².
 
 ## Cosa fare
 
-Cellatica è il paradiso degli amanti del vino. Le cantine locali producono il Cellatica DOC, un vino rosso corposo ottenuto da uve Schiava, Barbera, Marzemino e Sangiovese. Numerose aziende vitivinicole organizzano visite e degustazioni su prenotazione. Le strade di collina sono perfette per passeggiate e pedalate panoramiche.
-
-Il paese è anche punto di partenza per sentieri che salgono verso il Monte Ronchi e il Monte Maddalena. In autunno si svolge la tradizionale sagra del vino, momento di festa e di valorizzazione della cultura enologica locale.
+- Colle San Rocco
+- Punto panoramico
+- Monte Selva
+- Parco Francesco Folonari — Parco
+- Parco delle Colline di Brescia — Riserva naturale
 
 ## Luoghi importanti
 
-**Cantina Costaripa** – Una delle cantine più rinomate della zona, produttrice del Cellatica DOC con metodi tradizionali e innovativi.
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
-**Chiesa di San Zenone** – Piccola chiesa romanica del XII secolo con un campanile medievale e affreschi ben conservati.
+## Dove mangiare
 
-**Belvedere di Cellatica** – Punto panoramico sulla sommità della collina con vista sulla pianura bresciana, il lago di Garda e, nelle giornate terse, le Alpi.
+- **Granone** (Caffè)
+- **Am Gio Bar** (Bar)
+- **Ristorante Mi Sushi** (Ristorante)
+- **Trattoria Le Meridiane** (Ristorante)
+- **L'Amarena - Ristorante ai Campiani** (Ristorante)
 
-**Sentiero dei Vigneti** – Percorso naturalistico che attraversa i vigneti del comune, con cartelli illustrativi sulla storia della viticoltura locale.
+## Dove dormire
 
-**Parco Comunale** – Area verde nel centro del paese con giochi per bambini, panchine e un piccolo anfiteatro per eventi estivi.
+- **Bed & Breakfast L'Etoile** (B&B / Affittacamere)
+
+## Servizi
+
+- **Biblioteca** — Biblioteca
+- **Farmacia** — Farmacia
+- **Centro di Spiritualità Familiare San Paolo VI** — Centro civico
+
+## Come arrivare
+
+- Raggiungibile in auto via strade provinciali
+
+## Comuni vicini
+
+- [Gussago](/brescia/comuni/gussago/) — 2.2 km
+- [Collebeato](/brescia/comuni/collebeato/) — 3.1 km
+- [Bovezzo](/brescia/comuni/bovezzo/) — 4.3 km
+- [Brescia](/brescia/comuni/brescia/) — 4.3 km
+- [Concesio](/brescia/comuni/concesio/) — 4.6 km
+
+## Comuni confinanti
+
+- [Brescia](/brescia/comuni/brescia/)
+- [Collebeato](/brescia/comuni/collebeato/)
+- [Concesio](/brescia/comuni/concesio/)
+- [Gussago](/brescia/comuni/gussago/)

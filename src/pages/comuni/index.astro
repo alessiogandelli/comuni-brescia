@@ -6,6 +6,10 @@ const comuni = await getCollection('comuni');
 comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 
 const base = import.meta.env.BASE_URL;
+
+// Calculate stats
+const totalPopulation = comuni.reduce((sum, c) => sum + c.data.population, 0);
+const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount > 0).length;
 ---
 
 <Layout
@@ -19,21 +23,185 @@ const base = import.meta.env.BASE_URL;
     <span aria-current="page">Comuni</span>
   </nav>
 
-  <h1>Tutti i Comuni</h1>
-  <p>Elenco completo dei {comuni.length} comuni della provincia di Brescia presenti nella guida.</p>
-
-  <div class="card-grid" style="margin-top: var(--spacing-lg);">
-    {comuni.map((comune) => (
-      <article class="card">
-        <h2 class="card-title">{comune.data.name}</h2>
-        <p class="card-meta">
-          🏛️ Prov. {comune.data.province} &nbsp;·&nbsp;
-          👥 {comune.data.population.toLocaleString('it-IT')} ab.
-        </p>
-        <a class="card-link" href={`${base}/comuni/${comune.id}`}>
-          Scopri {comune.data.name} →
-        </a>
-      </article>
-    ))}
+  <div class="page-header">
+    <h1>Tutti i Comuni</h1>
+    <p class="page-description">
+      Esplora i {comuni.length} comuni della provincia di Brescia con informazioni dettagliate su popolazione, luoghi da visitare e servizi.
+    </p>
   </div>
+
+  <!-- Stats row -->
+  <div class="stats-row">
+    <div class="stat-pill">
+      <strong>{comuni.length}</strong> comuni
+    </div>
+    <div class="stat-pill">
+      <strong>{totalPopulation.toLocaleString('it-IT')}</strong> abitanti totali
+    </div>
+    <div class="stat-pill">
+      <strong>{comuniWithPOIs}</strong> con POI mappati
+    </div>
+  </div>
+
+  <!-- Search bar -->
+  <div class="filter-bar">
+    <input
+      type="search"
+      id="search-input"
+      placeholder="🔍 Cerca un comune..."
+      aria-label="Cerca un comune"
+    />
+  </div>
+
+  <!-- Feature filter chips -->
+  <div class="filter-chips">
+    <button class="chip" data-filter="all" data-active="true">
+      Tutti
+    </button>
+    <button class="chip" data-filter="hasHistoric">
+      🏛️ Storico
+    </button>
+    <button class="chip" data-filter="hasNature">
+      🏔️ Natura
+    </button>
+    <button class="chip" data-filter="hasSport">
+      ⛷️ Sport
+    </button>
+    <button class="chip" data-filter="hasFood">
+      🍽️ Ristoranti
+    </button>
+    <button class="chip" data-filter="hasAccommodation">
+      🏨 Alloggi
+    </button>
+    <button class="chip" data-filter="hasStation">
+      🚂 Stazione
+    </button>
+  </div>
+
+  <!-- Cards grid -->
+  <div class="card-grid" id="comuni-grid">
+    {comuni.map((comune) => {
+      const features = [];
+      if (comune.data.hasHistoric) features.push('hasHistoric');
+      if (comune.data.hasNature) features.push('hasNature');
+      if (comune.data.hasSport) features.push('hasSport');
+      if (comune.data.hasFood) features.push('hasFood');
+      if (comune.data.hasAccommodation) features.push('hasAccommodation');
+      if (comune.data.hasStation) features.push('hasStation');
+
+      return (
+        <article
+          class="card"
+          data-name={comune.data.name.toLowerCase()}
+          data-features={features.join(',')}
+        >
+          <div class="card-header">
+            <h2 class="card-title">{comune.data.name}</h2>
+            {comune.data.poiCount && comune.data.poiCount > 0 && (
+              <span class="poi-count">{comune.data.poiCount} POI</span>
+            )}
+          </div>
+
+          <div class="card-stats">
+            <span class="card-stat">
+              👥 {comune.data.population.toLocaleString('it-IT')}
+            </span>
+            {comune.data.area && (
+              <span class="card-stat">
+                📏 {comune.data.area.toFixed(1)} km²
+              </span>
+            )}
+            {comune.data.elevation && (
+              <span class="card-stat">
+                ⛰️ {comune.data.elevation} m
+              </span>
+            )}
+          </div>
+
+          {features.length > 0 && (
+            <div class="card-badges">
+              {comune.data.hasHistoric && <span class="mini-badge" title="Storico">🏛️</span>}
+              {comune.data.hasNature && <span class="mini-badge" title="Natura">🏔️</span>}
+              {comune.data.hasSport && <span class="mini-badge" title="Sport">⛷️</span>}
+              {comune.data.hasFood && <span class="mini-badge" title="Ristoranti">🍽️</span>}
+              {comune.data.hasAccommodation && <span class="mini-badge" title="Alloggi">🏨</span>}
+              {comune.data.hasStation && <span class="mini-badge" title="Stazione">🚂</span>}
+            </div>
+          )}
+
+          {comune.data.fact && comune.data.fact.trim() && (
+            <p class="card-fact">
+              💡 {comune.data.fact.length > 80 ? comune.data.fact.substring(0, 80) + '...' : comune.data.fact}
+            </p>
+          )}
+
+          <a class="card-link" href={`${base}/comuni/${comune.id}`}>
+            Scopri {comune.data.name} →
+          </a>
+        </article>
+      );
+    })}
+  </div>
+
+  <p class="results-count" id="results-count"></p>
 </Layout>
+
+<script>
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const cards = document.querySelectorAll<HTMLElement>('#comuni-grid .card');
+  const filterChips = document.querySelectorAll<HTMLButtonElement>('.filter-chips .chip');
+  const resultsCount = document.getElementById('results-count');
+
+  let activeFilter = 'all';
+
+  // Apply filters
+  function applyFilters() {
+    const query = searchInput?.value.toLowerCase().trim() || '';
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const name = card.dataset.name ?? '';
+      const features = card.dataset.features?.split(',').filter(Boolean) || [];
+
+      const matchesSearch = name.includes(query);
+      const matchesFilter =
+        activeFilter === 'all' || features.includes(activeFilter);
+
+      const isVisible = matchesSearch && matchesFilter;
+      card.style.display = isVisible ? '' : 'none';
+      if (isVisible) visibleCount++;
+    });
+
+    // Update results count
+    if (resultsCount) {
+      if (visibleCount === cards.length) {
+        resultsCount.textContent = '';
+      } else {
+        resultsCount.textContent = `Visualizzati ${visibleCount} di ${cards.length} comuni`;
+      }
+    }
+  }
+
+  // Search input handler
+  searchInput?.addEventListener('input', applyFilters);
+
+  // Filter chip handlers
+  filterChips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      // Update active state
+      filterChips.forEach((c) => {
+        c.dataset.active = 'false';
+      });
+      chip.dataset.active = 'true';
+
+      // Update active filter
+      activeFilter = chip.dataset.filter || 'all';
+
+      // Apply filters
+      applyFilters();
+    });
+  });
+
+  // Initial count (all visible)
+  applyFilters();
+</script>

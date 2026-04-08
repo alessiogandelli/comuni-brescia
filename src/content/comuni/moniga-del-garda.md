@@ -1,30 +1,94 @@
 ---
-name: Moniga del Garda
-province: BS
-population: 2500
-coordinates: [45.5167, 10.5000]
+name: "Moniga del Garda"
+slug: "moniga-del-garda"
+province: "BS"
+population: 2560
+area: 15.84
+coordinates: [45.5274, 10.5295]
+centroid: [45.52565, 10.57649]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 52
 nearby:
-  - padenghe-sul-garda
-  - manerba-del-garda
-  - desenzano-del-garda
+  - "soiano-del-lago"
+  - "padenghe-sul-garda"
+  - "polpenazze-del-garda"
+  - "manerba-del-garda"
+  - "puegnago-del-garda"
+bordering:
+  - "manerba-del-garda"
+  - "padenghe-sul-garda"
+  - "soiano-del-lago"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: ""
 ---
 
-Moniga del Garda è un piccolo e affascinante borgo medievale della riviera bresciana del Lago di Garda. Il paese è celebre per la produzione del Chiaretto di Moniga, un rosato fresco e profumato tra i più apprezzati d'Italia.
+# Moniga del Garda
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Moniga del Garda si trova a circa 25 km a est di Brescia. Superficie: 15.84 km². Densità abitativa: 162 ab/km². Strade principali: SP BS 572, Via Trevisago.
 
 ## Cosa fare
 
-Moniga è il luogo ideale per chi vuole combinare storia, enogastronomia e relax sul lago. La Rocca medievale è il simbolo del paese e offre viste mozzafiato sul Garda. Le cantine locali sono specializzate nel Chiaretto, ottenuto principalmente da uve Groppello, e accolgono i visitatori per degustazioni e visite guidate.
-
-Il lungolago è attrezzato con piccole spiagge e un porto turistico. In estate si svolgono rassegne di musica e arte all'aperto, mentre a settembre il paese celebra la vendemmia con la Festa del Chiaretto.
+- Monte delle Monache (141 m)
+- Punto panoramico
+- Visita: **Castello di Moniga**
 
 ## Luoghi importanti
 
-**Rocca di Moniga** – Imponente castello medievale dell'XI secolo, sede estiva di mostre, concerti e spettacoli teatrali.
+- **Castello di Moniga** — Castello
 
-**Porto di Moniga** – Piccolo porto storico con barche ormeggiate, punto di partenza per escursioni in barca sul Garda.
+## Dove mangiare
 
-**Cantina Sociale di Moniga** – Storica cantina cooperativa produttrice del Chiaretto DOC, visitabile con degustazioni.
+- **Le brede** (Ristorante)
+- **Casa Mia** (Ristorante)
+- **Pacifico** (Pub)
+- **Yista Lago** (Pub)
+- **Vista Lago Beach Club** (Ristorante)
+- **al Porto** (Ristorante)
 
-**Spiaggia della Rocca** – Piccola spiaggia di ciottoli ai piedi della fortezza medievale, con acque limpide e vista sul lago.
+## Dove dormire
 
-**Oratorio di San Martino** – Piccola cappella rurale del XVI secolo immersa nei vigneti, con affreschi votivi popolari.
+- **Camping Sereno** (Campeggio)
+- **Camping Fontanelle** (Campeggio)
+- **Camping Le Brede** (Campeggio)
+- **Agriturismo Monte Cicogna** (B&B / Affittacamere)
+- **Camping Porto** (Campeggio)
+- **Riva del Garda** (Hotel)
+
+## Servizi
+
+- **Despar** — Supermercato
+- **Centro giovanile NOI** — Centro civico
+- **Dpiù** — Supermercato
+- **Italmark** — Supermercato
+- **ALDI** — Supermercato
+- **Forneria Parma** — Panificio
+
+## Come arrivare
+
+- Strada provinciale: **SP BS 572**
+- Strada provinciale: **Via Trevisago**
+
+## Comuni vicini
+
+- [Soiano del Lago](/brescia/comuni/soiano-del-lago/) — 2.3 km
+- [Padenghe sul Garda](/brescia/comuni/padenghe-sul-garda/) — 2.8 km
+- [Polpenazze del Garda](/brescia/comuni/polpenazze-del-garda/) — 2.9 km
+- [Manerba del Garda](/brescia/comuni/manerba-del-garda/) — 3.0 km
+- [Puegnago del Garda](/brescia/comuni/puegnago-del-garda/) — 4.7 km
+
+## Comuni confinanti
+
+- [Manerba Del Garda](/brescia/comuni/manerba-del-garda/)
+- [Padenghe Sul Garda](/brescia/comuni/padenghe-sul-garda/)
+- [Soiano Del Lago](/brescia/comuni/soiano-del-lago/)

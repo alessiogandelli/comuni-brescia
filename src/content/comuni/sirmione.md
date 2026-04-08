@@ -1,30 +1,101 @@
 ---
-name: Sirmione
-province: BS
-population: 8025
-coordinates: [45.4500, 10.6000]
+name: "Sirmione"
+slug: "sirmione"
+province: "BS"
+population: 8125
+area: 28.98
+coordinates: [45.496, 10.6075]
+centroid: [45.48165, 10.61567]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 109
 nearby:
-  - desenzano-del-garda
-  - lonato-del-garda
-  - peschiera-del-garda
+  - "desenzano-del-garda"
+  - "moniga-del-garda"
+  - "manerba-del-garda"
+  - "padenghe-sul-garda"
+  - "soiano-del-lago"
+bordering:
+  - "desenzano-del-garda"
+  - "padenghe-sul-garda"
+  - "peschiera-del-garda"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: "Le Grotte di Catullo e il Castello Scaligero la rendono una delle mete più visitate del Garda"
 ---
 
-Sirmione è un gioiello del Lago di Garda, celebre per la sua penisola che si protende nelle acque per oltre 4 chilometri. Meta turistica di fama internazionale, la cittadina unisce storia millenaria, terme naturali e paesaggi di straordinaria bellezza.
+# Sirmione
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Sirmione si trova a circa 31 km a est di Brescia. Superficie: 28.98 km². Densità abitativa: 280 ab/km². Strade principali: SS11.
 
 ## Cosa fare
 
-Sirmione è famosa per le sue acque termali sulfuree che emergono direttamente dal lago. Le Terme di Sirmione offrono trattamenti benessere e percorsi relax di grande tradizione. Il centro storico, accessibile attraverso il Castello Scaligero, è percorribile a piedi in circa un'ora, con scorci memorabili sul lago.
-
-La punta della penisola ospita le Grotte di Catullo, un vasto complesso di rovine romane immerso nell'ulivo. In estate le spiagge e le acque cristalline del Garda rendono Sirmione una delle mete balneari più rinomate d'Italia.
+- Veduta Sandro Pertini
+- Punto panoramico
+- Parco San Vito — Parco
+- Parco Don Lino Zorzi — Parco
 
 ## Luoghi importanti
 
-**Castello Scaligero** – Fortezza medievale del XIII secolo che domina l'ingresso del centro storico, con uno dei pochi porti lacustri medievali in Europa ancora intatti.
+- **Rocca Scaligera** — Castello
+- **Salvo D'Acquisto** — Monumento
+- **Maria Callas** — Monumento
+- **Grotte di Catullo** — Sito archeologico
 
-**Grotte di Catullo** – Esteso complesso di rovine romane (I secolo a.C. – I d.C.) sulla punta della penisola, tradizionalmente associato al poeta latino Catullo.
+## Dove mangiare
 
-**Terme di Sirmione** – Stabilimento termale che sfrutta le acque sulfuree che emergono dal fondo del lago, con una lunga tradizione terapeutica.
+- **Alleria** (Ristorante)
+- **Casa Dei Pescatori** (Ristorante)
+- **Tancredi** (Ristorante)
+- **Villa Pioppi Ristorante** (Ristorante)
+- **Baya Catullo** (Ristorante)
+- **Erica** (Ristorante)
 
-**Chiesa di Santa Maria Maggiore** – Piccola chiesa romanica del X secolo con pregevoli affreschi medievali, nel cuore del centro storico.
+## Dove dormire
 
-**Lido delle Bionde** – Una delle spiagge più belle e frequentate della penisola, con vista panoramica sul lago e sulle montagne circostanti.
+- **Aurora** (Hotel)
+- **Casa Dei Pescatori** (Hotel)
+- **Hotel Smeraldo** (Hotel)
+- **Hotel Saviola** (Hotel)
+- **Sirmio Apartments - Primavera Stay** (B&B / Affittacamere)
+- **Hotel Suisse** (Hotel)
+
+## Servizi
+
+- **Alimentari** — Alimentari
+- **Alimentari** — Alimentari
+- **Salus Vitae** — Farmacia
+- **Farmacia** — Farmacia
+- **Farmacia Internazionale Dr. Luisa Cornacchione** — Farmacia
+- **Coop** — Supermercato
+
+## Come arrivare
+
+- Superstrada: **SS11**
+
+## Lo sapevi?
+
+Le Grotte di Catullo e il Castello Scaligero la rendono una delle mete più visitate del Garda
+
+## Comuni vicini
+
+- [Desenzano del Garda](/brescia/comuni/desenzano-del-garda/) — 6.2 km
+- [Moniga del Garda](/brescia/comuni/moniga-del-garda/) — 7.0 km
+- [Manerba del Garda](/brescia/comuni/manerba-del-garda/) — 7.5 km
+- [Padenghe sul Garda](/brescia/comuni/padenghe-sul-garda/) — 8.1 km
+- [Soiano del Lago](/brescia/comuni/soiano-del-lago/) — 9.3 km
+
+## Comuni confinanti
+
+- [Desenzano Del Garda](/brescia/comuni/desenzano-del-garda/)
+- [Padenghe Sul Garda](/brescia/comuni/padenghe-sul-garda/)
+- [Peschiera Del Garda](/brescia/comuni/peschiera-del-garda/)

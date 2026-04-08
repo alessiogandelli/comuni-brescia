@@ -1,30 +1,111 @@
 ---
-name: Concesio
-province: BS
-population: 15000
-coordinates: [45.5833, 10.2167]
+name: "Concesio"
+slug: "concesio"
+province: "BS"
+population: 15382
+area: 19.14
+coordinates: [45.5988, 10.2175]
+centroid: [45.61153, 10.21464]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 84
 nearby:
-  - brescia
-  - nave
-  - cellatica
+  - "collebeato"
+  - "bovezzo"
+  - "villa-carcina"
+  - "cellatica"
+  - "nave"
+bordering:
+  - "bovezzo"
+  - "brescia"
+  - "cellatica"
+  - "collebeato"
+  - "gussago"
+  - "lumezzane"
+  - "nave"
+  - "villa-carcina"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: "Città natale di Papa Paolo VI (Giovanni Battista Montini)"
 ---
 
-Concesio è un comune della Val Trompia alle porte di Brescia, noto soprattutto per essere il paese natale di Papa Paolo VI, Giovanni Battista Montini. Il territorio si estende tra la pianura bresciana e le prime propaggini della Val Trompia, offrendo un paesaggio variegato.
+# Concesio
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Concesio si trova a circa 6 km a nord di Brescia. Superficie: 19.14 km². Densità abitativa: 804 ab/km². Strade principali: SP19, SPBS345.
 
 ## Cosa fare
 
-Concesio è una tappa obbligata per i pellegrini e i fedeli in visita al museo dedicato a Papa Paolo VI. La Villa Montini, residenza estiva della famiglia papale, è aperta al pubblico e ospita un percorso espositivo sulla vita del pontefice. I dintorni offrono piacevoli itinerari naturalistici lungo il fiume Mella.
-
-Il comune è anche punto di partenza per escursioni nella Val Trompia, con le sue valli laterali e i boschi di castagni e faggi. La tradizione artigianale locale si esprime nella lavorazione del ferro battuto, eredità della storica industria armiera della valle.
+- Arrampicata: **Falesia di Costorio**
+- Büsa Granda (390 m)
+- Buca delle Serpi
+- Büsa sòta al Ròcol (315 m)
+- Area verde attrezzata Via Bachelet — Parco
+- Parco Caduti per La Patria — Parco
 
 ## Luoghi importanti
 
-**Casa Natale di Papa Paolo VI** – Luogo di nascita di Giovanni Battista Montini (1897), che divenne Papa Paolo VI nel 1963. L'edificio è visitabile e ospita documenti e cimeli papali.
+- **Casot Gorni** — Rovine
+- **Cascina Ronco** — Rovine
 
-**Museo Paolo VI** – Centro espositivo dedicato alla figura e all'opera del pontefice bresciano, con una ricca collezione di arte sacra moderna.
+## Dove mangiare
 
-**Chiesa Parrocchiale di San Vigilio** – Imponente edificio neoclassico dell'Ottocento con un pregevole campanile e opere d'arte di interesse locale.
+- **Pizzeria d'asporto Il Nilo** (Fast food)
+- **Osteria del Michelàs** (Ristorante)
+- **Caffè 900** (Caffè)
+- **Burger King** (Fast food)
+- **Trattoria Pizzeria Borgo Vecchio** (Ristorante)
+- **Mister Coffee** (Caffè)
 
-**Parco Lungo il Mella** – Area verde attrezzata lungo le rive del fiume Mella, ideale per passeggiate e attività all'aria aperta.
+## Dove dormire
 
-**Villa Montini** – Residenza estiva della famiglia Montini, circondata da un parco storico, aperta ai visitatori nei mesi estivi.
+- **Rifugio Alpini di Concesio** (Rifugio alpino)
+- **Villa Rosa Bed And Breakfast** (B&B / Affittacamere)
+- **Agriturismo Cascina Valsorda** (B&B / Affittacamere)
+- **Casina del Dosso Barafonte** (Bivacco)
+
+## Servizi
+
+- **Opera per l'Educazione Cristiana di Brescia** — Centro civico
+- **Casa del Giovane** — Centro civico
+- **Rossetto** — Supermercato
+- **Biblioteca di Concesio** — Biblioteca
+- **Oratorio Paolo VI e Giovanni Paolo II** — Centro civico
+- **Farmacia San Vigilio** — Farmacia
+
+## Come arrivare
+
+- Strada provinciale: **SP19**
+- Strada provinciale: **SPBS345**
+
+## Lo sapevi?
+
+Città natale di Papa Paolo VI (Giovanni Battista Montini)
+
+## Comuni vicini
+
+- [Collebeato](/brescia/comuni/collebeato/) — 1.7 km
+- [Bovezzo](/brescia/comuni/bovezzo/) — 2.6 km
+- [Villa Carcina](/brescia/comuni/villa-carcina/) — 4.2 km
+- [Cellatica](/brescia/comuni/cellatica/) — 4.6 km
+- [Nave](/brescia/comuni/nave/) — 4.8 km
+
+## Comuni confinanti
+
+- [Bovezzo](/brescia/comuni/bovezzo/)
+- [Brescia](/brescia/comuni/brescia/)
+- [Cellatica](/brescia/comuni/cellatica/)
+- [Collebeato](/brescia/comuni/collebeato/)
+- [Gussago](/brescia/comuni/gussago/)
+- [Lumezzane](/brescia/comuni/lumezzane/)
+- [Nave](/brescia/comuni/nave/)
+- [Villa Carcina](/brescia/comuni/villa-carcina/)

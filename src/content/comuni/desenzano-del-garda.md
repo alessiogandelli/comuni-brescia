@@ -1,30 +1,109 @@
 ---
-name: Desenzano del Garda
-province: BS
-population: 28911
-coordinates: [45.4667, 10.5333]
+name: "Desenzano del Garda"
+slug: "desenzano-del-garda"
+province: "BS"
+population: 28919
+area: 60.75
+coordinates: [45.4705, 10.5373]
+centroid: [45.45485, 10.56407]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+hasStation: true
+poiCount: 118
 nearby:
-  - sirmione
-  - lonato-del-garda
-  - padenghe-sul-garda
+  - "lonato-del-garda"
+  - "padenghe-sul-garda"
+  - "sirmione"
+  - "moniga-del-garda"
+  - "soiano-del-lago"
+bordering:
+  - "lonato-del-garda"
+  - "padenghe-sul-garda"
+  - "peschiera-del-garda"
+  - "pozzolengo"
+  - "sirmione"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: "La città più popolosa del Lago di Garda, con una villa romana del IV secolo"
 ---
 
-Desenzano del Garda è la città più grande sulla sponda bresciana del Lago di Garda. Vivace e cosmopolita, è una delle mete turistiche più frequentate dell'Italia settentrionale grazie al suo lungolago animato, al porto storico e alla qualità della vita.
+# Desenzano del Garda
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Desenzano del Garda si trova a circa 27 km a est di Brescia. Superficie: 60.75 km². Densità abitativa: 476 ab/km². Strade principali: A4, SPBS567, SS11, SP BS 572, Località Massadrino.
 
 ## Cosa fare
 
-Desenzano offre una vivace vita notturna e una ricca offerta gastronomica lungo il lungolago. Il porto vecchio è il cuore pulsante della città, circondato da ristoranti, bar e locali alla moda. Per gli appassionati di cultura, la Villa Romana con i suoi straordinari mosaici policromi è imperdibile.
-
-Gli sport acquatici come il windsurf, il kitesurf e la vela sono molto praticati grazie alle favorevoli condizioni del lago. Nelle vicinanze si trovano alcune delle migliori spiagge del Garda, tra cui la spiaggia delle Muse e la spiaggia di San Francesco.
+- Punto panoramico
+- Monte Alto (168 m)
+- Monte Lungo (169 m)
+- Giardini Marinai d'Italia — Parco
+- Parco Renzo Tira — Parco
 
 ## Luoghi importanti
 
-**Villa Romana** – Edificio del I secolo d.C. con splendidi mosaici policromi raffinati del IV secolo, tra i meglio conservati del nord Italia.
+- **Castello di Desenzano del Garda** — Castello
+- **Sito Archeologico del Lavagnone** — Rovine
+- **Villa romana di Desenzano del Garda** — Sito archeologico
 
-**Castello Scaligero** – La fortezza medievale che sovrasta il centro storico, risalente al XIII secolo, con una splendida vista sul lago.
+## Dove mangiare
 
-**Porto Vecchio** – Il pittoresco porto medievale circondato da palazzi storici e affacciato sul lago, cuore della vita sociale cittadina.
+- **Trattoria Gin Gin** (Ristorante)
+- **Meastri** (Ristorante)
+- **Time Out Café** (Caffè)
+- **Bar pasticceria caffè Diemme** (Caffè)
+- **Rossi&Rossi** (Ristorante)
+- **Trattoria dell'Abate** (Ristorante)
 
-**Lungolago Cesare Battisti** – Il suggestivo lungologo che si snoda per oltre 2 km, ideale per passeggiate e biciclettate con vista sul Garda.
+## Dove dormire
 
-**Duomo di Santa Maria Maddalena** – La chiesa principale della città, risalente al XV secolo, con opere d'arte di Giovanni Tiepolo.
+- **Hotel Villa Maria** (Hotel)
+- **Admiral Hotel Villa Erme** (Hotel)
+- **Lake view loft** (B&B / Affittacamere)
+- **Albergo Enrichetta** (Hotel)
+- **Acquaviva** (Hotel)
+- **Così fan tutte B&B** (B&B / Affittacamere)
+
+## Servizi
+
+- **Conad** — Supermercato
+- **Oratorio di San Michele Arcangelo** — Centro civico
+- **Penny Market** — Supermercato
+- **Villa Brunati** — Biblioteca
+- **Ospedale** — Ospedale
+- **Mix Markt** — Supermercato
+
+## Come arrivare
+
+- Stazione ferroviaria: **Desenzano del Garda-Sirmione**
+- Autostrada: **A4**
+- Superstrada: **SPBS567**
+- Superstrada: **SS11**
+
+## Lo sapevi?
+
+La città più popolosa del Lago di Garda, con una villa romana del IV secolo
+
+## Comuni vicini
+
+- [Lonato del Garda](/brescia/comuni/lonato-del-garda/) — 4.3 km
+- [Padenghe sul Garda](/brescia/comuni/padenghe-sul-garda/) — 4.9 km
+- [Sirmione](/brescia/comuni/sirmione/) — 6.2 km
+- [Moniga del Garda](/brescia/comuni/moniga-del-garda/) — 6.4 km
+- [Soiano del Lago](/brescia/comuni/soiano-del-lago/) — 8.1 km
+
+## Comuni confinanti
+
+- [Lonato Del Garda](/brescia/comuni/lonato-del-garda/)
+- [Padenghe Sul Garda](/brescia/comuni/padenghe-sul-garda/)
+- [Peschiera Del Garda](/brescia/comuni/peschiera-del-garda/)
+- [Pozzolengo](/brescia/comuni/pozzolengo/)
+- [Sirmione](/brescia/comuni/sirmione/)

@@ -1,30 +1,96 @@
 ---
-name: Mazzano
-province: BS
-population: 13000
-coordinates: [45.4833, 10.3167]
+name: "Mazzano"
+slug: "mazzano"
+province: "BS"
+population: 11736
+area: 15.65
+coordinates: [45.5191, 10.3557]
+centroid: [45.49952, 10.35425]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 18
 nearby:
-  - brescia
-  - rezzato
-  - nuvolento
+  - "nuvolera"
+  - "rezzato"
+  - "nuvolento"
+  - "botticino"
+  - "serle"
+bordering:
+  - "bedizzole"
+  - "calcinato"
+  - "castenedolo"
+  - "nuvolera"
+  - "rezzato"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: ""
 ---
 
-Mazzano è un comune della provincia di Brescia situato nella pianura a sud del capoluogo. Il territorio è fortemente urbanizzato e industrializzato, con alcune aree naturali di pregio lungo il fiume Chiese e nelle cave dismesse riconvertite a parco.
+# Mazzano
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Mazzano si trova a circa 11 km a est di Brescia. Superficie: 15.65 km². Densità abitativa: 750 ab/km². Strade principali: A4, SS11, SS45bis.
 
 ## Cosa fare
 
-Mazzano offre aree verdi attrezzate e percorsi ciclopedonali che collegano le frazioni del comune. L'area delle Fornaci è stata riqualificata come parco naturale, con laghetti artificiali frequentati da pescatori e birdwatcher. Il centro sportivo comunale ospita numerose attività e associazioni locali.
-
-La posizione strategica tra Brescia e il lago di Garda rende Mazzano un buon punto di partenza per escursioni nella zona. La cucina locale mantiene le tradizioni della pianura bresciana, con osterie tipiche che servono piatti a base di carne e polenta.
+- Arrampicata: **Falesia di Mazzano**
+- Punto panoramico
 
 ## Luoghi importanti
 
-**Parco delle Fornaci** – Area naturale ricavata da ex cave di ghiaia, con laghetti, percorsi pedonali e aree attrezzate per il tempo libero.
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
-**Chiesa di San Pietro** – Edificio settecentesco con un campanile neogotico e un organo storico di pregio.
+## Dove mangiare
 
-**Oratorio Parrocchiale** – Centro di aggregazione sociale e culturale con un teatro interno e aree sportive all'aperto.
+- **Sister's Cafe** (Bar)
+- **Bar 3 x Little** (Pub)
+- **Albergo ristorante Mantovano** (Ristorante)
+- **Il Birrino** (Pub)
+- **Birreria Pizzeria I Soliti** (Ristorante)
+- **Ristorante Pizzeria La Piccola Primavera** (Ristorante)
 
-**Pista Ciclabile del Chiese** – Percorso ciclopedonale che segue il corso del fiume Chiese attraverso la pianura bresciana.
+## Dove dormire
 
-**Centro Sportivo Comunale** – Impianti sportivi polifunzionali con piscina, campi da tennis e palazzetto dello sport.
+- **Hotel** (Hotel)
+
+## Servizi
+
+- **Farmacia Ferrari** — Farmacia
+- **IperTosano Mazzano** — Supermercato
+- **Farmacia Comunale** — Farmacia
+- **MD** — Supermercato
+- **Sigma** — Supermercato
+- **Happy Bike** — Ciclofficina
+
+## Come arrivare
+
+- Autostrada: **A4**
+- Superstrada: **SS11**
+- Superstrada: **SS45bis**
+
+## Comuni vicini
+
+- [Nuvolera](/brescia/comuni/nuvolera/) — 2.1 km
+- [Rezzato](/brescia/comuni/rezzato/) — 2.8 km
+- [Nuvolento](/brescia/comuni/nuvolento/) — 3.1 km
+- [Botticino](/brescia/comuni/botticino/) — 3.2 km
+- [Serle](/brescia/comuni/serle/) — 4.3 km
+
+## Comuni confinanti
+
+- [Bedizzole](/brescia/comuni/bedizzole/)
+- [Calcinato](/brescia/comuni/calcinato/)
+- [Castenedolo](/brescia/comuni/castenedolo/)
+- [Nuvolera](/brescia/comuni/nuvolera/)
+- [Rezzato](/brescia/comuni/rezzato/)

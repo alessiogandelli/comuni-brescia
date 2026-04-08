@@ -1,30 +1,106 @@
 ---
-name: Nave
-province: BS
-population: 11000
-coordinates: [45.5833, 10.1667]
+name: "Nave"
+slug: "nave"
+province: "BS"
+population: 11028
+area: 27.14
+coordinates: [45.5876, 10.2766]
+centroid: [45.58999, 10.2877]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 72
 nearby:
-  - brescia
-  - concesio
-  - cellatica
+  - "caino"
+  - "bovezzo"
+  - "concesio"
+  - "collebeato"
+  - "lumezzane"
+bordering:
+  - "botticino"
+  - "bovezzo"
+  - "brescia"
+  - "caino"
+  - "concesio"
+  - "lumezzane"
+  - "serle"
+# ── Enrichment (fill via AI or manually) ──
+intro: ""
+context: ""
+fact: ""
 ---
 
-Nave è un comune della bassa Val Trompia, situato lungo il corso del fiume Mella. Il territorio è caratterizzato dalla presenza di industrie manifatturiere, in particolare nel settore metalmeccanico, ma conserva anche aree naturali di pregio e un centro storico con edifici di interesse artistico.
+# Nave
+
+## Introduzione
+
+<!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
+
+## Contesto geografico
+
+Nave si trova a circa 7 km a nord-est di Brescia. Superficie: 27.14 km². Densità abitativa: 406 ab/km².
 
 ## Cosa fare
 
-Nave offre diverse opportunità per gli amanti della natura. Il Parco del Mella è ideale per passeggiate lungo le rive del fiume, con zone attrezzate per picnic e aree di sosta. Il territorio circostante è attraversato da sentieri che portano sulle colline della sponda destra della Val Trompia.
-
-Il centro storico conserva edifici medievali e chiese di interesse artistico. La tradizione industriale del paese è testimoniata da alcuni siti storici legati alla produzione di armi e attrezzi metallici, attività che ha caratterizzato la Val Trompia per secoli.
+- Arrampicata
+- Arrampicata: **Falesia di Nave**
+- Legòndol de Squadrú
+- Legòndol de Sassìva
+- Monte Montecca (665 m)
+- Parco Ottorino Marcolini — Parco
 
 ## Luoghi importanti
 
-**Chiesa di Sant'Eusebio** – Edificio romanico del XII secolo con affreschi medievali e un campanile a canna in mattoni, tra i più antichi della valle.
+- **Cascina Salena** — Rovine
+- **Necropoli Romana** — Sito archeologico
+- **Cascina dei Polech** — Rovine
 
-**Villa Fenaroli** – Elegante villa settecentesca con un giardino all'italiana, oggi sede di eventi culturali e matrimoni.
+## Dove mangiare
 
-**Parco del Mella** – Area naturale lungo le rive del fiume, con percorsi pedonali, aree picnic e osservazione dell'avifauna fluviale.
+- **Trattoria Alla Vittoria** (Ristorante)
+- **L'Artigliere Ristorante** (Ristorante)
+- **Bar Mirò** (Caffè)
+- **Bar Le Streghe** (Caffè)
+- **Ristorante La Valle** (Ristorante)
+- **Gustando** (Ristorante)
 
-**Mulino Storico di Nave** – Antico mulino ad acqua restaurato, testimonianza dell'economia rurale pre-industriale della Valle.
+## Dove dormire
 
-**Torre Medievale** – Residuo della cinta difensiva medievale, visibile nel centro storico del paese.
+- **Ristoro La Madonnina** (Bivacco)
+- **Casa Universitaria Alfalfa** (B&B / Affittacamere)
+- **Cascina Nicolini** (Bivacco)
+- **La Corte di Gio'** (B&B / Affittacamere)
+- **Rifugio alpino** (Rifugio alpino)
+
+## Servizi
+
+- **Centro Socio Culturale Luigi Bussacchini** — Centro civico
+- **Biblioteca Comunale di Nave** — Biblioteca
+- **Farmacia Sant'Orso** — Farmacia
+- **Family Market** — Supermercato
+- **Farmacia Comunale** — Farmacia
+- **Il Mulino di Buffoli** — Alimentari
+
+## Come arrivare
+
+- Raggiungibile in auto via strade provinciali
+
+## Comuni vicini
+
+- [Caino](/brescia/comuni/caino/) — 3.3 km
+- [Bovezzo](/brescia/comuni/bovezzo/) — 3.9 km
+- [Concesio](/brescia/comuni/concesio/) — 4.8 km
+- [Collebeato](/brescia/comuni/collebeato/) — 5.3 km
+- [Lumezzane](/brescia/comuni/lumezzane/) — 7.0 km
+
+## Comuni confinanti
+
+- [Botticino](/brescia/comuni/botticino/)
+- [Bovezzo](/brescia/comuni/bovezzo/)
+- [Brescia](/brescia/comuni/brescia/)
+- [Caino](/brescia/comuni/caino/)
+- [Concesio](/brescia/comuni/concesio/)
+- [Lumezzane](/brescia/comuni/lumezzane/)
+- [Serle](/brescia/comuni/serle/)
