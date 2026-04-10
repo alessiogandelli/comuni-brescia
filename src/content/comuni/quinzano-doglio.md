@@ -3,23 +3,14 @@ name: "Quinzano d'Oglio"
 slug: "quinzano-doglio"
 province: "BS"
 population: 6174
-area: 21.44
+area: 20.54
 coordinates: [45.3173, 10.0952]
-centroid: [45.31208, 10.00569]
-hasFood: true
-poiCount: 4
 nearby:
   - "verolanuova"
   - "verolavecchia"
   - "bassano-bresciano"
   - "san-gervasio-bresciano"
   - "pontevico"
-bordering:
-  - "bordolano"
-  - "borgo-san-giacomo"
-  - "castelvisconti"
-  - "corte-de'-cortesi-con-cignone"
-  - "verolavecchia"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Quinzano d'Oglio si trova a circa 27 km a sud-ovest di Brescia. Superficie: 21.44 km². Densità abitativa: 288 ab/km².
+Quinzano d'Oglio si trova a circa 27 km a sud-ovest di Brescia. Superficie: 20.54 km². Densità abitativa: 301 ab/km².
 
 ## Cosa fare
 
@@ -48,32 +39,14 @@ Quinzano d'Oglio si trova a circa 27 km a sud-ovest di Brescia. Superficie: 21.4
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Ristorante Bar "Palazzo"** (Ristorante)
-- **Lo Storico** (Bar)
-- **Bar Lago La Leonessa** (Ristorante)
-
-## Servizi
-
-- **EuroSpin** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Verolanuova](/brescia/comuni/verolanuova/) — 1.5 km
-- [Verolavecchia](/brescia/comuni/verolavecchia/) — 3.3 km
-- [Bassano Bresciano](/brescia/comuni/bassano-bresciano/) — 3.8 km
-- [San Gervasio Bresciano](/brescia/comuni/san-gervasio-bresciano/) — 4.2 km
-- [Pontevico](/brescia/comuni/pontevico/) — 5.0 km
-
-## Comuni confinanti
-
-- [Bordolano](/brescia/comuni/bordolano/)
-- [Borgo San Giacomo](/brescia/comuni/borgo-san-giacomo/)
-- [Castelvisconti](/brescia/comuni/castelvisconti/)
-- [Corte De' Cortesi Con Cignone](/brescia/comuni/corte-de'-cortesi-con-cignone/)
-- [Verolavecchia](/brescia/comuni/verolavecchia/)
+- [Verolanuova](../verolanuova/) — 1.5 km
+- [Verolavecchia](../verolavecchia/) — 3.3 km
+- [Bassano Bresciano](../bassano-bresciano/) — 3.8 km
+- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 4.2 km
+- [Pontevico](../pontevico/) — 5.0 km

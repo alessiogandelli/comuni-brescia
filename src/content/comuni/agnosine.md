@@ -3,26 +3,14 @@ name: "Agnosine"
 slug: "agnosine"
 province: "BS"
 population: 1731
-area: 13.51
+area: 16.17
 coordinates: [45.65, 10.3522]
-centroid: [45.64291, 10.34976]
-hasHistoric: true
-hasNature: true
-hasFood: true
-poiCount: 12
 nearby:
   - "bione"
   - "odolo"
   - "preseglie"
   - "sabbio-chiese"
   - "barghe"
-bordering:
-  - "bione"
-  - "caino"
-  - "lumezzane"
-  - "odolo"
-  - "preseglie"
-  - "vallio-terme"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,13 +25,13 @@ fact: ""
 
 ## Contesto geografico
 
-Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 13.51 km². Densità abitativa: 128 ab/km².
+Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 16.17 km². Densità abitativa: 107 ab/km².
 
 ## Cosa fare
 
-- Monte Cler (781 m)
-- Monte Valrelli (724 m)
-- Dosso Fontane (772 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
@@ -51,27 +39,14 @@ Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 13.51 km². D
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Ristorante Campagnola** (Ristorante)
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Bione](/brescia/comuni/bione/) — 2.4 km
-- [Odolo](/brescia/comuni/odolo/) — 2.6 km
-- [Preseglie](/brescia/comuni/preseglie/) — 3.8 km
-- [Sabbio Chiese](/brescia/comuni/sabbio-chiese/) — 5.2 km
-- [Barghe](/brescia/comuni/barghe/) — 5.6 km
-
-## Comuni confinanti
-
-- [Bione](/brescia/comuni/bione/)
-- [Caino](/brescia/comuni/caino/)
-- [Lumezzane](/brescia/comuni/lumezzane/)
-- [Odolo](/brescia/comuni/odolo/)
-- [Preseglie](/brescia/comuni/preseglie/)
-- [Vallio Terme](/brescia/comuni/vallio-terme/)
+- [Bione](../bione/) — 2.4 km
+- [Odolo](../odolo/) — 2.6 km
+- [Preseglie](../preseglie/) — 3.8 km
+- [Sabbio Chiese](../sabbio-chiese/) — 5.2 km
+- [Barghe](../barghe/) — 5.6 km

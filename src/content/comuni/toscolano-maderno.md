@@ -49,8 +49,8 @@ Valle delle Cartiere: secoli di produzione cartaria dal '300
 
 ## Comuni vicini
 
-- [Gardone Riviera](/brescia/comuni/gardone-riviera/) — 4.4 km
-- [Gargnano](/brescia/comuni/gargnano/) — 6.5 km
-- [Salò](/brescia/comuni/salo/) — 8.2 km
-- [San Felice del Benaco](/brescia/comuni/san-felice-del-benaco/) — 8.8 km
-- [Vobarno](/brescia/comuni/vobarno/) — 8.8 km
+- [Gardone Riviera](../gardone-riviera/) — 4.4 km
+- [Gargnano](../gargnano/) — 6.5 km
+- [Salò](../salo/) — 8.2 km
+- [San Felice del Benaco](../san-felice-del-benaco/) — 8.8 km
+- [Vobarno](../vobarno/) — 8.8 km

@@ -3,26 +3,14 @@ name: "Remedello"
 slug: "remedello"
 province: "BS"
 population: 3319
-area: 21.39
+area: 23.37
 coordinates: [45.2803, 10.3719]
-centroid: [45.27431, 10.36909]
-hasHistoric: true
-hasStation: true
-poiCount: 5
 nearby:
   - "visano"
   - "acquafredda"
   - "isorella"
   - "gambara"
   - "fiesse"
-bordering:
-  - "acquafredda"
-  - "asola"
-  - "casalmoro"
-  - "fiesse"
-  - "gambara"
-  - "isorella"
-  - "visano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,25 +25,23 @@ fact: "Importante sito archeologico della cultura eneolitica di Remedello"
 
 ## Contesto geografico
 
-Remedello si trova a circa 32 km a sud-est di Brescia. Superficie: 21.39 km². Densità abitativa: 155 ab/km².
+Remedello si trova a circa 32 km a sud-est di Brescia. Superficie: 23.37 km². Densità abitativa: 142 ab/km².
 
 ## Cosa fare
 
-- Visita: **Chiesa del Gandino**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Chiesa del Gandino** — Sito archeologico
-
-## Servizi
-
-- **Farmacia Galassi** — Farmacia
-- **Comunale della Piazza** — Farmacia
-- **Biblioteca** — Biblioteca
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Remedello Sopra**
+- Raggiungibile in auto via strade provinciali
 
 ## Lo sapevi?
 
@@ -63,18 +49,8 @@ Importante sito archeologico della cultura eneolitica di Remedello
 
 ## Comuni vicini
 
-- [Visano](/brescia/comuni/visano/) — 3.9 km
-- [Acquafredda](/brescia/comuni/acquafredda/) — 4.8 km
-- [Isorella](/brescia/comuni/isorella/) — 5.2 km
-- [Gambara](/brescia/comuni/gambara/) — 6.6 km
-- [Fiesse](/brescia/comuni/fiesse/) — 6.6 km
-
-## Comuni confinanti
-
-- [Acquafredda](/brescia/comuni/acquafredda/)
-- [Asola](/brescia/comuni/asola/)
-- [Casalmoro](/brescia/comuni/casalmoro/)
-- [Fiesse](/brescia/comuni/fiesse/)
-- [Gambara](/brescia/comuni/gambara/)
-- [Isorella](/brescia/comuni/isorella/)
-- [Visano](/brescia/comuni/visano/)
+- [Visano](../visano/) — 3.9 km
+- [Acquafredda](../acquafredda/) — 4.8 km
+- [Isorella](../isorella/) — 5.2 km
+- [Gambara](../gambara/) — 6.6 km
+- [Fiesse](../fiesse/) — 6.6 km

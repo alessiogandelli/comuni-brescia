@@ -3,24 +3,14 @@ name: "Alfianello"
 slug: "alfianello"
 province: "BS"
 population: 2455
-area: 13.68
+area: 14.83
 coordinates: [45.2675, 10.149]
-centroid: [45.26644, 10.1498]
-hasHistoric: true
-poiCount: 2
 nearby:
   - "pontevico"
   - "pralboino"
   - "cigole"
   - "san-gervasio-bresciano"
   - "pavone-del-mella"
-bordering:
-  - "corte-de'-frati"
-  - "milzano"
-  - "pontevico"
-  - "san-gervasio-bresciano"
-  - "scandolara-ripa-d'oglio"
-  - "seniga"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Alfianello si trova a circa 31 km a sud di Brescia. Superficie: 13.68 km². Densità abitativa: 179 ab/km². Strade principali: A21.
+Alfianello si trova a circa 31 km a sud di Brescia. Superficie: 14.83 km². Densità abitativa: 166 ab/km².
 
 ## Cosa fare
 
@@ -49,27 +39,14 @@ Alfianello si trova a circa 31 km a sud di Brescia. Superficie: 13.68 km². Dens
 - Piazza principale
 - Palazzo municipale
 
-## Servizi
-
-- **Crai** — Supermercato
-
 ## Come arrivare
 
-- Autostrada: **A21**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Pontevico](/brescia/comuni/pontevico/) — 4.9 km
-- [Pralboino](/brescia/comuni/pralboino/) — 5.2 km
-- [Cigole](/brescia/comuni/cigole/) — 5.5 km
-- [San Gervasio Bresciano](/brescia/comuni/san-gervasio-bresciano/) — 5.8 km
-- [Pavone del Mella](/brescia/comuni/pavone-del-mella/) — 6.2 km
-
-## Comuni confinanti
-
-- [Corte De' Frati](/brescia/comuni/corte-de'-frati/)
-- [Milzano](/brescia/comuni/milzano/)
-- [Pontevico](/brescia/comuni/pontevico/)
-- [San Gervasio Bresciano](/brescia/comuni/san-gervasio-bresciano/)
-- [Scandolara Ripa D'oglio](/brescia/comuni/scandolara-ripa-d'oglio/)
-- [Seniga](/brescia/comuni/seniga/)
+- [Pontevico](../pontevico/) — 4.9 km
+- [Pralboino](../pralboino/) — 5.2 km
+- [Cigole](../cigole/) — 5.5 km
+- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 5.8 km
+- [Pavone del Mella](../pavone-del-mella/) — 6.2 km

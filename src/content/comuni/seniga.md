@@ -3,25 +3,14 @@ name: "Seniga"
 slug: "seniga"
 province: "BS"
 population: 1491
-area: 13.62
+area: 10.07
 coordinates: [45.2707, 10.0468]
-centroid: [45.24584, 10.1887]
-hasHistoric: true
-hasFood: true
-poiCount: 3
 nearby:
   - "pontevico"
   - "quinzano-doglio"
   - "verolavecchia"
   - "verolanuova"
   - "alfianello"
-bordering:
-  - "alfianello"
-  - "gabbioneta-binanuova"
-  - "milzano"
-  - "ostiano"
-  - "pralboino"
-  - "scandolara-ripa-d'oglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Seniga si trova a circa 33 km a sud-ovest di Brescia. Superficie: 13.62 km². Densità abitativa: 109 ab/km².
+Seniga si trova a circa 33 km a sud-ovest di Brescia. Superficie: 10.07 km². Densità abitativa: 148 ab/km².
 
 ## Cosa fare
 
@@ -50,31 +39,14 @@ Seniga si trova a circa 33 km a sud-ovest di Brescia. Superficie: 13.62 km². De
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Bar Oratorio** (Bar)
-
-## Servizi
-
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Pontevico](/brescia/comuni/pontevico/) — 3.2 km
-- [Quinzano d'Oglio](/brescia/comuni/quinzano-doglio/) — 6.4 km
-- [Verolavecchia](/brescia/comuni/verolavecchia/) — 6.5 km
-- [Verolanuova](/brescia/comuni/verolanuova/) — 6.8 km
-- [Alfianello](/brescia/comuni/alfianello/) — 8.0 km
-
-## Comuni confinanti
-
-- [Alfianello](/brescia/comuni/alfianello/)
-- [Gabbioneta Binanuova](/brescia/comuni/gabbioneta-binanuova/)
-- [Milzano](/brescia/comuni/milzano/)
-- [Ostiano](/brescia/comuni/ostiano/)
-- [Pralboino](/brescia/comuni/pralboino/)
-- [Scandolara Ripa D'oglio](/brescia/comuni/scandolara-ripa-d'oglio/)
+- [Pontevico](../pontevico/) — 3.2 km
+- [Quinzano d'Oglio](../quinzano-doglio/) — 6.4 km
+- [Verolavecchia](../verolavecchia/) — 6.5 km
+- [Verolanuova](../verolanuova/) — 6.8 km
+- [Alfianello](../alfianello/) — 8.0 km

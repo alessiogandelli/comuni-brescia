@@ -3,24 +3,14 @@ name: "Gianico"
 slug: "gianico"
 province: "BS"
 population: 2233
-area: 13.24
+area: 6.3
 coordinates: [45.8702, 10.182]
-centroid: [45.85567, 10.22028]
-hasHistoric: true
-hasNature: true
-hasFood: true
-poiCount: 9
 nearby:
   - "darfo-boario-terme"
   - "pian-camuno"
   - "artogne"
   - "angolo-terme"
   - "brione"
-bordering:
-  - "artogne"
-  - "bovegno"
-  - "darfo-boario-terme"
-  - "esine"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,13 +25,13 @@ fact: ""
 
 ## Contesto geografico
 
-Gianico si trova a circa 37 km a nord di Brescia. Superficie: 13.24 km². Densità abitativa: 169 ab/km². Strade principali: SS42.
+Gianico si trova a circa 37 km a nord di Brescia. Superficie: 6.3 km². Densità abitativa: 354 ab/km².
 
 ## Cosa fare
 
-- Dosso Beccheria di Bassinale (1972 m)
-- Cima Toricella (2012 m)
-- Monte Rosello (2030 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
@@ -49,29 +39,14 @@ Gianico si trova a circa 37 km a nord di Brescia. Superficie: 13.24 km². Densit
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Rifugio Monte Cimosco** (Ristorante)
-- **Bar Piazza** (Bar)
-- **La Tana da Mario** (Ristorante)
-- **@ Onda** (Bar)
-- **Luppoleto Camuno** (Pub)
-
 ## Come arrivare
 
-- Superstrada: **SS42**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Darfo Boario Terme](/brescia/comuni/darfo-boario-terme/) — 1.4 km
-- [Pian Camuno](/brescia/comuni/pian-camuno/) — 2.5 km
-- [Artogne](/brescia/comuni/artogne/) — 2.5 km
-- [Angolo Terme](/brescia/comuni/angolo-terme/) — 3.7 km
-- [Brione](/brescia/comuni/brione/) — 4.8 km
-
-## Comuni confinanti
-
-- [Artogne](/brescia/comuni/artogne/)
-- [Bovegno](/brescia/comuni/bovegno/)
-- [Darfo Boario Terme](/brescia/comuni/darfo-boario-terme/)
-- [Esine](/brescia/comuni/esine/)
+- [Darfo Boario Terme](../darfo-boario-terme/) — 1.4 km
+- [Pian Camuno](../pian-camuno/) — 2.5 km
+- [Artogne](../artogne/) — 2.5 km
+- [Angolo Terme](../angolo-terme/) — 3.7 km
+- [Brione](../brione/) — 4.8 km

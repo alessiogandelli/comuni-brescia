@@ -3,27 +3,14 @@ name: "Tavernole sul Mella"
 slug: "tavernole-sul-mella"
 province: "BS"
 population: 1347
-area: 19.9
+area: 19.14
 coordinates: [45.746, 10.241]
-centroid: [45.75081, 10.21321]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-poiCount: 22
 nearby:
   - "pezzaze"
   - "irma"
   - "marmentino"
   - "marcheno"
   - "lodrino"
-bordering:
-  - "lodrino"
-  - "marcheno"
-  - "marmentino"
-  - "pezzaze"
-  - "pisogne"
-  - "zone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,13 +25,13 @@ fact: ""
 
 ## Contesto geografico
 
-Tavernole sul Mella si trova a circa 23 km a nord di Brescia. Superficie: 19.9 km². Densità abitativa: 68 ab/km².
+Tavernole sul Mella si trova a circa 23 km a nord di Brescia. Superficie: 19.14 km². Densità abitativa: 70 ab/km².
 
 ## Cosa fare
 
-- Monte Castelletto (1118 m)
-- Monte Pergua (1198 m)
-- Monte Stalletti (1691 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
@@ -52,45 +39,14 @@ Tavernole sul Mella si trova a circa 23 km a nord di Brescia. Superficie: 19.9 k
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Bar Trattoria Dancelli** (Ristorante)
-- **Caffè Vecchia Pesa** (Caffè)
-- **Bar Ristorante Pizzeria La Posta** (Ristorante)
-- **Il Grillo Parlante** (Pub)
-
-## Dove dormire
-
-- **Rifugio C.A.I. Valtrompia** (Rifugio alpino)
-- **Rifugio Enzo Aldo in Pontogna** (Bivacco)
-- **Agriturismo Fontana Büna** (B&B / Affittacamere)
-
-## Servizi
-
-- **La Bottega - Alimentari** — Alimentari
-- **Centro civico** — Centro civico
-- **MB Market** — Supermercato
-- **Antica Farmacia Dottor Scarabello** — Farmacia
-- **Casa di Comunità Tavernole Sul Mella** — Centro civico
-- **Biblioteca Faustino Forlani e Luigi Riviera** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Pezzaze](/brescia/comuni/pezzaze/) — 1.7 km
-- [Irma](/brescia/comuni/irma/) — 3.5 km
-- [Marmentino](/brescia/comuni/marmentino/) — 3.8 km
-- [Marcheno](/brescia/comuni/marcheno/) — 3.9 km
-- [Lodrino](/brescia/comuni/lodrino/) — 4.1 km
-
-## Comuni confinanti
-
-- [Lodrino](/brescia/comuni/lodrino/)
-- [Marcheno](/brescia/comuni/marcheno/)
-- [Marmentino](/brescia/comuni/marmentino/)
-- [Pezzaze](/brescia/comuni/pezzaze/)
-- [Pisogne](/brescia/comuni/pisogne/)
-- [Zone](/brescia/comuni/zone/)
+- [Pezzaze](../pezzaze/) — 1.7 km
+- [Irma](../irma/) — 3.5 km
+- [Marmentino](../marmentino/) — 3.8 km
+- [Marcheno](../marcheno/) — 3.9 km
+- [Lodrino](../lodrino/) — 4.1 km

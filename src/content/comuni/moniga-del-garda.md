@@ -3,24 +3,14 @@ name: "Moniga del Garda"
 slug: "moniga-del-garda"
 province: "BS"
 population: 2560
-area: 15.84
+area: 5.14
 coordinates: [45.5274, 10.5295]
-centroid: [45.52565, 10.57649]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-poiCount: 52
 nearby:
   - "soiano-del-lago"
   - "padenghe-sul-garda"
   - "polpenazze-del-garda"
   - "manerba-del-garda"
   - "puegnago-del-garda"
-bordering:
-  - "manerba-del-garda"
-  - "padenghe-sul-garda"
-  - "soiano-del-lago"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,60 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Moniga del Garda si trova a circa 25 km a est di Brescia. Superficie: 15.84 km². Densità abitativa: 162 ab/km². Strade principali: SP BS 572, Via Trevisago.
+Moniga del Garda si trova a circa 25 km a est di Brescia. Superficie: 5.14 km². Densità abitativa: 498 ab/km².
 
 ## Cosa fare
 
-- Monte delle Monache (141 m)
-- Punto panoramico
-- Visita: **Castello di Moniga**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Castello di Moniga** — Castello
-
-## Dove mangiare
-
-- **Le brede** (Ristorante)
-- **Casa Mia** (Ristorante)
-- **Pacifico** (Pub)
-- **Yista Lago** (Pub)
-- **Vista Lago Beach Club** (Ristorante)
-- **al Porto** (Ristorante)
-
-## Dove dormire
-
-- **Camping Sereno** (Campeggio)
-- **Camping Fontanelle** (Campeggio)
-- **Camping Le Brede** (Campeggio)
-- **Agriturismo Monte Cicogna** (B&B / Affittacamere)
-- **Camping Porto** (Campeggio)
-- **Riva del Garda** (Hotel)
-
-## Servizi
-
-- **Despar** — Supermercato
-- **Centro giovanile NOI** — Centro civico
-- **Dpiù** — Supermercato
-- **Italmark** — Supermercato
-- **ALDI** — Supermercato
-- **Forneria Parma** — Panificio
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Strada provinciale: **SP BS 572**
-- Strada provinciale: **Via Trevisago**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Soiano del Lago](/brescia/comuni/soiano-del-lago/) — 2.3 km
-- [Padenghe sul Garda](/brescia/comuni/padenghe-sul-garda/) — 2.8 km
-- [Polpenazze del Garda](/brescia/comuni/polpenazze-del-garda/) — 2.9 km
-- [Manerba del Garda](/brescia/comuni/manerba-del-garda/) — 3.0 km
-- [Puegnago del Garda](/brescia/comuni/puegnago-del-garda/) — 4.7 km
-
-## Comuni confinanti
-
-- [Manerba Del Garda](/brescia/comuni/manerba-del-garda/)
-- [Padenghe Sul Garda](/brescia/comuni/padenghe-sul-garda/)
-- [Soiano Del Lago](/brescia/comuni/soiano-del-lago/)
+- [Soiano del Lago](../soiano-del-lago/) — 2.3 km
+- [Padenghe sul Garda](../padenghe-sul-garda/) — 2.8 km
+- [Polpenazze del Garda](../polpenazze-del-garda/) — 2.9 km
+- [Manerba del Garda](../manerba-del-garda/) — 3.0 km
+- [Puegnago del Garda](../puegnago-del-garda/) — 4.7 km

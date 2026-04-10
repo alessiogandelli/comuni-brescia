@@ -3,22 +3,13 @@ name: "Brandico"
 slug: "brandico"
 province: "BS"
 population: 1835
-area: 8.45
+area: 4.65
 coordinates: [45.4945, 10.0535]
-centroid: [45.45373, 10.04319]
-hasHistoric: true
-poiCount: 1
 nearby:
   - "berlingo"
   - "lograto"
   - "maclodio"
   - "barbariga"
-  - "trenzano"
-bordering:
-  - "corzano"
-  - "longhena"
-  - "maclodio"
-  - "mairano"
   - "trenzano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -34,32 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Brandico si trova a circa 13 km a ovest di Brescia. Superficie: 8.45 km². Densità abitativa: 217 ab/km². Strade principali: SPBS235.
+Brandico si trova a circa 13 km a ovest di Brescia. Superficie: 4.65 km². Densità abitativa: 395 ab/km².
 
 ## Cosa fare
 
-- Visita: **Brandico ai suoi caduti**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Brandico ai suoi caduti** — Monumento
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Strada provinciale: **SPBS235**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Berlingo](/brescia/comuni/berlingo/) — 1.0 km
-- [Lograto](/brescia/comuni/lograto/) — 1.2 km
-- [Maclodio](/brescia/comuni/maclodio/) — 1.7 km
-- [Barbariga](/brescia/comuni/barbariga/) — 3.2 km
-- [Trenzano](/brescia/comuni/trenzano/) — 3.8 km
-
-## Comuni confinanti
-
-- [Corzano](/brescia/comuni/corzano/)
-- [Longhena](/brescia/comuni/longhena/)
-- [Maclodio](/brescia/comuni/maclodio/)
-- [Mairano](/brescia/comuni/mairano/)
-- [Trenzano](/brescia/comuni/trenzano/)
+- [Berlingo](../berlingo/) — 1.0 km
+- [Lograto](../lograto/) — 1.2 km
+- [Maclodio](../maclodio/) — 1.7 km
+- [Barbariga](../barbariga/) — 3.2 km
+- [Trenzano](../trenzano/) — 3.8 km

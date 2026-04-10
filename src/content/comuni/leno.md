@@ -3,25 +3,13 @@ name: "Leno"
 slug: "leno"
 province: "BS"
 population: 14579
-area: 58.75
+area: 42.42
 coordinates: [45.3644, 10.217]
-centroid: [45.36106, 10.21815]
-hasHistoric: true
-hasFood: true
-hasAccommodation: true
-poiCount: 64
 nearby:
   - "offlaga"
   - "milzano"
   - "manerbio"
   - "ghedi"
-  - "pavone-del-mella"
-bordering:
-  - "bagnolo-mella"
-  - "cigole"
-  - "ghedi"
-  - "gottolengo"
-  - "manerbio"
   - "pavone-del-mella"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -37,49 +25,23 @@ fact: "Ospitò un'importante abbazia benedettina fondata nel 758"
 
 ## Contesto geografico
 
-Leno si trova a circa 20 km a sud di Brescia. Superficie: 58.75 km². Densità abitativa: 248 ab/km². Strade principali: A21, SPBS668.
+Leno si trova a circa 20 km a sud di Brescia. Superficie: 42.42 km². Densità abitativa: 344 ab/km².
 
 ## Cosa fare
 
-- Parchetto Paolo VI — Parco
-- Parchetto De Gasperi — Parco
-- Visita: **Abbazia di Leno**
-- Visita: **Castelvecchio**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Abbazia di Leno** — Rovine
-- **Castelvecchio** — Castello
-- **Morosine** — Rovine
-
-## Dove mangiare
-
-- **De Jordano** (Ristorante)
-- **MA-TI** (Ristorante)
-- **Cafè Lupin** (Bar)
-- **Primavera** (Ristorante)
-- **L'Ocanda** (Ristorante)
-- **Pizza's House** (Fast food)
-
-## Dove dormire
-
-- **Primavera** (Hotel)
-- **Il Colibrì** (B&B / Affittacamere)
-- **Lenotel** (Hotel)
-
-## Servizi
-
-- **Alimentari Moretti Alfredo** — Alimentari
-- **Ospedale di Leno** — Ospedale
-- **Oratorio San Luigi** — Centro civico
-- **Farmacia Bravi** — Farmacia
-- **Farmacia Sartirana** — Farmacia
-- **Italmark** — Supermercato
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Autostrada: **A21**
-- Strada provinciale: **SPBS668**
+- Raggiungibile in auto via strade provinciali
 
 ## Lo sapevi?
 
@@ -87,17 +49,8 @@ Ospitò un'importante abbazia benedettina fondata nel 758
 
 ## Comuni vicini
 
-- [Offlaga](/brescia/comuni/offlaga/) — 1.3 km
-- [Milzano](/brescia/comuni/milzano/) — 5.3 km
-- [Manerbio](/brescia/comuni/manerbio/) — 6.1 km
-- [Ghedi](/brescia/comuni/ghedi/) — 6.1 km
-- [Pavone del Mella](/brescia/comuni/pavone-del-mella/) — 6.3 km
-
-## Comuni confinanti
-
-- [Bagnolo Mella](/brescia/comuni/bagnolo-mella/)
-- [Cigole](/brescia/comuni/cigole/)
-- [Ghedi](/brescia/comuni/ghedi/)
-- [Gottolengo](/brescia/comuni/gottolengo/)
-- [Manerbio](/brescia/comuni/manerbio/)
-- [Pavone Del Mella](/brescia/comuni/pavone-del-mella/)
+- [Offlaga](../offlaga/) — 1.3 km
+- [Milzano](../milzano/) — 5.3 km
+- [Manerbio](../manerbio/) — 6.1 km
+- [Ghedi](../ghedi/) — 6.1 km
+- [Pavone del Mella](../pavone-del-mella/) — 6.3 km

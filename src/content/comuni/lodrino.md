@@ -3,26 +3,14 @@ name: "Lodrino"
 slug: "lodrino"
 province: "BS"
 population: 1838
-area: 16.46
+area: 12.97
 coordinates: [45.7218, 10.2807]
-centroid: [45.71423, 10.2704]
-hasNature: true
-hasSport: true
-hasFood: true
-hasAccommodation: true
-poiCount: 20
 nearby:
   - "marmentino"
   - "irma"
   - "casto"
   - "tavernole-sul-mella"
   - "mura"
-bordering:
-  - "casto"
-  - "marcheno"
-  - "marmentino"
-  - "pertica-alta"
-  - "tavernole-sul-mella"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,14 +25,13 @@ fact: ""
 
 ## Contesto geografico
 
-Lodrino si trova a circa 21 km a nord di Brescia. Superficie: 16.46 km². Densità abitativa: 112 ab/km².
+Lodrino si trova a circa 21 km a nord di Brescia. Superficie: 12.97 km². Densità abitativa: 142 ab/km².
 
 ## Cosa fare
 
-- Via ferrata
-- Campo Castello (849 m)
-- Punta di Reai (1246 m)
-- Corna di Caspai (1393 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
@@ -52,41 +39,14 @@ Lodrino si trova a circa 21 km a nord di Brescia. Superficie: 16.46 km². Densit
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Ristorante Pizzeria Bar da Amelia** (Ristorante)
-- **Caffè Carraro** (Caffè)
-- **Blu Café** (Caffè)
-- **Old Bar** (Caffè)
-- **Trattoria Genzianella** (Ristorante)
-
-## Dove dormire
-
-- **Albergo Lodrino** (Hotel)
-- **B&B Isola Verde** (Hotel)
-
-## Servizi
-
-- **Alimentari Da Romy** — Supermercato
-- **Farmacia Rampini** — Farmacia
-- **Biblioteca comunale "Maestra Angelica Plebani"** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Marmentino](/brescia/comuni/marmentino/) — 1.1 km
-- [Irma](/brescia/comuni/irma/) — 3.9 km
-- [Casto](/brescia/comuni/casto/) — 3.9 km
-- [Tavernole sul Mella](/brescia/comuni/tavernole-sul-mella/) — 4.1 km
-- [Mura](/brescia/comuni/mura/) — 4.6 km
-
-## Comuni confinanti
-
-- [Casto](/brescia/comuni/casto/)
-- [Marcheno](/brescia/comuni/marcheno/)
-- [Marmentino](/brescia/comuni/marmentino/)
-- [Pertica Alta](/brescia/comuni/pertica-alta/)
-- [Tavernole Sul Mella](/brescia/comuni/tavernole-sul-mella/)
+- [Marmentino](../marmentino/) — 1.1 km
+- [Irma](../irma/) — 3.9 km
+- [Casto](../casto/) — 3.9 km
+- [Tavernole sul Mella](../tavernole-sul-mella/) — 4.1 km
+- [Mura](../mura/) — 4.6 km

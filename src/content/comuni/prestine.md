@@ -45,8 +45,8 @@ Prestine si trova a circa 45 km a nord di Brescia. Superficie: 5.4 km². Densit�
 
 ## Comuni vicini
 
-- [Bienno](/brescia/comuni/bienno/) — 0.6 km
-- [Cividate Camuno](/brescia/comuni/cividate-camuno/) — 1.8 km
-- [Breno](/brescia/comuni/breno/) — 2.1 km
-- [Malegno](/brescia/comuni/malegno/) — 2.8 km
-- [Esine](/brescia/comuni/esine/) — 3.9 km
+- [Bienno](../bienno/) — 0.6 km
+- [Cividate Camuno](../cividate-camuno/) — 1.8 km
+- [Breno](../breno/) — 2.1 km
+- [Malegno](../malegno/) — 2.8 km
+- [Esine](../esine/) — 3.9 km

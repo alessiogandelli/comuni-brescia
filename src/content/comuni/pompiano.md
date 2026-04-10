@@ -3,21 +3,14 @@ name: "Pompiano"
 slug: "pompiano"
 province: "BS"
 population: 3834
-area: 15.19
+area: 15.11
 coordinates: [45.4207, 10.001]
-centroid: [45.41931, 9.99415]
 nearby:
   - "orzivecchi"
   - "corzano"
   - "longhena"
   - "trenzano"
   - "dello"
-bordering:
-  - "barbariga"
-  - "comezzano-cizzago"
-  - "corzano"
-  - "orzinuovi"
-  - "orzivecchi"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -32,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Pompiano si trova a circa 21 km a sud-ovest di Brescia. Superficie: 15.19 km². Densità abitativa: 252 ab/km². Strade principali: SPBS235, SPBS668.
+Pompiano si trova a circa 21 km a sud-ovest di Brescia. Superficie: 15.11 km². Densità abitativa: 254 ab/km².
 
 ## Cosa fare
 
@@ -48,21 +41,12 @@ Pompiano si trova a circa 21 km a sud-ovest di Brescia. Superficie: 15.19 km². 
 
 ## Come arrivare
 
-- Strada provinciale: **SPBS235**
-- Strada provinciale: **SPBS668**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Orzivecchi](/brescia/comuni/orzivecchi/) — 2.8 km
-- [Corzano](/brescia/comuni/corzano/) — 4.6 km
-- [Longhena](/brescia/comuni/longhena/) — 5.3 km
-- [Trenzano](/brescia/comuni/trenzano/) — 6.0 km
-- [Dello](/brescia/comuni/dello/) — 6.1 km
-
-## Comuni confinanti
-
-- [Barbariga](/brescia/comuni/barbariga/)
-- [Comezzano Cizzago](/brescia/comuni/comezzano-cizzago/)
-- [Corzano](/brescia/comuni/corzano/)
-- [Orzinuovi](/brescia/comuni/orzinuovi/)
-- [Orzivecchi](/brescia/comuni/orzivecchi/)
+- [Orzivecchi](../orzivecchi/) — 2.8 km
+- [Corzano](../corzano/) — 4.6 km
+- [Longhena](../longhena/) — 5.3 km
+- [Trenzano](../trenzano/) — 6.0 km
+- [Dello](../dello/) — 6.1 km

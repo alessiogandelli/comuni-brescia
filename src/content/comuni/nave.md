@@ -3,29 +3,14 @@ name: "Nave"
 slug: "nave"
 province: "BS"
 population: 11028
-area: 27.14
+area: 26.19
 coordinates: [45.5876, 10.2766]
-centroid: [45.58999, 10.2877]
-hasHistoric: true
-hasNature: true
-hasSport: true
-hasFood: true
-hasAccommodation: true
-poiCount: 72
 nearby:
   - "caino"
   - "bovezzo"
   - "concesio"
   - "collebeato"
   - "lumezzane"
-bordering:
-  - "botticino"
-  - "bovezzo"
-  - "brescia"
-  - "caino"
-  - "concesio"
-  - "lumezzane"
-  - "serle"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,48 +25,19 @@ fact: ""
 
 ## Contesto geografico
 
-Nave si trova a circa 7 km a nord-est di Brescia. Superficie: 27.14 km². Densità abitativa: 406 ab/km².
+Nave si trova a circa 7 km a nord-est di Brescia. Superficie: 26.19 km². Densità abitativa: 421 ab/km².
 
 ## Cosa fare
 
-- Arrampicata
-- Arrampicata: **Falesia di Nave**
-- Legòndol de Squadrú
-- Legòndol de Sassìva
-- Monte Montecca (665 m)
-- Parco Ottorino Marcolini — Parco
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Cascina Salena** — Rovine
-- **Necropoli Romana** — Sito archeologico
-- **Cascina dei Polech** — Rovine
-
-## Dove mangiare
-
-- **Trattoria Alla Vittoria** (Ristorante)
-- **L'Artigliere Ristorante** (Ristorante)
-- **Bar Mirò** (Caffè)
-- **Bar Le Streghe** (Caffè)
-- **Ristorante La Valle** (Ristorante)
-- **Gustando** (Ristorante)
-
-## Dove dormire
-
-- **Ristoro La Madonnina** (Bivacco)
-- **Casa Universitaria Alfalfa** (B&B / Affittacamere)
-- **Cascina Nicolini** (Bivacco)
-- **La Corte di Gio'** (B&B / Affittacamere)
-- **Rifugio alpino** (Rifugio alpino)
-
-## Servizi
-
-- **Centro Socio Culturale Luigi Bussacchini** — Centro civico
-- **Biblioteca Comunale di Nave** — Biblioteca
-- **Farmacia Sant'Orso** — Farmacia
-- **Family Market** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **Il Mulino di Buffoli** — Alimentari
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
@@ -89,18 +45,8 @@ Nave si trova a circa 7 km a nord-est di Brescia. Superficie: 27.14 km². Densit
 
 ## Comuni vicini
 
-- [Caino](/brescia/comuni/caino/) — 3.3 km
-- [Bovezzo](/brescia/comuni/bovezzo/) — 3.9 km
-- [Concesio](/brescia/comuni/concesio/) — 4.8 km
-- [Collebeato](/brescia/comuni/collebeato/) — 5.3 km
-- [Lumezzane](/brescia/comuni/lumezzane/) — 7.0 km
-
-## Comuni confinanti
-
-- [Botticino](/brescia/comuni/botticino/)
-- [Bovezzo](/brescia/comuni/bovezzo/)
-- [Brescia](/brescia/comuni/brescia/)
-- [Caino](/brescia/comuni/caino/)
-- [Concesio](/brescia/comuni/concesio/)
-- [Lumezzane](/brescia/comuni/lumezzane/)
-- [Serle](/brescia/comuni/serle/)
+- [Caino](../caino/) — 3.3 km
+- [Bovezzo](../bovezzo/) — 3.9 km
+- [Concesio](../concesio/) — 4.8 km
+- [Collebeato](../collebeato/) — 5.3 km
+- [Lumezzane](../lumezzane/) — 7.0 km

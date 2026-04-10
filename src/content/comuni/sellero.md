@@ -3,25 +3,14 @@ name: "Sellero"
 slug: "sellero"
 province: "BS"
 population: 1432
-area: 14
+area: 22.56
 coordinates: [46.0604, 10.3414]
-centroid: [46.06572, 10.32664]
-hasHistoric: true
-hasNature: true
-hasAccommodation: true
-hasStation: true
-poiCount: 8
 nearby:
   - "capo-di-ponte"
   - "cedegolo"
   - "cevo"
   - "paspardo"
   - "cimbergo"
-bordering:
-  - "berzo-demo"
-  - "capo-di-ponte"
-  - "cedegolo"
-  - "paisco-loveno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,40 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Sellero si trova a circa 59 km a nord di Brescia. Superficie: 14 km². Densità abitativa: 102 ab/km². Strade principali: SS42.
+Sellero si trova a circa 59 km a nord di Brescia. Superficie: 22.56 km². Densità abitativa: 63 ab/km².
 
 ## Cosa fare
 
-- Punto panoramico
-- Monte Adamone (1640 m)
-- Pizzo Garzeto (2088 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Parco Archeologico Sellero** — Sito archeologico
-- **Coran** — Sito archeologico
-
-## Dove dormire
-
-- **Bivacco Elto** (Bivacco)
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Cedegolo**
-- Stazione ferroviaria: **Sellero**
-- Superstrada: **SS42**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Capo di Ponte](/brescia/comuni/capo-di-ponte/) — 3.3 km
-- [Cedegolo](/brescia/comuni/cedegolo/) — 3.5 km
-- [Cevo](/brescia/comuni/cevo/) — 4.1 km
-- [Paspardo](/brescia/comuni/paspardo/) — 4.3 km
-- [Cimbergo](/brescia/comuni/cimbergo/) — 4.6 km
-
-## Comuni confinanti
-
-- [Berzo Demo](/brescia/comuni/berzo-demo/)
-- [Capo Di Ponte](/brescia/comuni/capo-di-ponte/)
-- [Cedegolo](/brescia/comuni/cedegolo/)
-- [Paisco Loveno](/brescia/comuni/paisco-loveno/)
+- [Capo di Ponte](../capo-di-ponte/) — 3.3 km
+- [Cedegolo](../cedegolo/) — 3.5 km
+- [Cevo](../cevo/) — 4.1 km
+- [Paspardo](../paspardo/) — 4.3 km
+- [Cimbergo](../cimbergo/) — 4.6 km

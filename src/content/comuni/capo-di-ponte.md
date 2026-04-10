@@ -3,30 +3,14 @@ name: "Capo di Ponte"
 slug: "capo-di-ponte"
 province: "BS"
 population: 2475
-area: 18.61
+area: 15.83
 coordinates: [46.031, 10.3457]
-centroid: [46.0456, 10.31163]
-hasHistoric: true
-hasNature: true
-hasSport: true
-hasFood: true
-hasAccommodation: true
-hasStation: true
-poiCount: 20
 nearby:
   - "ono-san-pietro"
   - "ceto"
   - "cimbergo"
   - "braone"
   - "paspardo"
-bordering:
-  - "cedegolo"
-  - "ceto"
-  - "cimbergo"
-  - "ono-san-pietro"
-  - "paisco-loveno"
-  - "paspardo"
-  - "sellero"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -41,43 +25,23 @@ fact: "Le incisioni rupestri della Val Camonica sono Patrimonio UNESCO"
 
 ## Contesto geografico
 
-Capo di Ponte si trova a circa 55 km a nord di Brescia. Superficie: 18.61 km². Densità abitativa: 133 ab/km². Strade principali: SS42.
+Capo di Ponte si trova a circa 55 km a nord di Brescia. Superficie: 15.83 km². Densità abitativa: 156 ab/km².
 
 ## Cosa fare
 
-- Arrampicata: **Capo di Ponte**
-- Monte Elto (2147 m)
-- Punto panoramico
-- Cima di Tanerle (2194 m)
-- Parco Archeologico Nazionale dei Massi di Cemmo — Parco
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Il Plöder** — Sito archeologico
-- **Plà d'Ort** — Sito archeologico
-- **Parco delle Incisioni Rupestri di Seradina Bedolina** — Sito archeologico
-- **Bedolina Map** — Sito archeologico
-
-## Dove mangiare
-
-- **Ristorante Pizzeria La Pieve** (Ristorante)
-- **Bar Nazionale** (Caffè)
-- **Pitoti Park** (Bar)
-
-## Dove dormire
-
-- **Bivacco Adamone** (Bivacco)
-- **Hotel Cumili Garni** (Hotel)
-- **Hotel Ristorante Bar Graffitipark** (Hotel)
-
-## Servizi
-
-- **Farmacia** — Farmacia
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Capo di Ponte**
-- Superstrada: **SS42**
+- Raggiungibile in auto via strade provinciali
 
 ## Lo sapevi?
 
@@ -85,18 +49,8 @@ Le incisioni rupestri della Val Camonica sono Patrimonio UNESCO
 
 ## Comuni vicini
 
-- [Ono San Pietro](/brescia/comuni/ono-san-pietro/) — 1.6 km
-- [Ceto](/brescia/comuni/ceto/) — 1.7 km
-- [Cimbergo](/brescia/comuni/cimbergo/) — 1.9 km
-- [Braone](/brescia/comuni/braone/) — 2.3 km
-- [Paspardo](/brescia/comuni/paspardo/) — 2.3 km
-
-## Comuni confinanti
-
-- [Cedegolo](/brescia/comuni/cedegolo/)
-- [Ceto](/brescia/comuni/ceto/)
-- [Cimbergo](/brescia/comuni/cimbergo/)
-- [Ono San Pietro](/brescia/comuni/ono-san-pietro/)
-- [Paisco Loveno](/brescia/comuni/paisco-loveno/)
-- [Paspardo](/brescia/comuni/paspardo/)
-- [Sellero](/brescia/comuni/sellero/)
+- [Ono San Pietro](../ono-san-pietro/) — 1.6 km
+- [Ceto](../ceto/) — 1.7 km
+- [Cimbergo](../cimbergo/) — 1.9 km
+- [Braone](../braone/) — 2.3 km
+- [Paspardo](../paspardo/) — 2.3 km

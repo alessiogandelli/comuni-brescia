@@ -3,30 +3,14 @@ name: "Ceto"
 slug: "ceto"
 province: "BS"
 population: 1898
-area: 33.1
+area: 41.37
 coordinates: [46.0189, 10.359]
-centroid: [45.99444, 10.41218]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-hasStation: true
-poiCount: 36
 nearby:
   - "cimbergo"
   - "ono-san-pietro"
   - "braone"
   - "capo-di-ponte"
   - "paspardo"
-bordering:
-  - "braone"
-  - "breno"
-  - "capo-di-ponte"
-  - "cerveno"
-  - "cevo"
-  - "cimbergo"
-  - "losine"
-  - "ono-san-pietro"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -41,56 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Ceto si trova a circa 54 km a nord di Brescia. Superficie: 33.1 km². Densità abitativa: 57 ab/km². Strade principali: SS42.
+Ceto si trova a circa 54 km a nord di Brescia. Superficie: 41.37 km². Densità abitativa: 46 ab/km².
 
 ## Cosa fare
 
-- Cima di Mezzamalga (2455 m)
-- Cima dell'Orso (2431 m)
-- Cima Vaga (2392 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Malga Le Plagne** — Rovine
-
-## Dove mangiare
-
-- **Bar Stazione** (Caffè)
-- **Pizzeria La Valle** (Fast food)
-- **Big Bar** (Bar)
-- **Lambich** (Ristorante)
-
-## Dove dormire
-
-- **Campo Tres** (Campeggio)
-- **Bivacco Capanna Mattia** (Bivacco)
-- **Rifugio Maria e Franco Lomini** (Rifugio alpino)
-
-## Servizi
-
-- **fresco mio** — Alimentari
-- **Farmacia Panteghini** — Farmacia
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Ceto - Cerveno**
-- Superstrada: **SS42**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Cimbergo](/brescia/comuni/cimbergo/) — 0.8 km
-- [Ono San Pietro](/brescia/comuni/ono-san-pietro/) — 1.0 km
-- [Braone](/brescia/comuni/braone/) — 1.5 km
-- [Capo di Ponte](/brescia/comuni/capo-di-ponte/) — 1.7 km
-- [Paspardo](/brescia/comuni/paspardo/) — 1.8 km
-
-## Comuni confinanti
-
-- [Braone](/brescia/comuni/braone/)
-- [Breno](/brescia/comuni/breno/)
-- [Capo Di Ponte](/brescia/comuni/capo-di-ponte/)
-- [Cerveno](/brescia/comuni/cerveno/)
-- [Cevo](/brescia/comuni/cevo/)
-- [Cimbergo](/brescia/comuni/cimbergo/)
-- [Losine](/brescia/comuni/losine/)
-- [Ono San Pietro](/brescia/comuni/ono-san-pietro/)
+- [Cimbergo](../cimbergo/) — 0.8 km
+- [Ono San Pietro](../ono-san-pietro/) — 1.0 km
+- [Braone](../braone/) — 1.5 km
+- [Capo di Ponte](../capo-di-ponte/) — 1.7 km
+- [Paspardo](../paspardo/) — 1.8 km

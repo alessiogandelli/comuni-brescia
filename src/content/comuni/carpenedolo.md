@@ -3,26 +3,14 @@ name: "Carpenedolo"
 slug: "carpenedolo"
 province: "BS"
 population: 13090
-area: 30.23
+area: 29.57
 coordinates: [45.3618, 10.4338]
-centroid: [45.34912, 10.4355]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-poiCount: 18
 nearby:
   - "acquafredda"
   - "montichiari"
   - "visano"
   - "calvisano"
   - "remedello"
-bordering:
-  - "acquafredda"
-  - "calvisano"
-  - "castel-goffredo"
-  - "castiglione-delle-stiviere"
-  - "montichiari"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,54 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Carpenedolo si trova a circa 26 km a sud-est di Brescia. Superficie: 30.23 km². Densità abitativa: 433 ab/km². Strade principali: SS343.
+Carpenedolo si trova a circa 26 km a sud-est di Brescia. Superficie: 29.57 km². Densità abitativa: 443 ab/km².
 
 ## Cosa fare
 
-- Capomonte
-- Monte Zecchi
-- Monte Rocchetta (122 m)
-- Parco Orti — Parco
-- Parco Rinaldini — Parco
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Castello di Carpenedolo** — Castello
-
-## Dove mangiare
-
-- **Bar Sport** (Bar)
-
-## Dove dormire
-
-- **Civico 43** (B&B / Affittacamere)
-- **Hotel** (Hotel)
-
-## Servizi
-
-- **EuroSpin** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **Centro Commerciale Italmark** — Supermercato
-- **Farmacia Tramonti** — Farmacia
-- **Farmacia Azzi** — Farmacia
-- **Supermercato** — Supermercato
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Strada provinciale: **SS343**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Acquafredda](/brescia/comuni/acquafredda/) — 6.0 km
-- [Montichiari](/brescia/comuni/montichiari/) — 6.4 km
-- [Visano](/brescia/comuni/visano/) — 6.9 km
-- [Calvisano](/brescia/comuni/calvisano/) — 7.1 km
-- [Remedello](/brescia/comuni/remedello/) — 10.3 km
-
-## Comuni confinanti
-
-- [Acquafredda](/brescia/comuni/acquafredda/)
-- [Calvisano](/brescia/comuni/calvisano/)
-- [Castel Goffredo](/brescia/comuni/castel-goffredo/)
-- [Castiglione Delle Stiviere](/brescia/comuni/castiglione-delle-stiviere/)
-- [Montichiari](/brescia/comuni/montichiari/)
+- [Acquafredda](../acquafredda/) — 6.0 km
+- [Montichiari](../montichiari/) — 6.4 km
+- [Visano](../visano/) — 6.9 km
+- [Calvisano](../calvisano/) — 7.1 km
+- [Remedello](../remedello/) — 10.3 km

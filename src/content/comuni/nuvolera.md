@@ -3,26 +3,14 @@ name: "Nuvolera"
 slug: "nuvolera"
 province: "BS"
 population: 4654
-area: 13.3
+area: 6.32
 coordinates: [45.5365, 10.3663]
-centroid: [45.53422, 10.36578]
-hasHistoric: true
-hasNature: true
-hasFood: true
-poiCount: 24
 nearby:
   - "nuvolento"
   - "mazzano"
   - "serle"
   - "paitone"
   - "botticino"
-bordering:
-  - "bedizzole"
-  - "botticino"
-  - "mazzano"
-  - "nuvolento"
-  - "rezzato"
-  - "serle"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,51 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Nuvolera si trova a circa 12 km a est di Brescia. Superficie: 13.3 km². Densità abitativa: 350 ab/km². Strade principali: SS45bis.
+Nuvolera si trova a circa 12 km a est di Brescia. Superficie: 6.32 km². Densità abitativa: 736 ab/km².
 
 ## Cosa fare
 
-- Monte Cavallo (441 m)
-- Monte di Dietro (385 m)
-- Büs de Bola
-- Parco degli alpini — Parco
-- Parco agli Invalidi del Lavoro — Parco
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Monumento ai Caduti per la Patria di Nuvolera** — Monumento
-- **Cascina Bertondello** — Rovine
-- **Casino del Roccolo** — Rovine
-
-## Dove mangiare
-
-- **Bar Trattoria Conca dei Marmi** (Ristorante)
-- **Caffetteria Bar Ristorante** (Ristorante)
-
-## Servizi
-
-- **Biblioteca Civica di Nuvolera** — Biblioteca
-- **Oratorio Buon Pastore** — Centro civico
-- **Supermercato** — Supermercato
-- **Farmacia Girelli** — Farmacia
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Superstrada: **SS45bis**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Nuvolento](/brescia/comuni/nuvolento/) — 1.1 km
-- [Mazzano](/brescia/comuni/mazzano/) — 2.1 km
-- [Serle](/brescia/comuni/serle/) — 2.4 km
-- [Paitone](/brescia/comuni/paitone/) — 3.0 km
-- [Botticino](/brescia/comuni/botticino/) — 3.9 km
-
-## Comuni confinanti
-
-- [Bedizzole](/brescia/comuni/bedizzole/)
-- [Botticino](/brescia/comuni/botticino/)
-- [Mazzano](/brescia/comuni/mazzano/)
-- [Nuvolento](/brescia/comuni/nuvolento/)
-- [Rezzato](/brescia/comuni/rezzato/)
-- [Serle](/brescia/comuni/serle/)
+- [Nuvolento](../nuvolento/) — 1.1 km
+- [Mazzano](../mazzano/) — 2.1 km
+- [Serle](../serle/) — 2.4 km
+- [Paitone](../paitone/) — 3.0 km
+- [Botticino](../botticino/) — 3.9 km

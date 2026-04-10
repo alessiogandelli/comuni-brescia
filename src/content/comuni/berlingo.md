@@ -3,21 +3,12 @@ name: "Berlingo"
 slug: "berlingo"
 province: "BS"
 population: 2739
-area: 4.6
+area: 4.97
 coordinates: [45.5023, 10.0475]
-centroid: [45.50608, 10.03397]
-hasFood: true
-poiCount: 2
 nearby:
   - "brandico"
   - "maclodio"
   - "lograto"
-  - "travagliato"
-  - "trenzano"
-bordering:
-  - "lograto"
-  - "maclodio"
-  - "rovato"
   - "travagliato"
   - "trenzano"
 # ── Enrichment (fill via AI or manually) ──
@@ -34,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Berlingo si trova a circa 14 km a ovest di Brescia. Superficie: 4.6 km². Densità abitativa: 595 ab/km².
+Berlingo si trova a circa 14 km a ovest di Brescia. Superficie: 4.97 km². Densità abitativa: 551 ab/km².
 
 ## Cosa fare
 
@@ -48,30 +39,14 @@ Berlingo si trova a circa 14 km a ovest di Brescia. Superficie: 4.6 km². Densit
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Azienda Agricola Al Berlinghetto** (Ristorante)
-
-## Servizi
-
-- **Biblioteca Comunale G.B. Zotti di Berlingo** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Brandico](/brescia/comuni/brandico/) — 1.0 km
-- [Maclodio](/brescia/comuni/maclodio/) — 1.5 km
-- [Lograto](/brescia/comuni/lograto/) — 2.1 km
-- [Travagliato](/brescia/comuni/travagliato/) — 3.7 km
-- [Trenzano](/brescia/comuni/trenzano/) — 4.1 km
-
-## Comuni confinanti
-
-- [Lograto](/brescia/comuni/lograto/)
-- [Maclodio](/brescia/comuni/maclodio/)
-- [Rovato](/brescia/comuni/rovato/)
-- [Travagliato](/brescia/comuni/travagliato/)
-- [Trenzano](/brescia/comuni/trenzano/)
+- [Brandico](../brandico/) — 1.0 km
+- [Maclodio](../maclodio/) — 1.5 km
+- [Lograto](../lograto/) — 2.1 km
+- [Travagliato](../travagliato/) — 3.7 km
+- [Trenzano](../trenzano/) — 4.1 km

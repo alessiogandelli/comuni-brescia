@@ -3,27 +3,14 @@ name: "Travagliato"
 slug: "travagliato"
 province: "BS"
 population: 13701
-area: 17.76
+area: 15.46
 coordinates: [45.5208, 10.0862]
-centroid: [45.5221, 10.07749]
-hasHistoric: true
-hasFood: true
-poiCount: 58
 nearby:
   - "torbole-casaglia"
   - "ospitaletto"
   - "berlingo"
   - "lograto"
   - "brandico"
-bordering:
-  - "berlingo"
-  - "castegnato"
-  - "cazzago-san-martino"
-  - "lograto"
-  - "ospitaletto"
-  - "roncadelle"
-  - "rovato"
-  - "torbole-casaglia"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,57 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Travagliato si trova a circa 10 km a ovest di Brescia. Superficie: 17.76 km². Densità abitativa: 771 ab/km². Strade principali: A21racc, A35, SPBS235.
+Travagliato si trova a circa 10 km a ovest di Brescia. Superficie: 15.46 km². Densità abitativa: 886 ab/km².
 
 ## Cosa fare
 
-- Parco Breda — Parco
-- Parco Sturzo — Parco
-- Visita: **Monumento agli Alpini**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Monumento agli Alpini** — Monumento
-
-## Dove mangiare
-
-- **Senso Unico** (Fast food)
-- **Aho Sushi** (Ristorante)
-- **Forty Four** (Bar)
-- **Operbacco** (Ristorante)
-- **Bar Cavallino** (Caffè)
-- **Caffetteria Alex** (Fast food)
-
-## Servizi
-
-- **Butigä de la Zent** — Alimentari
-- **Farmacia Paterlini** — Farmacia
-- **minimarket Festa Luigia** — Alimentari
-- **Farmacia Comunale Piazza Libertà** — Farmacia
-- **IN's Mercato** — Supermercato
-- **Family Market** — Supermercato
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Autostrada: **A21racc**
-- Autostrada: **A35**
-- Strada provinciale: **SPBS235**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Torbole Casaglia](/brescia/comuni/torbole-casaglia/) — 2.2 km
-- [Ospitaletto](/brescia/comuni/ospitaletto/) — 3.5 km
-- [Berlingo](/brescia/comuni/berlingo/) — 3.7 km
-- [Lograto](/brescia/comuni/lograto/) — 3.8 km
-- [Brandico](/brescia/comuni/brandico/) — 3.9 km
-
-## Comuni confinanti
-
-- [Berlingo](/brescia/comuni/berlingo/)
-- [Castegnato](/brescia/comuni/castegnato/)
-- [Cazzago San Martino](/brescia/comuni/cazzago-san-martino/)
-- [Lograto](/brescia/comuni/lograto/)
-- [Ospitaletto](/brescia/comuni/ospitaletto/)
-- [Roncadelle](/brescia/comuni/roncadelle/)
-- [Rovato](/brescia/comuni/rovato/)
-- [Torbole Casaglia](/brescia/comuni/torbole-casaglia/)
+- [Torbole Casaglia](../torbole-casaglia/) — 2.2 km
+- [Ospitaletto](../ospitaletto/) — 3.5 km
+- [Berlingo](../berlingo/) — 3.7 km
+- [Lograto](../lograto/) — 3.8 km
+- [Brandico](../brandico/) — 3.9 km

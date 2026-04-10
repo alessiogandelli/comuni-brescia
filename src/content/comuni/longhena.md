@@ -3,21 +3,14 @@ name: "Longhena"
 slug: "longhena"
 province: "BS"
 population: 605
-area: 3.41
+area: 3.47
 coordinates: [45.4342, 10.0663]
-centroid: [45.43493, 10.0604]
-poiCount: 1
 nearby:
   - "mairano"
   - "dello"
   - "azzano-mella"
   - "barbariga"
   - "corzano"
-bordering:
-  - "brandico"
-  - "corzano"
-  - "dello"
-  - "mairano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -32,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Longhena si trova a circa 16 km a sud-ovest di Brescia. Superficie: 3.41 km². Densità abitativa: 177 ab/km².
+Longhena si trova a circa 16 km a sud-ovest di Brescia. Superficie: 3.47 km². Densità abitativa: 174 ab/km².
 
 ## Cosa fare
 
@@ -46,25 +39,14 @@ Longhena si trova a circa 16 km a sud-ovest di Brescia. Superficie: 3.41 km². D
 - Piazza principale
 - Palazzo municipale
 
-## Servizi
-
-- **Biblioteca comunale di Longhena** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Mairano](/brescia/comuni/mairano/) — 1.7 km
-- [Dello](/brescia/comuni/dello/) — 2.1 km
-- [Azzano Mella](/brescia/comuni/azzano-mella/) — 4.0 km
-- [Barbariga](/brescia/comuni/barbariga/) — 4.3 km
-- [Corzano](/brescia/comuni/corzano/) — 5.2 km
-
-## Comuni confinanti
-
-- [Brandico](/brescia/comuni/brandico/)
-- [Corzano](/brescia/comuni/corzano/)
-- [Dello](/brescia/comuni/dello/)
-- [Mairano](/brescia/comuni/mairano/)
+- [Mairano](../mairano/) — 1.7 km
+- [Dello](../dello/) — 2.1 km
+- [Azzano Mella](../azzano-mella/) — 4.0 km
+- [Barbariga](../barbariga/) — 4.3 km
+- [Corzano](../corzano/) — 5.2 km

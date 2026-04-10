@@ -49,8 +49,8 @@ Sede dell'Abbazia olivetana dei Santi Nicola e Paolo VI
 
 ## Comuni vicini
 
-- [Monticelli Brusati](/brescia/comuni/monticelli-brusati/) — 2.8 km
-- [Passirano](/brescia/comuni/passirano/) — 3.1 km
-- [Paderno Franciacorta](/brescia/comuni/paderno-franciacorta/) — 3.2 km
-- [Castegnato](/brescia/comuni/castegnato/) — 4.0 km
-- [Ome](/brescia/comuni/ome/) — 4.0 km
+- [Monticelli Brusati](../monticelli-brusati/) — 2.8 km
+- [Passirano](../passirano/) — 3.1 km
+- [Paderno Franciacorta](../paderno-franciacorta/) — 3.2 km
+- [Castegnato](../castegnato/) — 4.0 km
+- [Ome](../ome/) — 4.0 km

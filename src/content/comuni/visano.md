@@ -3,22 +3,14 @@ name: "Visano"
 slug: "visano"
 province: "BS"
 population: 1958
-area: 11.23
+area: 12.14
 coordinates: [45.3154, 10.3753]
-centroid: [45.31234, 10.36668]
-hasStation: true
-poiCount: 1
 nearby:
   - "acquafredda"
   - "remedello"
   - "isorella"
   - "calvisano"
   - "carpenedolo"
-bordering:
-  - "acquafredda"
-  - "calvisano"
-  - "isorella"
-  - "remedello"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,7 +25,7 @@ fact: ""
 
 ## Contesto geografico
 
-Visano si trova a circa 28 km a sud-est di Brescia. Superficie: 11.23 km². Densità abitativa: 174 ab/km².
+Visano si trova a circa 28 km a sud-est di Brescia. Superficie: 12.14 km². Densità abitativa: 161 ab/km².
 
 ## Cosa fare
 
@@ -49,19 +41,12 @@ Visano si trova a circa 28 km a sud-est di Brescia. Superficie: 11.23 km². Dens
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Visano**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Acquafredda](/brescia/comuni/acquafredda/) — 3.4 km
-- [Remedello](/brescia/comuni/remedello/) — 3.9 km
-- [Isorella](/brescia/comuni/isorella/) — 4.6 km
-- [Calvisano](/brescia/comuni/calvisano/) — 4.9 km
-- [Carpenedolo](/brescia/comuni/carpenedolo/) — 6.9 km
-
-## Comuni confinanti
-
-- [Acquafredda](/brescia/comuni/acquafredda/)
-- [Calvisano](/brescia/comuni/calvisano/)
-- [Isorella](/brescia/comuni/isorella/)
-- [Remedello](/brescia/comuni/remedello/)
+- [Acquafredda](../acquafredda/) — 3.4 km
+- [Remedello](../remedello/) — 3.9 km
+- [Isorella](../isorella/) — 4.6 km
+- [Calvisano](../calvisano/) — 4.9 km
+- [Carpenedolo](../carpenedolo/) — 6.9 km

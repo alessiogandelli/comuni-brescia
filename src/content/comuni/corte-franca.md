@@ -3,28 +3,14 @@ name: "Corte Franca"
 slug: "corte-franca"
 province: "BS"
 population: 7278
-area: 14.02
+area: 12
 coordinates: [45.625, 10.0173]
-centroid: [45.63105, 10.00206]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-hasStation: true
-poiCount: 29
 nearby:
   - "provaglio-diseo"
   - "erbusco"
   - "adro"
   - "iseo"
   - "cazzago-san-martino"
-bordering:
-  - "adro"
-  - "capriolo"
-  - "cazzago-san-martino"
-  - "iseo"
-  - "passirano"
-  - "provaglio-d'iseo"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,56 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Corte Franca si trova a circa 18 km a nord-ovest di Brescia. Superficie: 14.02 km². Densità abitativa: 519 ab/km².
+Corte Franca si trova a circa 18 km a nord-ovest di Brescia. Superficie: 12 km². Densità abitativa: 607 ab/km².
 
 ## Cosa fare
 
-- Monte Castelli (353 m)
-- Punto panoramico
-- Parco del Conicchio — Parco
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Ricordo al carbiniere** — Monumento
-- **Monumento ai caduti di Timoline** — Monumento
-- **Palazzo Monti della Corte** — Monumento
-
-## Dove mangiare
-
-- **Piccioli - L'artista del fritto** (Ristorante)
-- **MyPizza** (Ristorante)
-- **Bar Blonde** (Bar)
-- **Bar Roma** (Ristorante)
-- **Pizzeria Mezzo Metro** (Ristorante)
-- **L'Andromeda** (Pub)
-
-## Dove dormire
-
-- **Relais Franciacorta** (Hotel)
-
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Esselunga** — Supermercato
-- **Cicli Eugenio Gotti S.r.l.** — Ciclofficina
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Borgonato-Adro**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Provaglio d'Iseo](/brescia/comuni/provaglio-diseo/) — 3.1 km
-- [Erbusco](/brescia/comuni/erbusco/) — 3.3 km
-- [Adro](/brescia/comuni/adro/) — 4.5 km
-- [Iseo](/brescia/comuni/iseo/) — 4.6 km
-- [Cazzago San Martino](/brescia/comuni/cazzago-san-martino/) — 5.0 km
-
-## Comuni confinanti
-
-- [Adro](/brescia/comuni/adro/)
-- [Capriolo](/brescia/comuni/capriolo/)
-- [Cazzago San Martino](/brescia/comuni/cazzago-san-martino/)
-- [Iseo](/brescia/comuni/iseo/)
-- [Passirano](/brescia/comuni/passirano/)
-- [Provaglio D'iseo](/brescia/comuni/provaglio-d'iseo/)
+- [Provaglio d'Iseo](../provaglio-diseo/) — 3.1 km
+- [Erbusco](../erbusco/) — 3.3 km
+- [Adro](../adro/) — 4.5 km
+- [Iseo](../iseo/) — 4.6 km
+- [Cazzago San Martino](../cazzago-san-martino/) — 5.0 km

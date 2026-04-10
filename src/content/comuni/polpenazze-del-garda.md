@@ -3,26 +3,14 @@ name: "Polpenazze del Garda"
 slug: "polpenazze-del-garda"
 province: "BS"
 population: 2582
-area: 9.12
+area: 7.11
 coordinates: [45.5523, 10.5167]
-centroid: [45.54621, 10.50067]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-poiCount: 20
 nearby:
   - "soiano-del-lago"
   - "puegnago-del-garda"
   - "manerba-del-garda"
   - "moniga-del-garda"
   - "san-felice-del-benaco"
-bordering:
-  - "calvagese-della-riviera"
-  - "manerba-del-garda"
-  - "muscoline"
-  - "puegnago-del-garda"
-  - "soiano-del-lago"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,50 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Polpenazze del Garda si trova a circa 24 km a est di Brescia. Superficie: 9.12 km². Densità abitativa: 283 ab/km². Strade principali: SP BS 572.
+Polpenazze del Garda si trova a circa 24 km a est di Brescia. Superficie: 7.11 km². Densità abitativa: 363 ab/km².
 
 ## Cosa fare
 
-- Punto panoramico
-- Monte Brassina (332 m)
-- Monte San Pietro (290 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Sito archeologico Lago Lucone** — Sito archeologico
-- **Lago Lucone** — Sito archeologico
-
-## Dove mangiare
-
-- **Ristorante Miravalle** (Ristorante)
-- **Osteria del Borgo** (Ristorante)
-- **Bar Centrale** (Caffè)
-- **Cervo** (Caffè)
-- **Al Rustico** (Ristorante)
-- **Ristorante Cascina Bottenago** (Ristorante)
-
-## Dove dormire
-
-- **Nonna Clara** (B&B / Affittacamere)
-- **Al Rustico** (B&B / Affittacamere)
-- **Villaggio Vacanze Valverde** (Campeggio)
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Strada provinciale: **SP BS 572**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Soiano del Lago](/brescia/comuni/soiano-del-lago/) — 1.7 km
-- [Puegnago del Garda](/brescia/comuni/puegnago-del-garda/) — 1.8 km
-- [Manerba del Garda](/brescia/comuni/manerba-del-garda/) — 2.6 km
-- [Moniga del Garda](/brescia/comuni/moniga-del-garda/) — 2.9 km
-- [San Felice del Benaco](/brescia/comuni/san-felice-del-benaco/) — 3.7 km
-
-## Comuni confinanti
-
-- [Calvagese Della Riviera](/brescia/comuni/calvagese-della-riviera/)
-- [Manerba Del Garda](/brescia/comuni/manerba-del-garda/)
-- [Muscoline](/brescia/comuni/muscoline/)
-- [Puegnago Del Garda](/brescia/comuni/puegnago-del-garda/)
-- [Soiano Del Lago](/brescia/comuni/soiano-del-lago/)
+- [Soiano del Lago](../soiano-del-lago/) — 1.7 km
+- [Puegnago del Garda](../puegnago-del-garda/) — 1.8 km
+- [Manerba del Garda](../manerba-del-garda/) — 2.6 km
+- [Moniga del Garda](../moniga-del-garda/) — 2.9 km
+- [San Felice del Benaco](../san-felice-del-benaco/) — 3.7 km

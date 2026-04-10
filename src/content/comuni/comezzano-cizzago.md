@@ -3,27 +3,14 @@ name: "Comezzano-Cizzago"
 slug: "comezzano-cizzago"
 province: "BS"
 population: 3901
-area: 15.63
+area: 10.55
 coordinates: [45.4802, 9.9671]
-centroid: [45.46921, 9.95386]
-hasHistoric: true
-hasFood: true
-poiCount: 9
 nearby:
   - "castelcovati"
   - "trenzano"
   - "corzano"
   - "maclodio"
   - "castrezzato"
-bordering:
-  - "castelcovati"
-  - "castrezzato"
-  - "chiari"
-  - "corzano"
-  - "orzivecchi"
-  - "pompiano"
-  - "roccafranca"
-  - "trenzano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,28 +25,19 @@ fact: ""
 
 ## Contesto geografico
 
-Comezzano-Cizzago si trova a circa 20 km a ovest di Brescia. Superficie: 15.63 km². Densità abitativa: 250 ab/km².
+Comezzano-Cizzago si trova a circa 20 km a ovest di Brescia. Superficie: 10.55 km². Densità abitativa: 370 ab/km².
 
 ## Cosa fare
 
-- Visita: **Monumento ai Caduti**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Monumento ai Caduti** — Monumento
-
-## Dove mangiare
-
-- **Tahiti** (Ristorante)
-- **Aman** (Fast food)
-- **La Chichera** (Caffè)
-- **Anni** (Caffè)
-- **Al Finil del Pret** (Ristorante)
-
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Dr. Max** — Farmacia
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
@@ -67,19 +45,8 @@ Comezzano-Cizzago si trova a circa 20 km a ovest di Brescia. Superficie: 15.63 k
 
 ## Comuni vicini
 
-- [Castelcovati](/brescia/comuni/castelcovati/) — 2.6 km
-- [Trenzano](/brescia/comuni/trenzano/) — 3.8 km
-- [Corzano](/brescia/comuni/corzano/) — 4.1 km
-- [Maclodio](/brescia/comuni/maclodio/) — 5.3 km
-- [Castrezzato](/brescia/comuni/castrezzato/) — 5.9 km
-
-## Comuni confinanti
-
-- [Castelcovati](/brescia/comuni/castelcovati/)
-- [Castrezzato](/brescia/comuni/castrezzato/)
-- [Chiari](/brescia/comuni/chiari/)
-- [Corzano](/brescia/comuni/corzano/)
-- [Orzivecchi](/brescia/comuni/orzivecchi/)
-- [Pompiano](/brescia/comuni/pompiano/)
-- [Roccafranca](/brescia/comuni/roccafranca/)
-- [Trenzano](/brescia/comuni/trenzano/)
+- [Castelcovati](../castelcovati/) — 2.6 km
+- [Trenzano](../trenzano/) — 3.8 km
+- [Corzano](../corzano/) — 4.1 km
+- [Maclodio](../maclodio/) — 5.3 km
+- [Castrezzato](../castrezzato/) — 5.9 km

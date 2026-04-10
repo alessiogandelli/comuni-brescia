@@ -3,28 +3,14 @@ name: "Lavenone"
 slug: "lavenone"
 province: "BS"
 population: 558
-area: 31.91
+area: 15.8
 coordinates: [45.7373, 10.4399]
-centroid: [45.76494, 10.42861]
-hasNature: true
-hasSport: true
-hasFood: true
-hasAccommodation: true
-poiCount: 23
 nearby:
   - "treviso-bresciano"
   - "idro"
   - "pertica-alta"
   - "vestone"
   - "anfo"
-bordering:
-  - "anfo"
-  - "bagolino"
-  - "collio"
-  - "idro"
-  - "pertica-bassa"
-  - "treviso-bresciano"
-  - "vestone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,15 +25,13 @@ fact: ""
 
 ## Contesto geografico
 
-Lavenone si trova a circa 28 km a nord-est di Brescia. Superficie: 31.91 km². Densità abitativa: 17 ab/km². Strade principali: SPBS237.
+Lavenone si trova a circa 28 km a nord-est di Brescia. Superficie: 15.8 km². Densità abitativa: 35 ab/km².
 
 ## Cosa fare
 
-- Arrampicata
-- Arrampicata: **Falesia di Cima Caldoline**
-- Dosso Falcone (909 m)
-- Cima Traversagna (1525 m)
-- Cima della Coca (1062 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
@@ -55,41 +39,14 @@ Lavenone si trova a circa 28 km a nord-est di Brescia. Superficie: 31.91 km². D
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Agriturismo Piccole Dolomiti** (Ristorante)
-- **Lume** (Bar)
-
-## Dove dormire
-
-- **Piccolo Tibet** (B&B / Affittacamere)
-- **Agriturismo Piccole Dolomiti** (B&B / Affittacamere)
-- **Ostello Sociale Borgo Venno** (Ostello)
-- **Capanna Tita Secchi** (Bivacco)
-
-## Servizi
-
-- **Farmacia Dottoressa Francesca Capocasale** — Farmacia
-- **CPF80** — Supermercato
-
 ## Come arrivare
 
-- Strada provinciale: **SPBS237**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Treviso Bresciano](/brescia/comuni/treviso-bresciano/) — 2.3 km
-- [Idro](/brescia/comuni/idro/) — 3.4 km
-- [Pertica Alta](/brescia/comuni/pertica-alta/) — 3.9 km
-- [Vestone](/brescia/comuni/vestone/) — 4.5 km
-- [Anfo](/brescia/comuni/anfo/) — 5.3 km
-
-## Comuni confinanti
-
-- [Anfo](/brescia/comuni/anfo/)
-- [Bagolino](/brescia/comuni/bagolino/)
-- [Collio](/brescia/comuni/collio/)
-- [Idro](/brescia/comuni/idro/)
-- [Pertica Bassa](/brescia/comuni/pertica-bassa/)
-- [Treviso Bresciano](/brescia/comuni/treviso-bresciano/)
-- [Vestone](/brescia/comuni/vestone/)
+- [Treviso Bresciano](../treviso-bresciano/) — 2.3 km
+- [Idro](../idro/) — 3.4 km
+- [Pertica Alta](../pertica-alta/) — 3.9 km
+- [Vestone](../vestone/) — 4.5 km
+- [Anfo](../anfo/) — 5.3 km

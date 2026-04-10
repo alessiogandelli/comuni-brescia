@@ -3,25 +3,14 @@ name: "Isorella"
 slug: "isorella"
 province: "BS"
 population: 4204
-area: 15.37
+area: 14.23
 coordinates: [45.3071, 10.3181]
-centroid: [45.30737, 10.31622]
-hasHistoric: true
-hasFood: true
-poiCount: 16
 nearby:
   - "gottolengo"
   - "visano"
   - "remedello"
   - "calvisano"
   - "gambara"
-bordering:
-  - "calvisano"
-  - "gambara"
-  - "ghedi"
-  - "gottolengo"
-  - "remedello"
-  - "visano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,53 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Isorella si trova a circa 27 km a sud-est di Brescia. Superficie: 15.37 km². Densità abitativa: 274 ab/km². Strade principali: SP24.
+Isorella si trova a circa 27 km a sud-est di Brescia. Superficie: 14.23 km². Densità abitativa: 295 ab/km².
 
 ## Cosa fare
 
-- Parco Vaso Fontana — Parco
-- Parco Giovanni Falcone e Paolo Borsellino — Parco
-- Visita: **Antico Cimitero**
-- Visita: **Termine Muto**
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Antico Cimitero** — Sito archeologico
-- **Termine Muto** — Sito archeologico
-- **Monumento all'A.V.I.S.** — Monumento
-- **Monumento agli Alpini** — Monumento
-
-## Dove mangiare
-
-- **Bar Naviglio** (Bar)
-- **Paleo Pub** (Bar)
-- **Agriturismo Il Giardino** (Ristorante)
-
-## Servizi
-
-- **Biblioteca Comunale di Isorella** — Biblioteca
-- **Polimabulatori** — Ambulatorio
-- **Alimentari** — Alimentari
-- **Farmacia** — Farmacia
-- **Italmark** — Supermercato
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Strada provinciale: **SP24**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Gottolengo](/brescia/comuni/gottolengo/) — 3.4 km
-- [Visano](/brescia/comuni/visano/) — 4.6 km
-- [Remedello](/brescia/comuni/remedello/) — 5.2 km
-- [Calvisano](/brescia/comuni/calvisano/) — 5.5 km
-- [Gambara](/brescia/comuni/gambara/) — 6.3 km
-
-## Comuni confinanti
-
-- [Calvisano](/brescia/comuni/calvisano/)
-- [Gambara](/brescia/comuni/gambara/)
-- [Ghedi](/brescia/comuni/ghedi/)
-- [Gottolengo](/brescia/comuni/gottolengo/)
-- [Remedello](/brescia/comuni/remedello/)
-- [Visano](/brescia/comuni/visano/)
+- [Gottolengo](../gottolengo/) — 3.4 km
+- [Visano](../visano/) — 4.6 km
+- [Remedello](../remedello/) — 5.2 km
+- [Calvisano](../calvisano/) — 5.5 km
+- [Gambara](../gambara/) — 6.3 km

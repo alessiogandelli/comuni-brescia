@@ -3,27 +3,14 @@ name: "Malonno"
 slug: "malonno"
 province: "BS"
 population: 3192
-area: 30.71
+area: 44.35
 coordinates: [46.1218, 10.3154]
-centroid: [46.12188, 10.2979]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-hasStation: true
-poiCount: 27
 nearby:
   - "cedegolo"
   - "cevo"
   - "sonico"
   - "edolo"
   - "saviore-delladamello"
-bordering:
-  - "berzo-demo"
-  - "corteno-golgi"
-  - "edolo"
-  - "paisco-loveno"
-  - "sonico"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,57 +25,28 @@ fact: ""
 
 ## Contesto geografico
 
-Malonno si trova a circa 65 km a nord di Brescia. Superficie: 30.71 km². Densità abitativa: 104 ab/km². Strade principali: SS42.
+Malonno si trova a circa 65 km a nord di Brescia. Superficie: 44.35 km². Densità abitativa: 72 ab/km².
 
 ## Cosa fare
 
-- Monte Crap (2075 m)
-- Palone di Bondone (2530 m)
-- Il Pilone (2173 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Incisioni rupestri** — Sito archeologico
-- **Crus dala Madalena** — Monumento
-- **Mulino Salvagni** — Monumento
-- **crucifis de planter** — Monumento
-
-## Dove mangiare
-
-- **Bar Gelmi Merice** (Bar)
-- **Bar oratorio** (Bar)
-- **Bar Alexander** (Caffè)
-- **Ristorante Pizzeria Eternità** (Ristorante)
-- **Pizzeria Il Veliero** (Ristorante)
-- **Pizzeria King's Pizza** (Ristorante)
-
-## Dove dormire
-
-- **B&B Il Pettirosso** (B&B / Affittacamere)
-- **Albergo Eternità** (Hotel)
-
-## Servizi
-
-- **L'Antica Bottega** — Alimentari
-- **Forneria Pasticceria Salvetti** — Panificio
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
-- Stazione ferroviaria: **Malonno**
-- Strada provinciale: **SS42**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Cedegolo](/brescia/comuni/cedegolo/) — 4.3 km
-- [Cevo](/brescia/comuni/cevo/) — 5.4 km
-- [Sonico](/brescia/comuni/sonico/) — 5.6 km
-- [Edolo](/brescia/comuni/edolo/) — 6.3 km
-- [Saviore dell'Adamello](/brescia/comuni/saviore-delladamello/) — 6.9 km
-
-## Comuni confinanti
-
-- [Berzo Demo](/brescia/comuni/berzo-demo/)
-- [Corteno Golgi](/brescia/comuni/corteno-golgi/)
-- [Edolo](/brescia/comuni/edolo/)
-- [Paisco Loveno](/brescia/comuni/paisco-loveno/)
-- [Sonico](/brescia/comuni/sonico/)
+- [Cedegolo](../cedegolo/) — 4.3 km
+- [Cevo](../cevo/) — 5.4 km
+- [Sonico](../sonico/) — 5.6 km
+- [Edolo](../edolo/) — 6.3 km
+- [Saviore dell'Adamello](../saviore-delladamello/) — 6.9 km

@@ -3,27 +3,14 @@ name: "Puegnago del Garda"
 slug: "puegnago-del-garda"
 province: "BS"
 population: 3333
-area: 10.98
+area: 10.09
 coordinates: [45.5684, 10.5137]
-centroid: [45.57109, 10.51076]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-poiCount: 41
 nearby:
   - "polpenazze-del-garda"
   - "san-felice-del-benaco"
   - "roe-volciano"
   - "soiano-del-lago"
   - "manerba-del-garda"
-bordering:
-  - "gavardo"
-  - "manerba-del-garda"
-  - "muscoline"
-  - "polpenazze-del-garda"
-  - "salo"
-  - "san-felice-del-benaco"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,13 +25,13 @@ fact: ""
 
 ## Contesto geografico
 
-Puegnago del Garda si trova a circa 24 km a est di Brescia. Superficie: 10.98 km². Densità abitativa: 304 ab/km². Strade principali: SP BS 572.
+Puegnago del Garda si trova a circa 24 km a est di Brescia. Superficie: 10.09 km². Densità abitativa: 330 ab/km².
 
 ## Cosa fare
 
-- Monte Valsella (247 m)
-- Monte Mondero (240 m)
-- Monte Guarda (253 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
@@ -52,50 +39,14 @@ Puegnago del Garda si trova a circa 24 km a est di Brescia. Superficie: 10.98 km
 - Piazza principale
 - Palazzo municipale
 
-## Dove mangiare
-
-- **Bar Dolce Vita** (Caffè)
-- **La Quiete** (Ristorante)
-- **Chi Cerca Trova** (Caffè)
-- **Coruja** (Ristorante)
-- **Fior di Loto** (Ristorante)
-- **La Chicchera** (Caffè)
-
-## Dove dormire
-
-- **Nonna Marì** (B&B / Affittacamere)
-- **Agriturismo La Sercola** (B&B / Affittacamere)
-- **Bed and Breakfast Monteacuto** (B&B / Affittacamere)
-- **Il Nido** (B&B / Affittacamere)
-- **La Villetta sul Garda** (B&B / Affittacamere)
-- **Valle degli Ulivi** (B&B / Affittacamere)
-
-## Servizi
-
-- **Supermercato** — Supermercato
-- **Farmacia** — Farmacia
-- **Family Market** — Supermercato
-- **Centro medico del Garda** — Ambulatorio
-- **EuroSpin** — Supermercato
-- **Mata** — Ciclofficina
-
 ## Come arrivare
 
-- Strada provinciale: **SP BS 572**
+- Raggiungibile in auto via strade provinciali
 
 ## Comuni vicini
 
-- [Polpenazze del Garda](/brescia/comuni/polpenazze-del-garda/) — 1.8 km
-- [San Felice del Benaco](/brescia/comuni/san-felice-del-benaco/) — 2.8 km
-- [Roè Volciano](/brescia/comuni/roe-volciano/) — 3.1 km
-- [Soiano del Lago](/brescia/comuni/soiano-del-lago/) — 3.3 km
-- [Manerba del Garda](/brescia/comuni/manerba-del-garda/) — 3.5 km
-
-## Comuni confinanti
-
-- [Gavardo](/brescia/comuni/gavardo/)
-- [Manerba Del Garda](/brescia/comuni/manerba-del-garda/)
-- [Muscoline](/brescia/comuni/muscoline/)
-- [Polpenazze Del Garda](/brescia/comuni/polpenazze-del-garda/)
-- [Salo](/brescia/comuni/salo/)
-- [San Felice Del Benaco](/brescia/comuni/san-felice-del-benaco/)
+- [Polpenazze del Garda](../polpenazze-del-garda/) — 1.8 km
+- [San Felice del Benaco](../san-felice-del-benaco/) — 2.8 km
+- [Roè Volciano](../roe-volciano/) — 3.1 km
+- [Soiano del Lago](../soiano-del-lago/) — 3.3 km
+- [Manerba del Garda](../manerba-del-garda/) — 3.5 km

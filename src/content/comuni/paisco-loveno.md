@@ -3,29 +3,14 @@ name: "Paisco Loveno"
 slug: "paisco-loveno"
 province: "BS"
 population: 185
-area: 35.61
+area: 23.05
 coordinates: [46.0561, 10.2449]
-centroid: [46.07387, 10.23574]
-hasHistoric: true
-hasNature: true
-hasAccommodation: true
-poiCount: 13
 nearby:
   - "berzo-demo"
   - "losine"
   - "lozio"
   - "sellero"
   - "capo-di-ponte"
-bordering:
-  - "berzo-demo"
-  - "capo-di-ponte"
-  - "cerveno"
-  - "corteno-golgi"
-  - "malonno"
-  - "ono-san-pietro"
-  - "schilpario"
-  - "sellero"
-  - "teglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,22 +25,19 @@ fact: ""
 
 ## Contesto geografico
 
-Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 35.61 km². Densità abitativa: 5 ab/km².
+Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 23.05 km². Densità abitativa: 8 ab/km².
 
 ## Cosa fare
 
-- Monte dei Matti (2322 m)
-- Cima (2310 m)
-- Monte Gaviera (2293 m)
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Cascina del Latte** — Rovine
-
-## Dove dormire
-
-- **Rifugio Torsoleto** (Rifugio alpino)
-- **Bivacco Davide Salvadori** (Bivacco)
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
@@ -63,20 +45,8 @@ Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 35.61 km². 
 
 ## Comuni vicini
 
-- [Berzo Demo](/brescia/comuni/berzo-demo/) — 1.3 km
-- [Losine](/brescia/comuni/losine/) — 6.1 km
-- [Lozio](/brescia/comuni/lozio/) — 6.1 km
-- [Sellero](/brescia/comuni/sellero/) — 7.5 km
-- [Capo di Ponte](/brescia/comuni/capo-di-ponte/) — 8.3 km
-
-## Comuni confinanti
-
-- [Berzo Demo](/brescia/comuni/berzo-demo/)
-- [Capo Di Ponte](/brescia/comuni/capo-di-ponte/)
-- [Cerveno](/brescia/comuni/cerveno/)
-- [Corteno Golgi](/brescia/comuni/corteno-golgi/)
-- [Malonno](/brescia/comuni/malonno/)
-- [Ono San Pietro](/brescia/comuni/ono-san-pietro/)
-- [Schilpario](/brescia/comuni/schilpario/)
-- [Sellero](/brescia/comuni/sellero/)
-- [Teglio](/brescia/comuni/teglio/)
+- [Berzo Demo](../berzo-demo/) — 1.3 km
+- [Losine](../losine/) — 6.1 km
+- [Lozio](../lozio/) — 6.1 km
+- [Sellero](../sellero/) — 7.5 km
+- [Capo di Ponte](../capo-di-ponte/) — 8.3 km

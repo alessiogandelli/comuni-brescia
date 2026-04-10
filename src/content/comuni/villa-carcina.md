@@ -3,26 +3,14 @@ name: "Villa Carcina"
 slug: "villa-carcina"
 province: "BS"
 population: 10843
-area: 14.44
+area: 14.4
 coordinates: [45.6331, 10.1951]
-centroid: [45.63652, 10.19211]
-hasHistoric: true
-hasNature: true
-hasFood: true
-hasAccommodation: true
-poiCount: 39
 nearby:
   - "sarezzo"
   - "concesio"
   - "lumezzane"
   - "collebeato"
   - "ome"
-bordering:
-  - "brione"
-  - "concesio"
-  - "gussago"
-  - "lumezzane"
-  - "sarezzo"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,43 +25,19 @@ fact: ""
 
 ## Contesto geografico
 
-Villa Carcina si trova a circa 10 km a nord di Brescia. Superficie: 14.44 km². Densità abitativa: 751 ab/km².
+Villa Carcina si trova a circa 10 km a nord di Brescia. Superficie: 14.4 km². Densità abitativa: 753 ab/km².
 
 ## Cosa fare
 
-- Dosso Zoadello (615 m)
-- Monte Corto (634 m)
-- Büs de le Gregnapole (380 m)
-- Parco Comunale — Parco
-- Parco Monsignor Angelo Brignani — Parco
+- Passeggiata nel centro storico
+- Percorsi ciclopedonali nei dintorni
+- Visita alle chiese e architetture locali
 
 ## Luoghi importanti
 
-- **Castello di Villa** — Castello
-- **Aro Super Ischia** — Sito archeologico
-- **Villa Gina** — Rovine
-
-## Dove mangiare
-
-- **Pizzeria Margherita** (Ristorante)
-- **Antico Caffè** (Caffè)
-- **Trocadero** (Pub)
-- **Birreria Bad Monkey** (Pub)
-- **Caffetteria Dolce Vita** (Caffè)
-- **Bar Trattoria Discepoli** (Ristorante)
-
-## Dove dormire
-
-- **Casa Carlì** (Bivacco)
-
-## Servizi
-
-- **Alimentari** — Alimentari
-- **LIDL** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **Oratorio San Luigi** — Centro civico
-- **Biblioteca comunale di Villa Carcina Paolo da Caylina** — Biblioteca
-- **Italmark** — Supermercato
+- Chiesa parrocchiale
+- Piazza principale
+- Palazzo municipale
 
 ## Come arrivare
 
@@ -81,16 +45,8 @@ Villa Carcina si trova a circa 10 km a nord di Brescia. Superficie: 14.44 km². 
 
 ## Comuni vicini
 
-- [Sarezzo](/brescia/comuni/sarezzo/) — 2.3 km
-- [Concesio](/brescia/comuni/concesio/) — 4.2 km
-- [Lumezzane](/brescia/comuni/lumezzane/) — 5.4 km
-- [Collebeato](/brescia/comuni/collebeato/) — 5.4 km
-- [Ome](/brescia/comuni/ome/) — 5.6 km
-
-## Comuni confinanti
-
-- [Brione](/brescia/comuni/brione/)
-- [Concesio](/brescia/comuni/concesio/)
-- [Gussago](/brescia/comuni/gussago/)
-- [Lumezzane](/brescia/comuni/lumezzane/)
-- [Sarezzo](/brescia/comuni/sarezzo/)
+- [Sarezzo](../sarezzo/) — 2.3 km
+- [Concesio](../concesio/) — 4.2 km
+- [Lumezzane](../lumezzane/) — 5.4 km
+- [Collebeato](../collebeato/) — 5.4 km
+- [Ome](../ome/) — 5.6 km
