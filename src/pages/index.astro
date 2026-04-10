@@ -8,7 +8,7 @@ comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 // Pick a random comune for the hero
 const randomComune = comuni[Math.floor(Math.random() * comuni.length)];
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout

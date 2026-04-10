@@ -5,7 +5,7 @@ import Layout from '../../layouts/Layout.astro';
 const comuni = await getCollection('comuni');
 comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // Calculate stats
 const totalPopulation = comuni.reduce((sum, c) => sum + c.data.population, 0);
