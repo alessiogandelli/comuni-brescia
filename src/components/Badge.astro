@@ -1,0 +1,43 @@
+---
+/**
+ * Badge component for tags, categories, and status indicators
+ * Provides consistent styling for pills and badges across the site
+ */
+export interface Props {
+  variant?: 'default' | 'primary' | 'nature' | 'historic' | 'sport' | 'food' | 'outline';
+  size?: 'sm' | 'md' | 'lg';
+  class?: string;
+  icon?: string;
+}
+
+const { 
+  variant = 'default', 
+  size = 'md',
+  class: className = '',
+  icon
+} = Astro.props;
+
+const sizeClasses = {
+  sm: 'text-xs px-2 py-0.5 gap-1',
+  md: 'text-sm px-3 py-1 gap-1.5',
+  lg: 'text-base px-4 py-1.5 gap-2'
+};
+
+const variantClasses = {
+  default: 'bg-slate-100 text-slate-700 border border-slate-200',
+  primary: 'bg-blue-50 text-blue-700 border border-blue-200',
+  nature: 'bg-emerald-50 text-emerald-700 border border-emerald-200',
+  historic: 'bg-amber-50 text-amber-700 border border-amber-200',
+  sport: 'bg-orange-50 text-orange-700 border border-orange-200',
+  food: 'bg-rose-50 text-rose-700 border border-rose-200',
+  outline: 'bg-transparent text-slate-700 border border-slate-300'
+};
+
+const baseClasses = 'inline-flex items-center rounded-full font-semibold';
+const allClasses = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
+---
+
+<span class={allClasses}>
+  {icon && <span class="inline-block">{icon}</span>}
+  <slot />
+</span>

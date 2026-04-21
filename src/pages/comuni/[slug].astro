@@ -1,181 +1,39 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 
-export async function getStaticPaths() {
-  const comuni = await getCollection('comuni');
-  return comuni.map((comune) => ({
-    params: { slug: comune.id },
-    props: { comune },
-  }));
-}
+const comuni = await getCollection('comuni');
+comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 
-const { comune } = Astro.props;
-const { Content } = await render(comune);
-
-// Resolve nearby comuni entries
-const allComuni = await getCollection('comuni');
-const nearbyComuni = comune.data.nearby
-  .map((slug) => allComuni.find((c) => c.id === slug))
-  .filter(Boolean);
-
-// Resolve bordering comuni entries
-const borderingComuni = comune.data.bordering
-  ? comune.data.bordering
-      .map((slug) => allComuni.find((c) => c.id === slug))
-      .filter(Boolean)
-  : [];
-
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-
-const pageDescription = `Scopri ${comune.data.name}: cosa fare, luoghi importanti, storia e informazioni utili sul comune della provincia di ${comune.data.province}.`;
-const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.id}`;
-
-// Helper to format numbers
-const formatNumber = (num: number | undefined) => num?.toLocaleString('it-IT') || '—';
-
-// Feature badges configuration
-const featureBadges = [
-  { key: 'hasHistoric', label: '🏛️ Storico', color: '#8b5cf6' },
-  { key: 'hasNature', label: '🏔️ Natura', color: '#10b981' },
-  { key: 'hasSport', label: '⛷️ Sport', color: '#f59e0b' },
-  { key: 'hasFood', label: '🍽️ Ristoranti', color: '#ef4444' },
-  { key: 'hasAccommodation', label: '🏨 Alloggi', color: '#3b82f6' },
-  { key: 'hasStation', label: '🚂 Stazione', color: '#6366f1' },
-] as const;
-
-const activeFeatures = featureBadges.filter(
-  (badge) => comune.data[badge.key as keyof typeof comune.data]
-);
+const base = import.meta.env.BASE_URL;
 ---
 
 <Layout
-  title={comune.data.name}
-  description={pageDescription}
-  canonicalUrl={canonicalUrl}
+  title="Tutti i Comuni"
+  description="Elenco completo dei comuni della provincia di Brescia con informazioni su popolazione, posizione e luoghi da visitare."
+  canonicalUrl={`${import.meta.env.SITE}${base}/comuni`}
 >
-  <!-- Breadcrumb -->
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href={base || '/'}>Home</a>
     <span aria-hidden="true">›</span>
-    <a href={`${base}/comuni`}>Comuni</a>
-    <span aria-hidden="true">›</span>
-    <span aria-current="page">{comune.data.name}</span>
+    <span aria-current="page">Comuni</span>
   </nav>
 
-  <!-- Comune header with enhanced layout -->
-  <header class="comune-hero">
-    <div class="comune-hero-title">
-      <h1>{comune.data.name}</h1>
-      <span class="province-badge">Provincia di {comune.data.province}</span>
-    </div>
+  <h1>Tutti i Comuni</h1>
+  <p>Elenco completo dei {comuni.length} comuni della provincia di Brescia presenti nella guida.</p>
 
-    <!-- Stats grid -->
-    <div class="stat-grid">
-      <div class="stat-card">
-        <span class="stat-value">{formatNumber(comune.data.population)}</span>
-        <span class="stat-label">👥 Abitanti</span>
-      </div>
-      {comune.data.area && (
-        <div class="stat-card">
-          <span class="stat-value">{comune.data.area.toFixed(1)}</span>
-          <span class="stat-label">📏 km²</span>
-        </div>
-      )}
-      {comune.data.elevation && (
-        <div class="stat-card">
-          <span class="stat-value">{comune.data.elevation}</span>
-          <span class="stat-label">⛰️ m s.l.m.</span>
-        </div>
-      )}
-      {comune.data.poiCount && comune.data.poiCount > 0 && (
-        <div class="stat-card">
-          <span class="stat-value">{comune.data.poiCount}</span>
-          <span class="stat-label">📍 Punti di interesse</span>
-        </div>
-      )}
-    </div>
-
-    <!-- Feature badges -->
-    {activeFeatures.length > 0 && (
-      <div class="feature-badges">
-        {activeFeatures.map((feature) => (
-          <span class="badge" style={`background-color: ${feature.color}15; color: ${feature.color}; border-color: ${feature.color}40;`}>
-            {feature.label}
-          </span>
-        ))}
-      </div>
-    )}
-  </header>
-
-  <!-- Intro section (if available) -->
-  {comune.data.intro && comune.data.intro.trim() && (
-    <div class="intro-section">
-      <p>{comune.data.intro}</p>
-    </div>
-  )}
-
-  <!-- Fun fact callout (if available) -->
-  {comune.data.fact && comune.data.fact.trim() && (
-    <aside class="fact-box">
-      <div class="fact-icon">💡</div>
-      <div class="fact-content">
-        <h3 class="fact-title">Lo sapevi?</h3>
-        <p>{comune.data.fact}</p>
-      </div>
-    </aside>
-  )}
-
-  <!-- Main content from markdown -->
-  <article class="comune-content">
-    <Content />
-  </article>
-
-  <!-- Bordering comuni -->
-  {borderingComuni.length > 0 && (
-    <aside class="nearby-section">
-      <p class="nearby-title">🗺️ Comuni confinanti</p>
-      <ul class="nearby-list">
-        {borderingComuni.map((bordering) => (
-          <li>
-            <a href={`${base}/comuni/${bordering!.id}`}>
-              {bordering!.data.name}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </aside>
-  )}
-
-  <!-- Nearby comuni -->
-  {nearbyComuni.length > 0 && (
-    <aside class="nearby-section">
-      <p class="nearby-title">📍 Comuni vicini</p>
-      <ul class="nearby-list">
-        {nearbyComuni.map((nearby) => (
-          <li>
-            <a href={`${base}/comuni/${nearby!.id}`}>
-              {nearby!.data.name}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </aside>
-  )}
-
-  <!-- Randocomune CTA -->
-  <div class="rando-cta">
-    <div class="rando-cta-text">
-      <h3>Esplora altri comuni</h3>
-      <p>Hai visitato {comune.data.name}? Con <strong>Randocomune</strong> scopri un comune a caso e pianifica la prossima avventura nella provincia di Brescia.</p>
-    </div>
-    <a
-      class="rando-cta-btn"
-      href="https://app.ranturismo.com/randocomune"
-      target="_blank"
-      rel="noopener"
-    >
-      🎲 Prova Randocomune →
-    </a>
+  <div class="card-grid" style="margin-top: var(--spacing-lg);">
+    {comuni.map((comune) => (
+      <article class="card">
+        <h2 class="card-title">{comune.data.name}</h2>
+        <p class="card-meta">
+          🏛️ Prov. {comune.data.province} &nbsp;·&nbsp;
+          👥 {comune.data.population.toLocaleString('it-IT')} ab.
+        </p>
+        <a class="card-link" href={`${base}/comuni/${comune.id}`}>
+          Scopri {comune.data.name} →
+        </a>
+      </article>
+    ))}
   </div>
 </Layout>

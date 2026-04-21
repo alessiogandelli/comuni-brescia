@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import ComuneCard from '../components/ComuneCard.astro';
+import Icon from '../components/Icon.astro';
 
 const comuni = await getCollection('comuni');
 comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
@@ -8,75 +10,110 @@ comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 // Pick a random comune for the hero
 const randomComune = comuni[Math.floor(Math.random() * comuni.length)];
 
+// Calculate stats
+const totalPopulation = comuni.reduce((sum, c) => sum + c.data.population, 0);
+const totalArea = comuni.reduce((sum, c) => sum + (c.data.area || 0), 0);
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout
   title="Comuni Brescia"
-  description="Guida completa ai comuni della provincia di Brescia: storia, luoghi da visitare, popolazione e informazioni utili."
+  description="Guida completa a tutti i comuni della provincia di Brescia: storia, luoghi da visitare, popolazione e informazioni utili per esplorare il territorio bresciano."
   canonicalUrl={`${import.meta.env.SITE}${base}/`}
 >
-  <section class="hero-featured" style="margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-md)) var(--spacing-xl);">
+  <!-- Random Comune Hero -->
+  <div class="hero-random">
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-      <div class="hero-label">Oggi ti portiamo a scoprire</div>
+      <span class="hero-label">Comune del giorno</span>
       <h1 class="hero-title">{randomComune.data.name}</h1>
-      <div class="hero-meta">
-        <span class="hero-badge">📍 {randomComune.data.province}</span>
-        <span class="hero-badge">👥 {randomComune.data.population.toLocaleString('it-IT')} abitanti</span>
-        {randomComune.data.boundary?.areaKm2 && (
-          <span class="hero-badge">📐 {randomComune.data.boundary.areaKm2.toFixed(1)} km²</span>
-        )}
-      </div>
-      {randomComune.data.description && (
-        <p class="hero-description">{randomComune.data.description.substring(0, 180)}...</p>
+      {randomComune.data.fact && (
+        <p class="hero-description">{randomComune.data.fact}</p>
       )}
       <div class="hero-actions">
         <a class="hero-btn-primary" href={`${base}/comuni/${randomComune.id}`}>
-          Esplora {randomComune.data.name} →
+          Scopri {randomComune.data.name}
+          <Icon name="arrow-right" size={16} />
         </a>
-        <button class="hero-btn-secondary" onclick="window.location.reload()">
-          🎲 Cambia comune
+        <button class="hero-btn-shuffle" onclick="location.reload()">
+          <Icon name="compass" size={16} />
+          Altro comune
         </button>
       </div>
     </div>
+  </div>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <strong>{comuni.length}</strong> Comuni
+    </div>
+    <span class="stat-divider">·</span>
+    <div class="stat-item">
+      <strong>{(totalPopulation / 1000000).toFixed(2)}M</strong> Abitanti
+    </div>
+    <span class="stat-divider">·</span>
+    <div class="stat-item">
+      <strong>{Math.round(totalArea)}</strong> km² territorio
+    </div>
+  </div>
+
+  <section class="featured-section">
+    <div class="section-header">
+      <h2 class="section-title">Comuni in evidenza</h2>
+      <p class="section-description">
+        Alcuni dei comuni più interessanti da scoprire nella provincia di Brescia
+      </p>
+    </div>
+
+    <div class="filter-bar">
+      <div class="search-container">
+        <Icon name="search" size={18} class="search-icon" />
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Cerca un comune per nome..."
+          aria-label="Cerca un comune"
+        />
+      </div>
+      <div class="filter-results" id="filter-results"></div>
+    </div>
+
+    <div class="card-grid" id="comuni-grid">
+      {comuni.map((comune) => (
+        <div data-name={comune.data.name.toLowerCase()}>
+          <ComuneCard comune={{
+            slug: comune.id,
+            name: comune.data.name,
+            population: comune.data.population,
+            area: comune.data.area,
+            elevation: comune.data.elevation,
+            poiCount: comune.data.poiCount,
+            hasHistoric: comune.data.hasHistoric,
+            hasNature: comune.data.hasNature,
+            hasSport: comune.data.hasSport,
+            hasFood: comune.data.hasFood,
+            hasAccommodation: comune.data.hasAccommodation,
+            hasStation: comune.data.hasStation,
+            fact: comune.data.fact,
+          }} />
+        </div>
+      ))}
+    </div>
+
+    <div class="view-all-cta">
+      <a href={`${base}/comuni`} class="view-all-btn">
+        Vedi tutti i {comuni.length} comuni
+        <Icon name="arrow-right" size={16} />
+      </a>
+    </div>
   </section>
-
-  <div class="page-intro">
-    <h2 class="section-title">Tutti i Comuni della Provincia di Brescia</h2>
-    <p class="section-subtitle">
-      Esplora {comuni.length} comuni bresciani: storia, cultura, luoghi da visitare e informazioni utili.
-    </p>
-  </div>
-
-  <div class="filter-bar">
-    <input
-      type="search"
-      id="search-input"
-      placeholder="🔍 Cerca un comune per nome..."
-      aria-label="Cerca un comune"
-    />
-    <div class="filter-results" id="filter-results"></div>
-  </div>
-
-  <div class="card-grid" id="comuni-grid">
-    {comuni.map((comune) => (
-      <article class="card" data-name={comune.data.name.toLowerCase()}>
-        <h3 class="card-title">{comune.data.name}</h3>
-        <p class="card-meta">
-          {comune.data.population.toLocaleString('it-IT')} abitanti
-          {comune.data.boundary?.areaKm2 && ` · ${comune.data.boundary.areaKm2.toFixed(0)} km²`}
-        </p>
-        <a class="card-link" href={`${base}/comuni/${comune.id}`}>
-          Scopri di più →
-        </a>
-      </article>
-    ))}
-  </div>
 </Layout>
 
 <script>
   const input = document.getElementById('search-input') as HTMLInputElement;
-  const cards = document.querySelectorAll<HTMLElement>('#comuni-grid .card');
+  const cards = document.querySelectorAll<HTMLElement>('#comuni-grid > div');
   const resultsDiv = document.getElementById('filter-results');
 
   function updateFilter() {
@@ -102,178 +139,300 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   }
 
   input?.addEventListener('input', updateFilter);
+  
+  // Add scroll reveal animation
+  if (typeof IntersectionObserver !== 'undefined') {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('card-revealed');
+          }, index * 30);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    document.querySelectorAll('#comuni-grid > div').forEach((card) => {
+      observer.observe(card);
+    });
+  }
 </script>
 
 <style>
-  .hero-featured {
-    background: linear-gradient(135deg, #3b5bdb 0%, #2845b8 50%, #1a3aa8 100%);
-    color: #fff;
-    padding: 3.5rem 1.5rem;
-    border-radius: 0 0 1rem 1rem;
+  /* Random Comune Hero */
+  .hero-random {
     position: relative;
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: calc(var(--spacing-2xl) * -1) 0 var(--spacing-2xl);
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+    border-radius: var(--radius-xl);
     overflow: hidden;
   }
 
-  .hero-featured::before {
-    content: '';
+  .hero-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: 
-      radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
-      radial-gradient(circle at 80% 80%, rgba(255,255,255,0.08) 0%, transparent 50%);
-    pointer-events: none;
+    inset: 0;
+    background: radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
   }
 
   .hero-content {
     position: relative;
-    max-width: 800px;
-    margin: 0 auto;
+    z-index: 1;
     text-align: center;
+    padding: var(--spacing-2xl);
+    max-width: 700px;
   }
 
   .hero-label {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    color: #fff;
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-full);
     font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: rgba(255,255,255,0.8);
     font-weight: 600;
-    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-md);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .hero-title {
-    font-size: 3.5rem;
+    font-family: var(--font-sans);
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
     color: #fff;
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.03em;
+    margin-bottom: var(--spacing-md);
+    font-weight: 700;
     line-height: 1.1;
-    font-weight: 800;
-  }
-
-  .hero-meta {
-    display: flex;
-    justify-content: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
-  }
-
-  .hero-badge {
-    background: rgba(255,255,255,0.2);
-    backdrop-filter: blur(10px);
-    padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    border: 1px solid rgba(255,255,255,0.3);
+    letter-spacing: -0.025em;
   }
 
   .hero-description {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: rgba(255,255,255,0.95);
-    margin-bottom: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: var(--spacing-2xl);
+    line-height: 1.6;
   }
 
   .hero-actions {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: var(--spacing-md);
     flex-wrap: wrap;
   }
 
   .hero-btn-primary {
-    background: #fff;
-    color: var(--color-primary);
-    padding: 0.875rem 2rem;
-    border-radius: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #3B82F6;
+    border-radius: var(--radius-lg);
     font-weight: 700;
-    font-size: 1rem;
-    transition: all 0.2s;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-    border: none;
-    cursor: pointer;
+    font-size: 1.0625rem;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
   .hero-btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 25px rgba(0,0,0,0.2);
-    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   }
 
-  .hero-btn-secondary {
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(10px);
+  .hero-btn-shuffle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 1.75rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
     color: #fff;
-    padding: 0.875rem 1.75rem;
-    border-radius: 0.75rem;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: var(--radius-lg);
     font-weight: 600;
     font-size: 1rem;
-    transition: all 0.2s;
-    border: 1px solid rgba(255,255,255,0.3);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     font-family: inherit;
   }
 
-  .hero-btn-secondary:hover {
-    background: rgba(255,255,255,0.25);
+  .hero-btn-shuffle:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.6);
     transform: translateY(-2px);
   }
 
-  .page-intro {
-    text-align: center;
-    margin-bottom: 2.5rem;
+  /* Stats Bar */
+  .stats-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+    padding: var(--spacing-lg) var(--spacing-md);
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-3xl);
+    font-size: 1rem;
+    color: #64748B;
   }
 
-  .section-title {
-    font-size: 2rem;
-    color: var(--color-text);
-    margin-bottom: 0.75rem;
+  .stat-item strong {
+    color: #0F172A;
     font-weight: 700;
   }
 
-  .section-subtitle {
-    font-size: 1.05rem;
-    color: var(--color-text-muted);
+  .stat-divider {
+    color: #CBD5E1;
+    font-weight: 300;
+  }
+
+  /* Featured Section */
+  .featured-section {
+    margin-bottom: var(--spacing-3xl);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .section-title {
+    font-family: var(--font-sans);
+    font-size: 2.25rem;
+    color: #0F172A;
+    margin-bottom: var(--spacing-sm);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  .section-description {
+    font-size: 1.0625rem;
+    color: #64748B;
     max-width: 600px;
     margin: 0 auto;
   }
 
+  /* Search Container */
+  .search-container {
+    position: relative;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #64748B;
+    pointer-events: none;
+  }
+
+  .search-container input {
+    padding-left: 3rem;
+  }
+
   .filter-results {
     display: none;
-    margin-top: 0.5rem;
+    text-align: center;
+    margin-top: var(--spacing-sm);
     font-size: 0.875rem;
-    color: var(--color-text-muted);
+    color: #64748B;
     font-weight: 500;
   }
 
+  /* View All CTA */
+  .view-all-cta {
+    margin-top: var(--spacing-2xl);
+    text-align: center;
+  }
+
+  .view-all-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #FFFFFF;
+    color: #0F172A;
+    border: 2px solid #E2E8F0;
+    border-radius: var(--radius-lg);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+  }
+
+  .view-all-btn:hover {
+    border-color: #3B82F6;
+    color: #3B82F6;
+    background-color: #EFF6FF;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  }
+
+  /* Card Reveal Animation */
+  #comuni-grid > div {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+
+  #comuni-grid > div.card-revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Responsive */
   @media (max-width: 768px) {
-    .hero-title {
-      font-size: 2.5rem;
+    .hero-random {
+      min-height: 320px;
+      margin: 0 0 var(--spacing-xl);
     }
 
-    .hero-description {
-      font-size: 1rem;
+    .hero-title {
+      font-size: clamp(2.5rem, 10vw, 3.5rem);
     }
 
     .hero-actions {
       flex-direction: column;
-      align-items: stretch;
+      width: 100%;
     }
 
     .hero-btn-primary,
-    .hero-btn-secondary {
+    .hero-btn-shuffle {
       width: 100%;
-      text-align: center;
+      justify-content: center;
+    }
+
+    .stats-bar {
+      font-size: 0.9375rem;
+      gap: var(--spacing-sm);
     }
 
     .section-title {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .stats-bar {
+      flex-direction: column;
+      gap: var(--spacing-xs);
+      text-align: center;
+    }
+
+    .stat-divider {
+      display: none;
     }
   }
 </style>

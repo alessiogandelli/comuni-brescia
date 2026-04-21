@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import ComuneCard from '../../components/ComuneCard.astro';
+import Icon from '../../components/Icon.astro';
 
 const comuni = await getCollection('comuni');
 comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
@@ -9,7 +11,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // Calculate stats
 const totalPopulation = comuni.reduce((sum, c) => sum + c.data.population, 0);
+const totalArea = comuni.reduce((sum, c) => sum + (c.data.area || 0), 0);
 const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount > 0).length;
+const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
 ---
 
 <Layout
@@ -17,14 +21,8 @@ const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount >
   description="Elenco completo dei comuni della provincia di Brescia con informazioni su popolazione, posizione e luoghi da visitare."
   canonicalUrl={`${import.meta.env.SITE}${base}/comuni`}
 >
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href={base || '/'}>Home</a>
-    <span aria-hidden="true">›</span>
-    <span aria-current="page">Comuni</span>
-  </nav>
-
   <div class="page-header">
-    <h1>Tutti i Comuni</h1>
+    <h1>Tutti i Comuni di Brescia</h1>
     <p class="page-description">
       Esplora i {comuni.length} comuni della provincia di Brescia con informazioni dettagliate su popolazione, luoghi da visitare e servizi.
     </p>
@@ -33,48 +31,102 @@ const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount >
   <!-- Stats row -->
   <div class="stats-row">
     <div class="stat-pill">
-      <strong>{comuni.length}</strong> comuni
+      <Icon name="map-pin" size={16} />
+      <span><strong>{comuni.length}</strong> comuni</span>
     </div>
     <div class="stat-pill">
-      <strong>{totalPopulation.toLocaleString('it-IT')}</strong> abitanti totali
+      <Icon name="users" size={16} />
+      <span><strong>{(totalPopulation / 1000000).toFixed(2)}M</strong> abitanti</span>
     </div>
     <div class="stat-pill">
-      <strong>{comuniWithPOIs}</strong> con POI mappati
+      <Icon name="maximize" size={16} />
+      <span><strong>{Math.round(totalArea)}</strong> km²</span>
     </div>
   </div>
 
   <!-- Search bar -->
   <div class="filter-bar">
-    <input
-      type="search"
-      id="search-input"
-      placeholder="🔍 Cerca un comune..."
-      aria-label="Cerca un comune"
-    />
+    <div class="search-container">
+      <Icon name="search" size={18} class="search-icon" />
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Cerca un comune..."
+        aria-label="Cerca un comune"
+      />
+    </div>
   </div>
 
-  <!-- Feature filter chips -->
-  <div class="filter-chips">
-    <button class="chip" data-filter="all" data-active="true">
-      Tutti
+  <!-- Feature filters -->
+  <div class="feature-filters" id="feature-filters">
+    <button 
+      class="filter-badge" 
+      data-filter="hasHistoric"
+      data-color="#F59E0B"
+      aria-pressed="false"
+      title="Filtra per patrimonio storico"
+    >
+      <Icon name="landmark" size={16} />
+      <span>Storico</span>
     </button>
-    <button class="chip" data-filter="hasHistoric">
-      🏛️ Storico
+    <button 
+      class="filter-badge" 
+      data-filter="hasNature"
+      data-color="#10B981"
+      aria-pressed="false"
+      title="Filtra per natura"
+    >
+      <Icon name="tree-pine" size={16} />
+      <span>Natura</span>
     </button>
-    <button class="chip" data-filter="hasNature">
-      🏔️ Natura
+    <button 
+      class="filter-badge" 
+      data-filter="hasSport"
+      data-color="#3B82F6"
+      aria-pressed="false"
+      title="Filtra per sport"
+    >
+      <Icon name="bike" size={16} />
+      <span>Sport</span>
     </button>
-    <button class="chip" data-filter="hasSport">
-      ⛷️ Sport
+    <button 
+      class="filter-badge" 
+      data-filter="hasFood"
+      data-color="#EF4444"
+      aria-pressed="false"
+      title="Filtra per ristorazione"
+    >
+      <Icon name="utensils" size={16} />
+      <span>Ristorazione</span>
     </button>
-    <button class="chip" data-filter="hasFood">
-      🍽️ Ristoranti
+    <button 
+      class="filter-badge" 
+      data-filter="hasAccommodation"
+      data-color="#8B5CF6"
+      aria-pressed="false"
+      title="Filtra per alloggi"
+    >
+      <Icon name="bed" size={16} />
+      <span>Alloggi</span>
     </button>
-    <button class="chip" data-filter="hasAccommodation">
-      🏨 Alloggi
+    <button 
+      class="filter-badge" 
+      data-filter="hasStation"
+      data-color="#6366F1"
+      aria-pressed="false"
+      title="Filtra per stazione ferroviaria"
+    >
+      <Icon name="train" size={16} />
+      <span>Stazione</span>
     </button>
-    <button class="chip" data-filter="hasStation">
-      🚂 Stazione
+    <button 
+      class="clear-filters" 
+      id="clear-filters"
+      style="display: none;"
+      title="Rimuovi tutti i filtri"
+    >
+      <Icon name="x" size={16} />
+      <span>Pulisci filtri</span>
     </button>
   </div>
 
@@ -90,55 +142,26 @@ const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount >
       if (comune.data.hasStation) features.push('hasStation');
 
       return (
-        <article
-          class="card"
+        <div
           data-name={comune.data.name.toLowerCase()}
           data-features={features.join(',')}
         >
-          <div class="card-header">
-            <h2 class="card-title">{comune.data.name}</h2>
-            {comune.data.poiCount && comune.data.poiCount > 0 && (
-              <span class="poi-count">{comune.data.poiCount} POI</span>
-            )}
-          </div>
-
-          <div class="card-stats">
-            <span class="card-stat">
-              👥 {comune.data.population.toLocaleString('it-IT')}
-            </span>
-            {comune.data.area && (
-              <span class="card-stat">
-                📏 {comune.data.area.toFixed(1)} km²
-              </span>
-            )}
-            {comune.data.elevation && (
-              <span class="card-stat">
-                ⛰️ {comune.data.elevation} m
-              </span>
-            )}
-          </div>
-
-          {features.length > 0 && (
-            <div class="card-badges">
-              {comune.data.hasHistoric && <span class="mini-badge" title="Storico">🏛️</span>}
-              {comune.data.hasNature && <span class="mini-badge" title="Natura">🏔️</span>}
-              {comune.data.hasSport && <span class="mini-badge" title="Sport">⛷️</span>}
-              {comune.data.hasFood && <span class="mini-badge" title="Ristoranti">🍽️</span>}
-              {comune.data.hasAccommodation && <span class="mini-badge" title="Alloggi">🏨</span>}
-              {comune.data.hasStation && <span class="mini-badge" title="Stazione">🚂</span>}
-            </div>
-          )}
-
-          {comune.data.fact && comune.data.fact.trim() && (
-            <p class="card-fact">
-              💡 {comune.data.fact.length > 80 ? comune.data.fact.substring(0, 80) + '...' : comune.data.fact}
-            </p>
-          )}
-
-          <a class="card-link" href={`${base}/comuni/${comune.id}`}>
-            Scopri {comune.data.name} →
-          </a>
-        </article>
+          <ComuneCard comune={{
+            slug: comune.id,
+            name: comune.data.name,
+            population: comune.data.population,
+            area: comune.data.area,
+            elevation: comune.data.elevation,
+            poiCount: comune.data.poiCount,
+            hasHistoric: comune.data.hasHistoric,
+            hasNature: comune.data.hasNature,
+            hasSport: comune.data.hasSport,
+            hasFood: comune.data.hasFood,
+            hasAccommodation: comune.data.hasAccommodation,
+            hasStation: comune.data.hasStation,
+            fact: comune.data.fact,
+          }} />
+        </div>
       );
     })}
   </div>
@@ -148,26 +171,31 @@ const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount >
 
 <script>
   const searchInput = document.getElementById('search-input') as HTMLInputElement;
-  const cards = document.querySelectorAll<HTMLElement>('#comuni-grid .card');
-  const filterChips = document.querySelectorAll<HTMLButtonElement>('.filter-chips .chip');
+  const cards = document.querySelectorAll<HTMLElement>('#comuni-grid > div');
   const resultsCount = document.getElementById('results-count');
+  const filterBadges = document.querySelectorAll<HTMLButtonElement>('.filter-badge');
+  const clearFiltersBtn = document.getElementById('clear-filters') as HTMLButtonElement;
+  
+  // Track active filters
+  const activeFilters = new Set<string>();
 
-  let activeFilter = 'all';
-
-  // Apply filters
+  // Apply search and feature filters
   function applyFilters() {
     const query = searchInput?.value.toLowerCase().trim() || '';
     let visibleCount = 0;
 
     cards.forEach((card) => {
       const name = card.dataset.name ?? '';
-      const features = card.dataset.features?.split(',').filter(Boolean) || [];
+      const cardFeatures = card.dataset.features?.split(',').filter(Boolean) || [];
+      
+      // Check if card matches search query
+      const matchesSearch = !query || name.includes(query);
+      
+      // Check if card matches all active filters (AND logic)
+      const matchesFilters = activeFilters.size === 0 || 
+        Array.from(activeFilters).every(filter => cardFeatures.includes(filter));
 
-      const matchesSearch = name.includes(query);
-      const matchesFilter =
-        activeFilter === 'all' || features.includes(activeFilter);
-
-      const isVisible = matchesSearch && matchesFilter;
+      const isVisible = matchesSearch && matchesFilters;
       card.style.display = isVisible ? '' : 'none';
       if (isVisible) visibleCount++;
     });
@@ -180,28 +208,334 @@ const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount >
         resultsCount.textContent = `Visualizzati ${visibleCount} di ${cards.length} comuni`;
       }
     }
+    
+    // Show/hide clear filters button
+    if (clearFiltersBtn) {
+      clearFiltersBtn.style.display = activeFilters.size > 0 ? '' : 'none';
+    }
   }
+
+  // Toggle filter
+  filterBadges.forEach((badge) => {
+    badge.addEventListener('click', () => {
+      const filter = badge.dataset.filter;
+      if (!filter) return;
+      
+      const isActive = activeFilters.has(filter);
+      
+      if (isActive) {
+        activeFilters.delete(filter);
+        badge.setAttribute('aria-pressed', 'false');
+        badge.classList.remove('active');
+      } else {
+        activeFilters.add(filter);
+        badge.setAttribute('aria-pressed', 'true');
+        badge.classList.add('active');
+      }
+      
+      applyFilters();
+    });
+  });
+  
+  // Clear all filters
+  clearFiltersBtn?.addEventListener('click', () => {
+    activeFilters.clear();
+    filterBadges.forEach((badge) => {
+      badge.setAttribute('aria-pressed', 'false');
+      badge.classList.remove('active');
+    });
+    applyFilters();
+  });
 
   // Search input handler
   searchInput?.addEventListener('input', applyFilters);
 
-  // Filter chip handlers
-  filterChips.forEach((chip) => {
-    chip.addEventListener('click', () => {
-      // Update active state
-      filterChips.forEach((c) => {
-        c.dataset.active = 'false';
-      });
-      chip.dataset.active = 'true';
-
-      // Update active filter
-      activeFilter = chip.dataset.filter || 'all';
-
-      // Apply filters
-      applyFilters();
-    });
-  });
-
   // Initial count (all visible)
   applyFilters();
+  
+  // Scroll reveal animation
+  if (typeof IntersectionObserver !== 'undefined') {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('card-revealed');
+          }, index * 20);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    cards.forEach((card) => {
+      observer.observe(card);
+    });
+  }
 </script>
+
+<style>
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .breadcrumb a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    color: var(--color-text-muted);
+    transition: color var(--transition);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-primary);
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .page-header h1 {
+    font-family: var(--font-sans);
+    font-size: 2.5rem;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 700;
+  }
+
+  .page-description {
+    font-size: 1.0625rem;
+    color: var(--color-text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .stat-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-md);
+    transition: all var(--transition);
+  }
+
+  .stat-pill:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+    border-color: var(--color-primary-muted);
+  }
+
+  .stat-pill svg {
+    color: var(--color-primary);
+    flex-shrink: 0;
+  }
+
+  .stat-pill span {
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+  }
+
+  .stat-pill strong {
+    color: var(--color-text);
+    font-weight: 700;
+  }
+
+  .search-container {
+    position: relative;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-text-muted);
+    pointer-events: none;
+  }
+
+  .search-container input {
+    padding-left: 3rem;
+  }
+
+  .results-count {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    margin-top: var(--spacing-2xl);
+    font-style: italic;
+  }
+
+  /* Feature Filters */
+  .feature-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    margin-bottom: var(--spacing-2xl);
+    justify-content: center;
+    padding: 0 var(--spacing-md);
+  }
+
+  .filter-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1rem;
+    background-color: #F8FAFC;
+    border: 2px solid #E2E8F0;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #64748B;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: var(--font-sans);
+  }
+
+  .filter-badge svg {
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .filter-badge:hover {
+    background-color: #F1F5F9;
+    border-color: #CBD5E1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-badge.active {
+    background-color: var(--badge-color, #3B82F6);
+    border-color: var(--badge-color, #3B82F6);
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px -2px var(--badge-color, rgba(59, 130, 246, 0.4));
+  }
+
+  .filter-badge.active svg {
+    transform: scale(1.1);
+  }
+
+  .filter-badge:active {
+    transform: translateY(0);
+  }
+
+  /* Dynamic color for each filter badge when active */
+  .filter-badge[data-filter="hasHistoric"].active {
+    --badge-color: #F59E0B;
+  }
+
+  .filter-badge[data-filter="hasNature"].active {
+    --badge-color: #10B981;
+  }
+
+  .filter-badge[data-filter="hasSport"].active {
+    --badge-color: #3B82F6;
+  }
+
+  .filter-badge[data-filter="hasFood"].active {
+    --badge-color: #EF4444;
+  }
+
+  .filter-badge[data-filter="hasAccommodation"].active {
+    --badge-color: #8B5CF6;
+  }
+
+  .filter-badge[data-filter="hasStation"].active {
+    --badge-color: #6366F1;
+  }
+
+  .clear-filters {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1rem;
+    background-color: #FEE2E2;
+    border: 2px solid #FCA5A5;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #991B1B;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: var(--font-sans);
+  }
+
+  .clear-filters:hover {
+    background-color: #FEF2F2;
+    border-color: #F87171;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .clear-filters:active {
+    transform: translateY(0);
+  }
+
+  /* Card Reveal Animation */
+  #comuni-grid > div {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+
+  #comuni-grid > div.card-revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 768px) {
+    .page-header h1 {
+      font-size: 2rem;
+    }
+
+    .stats-row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .feature-filters {
+      gap: 0.5rem;
+    }
+    
+    .filter-badge,
+    .clear-filters {
+      padding: 0.5rem 0.875rem;
+      font-size: 0.8125rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .stats-row {
+      grid-template-columns: 1fr;
+    }
+    
+    .filter-badge span,
+    .clear-filters span {
+      display: none;
+    }
+    
+    .filter-badge,
+    .clear-filters {
+      padding: 0.625rem;
+      border-radius: 50%;
+      width: 42px;
+      height: 42px;
+      justify-content: center;
+    }
+  }
+</style>

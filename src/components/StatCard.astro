@@ -1,0 +1,43 @@
+---
+/**
+ * StatCard component for displaying key metrics
+ * Used for population, area, elevation, and other numerical data
+ */
+import Icon from './Icon.astro';
+
+export interface Props {
+  icon: string;
+  label: string;
+  value: string | number;
+  unit?: string;
+  variant?: 'default' | 'compact';
+  class?: string;
+}
+
+const { 
+  icon,
+  label,
+  value,
+  unit = '',
+  variant = 'default',
+  class: className = ''
+} = Astro.props;
+
+const isCompact = variant === 'compact';
+---
+
+<div class={`bg-white border border-slate-200 rounded-lg ${isCompact ? 'p-3' : 'p-4 sm:p-5'} hover:shadow-md hover:border-slate-300 transition-all duration-200 ${className}`}>
+  <div class={`flex ${isCompact ? 'items-center gap-3' : 'flex-col items-center text-center gap-2'}`}>
+    <div class={`${isCompact ? 'text-blue-500' : 'text-blue-500 mb-1'}`}>
+      <Icon name={icon} class={isCompact ? 'w-5 h-5' : 'w-6 h-6'} />
+    </div>
+    <div class={isCompact ? 'flex-1' : ''}>
+      <div class={`font-bold text-slate-900 ${isCompact ? 'text-lg' : 'text-2xl sm:text-3xl'} tracking-tight`}>
+        {value}{unit && <span class={`${isCompact ? 'text-sm' : 'text-lg'} font-normal text-slate-600 ml-1`}>{unit}</span>}
+      </div>
+      <div class={`text-slate-600 font-medium ${isCompact ? 'text-xs' : 'text-sm'} mt-0.5`}>
+        {label}
+      </div>
+    </div>
+  </div>
+</div>

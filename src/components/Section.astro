@@ -1,0 +1,48 @@
+---
+/**
+ * Section component for consistent content organization
+ * Provides standardized spacing, optional header, and dividers
+ */
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  icon?: string;
+  spacing?: 'sm' | 'md' | 'lg';
+  divider?: boolean;
+  class?: string;
+}
+
+const { 
+  title,
+  subtitle,
+  icon,
+  spacing = 'md',
+  divider = false,
+  class: className = ''
+} = Astro.props;
+
+const spacingClasses = {
+  sm: 'mb-6',
+  md: 'mb-10',
+  lg: 'mb-16'
+};
+---
+
+<section class={`${spacingClasses[spacing]} ${className}`}>
+  {(title || subtitle) && (
+    <div class={`mb-6 ${divider ? 'pb-4 border-b-2 border-slate-200' : ''}`}>
+      {title && (
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2 flex items-center gap-3">
+          {icon && <span class="text-3xl">{icon}</span>}
+          <span>{title}</span>
+        </h2>
+      )}
+      {subtitle && (
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed">{subtitle}</p>
+      )}
+    </div>
+  )}
+  <div>
+    <slot />
+  </div>
+</section>
