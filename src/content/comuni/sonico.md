@@ -3,14 +3,27 @@ name: "Sonico"
 slug: "sonico"
 province: "BS"
 population: 1171
-area: 48.84
+area: 60.39
 coordinates: [46.1646, 10.3543]
+centroid: [46.14193, 10.40619]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 43
 nearby:
   - "edolo"
   - "incudine"
   - "malonno"
   - "monno"
   - "saviore-delladamello"
+bordering:
+  - "berzo-demo"
+  - "cevo"
+  - "edolo"
+  - "malonno"
+  - "saviore-dell'adamello"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +38,46 @@ fact: ""
 
 ## Contesto geografico
 
-Sonico si trova a circa 70 km a nord di Brescia. Superficie: 48.84 km². Densità abitativa: 24 ab/km².
+Sonico si trova a circa 70 km a nord di Brescia. Superficie: 60.39 km². Densità abitativa: 19 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Via ferrata: **Via Ferrata Terzulli**
+- Cima di Val Lussero (2354 m)
+- Punta di Valrossa (2743 m)
+- Monte Bonpià (2857 m)
+- Parco Pluritematico Coren de le Fate — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Percorso pluritematico del Coren delle Fate** — Sito archeologico
+- **locale invernale**
+
+## Dove mangiare
+
+- **Rifugio Premassone** (Ristorante)
+- **Rifugio Val Malga** (Ristorante)
+- **Crist** (Caffè)
+
+## Dove dormire
+
+- **Rifugio Premassone** (Rifugio alpino)
+- **Rifugio Baitone** (Rifugio alpino)
+- **Rifugio Val Malga** (Rifugio alpino)
+- **Rifugio Franco Tonolini** (Rifugio alpino)
+- **locale invernale** (Rifugio alpino)
+- **Rifugio Serafino Gnutti** (Rifugio alpino)
+
+## Servizi
+
+- **Italmark Sonico** — Supermercato
+- **Iperal** — Supermercato
+- **EuroSpin** — Supermercato
+- **Panificio Pasticceria Formis** — Panificio
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SS42**
 
 ## Comuni vicini
 
@@ -50,3 +86,11 @@ Sonico si trova a circa 70 km a nord di Brescia. Superficie: 48.84 km². Densit�
 - [Malonno](../malonno/) — 5.6 km
 - [Monno](../monno/) — 5.7 km
 - [Saviore dell'Adamello](../saviore-delladamello/) — 7.8 km
+
+## Comuni confinanti
+
+- [Berzo Demo](../berzo-demo/)
+- [Cevo](../cevo/)
+- [Edolo](../edolo/)
+- [Malonno](../malonno/)
+- [Saviore Dell'adamello](../saviore-dell'adamello/)

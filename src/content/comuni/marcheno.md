@@ -3,14 +3,29 @@ name: "Marcheno"
 slug: "marcheno"
 province: "BS"
 population: 4429
-area: 24.77
+area: 22.76
 coordinates: [45.7161, 10.214]
+centroid: [45.70996, 10.22204]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 44
 nearby:
   - "gardone-val-trompia"
   - "tavernole-sul-mella"
   - "pezzaze"
   - "lodrino"
   - "marmentino"
+bordering:
+  - "casto"
+  - "gardone-val-trompia"
+  - "lodrino"
+  - "lumezzane"
+  - "marone"
+  - "sarezzo"
+  - "tavernole-sul-mella"
+  - "zone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +40,43 @@ fact: ""
 
 ## Contesto geografico
 
-Marcheno si trova a circa 19 km a nord di Brescia. Superficie: 24.77 km². Densità abitativa: 179 ab/km².
+Marcheno si trova a circa 19 km a nord di Brescia. Superficie: 22.76 km². Densità abitativa: 195 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Grotta Caia Predele
+- Punta Carneda (984 m)
+- Grotta Caia Bros
+- Parco Comunale Massimo Guerini — Parco
+- Parco dei Caduti — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Fiat Panda CLX** — Sito archeologico
+- **Cascina Vandeno** — Rovine
+
+## Dove mangiare
+
+- **Pub Km 6** (Pub)
+- **Albergo Trattoria Marcheno** (Ristorante)
+- **Pizzeria Mario** (Ristorante)
+- **Bar Ime** (Bar)
+- **Caffè della Loggia** (Bar)
+- **Pizzeria Oasi** (Ristorante)
+
+## Dove dormire
+
+- **Albergo Trattoria Marcheno** (Hotel)
+- **B&B La Casa Ritrovata** (B&B / Affittacamere)
+- **Agriturismo Dazze** (B&B / Affittacamere)
+- **Bar Ristorante Albergo La Fabbrica** (Hotel)
+- **Agriturismo La Valle** (B&B / Affittacamere)
+
+## Servizi
+
+- **Sigma Superstore** — Supermercato
+- **Oratorio San Giovanni Paolo II** — Centro civico
+- **Farmacia Ghidini Sonia** — Farmacia
 
 ## Come arrivare
 
@@ -50,3 +89,14 @@ Marcheno si trova a circa 19 km a nord di Brescia. Superficie: 24.77 km². Densi
 - [Pezzaze](../pezzaze/) — 4.6 km
 - [Lodrino](../lodrino/) — 5.2 km
 - [Marmentino](../marmentino/) — 5.8 km
+
+## Comuni confinanti
+
+- [Casto](../casto/)
+- [Gardone Val Trompia](../gardone-val-trompia/)
+- [Lodrino](../lodrino/)
+- [Lumezzane](../lumezzane/)
+- [Marone](../marone/)
+- [Sarezzo](../sarezzo/)
+- [Tavernole Sul Mella](../tavernole-sul-mella/)
+- [Zone](../zone/)

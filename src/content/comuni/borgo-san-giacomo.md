@@ -3,14 +3,27 @@ name: "Borgo San Giacomo"
 slug: "borgo-san-giacomo"
 province: "BS"
 population: 5406
-area: 29.45
+area: 29.31
 coordinates: [45.3483, 10.0185]
+centroid: [45.34596, 9.97858]
+hasHistoric: true
+hasFood: true
+poiCount: 11
 nearby:
   - "verolavecchia"
   - "verolanuova"
   - "villachiara"
   - "quinzano-doglio"
   - "pompiano"
+bordering:
+  - "azzanello"
+  - "castelvisconti"
+  - "orzinuovi"
+  - "quinzano-d'oglio"
+  - "san-paolo"
+  - "verolanuova"
+  - "verolavecchia"
+  - "villachiara"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +38,27 @@ fact: ""
 
 ## Contesto geografico
 
-Borgo San Giacomo si trova a circa 26 km a sud-ovest di Brescia. Superficie: 29.45 km². Densità abitativa: 184 ab/km².
+Borgo San Giacomo si trova a circa 26 km a sud-ovest di Brescia. Superficie: 29.31 km². Densità abitativa: 184 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Parco Oglio Nord — Riserva naturale
+- Visita: **Castello di Padernello**
+- Visita: **Castello di Motella**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Padernello** — Castello
+- **Castello di Motella** — Castello
+
+## Dove mangiare
+
+- **Vanigliò** (Bar)
+- **L'Aquila Rossa** (Ristorante)
+- **Locanda del Vegnòt** (Ristorante)
+- **La Dispensa di Padernello** (Ristorante)
+- **Norcineria** (Ristorante)
+- **Cascina La Bianca** (Ristorante)
 
 ## Come arrivare
 
@@ -50,3 +71,14 @@ Borgo San Giacomo si trova a circa 26 km a sud-ovest di Brescia. Superficie: 29.
 - [Villachiara](../villachiara/) — 6.7 km
 - [Quinzano d'Oglio](../quinzano-doglio/) — 6.9 km
 - [Pompiano](../pompiano/) — 8.2 km
+
+## Comuni confinanti
+
+- [Azzanello](../azzanello/)
+- [Castelvisconti](../castelvisconti/)
+- [Orzinuovi](../orzinuovi/)
+- [Quinzano D'oglio](../quinzano-d'oglio/)
+- [San Paolo](../san-paolo/)
+- [Verolanuova](../verolanuova/)
+- [Verolavecchia](../verolavecchia/)
+- [Villachiara](../villachiara/)

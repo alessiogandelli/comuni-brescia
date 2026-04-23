@@ -3,14 +3,29 @@ name: "Ponte di Legno"
 slug: "ponte-di-legno"
 province: "BS"
 population: 1749
-area: 99.93
+area: 100.5
 coordinates: [46.2582, 10.5094]
+centroid: [46.27875, 10.52415]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 120
 nearby:
   - "temu"
   - "vione"
   - "vezza-doglio"
   - "incudine"
   - "monno"
+bordering:
+  - "edolo"
+  - "saviore-dell'adamello"
+  - "sondalo"
+  - "temu"
+  - "valfurva"
+  - "vezza-d'oglio"
+  - "vione"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +40,54 @@ fact: "Rinomata località sciistica ai piedi del Passo del Tonale"
 
 ## Contesto geografico
 
-Ponte di Legno si trova a circa 83 km a nord-est di Brescia. Superficie: 99.93 km². Densità abitativa: 18 ab/km².
+Ponte di Legno si trova a circa 83 km a nord-est di Brescia. Superficie: 100.5 km². Densità abitativa: 17 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Cabinovia: **Progetto Cabinovia**
+- Cabinovia: **Ponte di Legno - Colonia Vigili**
+- Seggiovia: **Bleis**
+- Punto panoramico
+- Cima le Sorti (2411 m)
+- Cima Bleis (2628 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Poia** — Castello
+- **Ruins of WW1** — Rovine
+
+## Dove mangiare
+
+- **Ristorante Al Mulino** (Ristorante)
+- **Ristorante Albergo Frigidolfo** (Ristorante)
+- **Ristorante Pizzeria Da Giusy** (Ristorante)
+- **Bar La Sosta Appetitosa** (Caffè)
+- **La Briciola** (Ristorante)
+- **Pensione Trattoria Sant'Angela** (Ristorante)
+
+## Dove dormire
+
+- **Ristorante Albergo Frigidolfo** (Hotel)
+- **Yuri Bed & Breakfast** (B&B / Affittacamere)
+- **Villa Luzzago** (Hotel)
+- **Albergo Cervo** (Hotel)
+- **Pensione Trattoria Sant'Angela** (B&B / Affittacamere)
+- **Hotel Acero Rosso** (Hotel)
+
+## Servizi
+
+- **Farmacia Dr. Petroboni** — Farmacia
+- **La Casetta dell'Oratorio** — Centro civico
+- **Biblioteca** — Biblioteca
+- **Supermarket BigMarket** — Supermercato
+- **BIG Market** — Supermercato
+- **Farmacia** — Farmacia
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Cabinovia: **Progetto Cabinovia**
+- Cabinovia: **Ponte di Legno - Colonia Vigili**
+- Strada provinciale: **SS42**
 
 ## Lo sapevi?
 
@@ -54,3 +100,13 @@ Rinomata località sciistica ai piedi del Passo del Tonale
 - [Vezza d'Oglio](../vezza-doglio/) — 8.8 km
 - [Incudine](../incudine/) — 13.1 km
 - [Monno](../monno/) — 14.0 km
+
+## Comuni confinanti
+
+- [Edolo](../edolo/)
+- [Saviore Dell'adamello](../saviore-dell'adamello/)
+- [Sondalo](../sondalo/)
+- [Temu](../temu/)
+- [Valfurva](../valfurva/)
+- [Vezza D'oglio](../vezza-d'oglio/)
+- [Vione](../vione/)

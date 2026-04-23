@@ -3,13 +3,22 @@ name: "Pavone del Mella"
 slug: "pavone-del-mella"
 province: "BS"
 population: 2768
-area: 12.31
+area: 11.71
 coordinates: [45.309, 10.2023]
+centroid: [45.30248, 10.21912]
+hasFood: true
+poiCount: 4
 nearby:
   - "cigole"
   - "milzano"
   - "san-paolo"
   - "san-gervasio-bresciano"
+  - "pralboino"
+bordering:
+  - "cigole"
+  - "gottolengo"
+  - "leno"
+  - "milzano"
   - "pralboino"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -25,7 +34,7 @@ fact: ""
 
 ## Contesto geografico
 
-Pavone del Mella si trova a circa 26 km a sud di Brescia. Superficie: 12.31 km². Densità abitativa: 225 ab/km².
+Pavone del Mella si trova a circa 26 km a sud di Brescia. Superficie: 11.71 km². Densità abitativa: 236 ab/km².
 
 ## Cosa fare
 
@@ -39,6 +48,16 @@ Pavone del Mella si trova a circa 26 km a sud di Brescia. Superficie: 12.31 km²
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Cium Cium** (Pub)
+- **Tripla B** (Bar)
+- **La Fossa** (Ristorante)
+
+## Servizi
+
+- **Farmacia** — Farmacia
+
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -50,3 +69,11 @@ Pavone del Mella si trova a circa 26 km a sud di Brescia. Superficie: 12.31 km²
 - [San Paolo](../san-paolo/) — 3.4 km
 - [San Gervasio Bresciano](../san-gervasio-bresciano/) — 4.3 km
 - [Pralboino](../pralboino/) — 4.7 km
+
+## Comuni confinanti
+
+- [Cigole](../cigole/)
+- [Gottolengo](../gottolengo/)
+- [Leno](../leno/)
+- [Milzano](../milzano/)
+- [Pralboino](../pralboino/)

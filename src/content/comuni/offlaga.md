@@ -3,14 +3,25 @@ name: "Offlaga"
 slug: "offlaga"
 province: "BS"
 population: 4130
-area: 18.33
+area: 22.96
 coordinates: [45.3763, 10.2138]
+centroid: [45.3825, 10.11043]
+hasHistoric: true
+hasFood: true
+poiCount: 7
 nearby:
   - "leno"
   - "ghedi"
   - "bagnolo-mella"
   - "manerbio"
   - "milzano"
+bordering:
+  - "bagnolo-mella"
+  - "barbariga"
+  - "dello"
+  - "manerbio"
+  - "san-paolo"
+  - "verolanuova"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,7 +36,7 @@ fact: ""
 
 ## Contesto geografico
 
-Offlaga si trova a circa 18 km a sud di Brescia. Superficie: 18.33 km². Densità abitativa: 225 ab/km².
+Offlaga si trova a circa 18 km a sud di Brescia. Superficie: 22.96 km². Densità abitativa: 180 ab/km². Strade principali: SPBS45bis, SPBS668, Strada Provinciale BS668 Lenese.
 
 ## Cosa fare
 
@@ -39,9 +50,23 @@ Offlaga si trova a circa 18 km a sud di Brescia. Superficie: 18.33 km². Densit�
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Pizza** (Fast food)
+- **Ristorante Pizzeria Aurora** (Ristorante)
+- **Osteria La Macchia** (Ristorante)
+- **Fenil Grande** (Ristorante)
+
+## Servizi
+
+- **Farmacia** — Farmacia
+- **Maxi** — Supermercato
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS45bis**
+- Strada provinciale: **SPBS668**
+- Strada provinciale: **Strada Provinciale BS668 Lenese**
 
 ## Comuni vicini
 
@@ -50,3 +75,12 @@ Offlaga si trova a circa 18 km a sud di Brescia. Superficie: 18.33 km². Densit�
 - [Bagnolo Mella](../bagnolo-mella/) — 6.0 km
 - [Manerbio](../manerbio/) — 6.2 km
 - [Milzano](../milzano/) — 6.3 km
+
+## Comuni confinanti
+
+- [Bagnolo Mella](../bagnolo-mella/)
+- [Barbariga](../barbariga/)
+- [Dello](../dello/)
+- [Manerbio](../manerbio/)
+- [San Paolo](../san-paolo/)
+- [Verolanuova](../verolanuova/)

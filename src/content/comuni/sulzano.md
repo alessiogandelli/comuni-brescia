@@ -3,14 +3,26 @@ name: "Sulzano"
 slug: "sulzano"
 province: "BS"
 population: 1907
-area: 11.43
+area: 10.86
 coordinates: [45.695, 10.0921]
+centroid: [45.68107, 10.10809]
+hasNature: true
+hasFood: true
+hasAccommodation: true
+hasStation: true
+poiCount: 25
 nearby:
   - "sale-marasino"
   - "monte-isola"
   - "marone"
   - "polaveno"
   - "iseo"
+bordering:
+  - "iseo"
+  - "monte-isola"
+  - "polaveno"
+  - "sale-marasino"
+  - "tavernola-bergamasca"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +37,13 @@ fact: ""
 
 ## Contesto geografico
 
-Sulzano si trova a circa 19 km a nord-ovest di Brescia. Superficie: 11.43 km². Densità abitativa: 167 ab/km².
+Sulzano si trova a circa 19 km a nord-ovest di Brescia. Superficie: 10.86 km². Densità abitativa: 176 ab/km². Strade principali: SPBS510 quater, SPBS510;quater.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Grotta
+- Punto panoramico
+- Prefond del Dos Brüch (847 m)
 
 ## Luoghi importanti
 
@@ -39,9 +51,32 @@ Sulzano si trova a circa 19 km a nord-ovest di Brescia. Superficie: 11.43 km². 
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Trattoria Cacciatore** (Ristorante)
+- **Trattoria Alpino** (Ristorante)
+- **Locanda La Pernice** (Ristorante)
+- **Trattoria Da Fopèla** (Ristorante)
+- **Bar Al Vecchio Porto** (Caffè)
+- **Pizza in Piazza** (Ristorante)
+
+## Dove dormire
+
+- **Albergo Ristorante Aquila** (Hotel)
+- **Hotel Rivalago** (Hotel)
+
+## Servizi
+
+- **Biblioteca di Sulzano** — Biblioteca
+- **La Bottega Frutta & Verdura** — Supermercato
+- **Farmacia Festa** — Farmacia
+- **E.G.S. Sulzano** — Alimentari
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Sulzano**
+- Superstrada: **SPBS510 quater**
+- Superstrada: **SPBS510;quater**
 
 ## Comuni vicini
 
@@ -50,3 +85,11 @@ Sulzano si trova a circa 19 km a nord-ovest di Brescia. Superficie: 11.43 km². 
 - [Marone](../marone/) — 4.2 km
 - [Polaveno](../polaveno/) — 4.9 km
 - [Iseo](../iseo/) — 5.1 km
+
+## Comuni confinanti
+
+- [Iseo](../iseo/)
+- [Monte Isola](../monte-isola/)
+- [Polaveno](../polaveno/)
+- [Sale Marasino](../sale-marasino/)
+- [Tavernola Bergamasca](../tavernola-bergamasca/)

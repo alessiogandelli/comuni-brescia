@@ -3,14 +3,29 @@ name: "Paisco Loveno"
 slug: "paisco-loveno"
 province: "BS"
 population: 185
-area: 23.05
+area: 35.61
 coordinates: [46.0561, 10.2449]
+centroid: [46.07387, 10.23574]
+hasHistoric: true
+hasNature: true
+hasAccommodation: true
+poiCount: 13
 nearby:
   - "berzo-demo"
   - "losine"
   - "lozio"
   - "sellero"
   - "capo-di-ponte"
+bordering:
+  - "berzo-demo"
+  - "capo-di-ponte"
+  - "cerveno"
+  - "corteno-golgi"
+  - "malonno"
+  - "ono-san-pietro"
+  - "schilpario"
+  - "sellero"
+  - "teglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +40,22 @@ fact: ""
 
 ## Contesto geografico
 
-Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 23.05 km². Densità abitativa: 8 ab/km².
+Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 35.61 km². Densità abitativa: 5 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte dei Matti (2322 m)
+- Cima (2310 m)
+- Monte Gaviera (2293 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Cascina del Latte** — Rovine
+
+## Dove dormire
+
+- **Rifugio Torsoleto** (Rifugio alpino)
+- **Bivacco Davide Salvadori** (Bivacco)
 
 ## Come arrivare
 
@@ -50,3 +68,15 @@ Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 23.05 km². 
 - [Lozio](../lozio/) — 6.1 km
 - [Sellero](../sellero/) — 7.5 km
 - [Capo di Ponte](../capo-di-ponte/) — 8.3 km
+
+## Comuni confinanti
+
+- [Berzo Demo](../berzo-demo/)
+- [Capo Di Ponte](../capo-di-ponte/)
+- [Cerveno](../cerveno/)
+- [Corteno Golgi](../corteno-golgi/)
+- [Malonno](../malonno/)
+- [Ono San Pietro](../ono-san-pietro/)
+- [Schilpario](../schilpario/)
+- [Sellero](../sellero/)
+- [Teglio](../teglio/)

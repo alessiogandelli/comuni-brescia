@@ -3,14 +3,26 @@ name: "Erbusco"
 slug: "erbusco"
 province: "BS"
 population: 8756
-area: 16.97
+area: 16.2
 coordinates: [45.5978, 10.0016]
+centroid: [45.59427, 9.96757]
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 29
 nearby:
   - "cazzago-san-martino"
   - "corte-franca"
   - "rovato"
   - "coccaglio"
   - "adro"
+bordering:
+  - "adro"
+  - "cazzago-san-martino"
+  - "coccaglio"
+  - "cologne"
+  - "palazzolo-sull'oglio"
+  - "rovato"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +37,14 @@ fact: "Capitale gastronomica della Franciacorta"
 
 ## Contesto geografico
 
-Erbusco si trova a circa 18 km a ovest di Brescia. Superficie: 16.97 km². Densità abitativa: 516 ab/km².
+Erbusco si trova a circa 18 km a ovest di Brescia. Superficie: 16.2 km². Densità abitativa: 540 ab/km². Strade principali: A4, SPBS469D1.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Lacca del Montorfano
+- Parco Comunale — Parco
+- Parco al Brolo Piersandro Torri — Parco
 
 ## Luoghi importanti
 
@@ -39,9 +52,32 @@ Erbusco si trova a circa 18 km a ovest di Brescia. Superficie: 16.97 km². Densi
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Autogrill** (Ristorante)
+- **Old Wild West** (Fast food)
+- **Bar Oratorio** (Bar)
+- **Agriturismo Cascina Carretto** (Ristorante)
+- **Albereta** (Ristorante)
+- **La Filiale** (Ristorante)
+
+## Dove dormire
+
+- **Iris hotel** (Hotel)
+
+## Servizi
+
+- **Momento** — Alimentari
+- **Farmacia** — Farmacia
+- **Centro civico** — Centro civico
+- **ALDI** — Supermercato
+- **MD** — Supermercato
+- **Il Gigante** — Supermercato
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Autostrada: **A4**
+- Superstrada: **SPBS469D1**
 
 ## Lo sapevi?
 
@@ -54,3 +90,12 @@ Capitale gastronomica della Franciacorta
 - [Rovato](../rovato/) — 3.5 km
 - [Coccaglio](../coccaglio/) — 3.6 km
 - [Adro](../adro/) — 4.5 km
+
+## Comuni confinanti
+
+- [Adro](../adro/)
+- [Cazzago San Martino](../cazzago-san-martino/)
+- [Coccaglio](../coccaglio/)
+- [Cologne](../cologne/)
+- [Palazzolo Sull'oglio](../palazzolo-sull'oglio/)
+- [Rovato](../rovato/)

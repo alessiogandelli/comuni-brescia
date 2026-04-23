@@ -3,14 +3,26 @@ name: "Calvisano"
 slug: "calvisano"
 province: "BS"
 population: 8644
-area: 40.91
+area: 45.07
 coordinates: [45.3531, 10.344]
+centroid: [45.35256, 10.35017]
+hasHistoric: true
+hasFood: true
+hasStation: true
+poiCount: 8
 nearby:
   - "visano"
   - "isorella"
   - "carpenedolo"
   - "ghedi"
   - "acquafredda"
+bordering:
+  - "acquafredda"
+  - "carpenedolo"
+  - "ghedi"
+  - "isorella"
+  - "montichiari"
+  - "visano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +37,28 @@ fact: ""
 
 ## Contesto geografico
 
-Calvisano si trova a circa 23 km a sud-est di Brescia. Superficie: 40.91 km². Densità abitativa: 211 ab/km².
+Calvisano si trova a circa 23 km a sud-est di Brescia. Superficie: 45.07 km². Densità abitativa: 192 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Parco didattico faunistico — Parco
+- Parco Padre Pio — Parco
+- Visita: **Croce Sera**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Croce Sera** — Rovine
+
+## Dove mangiare
+
+- **Circolo ACLI** (Bar)
+- **Tango e Chet** (Pub)
+- **Ristorante pizzeria al capriccio** (Ristorante)
+- **Lago Solitudo** (Ristorante)
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Viadana Bresciana**
 
 ## Comuni vicini
 
@@ -50,3 +67,12 @@ Calvisano si trova a circa 23 km a sud-est di Brescia. Superficie: 40.91 km². D
 - [Carpenedolo](../carpenedolo/) — 7.1 km
 - [Ghedi](../ghedi/) — 7.5 km
 - [Acquafredda](../acquafredda/) — 7.6 km
+
+## Comuni confinanti
+
+- [Acquafredda](../acquafredda/)
+- [Carpenedolo](../carpenedolo/)
+- [Ghedi](../ghedi/)
+- [Isorella](../isorella/)
+- [Montichiari](../montichiari/)
+- [Visano](../visano/)

@@ -3,14 +3,28 @@ name: "Idro"
 slug: "idro"
 province: "BS"
 population: 1886
-area: 21.66
+area: 22.35
 coordinates: [45.7439, 10.4822]
+centroid: [45.75487, 10.49715]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 68
 nearby:
   - "anfo"
   - "capovalle"
   - "lavenone"
   - "treviso-bresciano"
   - "pertica-alta"
+bordering:
+  - "anfo"
+  - "bagolino"
+  - "capovalle"
+  - "lavenone"
+  - "treviso-bresciano"
+  - "valvestino"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +39,16 @@ fact: "Affacciato sull'omonimo lago, il più piccolo dei laghi prealpini brescia
 
 ## Contesto geografico
 
-Idro si trova a circa 31 km a nord-est di Brescia. Superficie: 21.66 km². Densità abitativa: 87 ab/km².
+Idro si trova a circa 31 km a nord-est di Brescia. Superficie: 22.35 km². Densità abitativa: 84 ab/km². Strade principali: SPBS237.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Surf: **Surfpoint Lago d'Idro**
+- Arrampicata
+- Via ferrata: **Via Ferrata Crènch**
+- Punto panoramico
+- Cima Crènch (779 m)
+- Punta Pelata (632 m)
 
 ## Luoghi importanti
 
@@ -39,9 +56,36 @@ Idro si trova a circa 31 km a nord-est di Brescia. Superficie: 21.66 km². Densi
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Ristorante Camping Vantone Pineta** (Ristorante)
+- **Ristorante da Genny** (Ristorante)
+- **Bar, Cafe, Restaurant** (Ristorante)
+- **La Terrazza** (Ristorante)
+- **Ristorante Holland** (Ristorante)
+- **Bar Trattoria da Giovanna** (Ristorante)
+
+## Dove dormire
+
+- **Azur Camping Rio Vantone** (Campeggio)
+- **Camping Vantone Pineta** (Campeggio)
+- **Camping Belvedere** (Campeggio)
+- **Venus** (Campeggio)
+- **Albergo Milano** (Hotel)
+- **La Wanda** (Hotel)
+
+## Servizi
+
+- **Alimentari** — Alimentari
+- **Minimarkt** — Alimentari
+- **Jolly Market** — Supermercato
+- **Alimentari Carla Rambaldini** — Alimentari
+- **Casa delle Associazioni** — Centro civico
+- **La Bottega** — Alimentari
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS237**
 
 ## Lo sapevi?
 
@@ -54,3 +98,12 @@ Affacciato sull'omonimo lago, il più piccolo dei laghi prealpini bresciani
 - [Lavenone](../lavenone/) — 3.4 km
 - [Treviso Bresciano](../treviso-bresciano/) — 3.7 km
 - [Pertica Alta](../pertica-alta/) — 7.2 km
+
+## Comuni confinanti
+
+- [Anfo](../anfo/)
+- [Bagolino](../bagolino/)
+- [Capovalle](../capovalle/)
+- [Lavenone](../lavenone/)
+- [Treviso Bresciano](../treviso-bresciano/)
+- [Valvestino](../valvestino/)

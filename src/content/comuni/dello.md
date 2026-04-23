@@ -3,14 +3,27 @@ name: "Dello"
 slug: "dello"
 province: "BS"
 population: 5713
-area: 15.32
+area: 23.44
 coordinates: [45.4175, 10.0791]
+centroid: [45.4163, 10.09976]
+hasHistoric: true
+hasFood: true
+poiCount: 31
 nearby:
   - "longhena"
   - "mairano"
   - "azzano-mella"
   - "barbariga"
   - "pompiano"
+bordering:
+  - "azzano-mella"
+  - "bagnolo-mella"
+  - "barbariga"
+  - "capriano-del-colle"
+  - "corzano"
+  - "longhena"
+  - "mairano"
+  - "offlaga"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +38,34 @@ fact: ""
 
 ## Contesto geografico
 
-Dello si trova a circa 17 km a sud-ovest di Brescia. Superficie: 15.32 km². Densità abitativa: 373 ab/km².
+Dello si trova a circa 17 km a sud-ovest di Brescia. Superficie: 23.44 km². Densità abitativa: 244 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Castello di Boldeniga**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Boldeniga** — Castello
+- **Castello di Dello** — Castello
+
+## Dove mangiare
+
+- **Trattoria Mezzo Soldo** (Ristorante)
+- **Nerobianco** (Ristorante)
+- **Pizzeria Ristorante Ponderose** (Ristorante)
+- **Double B** (Bar)
+- **Bar Orsola** (Bar)
+- **Bar Vineria Les Amis 2** (Bar)
+
+## Servizi
+
+- **Conad** — Supermercato
+- **Agi market di Bulla G. e C. snc** — Alimentari
+- **LD** — Supermercato
+- **Bruno** — Alimentari
+- **Unes** — Supermercato
+- **Biblioteca comunale di Dello** — Biblioteca
 
 ## Come arrivare
 
@@ -50,3 +78,14 @@ Dello si trova a circa 17 km a sud-ovest di Brescia. Superficie: 15.32 km². Den
 - [Azzano Mella](../azzano-mella/) — 4.9 km
 - [Barbariga](../barbariga/) — 6.0 km
 - [Pompiano](../pompiano/) — 6.1 km
+
+## Comuni confinanti
+
+- [Azzano Mella](../azzano-mella/)
+- [Bagnolo Mella](../bagnolo-mella/)
+- [Barbariga](../barbariga/)
+- [Capriano Del Colle](../capriano-del-colle/)
+- [Corzano](../corzano/)
+- [Longhena](../longhena/)
+- [Mairano](../mairano/)
+- [Offlaga](../offlaga/)

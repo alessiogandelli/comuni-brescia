@@ -3,14 +3,25 @@ name: "Sellero"
 slug: "sellero"
 province: "BS"
 population: 1432
-area: 22.56
+area: 14
 coordinates: [46.0604, 10.3414]
+centroid: [46.06572, 10.32664]
+hasHistoric: true
+hasNature: true
+hasAccommodation: true
+hasStation: true
+poiCount: 8
 nearby:
   - "capo-di-ponte"
   - "cedegolo"
   - "cevo"
   - "paspardo"
   - "cimbergo"
+bordering:
+  - "berzo-demo"
+  - "capo-di-ponte"
+  - "cedegolo"
+  - "paisco-loveno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +36,28 @@ fact: ""
 
 ## Contesto geografico
 
-Sellero si trova a circa 59 km a nord di Brescia. Superficie: 22.56 km². Densità abitativa: 63 ab/km².
+Sellero si trova a circa 59 km a nord di Brescia. Superficie: 14 km². Densità abitativa: 102 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Monte Adamone (1640 m)
+- Pizzo Garzeto (2088 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Parco Archeologico Sellero** — Sito archeologico
+- **Coran** — Sito archeologico
+
+## Dove dormire
+
+- **Bivacco Elto** (Bivacco)
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Cedegolo**
+- Stazione ferroviaria: **Sellero**
+- Superstrada: **SS42**
 
 ## Comuni vicini
 
@@ -50,3 +66,10 @@ Sellero si trova a circa 59 km a nord di Brescia. Superficie: 22.56 km². Densit
 - [Cevo](../cevo/) — 4.1 km
 - [Paspardo](../paspardo/) — 4.3 km
 - [Cimbergo](../cimbergo/) — 4.6 km
+
+## Comuni confinanti
+
+- [Berzo Demo](../berzo-demo/)
+- [Capo Di Ponte](../capo-di-ponte/)
+- [Cedegolo](../cedegolo/)
+- [Paisco Loveno](../paisco-loveno/)

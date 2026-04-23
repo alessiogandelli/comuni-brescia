@@ -3,14 +3,28 @@ name: "Borno"
 slug: "borno"
 province: "BS"
 population: 2596
-area: 25.19
+area: 30.56
 coordinates: [45.9468, 10.1979]
+centroid: [45.95572, 10.179]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 86
 nearby:
   - "berzo-inferiore"
   - "piancogno"
   - "ossimo"
   - "brione"
   - "esine"
+bordering:
+  - "angolo-terme"
+  - "azzone"
+  - "colere"
+  - "ossimo"
+  - "piancogno"
+  - "schilpario"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +39,53 @@ fact: "Stazione sciistica della Val Camonica"
 
 ## Contesto geografico
 
-Borno si trova a circa 45 km a nord di Brescia. Superficie: 25.19 km². Densità abitativa: 103 ab/km².
+Borno si trova a circa 45 km a nord di Brescia. Superficie: 30.56 km². Densità abitativa: 85 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Seggiovia: **Ogne 1**
+- Arrampicata: **Falesia di Paline**
+- Punto panoramico
+- Grotta
+- Corna di San Fermo (2329 m)
+- Parco Rizzieri — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Ex Segheria Bertelli** — Sito archeologico
+- **Ara Romana** — Sito archeologico
+- **Malga Paiano** — Rovine
+
+## Dove mangiare
+
+- **Adventure Bar** (Caffè)
+- **Bar Trattoria Camere Navertino** (Ristorante)
+- **Cristallo Blu Bar Ristorante Pizzeria** (Ristorante)
+- **Albergo Bar Ristorante Gabà** (Ristorante)
+- **Pizzeria Ristorante Piandass** (Ristorante)
+- **Ristorante Pizzeria Korallo** (Ristorante)
+
+## Dove dormire
+
+- **Rifugio San Fermo** (Rifugio alpino)
+- **Bivacco** (Bivacco)
+- **Bar Trattoria Camere Navertino** (Hotel)
+- **Albergo Bar Ristorante Gabà** (Hotel)
+- **Hotel Korallo** (Hotel)
+- **Camping Village Boscoblù** (Campeggio)
+
+## Servizi
+
+- **Alimentari Gastronomia Cerese** — Alimentari
+- **Cristallo Blu Minimarket** — Alimentari
+- **Sigma** — Supermercato
+- **Carrefour express** — Supermercato
+- **Associazione Tapioca** — Alimentari
+- **Centro Sociale Anziani Pensionati Borno** — Centro civico
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Seggiovia: **Ogne 1**
 
 ## Lo sapevi?
 
@@ -54,3 +98,12 @@ Stazione sciistica della Val Camonica
 - [Ossimo](../ossimo/) — 2.5 km
 - [Brione](../brione/) — 3.9 km
 - [Esine](../esine/) — 4.4 km
+
+## Comuni confinanti
+
+- [Angolo Terme](../angolo-terme/)
+- [Azzone](../azzone/)
+- [Colere](../colere/)
+- [Ossimo](../ossimo/)
+- [Piancogno](../piancogno/)
+- [Schilpario](../schilpario/)

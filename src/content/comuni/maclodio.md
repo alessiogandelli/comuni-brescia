@@ -3,14 +3,23 @@ name: "Maclodio"
 slug: "maclodio"
 province: "BS"
 population: 1558
-area: 4.33
+area: 5.07
 coordinates: [45.496, 10.0312]
+centroid: [45.48022, 10.0408]
+hasFood: true
+poiCount: 2
 nearby:
   - "berlingo"
   - "brandico"
   - "trenzano"
   - "lograto"
   - "castelcovati"
+bordering:
+  - "berlingo"
+  - "brandico"
+  - "lograto"
+  - "mairano"
+  - "trenzano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,7 +34,7 @@ fact: "Sede della storica battaglia tra Visconti e Malatesta nel 1427"
 
 ## Contesto geografico
 
-Maclodio si trova a circa 15 km a ovest di Brescia. Superficie: 4.33 km². Densità abitativa: 360 ab/km².
+Maclodio si trova a circa 15 km a ovest di Brescia. Superficie: 5.07 km². Densità abitativa: 307 ab/km². Strade principali: SPBS235.
 
 ## Cosa fare
 
@@ -39,9 +48,14 @@ Maclodio si trova a circa 15 km a ovest di Brescia. Superficie: 4.33 km². Densi
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Trattoria da Beppe** (Ristorante)
+- **La Piazzetta** (Caffè)
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS235**
 
 ## Lo sapevi?
 
@@ -54,3 +68,11 @@ Sede della storica battaglia tra Visconti e Malatesta nel 1427
 - [Trenzano](../trenzano/) — 2.8 km
 - [Lograto](../lograto/) — 2.9 km
 - [Castelcovati](../castelcovati/) — 4.0 km
+
+## Comuni confinanti
+
+- [Berlingo](../berlingo/)
+- [Brandico](../brandico/)
+- [Lograto](../lograto/)
+- [Mairano](../mairano/)
+- [Trenzano](../trenzano/)

@@ -3,14 +3,23 @@ name: "Limone sul Garda"
 slug: "limone-sul-garda"
 province: "BS"
 population: 1166
-area: 23.03
+area: 22.65
 coordinates: [45.8124, 10.7909]
+centroid: [45.8207, 10.79428]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 101
 nearby:
   - "tremosine-sul-garda"
   - "tignale"
   - "magasa"
   - "valvestino"
   - "gargnano"
+bordering:
+  - "tremosine-sul-garda"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +34,51 @@ fact: "Famosa per le limonaie storiche e la pista ciclabile sospesa sul lago"
 
 ## Contesto geografico
 
-Limone sul Garda si trova a circa 54 km a nord-est di Brescia. Superficie: 23.03 km². Densità abitativa: 51 ab/km².
+Limone sul Garda si trova a circa 54 km a nord-est di Brescia. Superficie: 22.65 km². Densità abitativa: 51 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Surf
+- Punto panoramico
+- Grotta
+- Cima di Mughera (1161 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Calchera** — Rovine
+- **chapel** — Rovine
+- **Ehmaliger Bunker** — Rovine
+
+## Dove mangiare
+
+- **Hotel al Rio Sé** (Ristorante)
+- **Bar Ristorante Pizzeria Le Palme** (Ristorante)
+- **Focacceria Dal Piasarot** (Ristorante)
+- **Bar Al Porto** (Caffè)
+- **Albergo Restaurant Monte Baldo** (Ristorante)
+- **Molo** (Fast food)
+
+## Dove dormire
+
+- **Relax Hotel Villa Gardenia & Villa Oleandra** (Hotel)
+- **Hotel Astor** (Hotel)
+- **Hotel Augusta Garni** (Hotel)
+- **Hotel al Rio Sé** (Hotel)
+- **HotelSplendid Palace** (Hotel)
+- **Hotel all'Azzurro** (Hotel)
+
+## Servizi
+
+- **Alimentari El Botegher** — Alimentari
+- **Farmacia** — Farmacia
+- **Biblioteca Comunale di Limone sul Garda** — Biblioteca
+- **Farmacia De Nitto** — Farmacia
+- **Despar** — Supermercato
+- **Gol Market** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SS45bis**
 
 ## Lo sapevi?
 
@@ -54,3 +91,7 @@ Famosa per le limonaie storiche e la pista ciclabile sospesa sul lago
 - [Magasa](../magasa/) — 14.2 km
 - [Valvestino](../valvestino/) — 16.3 km
 - [Gargnano](../gargnano/) — 17.0 km
+
+## Comuni confinanti
+
+- [Tremosine Sul Garda](../tremosine-sul-garda/)

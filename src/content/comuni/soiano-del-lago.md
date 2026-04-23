@@ -3,14 +3,26 @@ name: "Soiano del Lago"
 slug: "soiano-del-lago"
 province: "BS"
 population: 1932
-area: 5.15
+area: 5.78
 coordinates: [45.5393, 10.505]
+centroid: [45.53132, 10.50663]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 15
 nearby:
   - "polpenazze-del-garda"
   - "moniga-del-garda"
   - "puegnago-del-garda"
   - "padenghe-sul-garda"
   - "manerba-del-garda"
+bordering:
+  - "calvagese-della-riviera"
+  - "manerba-del-garda"
+  - "moniga-del-garda"
+  - "padenghe-sul-garda"
+  - "polpenazze-del-garda"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +37,35 @@ fact: ""
 
 ## Contesto geografico
 
-Soiano del Lago si trova a circa 23 km a est di Brescia. Superficie: 5.15 km². Densità abitativa: 375 ab/km².
+Soiano del Lago si trova a circa 23 km a est di Brescia. Superficie: 5.78 km². Densità abitativa: 334 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Valgesca (243 m)
+- Monte Gozzolo (257 m)
+- Monte Stropea (193 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Soiano** — Castello
+
+## Dove mangiare
+
+- **Emy** (Caffè)
+- **Ma! pizza e cucina** (Ristorante)
+- **Villa Aurora** (Ristorante)
+- **baraonda** (Ristorante)
+
+## Dove dormire
+
+- **Agriturismo PietraCavalla** (B&B / Affittacamere)
+
+## Servizi
+
+- **L'arte del Pane** — Alimentari
+- **Casa della cultura** — Biblioteca
+- **Farmacia** — Farmacia
+- **L'arte del pane** — Panificio
 
 ## Come arrivare
 
@@ -50,3 +78,11 @@ Soiano del Lago si trova a circa 23 km a est di Brescia. Superficie: 5.15 km². 
 - [Puegnago del Garda](../puegnago-del-garda/) — 3.3 km
 - [Padenghe sul Garda](../padenghe-sul-garda/) — 3.4 km
 - [Manerba del Garda](../manerba-del-garda/) — 3.7 km
+
+## Comuni confinanti
+
+- [Calvagese Della Riviera](../calvagese-della-riviera/)
+- [Manerba Del Garda](../manerba-del-garda/)
+- [Moniga Del Garda](../moniga-del-garda/)
+- [Padenghe Sul Garda](../padenghe-sul-garda/)
+- [Polpenazze Del Garda](../polpenazze-del-garda/)

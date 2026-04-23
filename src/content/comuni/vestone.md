@@ -3,14 +3,32 @@ name: "Vestone"
 slug: "vestone"
 province: "BS"
 population: 3394
-area: 14.29
+area: 12.98
 coordinates: [45.7068, 10.4019]
+centroid: [45.70966, 10.40125]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 28
 nearby:
   - "provaglio-val-sabbia"
   - "pertica-bassa"
   - "barghe"
   - "pertica-alta"
   - "preseglie"
+bordering:
+  - "barghe"
+  - "bione"
+  - "casto"
+  - "lavenone"
+  - "mura"
+  - "pertica-alta"
+  - "pertica-bassa"
+  - "preseglie"
+  - "provaglio-val-sabbia"
+  - "treviso-bresciano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +43,44 @@ fact: ""
 
 ## Contesto geografico
 
-Vestone si trova a circa 24 km a nord-est di Brescia. Superficie: 14.29 km². Densità abitativa: 238 ab/km².
+Vestone si trova a circa 24 km a nord-est di Brescia. Superficie: 12.98 km². Densità abitativa: 261 ab/km². Strade principali: SPBS237, Strada Provinciale BS 237 del Caffaro.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Arrampicata: **Corna Ventitre**
+- Punto panoramico
+- Visita: **Rocca di Nozza**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Rocca di Nozza** — Castello
+
+## Dove mangiare
+
+- **Boris** (Bar)
+- **Boccondivino** (Ristorante)
+- **Selfie Bar** (Caffè)
+- **Nuovo Bar Commercio** (Bar)
+- **Manimama** (Pub)
+- **Picol Bar** (Bar)
+
+## Dove dormire
+
+- **Hotel Ristorante Centrale** (Hotel)
+
+## Servizi
+
+- **Farmacia Mazzi Felice** — Farmacia
+- **Oratorio di Vestone** — Centro civico
+- **Italmark** — Supermercato
+- **Farmacia Uberti** — Farmacia
+- **ASST Garda - Presidio Socio-Sanitario di Nozza** — Ospedale
+- **Penny** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS237**
+- Strada provinciale: **Strada Provinciale BS 237 del Caffaro**
 
 ## Comuni vicini
 
@@ -50,3 +89,16 @@ Vestone si trova a circa 24 km a nord-est di Brescia. Superficie: 14.29 km². De
 - [Barghe](../barghe/) — 2.8 km
 - [Pertica Alta](../pertica-alta/) — 3.7 km
 - [Preseglie](../preseglie/) — 4.1 km
+
+## Comuni confinanti
+
+- [Barghe](../barghe/)
+- [Bione](../bione/)
+- [Casto](../casto/)
+- [Lavenone](../lavenone/)
+- [Mura](../mura/)
+- [Pertica Alta](../pertica-alta/)
+- [Pertica Bassa](../pertica-bassa/)
+- [Preseglie](../preseglie/)
+- [Provaglio Val Sabbia](../provaglio-val-sabbia/)
+- [Treviso Bresciano](../treviso-bresciano/)

@@ -3,14 +3,29 @@ name: "Polaveno"
 slug: "polaveno"
 province: "BS"
 population: 2804
-area: 14.14
+area: 9.16
 coordinates: [45.6551, 10.1192]
+centroid: [45.66364, 10.13634]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 23
 nearby:
   - "ome"
   - "monticelli-brusati"
   - "sulzano"
   - "iseo"
   - "provaglio-diseo"
+bordering:
+  - "brione"
+  - "gardone-val-trompia"
+  - "iseo"
+  - "monticelli-brusati"
+  - "ome"
+  - "sale-marasino"
+  - "sarezzo"
+  - "sulzano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +40,36 @@ fact: ""
 
 ## Contesto geografico
 
-Polaveno si trova a circa 15 km a nord-ovest di Brescia. Superficie: 14.14 km². Densità abitativa: 198 ab/km².
+Polaveno si trova a circa 15 km a nord-ovest di Brescia. Superficie: 9.16 km². Densità abitativa: 306 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Ambrogio (674 m)
+- Monte della Pugna (777 m)
+- Punto panoramico
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Fossa lupina** — Sito archeologico
+
+## Dove mangiare
+
+- **Ristorante Antico Fagiano** (Ristorante)
+- **Pizzeria d'Asporto Mondopizza** (Fast food)
+- **Bar Stiven** (Caffè)
+- **Bar Ferdy** (Caffè)
+- **Ristorante San Marco** (Ristorante)
+- **Trattoria Lanterna** (Ristorante)
+
+## Dove dormire
+
+- **Rifugio Alpino Gruppo di Polaveno** (Rifugio alpino)
+
+## Servizi
+
+- **Farmacia Donati Luciano** — Farmacia
+- **Alimentari Mingardi** — Alimentari
+- **Oratorio San Giovanni di Polaveno** — Centro civico
 
 ## Come arrivare
 
@@ -50,3 +82,14 @@ Polaveno si trova a circa 15 km a nord-ovest di Brescia. Superficie: 14.14 km².
 - [Sulzano](../sulzano/) — 4.9 km
 - [Iseo](../iseo/) — 5.3 km
 - [Provaglio d'Iseo](../provaglio-diseo/) — 5.5 km
+
+## Comuni confinanti
+
+- [Brione](../brione/)
+- [Gardone Val Trompia](../gardone-val-trompia/)
+- [Iseo](../iseo/)
+- [Monticelli Brusati](../monticelli-brusati/)
+- [Ome](../ome/)
+- [Sale Marasino](../sale-marasino/)
+- [Sarezzo](../sarezzo/)
+- [Sulzano](../sulzano/)

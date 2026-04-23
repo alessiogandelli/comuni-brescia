@@ -3,14 +3,27 @@ name: "Cimbergo"
 slug: "cimbergo"
 province: "BS"
 population: 539
-area: 18.34
+area: 24.58
 coordinates: [46.0233, 10.3675]
+centroid: [46.02354, 10.40762]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 42
 nearby:
   - "ceto"
   - "paspardo"
   - "ono-san-pietro"
   - "capo-di-ponte"
   - "braone"
+bordering:
+  - "capo-di-ponte"
+  - "cedegolo"
+  - "ceto"
+  - "cevo"
+  - "paspardo"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +38,35 @@ fact: ""
 
 ## Contesto geografico
 
-Cimbergo si trova a circa 55 km a nord di Brescia. Superficie: 18.34 km². Densità abitativa: 29 ab/km².
+Cimbergo si trova a circa 55 km a nord di Brescia. Superficie: 24.58 km². Densità abitativa: 22 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Arrampicata: **Ecomostro**
+- Arrampicata: **Falesia di Cimbergo - Mai Più Così**
+- Arrampicata
+- Cima Bruciata (2018 m)
+- Cima di Sablunera (2604 m)
+- Cima del Volano IV (2556 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Malga Tredenus** — Rovine
+- **Castello di Cimbergo** — Castello
+
+## Dove mangiare
+
+- **Ristorante Castello** (Ristorante)
+
+## Dove dormire
+
+- **Rifugio De Marie al Volano** (Rifugio alpino)
+- **Bivacco della Fasa** (Bivacco)
+- **B&B Castello** (B&B / Affittacamere)
+
+## Servizi
+
+- **Farmacia** — Farmacia
 
 ## Come arrivare
 
@@ -50,3 +79,11 @@ Cimbergo si trova a circa 55 km a nord di Brescia. Superficie: 18.34 km². Densi
 - [Ono San Pietro](../ono-san-pietro/) — 1.8 km
 - [Capo di Ponte](../capo-di-ponte/) — 1.9 km
 - [Braone](../braone/) — 2.3 km
+
+## Comuni confinanti
+
+- [Capo Di Ponte](../capo-di-ponte/)
+- [Cedegolo](../cedegolo/)
+- [Ceto](../ceto/)
+- [Cevo](../cevo/)
+- [Paspardo](../paspardo/)

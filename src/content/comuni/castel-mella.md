@@ -3,14 +3,26 @@ name: "Castel Mella"
 slug: "castel-mella"
 province: "BS"
 population: 11281
-area: 8.31
+area: 7.5
 coordinates: [45.4967, 10.1404]
+centroid: [45.49998, 10.14332]
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 20
 nearby:
   - "torbole-casaglia"
   - "flero"
   - "capriano-del-colle"
   - "roncadelle"
   - "poncarale"
+bordering:
+  - "azzano-mella"
+  - "brescia"
+  - "capriano-del-colle"
+  - "flero"
+  - "roncadelle"
+  - "torbole-casaglia"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +37,13 @@ fact: ""
 
 ## Contesto geografico
 
-Castel Mella si trova a circa 7 km a sud-ovest di Brescia. Superficie: 8.31 km². Densità abitativa: 1358 ab/km².
+Castel Mella si trova a circa 7 km a sud-ovest di Brescia. Superficie: 7.5 km². Densità abitativa: 1504 ab/km². Strade principali: A21racc, SCBS, SP235, SPBS235, SPIX.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Parco Pubblico Alpini d'Italia — Parco
+- Parco Pubblico Borgo Nuovo — Parco
 
 ## Luoghi importanti
 
@@ -39,9 +51,30 @@ Castel Mella si trova a circa 7 km a sud-ovest di Brescia. Superficie: 8.31 km²
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Taka Take Away** (Ristorante)
+- **Osteria La Masna** (Ristorante)
+- **Self Tavolamica** (Ristorante)
+- **J&D** (Ristorante)
+- **Bar Mario** (Bar)
+- **Pizzeria Ristorante Costa Azzurra** (Ristorante)
+
+## Dove dormire
+
+- **Shtepia Sashes** (Hotel)
+
+## Servizi
+
+- **Famila** — Supermercato
+- **EuroSpin** — Supermercato
+- **Tuttociclismo** — Ciclofficina
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Autostrada: **A21racc**
+- Strada provinciale: **SCBS**
+- Strada provinciale: **SP235**
 
 ## Comuni vicini
 
@@ -50,3 +83,12 @@ Castel Mella si trova a circa 7 km a sud-ovest di Brescia. Superficie: 8.31 km²
 - [Capriano del Colle](../capriano-del-colle/) — 3.2 km
 - [Roncadelle](../roncadelle/) — 3.3 km
 - [Poncarale](../poncarale/) — 5.0 km
+
+## Comuni confinanti
+
+- [Azzano Mella](../azzano-mella/)
+- [Brescia](../brescia/)
+- [Capriano Del Colle](../capriano-del-colle/)
+- [Flero](../flero/)
+- [Roncadelle](../roncadelle/)
+- [Torbole Casaglia](../torbole-casaglia/)

@@ -3,14 +3,26 @@ name: "Agnosine"
 slug: "agnosine"
 province: "BS"
 population: 1731
-area: 16.17
+area: 13.51
 coordinates: [45.65, 10.3522]
+centroid: [45.64291, 10.34976]
+hasHistoric: true
+hasNature: true
+hasFood: true
+poiCount: 12
 nearby:
   - "bione"
   - "odolo"
   - "preseglie"
   - "sabbio-chiese"
   - "barghe"
+bordering:
+  - "bione"
+  - "caino"
+  - "lumezzane"
+  - "odolo"
+  - "preseglie"
+  - "vallio-terme"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +37,23 @@ fact: ""
 
 ## Contesto geografico
 
-Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 16.17 km². Densità abitativa: 107 ab/km².
+Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 13.51 km². Densità abitativa: 128 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Cler (781 m)
+- Monte Valrelli (724 m)
+- Dosso Fontane (772 m)
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **Ristorante Campagnola** (Ristorante)
 
 ## Come arrivare
 
@@ -50,3 +66,12 @@ Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 16.17 km². D
 - [Preseglie](../preseglie/) — 3.8 km
 - [Sabbio Chiese](../sabbio-chiese/) — 5.2 km
 - [Barghe](../barghe/) — 5.6 km
+
+## Comuni confinanti
+
+- [Bione](../bione/)
+- [Caino](../caino/)
+- [Lumezzane](../lumezzane/)
+- [Odolo](../odolo/)
+- [Preseglie](../preseglie/)
+- [Vallio Terme](../vallio-terme/)

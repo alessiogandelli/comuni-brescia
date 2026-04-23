@@ -3,13 +3,20 @@ name: "Mura"
 slug: "mura"
 province: "BS"
 population: 744
-area: 19.22
+area: 12.58
 coordinates: [45.709, 10.3375]
+centroid: [45.71503, 10.34157]
+hasFood: true
+poiCount: 3
 nearby:
   - "casto"
   - "pertica-bassa"
   - "lodrino"
   - "marmentino"
+  - "vestone"
+bordering:
+  - "casto"
+  - "pertica-alta"
   - "vestone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -25,7 +32,7 @@ fact: ""
 
 ## Contesto geografico
 
-Mura si trova a circa 21 km a nord-est di Brescia. Superficie: 19.22 km². Densità abitativa: 39 ab/km².
+Mura si trova a circa 21 km a nord-est di Brescia. Superficie: 12.58 km². Densità abitativa: 59 ab/km².
 
 ## Cosa fare
 
@@ -39,6 +46,12 @@ Mura si trova a circa 21 km a nord-est di Brescia. Superficie: 19.22 km². Densi
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Bar Piazzetta** (Caffè)
+- **Bar Trattoria Bongi** (Ristorante)
+- **La Stiva del Pirate** (Pub)
+
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -50,3 +63,9 @@ Mura si trova a circa 21 km a nord-est di Brescia. Superficie: 19.22 km². Densi
 - [Lodrino](../lodrino/) — 4.6 km
 - [Marmentino](../marmentino/) — 4.7 km
 - [Vestone](../vestone/) — 5.0 km
+
+## Comuni confinanti
+
+- [Casto](../casto/)
+- [Pertica Alta](../pertica-alta/)
+- [Vestone](../vestone/)

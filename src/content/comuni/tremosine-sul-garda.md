@@ -3,14 +3,25 @@ name: "Tremosine sul Garda"
 slug: "tremosine-sul-garda"
 province: "BS"
 population: 2094
-area: 72.08
+area: 72.77
 coordinates: [45.77, 10.75]
+centroid: [45.79849, 10.72558]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 93
 nearby:
   - "tignale"
   - "limone-sul-garda"
   - "magasa"
   - "gargnano"
   - "valvestino"
+bordering:
+  - "limone-sul-garda"
+  - "magasa"
+  - "tignale"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +36,53 @@ fact: "La Strada della Forra è stata definita da Churchill 'l'ottava meraviglia
 
 ## Contesto geografico
 
-Tremosine sul Garda si trova a circa 49 km a nord-est di Brescia. Superficie: 72.08 km². Densità abitativa: 29 ab/km².
+Tremosine sul Garda si trova a circa 49 km a nord-est di Brescia. Superficie: 72.77 km². Densità abitativa: 29 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Arrampicata: **Falesia Porto Tignale**
+- Arrampicata: **Porto di Tremosine**
+- Via ferrata: **Antica via Campione Tignale**
+- Cima Mughera (1272 m)
+- Punto panoramico
+- La Cocca (994 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Malga Fobia** — Rovine
+- **Calchera** — Sito archeologico
+- **Porto vecchio di Tremosine** — Rovine
+
+## Dove mangiare
+
+- **Agriturismo Val d'Egoi** (Ristorante)
+- **Da Gloria** (Caffè)
+- **Bar Sole** (Bar)
+- **Ristorante La Fenice** (Ristorante)
+- **da Nando** (Ristorante)
+- **Bicigrill bestOne** (Caffè)
+
+## Dove dormire
+
+- **Hotel Sole** (Hotel)
+- **Ristorante La Fenice** (Hotel)
+- **Bed & Breakfast Val di Brasa** (B&B / Affittacamere)
+- **Villa Maria** (B&B / Affittacamere)
+- **Hotel Residence La Berna** (Hotel)
+- **Hotel La Pertica** (Hotel)
+
+## Servizi
+
+- **Cooperativa di Consumo** — Supermercato
+- **Market Girardi** — Supermercato
+- **Conad** — Alimentari
+- **Supermercato** — Supermercato
+- **Farmacia** — Farmacia
+- **Magherita** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SS45bis**
 
 ## Lo sapevi?
 
@@ -54,3 +95,9 @@ La Strada della Forra è stata definita da Churchill 'l'ottava meraviglia del mo
 - [Magasa](../magasa/) — 10.1 km
 - [Gargnano](../gargnano/) — 11.3 km
 - [Valvestino](../valvestino/) — 12.1 km
+
+## Comuni confinanti
+
+- [Limone Sul Garda](../limone-sul-garda/)
+- [Magasa](../magasa/)
+- [Tignale](../tignale/)

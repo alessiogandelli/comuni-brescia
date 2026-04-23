@@ -3,14 +3,26 @@ name: "Provaglio d'Iseo"
 slug: "provaglio-diseo"
 province: "BS"
 population: 7279
-area: 15.03
+area: 16.21
 coordinates: [45.6363, 10.0537]
+centroid: [45.63244, 10.05361]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+hasStation: true
+poiCount: 43
 nearby:
   - "iseo"
   - "corte-franca"
   - "monticelli-brusati"
   - "passirano"
   - "polaveno"
+bordering:
+  - "corte-franca"
+  - "iseo"
+  - "monticelli-brusati"
+  - "passirano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +37,49 @@ fact: "Sede del monastero cluniacense di San Pietro in Lamosa"
 
 ## Contesto geografico
 
-Provaglio d'Iseo si trova a circa 16 km a nord-ovest di Brescia. Superficie: 15.03 km². Densità abitativa: 484 ab/km².
+Provaglio d'Iseo si trova a circa 16 km a nord-ovest di Brescia. Superficie: 16.21 km². Densità abitativa: 449 ab/km². Strade principali: SPBS510.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Pollo (311 m)
+- Monte Piane (313 m)
+- Monte San Michele (367 m)
+- Parco di Zurane — Parco
+- Parco Don Lorenzo Milani — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Provaglio d'Iseo** — Castello
+- **Antica Chiesa di San Vigilio** — Sito archeologico
+
+## Dove mangiare
+
+- **Dama Verde** (Bar)
+- **La Vecchia Fontana** (Ristorante)
+- **Mama's Pizza** (Ristorante)
+- **Pallos Pizza** (Ristorante)
+- **BagaBar** (Bar)
+- **Al Baretto** (Bar)
+
+## Dove dormire
+
+- **Antica Trave B&B** (B&B / Affittacamere)
+- **Madonna del Corno** (Rifugio alpino)
+- **B&B / Affittacamere** (B&B / Affittacamere)
+
+## Servizi
+
+- **Il Fornaio** — Alimentari
+- **Coop** — Supermercato
+- **Farmacia Cuccia** — Farmacia
+- **Biblioteca Civica Beppe Fenoglio** — Biblioteca
+- **Farmacia** — Farmacia
+- **Alimentari** — Alimentari
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Provaglio-Timoline**
+- Superstrada: **SPBS510**
 
 ## Lo sapevi?
 
@@ -54,3 +92,10 @@ Sede del monastero cluniacense di San Pietro in Lamosa
 - [Monticelli Brusati](../monticelli-brusati/) — 3.9 km
 - [Passirano](../passirano/) — 5.2 km
 - [Polaveno](../polaveno/) — 5.5 km
+
+## Comuni confinanti
+
+- [Corte Franca](../corte-franca/)
+- [Iseo](../iseo/)
+- [Monticelli Brusati](../monticelli-brusati/)
+- [Passirano](../passirano/)

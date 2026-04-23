@@ -3,14 +3,23 @@ name: "Ono San Pietro"
 slug: "ono-san-pietro"
 province: "BS"
 population: 952
-area: 23.17
+area: 13.9
 coordinates: [46.0162, 10.3468]
+centroid: [46.03279, 10.29393]
+hasNature: true
+hasAccommodation: true
+poiCount: 6
 nearby:
   - "braone"
   - "ceto"
   - "capo-di-ponte"
   - "cimbergo"
   - "cerveno"
+bordering:
+  - "capo-di-ponte"
+  - "cerveno"
+  - "ceto"
+  - "paisco-loveno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +34,23 @@ fact: ""
 
 ## Contesto geografico
 
-Ono San Pietro si trova a circa 54 km a nord di Brescia. Superficie: 23.17 km². Densità abitativa: 41 ab/km².
+Ono San Pietro si trova a circa 54 km a nord di Brescia. Superficie: 13.9 km². Densità abitativa: 68 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Corén de Zuen (1367 m)
+- Tamba del Giass
+- Corna Rosse
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove dormire
+
+- **Rifugio Baita Iseo** (Rifugio alpino)
 
 ## Come arrivare
 
@@ -50,3 +63,10 @@ Ono San Pietro si trova a circa 54 km a nord di Brescia. Superficie: 23.17 km².
 - [Capo di Ponte](../capo-di-ponte/) — 1.6 km
 - [Cimbergo](../cimbergo/) — 1.8 km
 - [Cerveno](../cerveno/) — 2.3 km
+
+## Comuni confinanti
+
+- [Capo Di Ponte](../capo-di-ponte/)
+- [Cerveno](../cerveno/)
+- [Ceto](../ceto/)
+- [Paisco Loveno](../paisco-loveno/)

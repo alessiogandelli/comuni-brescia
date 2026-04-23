@@ -3,14 +3,25 @@ name: "Paitone"
 slug: "paitone"
 province: "BS"
 population: 2093
-area: 6.97
+area: 7.86
 coordinates: [45.5558, 10.3935]
+centroid: [45.56868, 10.39716]
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 18
 nearby:
   - "nuvolento"
   - "prevalle"
   - "serle"
   - "nuvolera"
   - "gavardo"
+bordering:
+  - "gavardo"
+  - "nuvolento"
+  - "prevalle"
+  - "serle"
+  - "vallio-terme"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +36,39 @@ fact: ""
 
 ## Contesto geografico
 
-Paitone si trova a circa 14 km a est di Brescia. Superficie: 6.97 km². Densità abitativa: 300 ab/km².
+Paitone si trova a circa 14 km a est di Brescia. Superficie: 7.86 km². Densità abitativa: 266 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Singlera (488 m)
+- Büs del Cal
+- Bus del Gas
+- Parco Fontanone — Parco
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **Trattoria da Tindaro** (Ristorante)
+- **Antica Osteria Leone** (Ristorante)
+- **Antica Osteria Due Corone** (Ristorante)
+
+## Dove dormire
+
+- **Agriturismo El Cioci** (B&B / Affittacamere)
+- **Rifugio degli Alpini** (Rifugio alpino)
+- **Hotel** (Hotel)
+
+## Servizi
+
+- **Oratorio Beata Vergine di Paitone** — Centro civico
+- **Farmacia** — Farmacia
+- **Mario Filippini** — Libreria
+- **Xtech Sport Design** — Negozio outdoor
 
 ## Come arrivare
 
@@ -50,3 +81,11 @@ Paitone si trova a circa 14 km a est di Brescia. Superficie: 6.97 km². Densità
 - [Serle](../serle/) — 2.3 km
 - [Nuvolera](../nuvolera/) — 3.0 km
 - [Gavardo](../gavardo/) — 4.6 km
+
+## Comuni confinanti
+
+- [Gavardo](../gavardo/)
+- [Nuvolento](../nuvolento/)
+- [Prevalle](../prevalle/)
+- [Serle](../serle/)
+- [Vallio Terme](../vallio-terme/)

@@ -3,14 +3,22 @@ name: "Paderno Franciacorta"
 slug: "paderno-franciacorta"
 province: "BS"
 population: 3748
-area: 6
+area: 5.58
 coordinates: [45.569, 10.0812]
+centroid: [45.58284, 10.08429]
+hasHistoric: true
+hasFood: true
+poiCount: 9
 nearby:
   - "ospitaletto"
   - "passirano"
   - "castegnato"
   - "rodengo-saiano"
   - "cazzago-san-martino"
+bordering:
+  - "castegnato"
+  - "passirano"
+  - "rodengo-saiano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +33,34 @@ fact: ""
 
 ## Contesto geografico
 
-Paderno Franciacorta si trova a circa 11 km a ovest di Brescia. Superficie: 6 km². Densità abitativa: 625 ab/km².
+Paderno Franciacorta si trova a circa 11 km a ovest di Brescia. Superficie: 5.58 km². Densità abitativa: 672 ab/km². Strade principali: SP19.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Parco degli Alpini — Parco
+- Visita: **Castello Oldofredi**
+- Visita: **Monumento ai caduti**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello Oldofredi** — Castello
+- **Monumento ai caduti** — Monumento
+
+## Dove mangiare
+
+- **Zanzibeer** (Pub)
+- **Pizzeria 5 Stelle** (Fast food)
+- **Bar Sport** (Bar)
+- **Ristorante pizzeria Castello** (Ristorante)
+- **Ristorante Stazione** (Ristorante)
+
+## Servizi
+
+- **Panetteria** — Panificio
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Superstrada: **SP19**
 
 ## Comuni vicini
 
@@ -50,3 +69,9 @@ Paderno Franciacorta si trova a circa 11 km a ovest di Brescia. Superficie: 6 km
 - [Castegnato](../castegnato/) — 2.9 km
 - [Rodengo-Saiano](../rodengo-saiano/) — 3.2 km
 - [Cazzago San Martino](../cazzago-san-martino/) — 4.6 km
+
+## Comuni confinanti
+
+- [Castegnato](../castegnato/)
+- [Passirano](../passirano/)
+- [Rodengo Saiano](../rodengo-saiano/)

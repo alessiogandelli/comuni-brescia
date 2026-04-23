@@ -3,14 +3,28 @@ name: "Padenghe sul Garda"
 slug: "padenghe-sul-garda"
 province: "BS"
 population: 4488
-area: 13.62
+area: 22.11
 coordinates: [45.5089, 10.5052]
+centroid: [45.50818, 10.53506]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 39
 nearby:
   - "moniga-del-garda"
   - "soiano-del-lago"
   - "calvagese-della-riviera"
   - "polpenazze-del-garda"
   - "desenzano-del-garda"
+bordering:
+  - "calvagese-della-riviera"
+  - "desenzano-del-garda"
+  - "lonato-del-garda"
+  - "moniga-del-garda"
+  - "sirmione"
+  - "soiano-del-lago"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +39,50 @@ fact: ""
 
 ## Contesto geografico
 
-Padenghe sul Garda si trova a circa 23 km a est di Brescia. Superficie: 13.62 km². Densità abitativa: 330 ab/km².
+Padenghe sul Garda si trova a circa 23 km a est di Brescia. Superficie: 22.11 km². Densità abitativa: 203 ab/km². Strade principali: SP BS 572, Via Guglielmo Marconi, Via Pergola.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Immersione: **Dive Life Diving Club**
+- Monte Alto (224 m)
+- Punto panoramico
+- Monte della Rovere (279 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Padenghe** — Castello
+
+## Dove mangiare
+
+- **Chiosco Salfor** (Ristorante)
+- **Bliss** (Caffè)
+- **La Brace steakhouse e pizza** (Ristorante)
+- **Ketty** (Ristorante)
+- **Vida Bar** (Caffè)
+- **Trendy** (Caffè)
+
+## Dove dormire
+
+- **Camping La Cà** (Campeggio)
+- **Camping Riva Blu** (Campeggio)
+- **maison** (B&B / Affittacamere)
+- **Maison Du Lac Padenghe Sur Garda** (B&B / Affittacamere)
+- **Hotel Ketty** (Hotel)
+- **La Rocchetta** (Hotel)
+
+## Servizi
+
+- **Conad** — Supermercato
+- **Beretta** — Farmacia
+- **Alimentari e Tabacchi** — Alimentari
+- **Biblioteca Comunale Alda Merini** — Biblioteca
+- **Panedolci** — Panificio
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SP BS 572**
+- Strada provinciale: **Via Guglielmo Marconi**
+- Strada provinciale: **Via Pergola**
 
 ## Comuni vicini
 
@@ -50,3 +91,12 @@ Padenghe sul Garda si trova a circa 23 km a est di Brescia. Superficie: 13.62 km
 - [Calvagese della Riviera](../calvagese-della-riviera/) — 4.9 km
 - [Polpenazze del Garda](../polpenazze-del-garda/) — 4.9 km
 - [Desenzano del Garda](../desenzano-del-garda/) — 4.9 km
+
+## Comuni confinanti
+
+- [Calvagese Della Riviera](../calvagese-della-riviera/)
+- [Desenzano Del Garda](../desenzano-del-garda/)
+- [Lonato Del Garda](../lonato-del-garda/)
+- [Moniga Del Garda](../moniga-del-garda/)
+- [Sirmione](../sirmione/)
+- [Soiano Del Lago](../soiano-del-lago/)

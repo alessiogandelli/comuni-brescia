@@ -3,14 +3,25 @@ name: "Barbariga"
 slug: "barbariga"
 province: "BS"
 population: 2319
-area: 8.87
+area: 11.38
 coordinates: [45.4718, 10.0792]
+centroid: [45.40707, 10.04645]
+hasHistoric: true
+hasFood: true
+poiCount: 4
 nearby:
   - "lograto"
   - "azzano-mella"
   - "mairano"
   - "brandico"
   - "capriano-del-colle"
+bordering:
+  - "corzano"
+  - "dello"
+  - "offlaga"
+  - "orzinuovi"
+  - "pompiano"
+  - "san-paolo"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +36,24 @@ fact: ""
 
 ## Contesto geografico
 
-Barbariga si trova a circa 13 km a sud-ovest di Brescia. Superficie: 8.87 km². Densità abitativa: 261 ab/km².
+Barbariga si trova a circa 13 km a sud-ovest di Brescia. Superficie: 11.38 km². Densità abitativa: 204 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **mulino di Val di Cò**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **mulino di Val di Cò** — Rovine
+
+## Dove mangiare
+
+- **Terzo Tempo** (Bar)
+
+## Servizi
+
+- **Farmacia Dott. Marchi** — Farmacia
+- **Biblioteca comunale di Barbariga** — Biblioteca
 
 ## Come arrivare
 
@@ -50,3 +66,12 @@ Barbariga si trova a circa 13 km a sud-ovest di Brescia. Superficie: 8.87 km². 
 - [Mairano](../mairano/) — 3.1 km
 - [Brandico](../brandico/) — 3.2 km
 - [Capriano del Colle](../capriano-del-colle/) — 3.9 km
+
+## Comuni confinanti
+
+- [Corzano](../corzano/)
+- [Dello](../dello/)
+- [Offlaga](../offlaga/)
+- [Orzinuovi](../orzinuovi/)
+- [Pompiano](../pompiano/)
+- [San Paolo](../san-paolo/)

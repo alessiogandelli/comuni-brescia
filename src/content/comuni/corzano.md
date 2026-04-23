@@ -3,14 +3,26 @@ name: "Corzano"
 slug: "corzano"
 province: "BS"
 population: 1429
-area: 7.84
+area: 12.25
 coordinates: [45.461, 10.012]
+centroid: [45.4391, 10.01723]
+hasHistoric: true
+hasFood: true
+poiCount: 3
 nearby:
   - "trenzano"
   - "comezzano-cizzago"
   - "maclodio"
   - "pompiano"
   - "brandico"
+bordering:
+  - "barbariga"
+  - "brandico"
+  - "comezzano-cizzago"
+  - "dello"
+  - "longhena"
+  - "pompiano"
+  - "trenzano"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +37,24 @@ fact: ""
 
 ## Contesto geografico
 
-Corzano si trova a circa 18 km a ovest di Brescia. Superficie: 7.84 km². Densità abitativa: 182 ab/km².
+Corzano si trova a circa 18 km a ovest di Brescia. Superficie: 12.25 km². Densità abitativa: 117 ab/km². Strade principali: SPBS235.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Castello Avogadro**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello Avogadro** — Castello
+
+## Dove mangiare
+
+- **Agriturismo Cascina Vittoria** (Ristorante)
+- **l'unico posto** (Bar)
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS235**
 
 ## Comuni vicini
 
@@ -50,3 +63,13 @@ Corzano si trova a circa 18 km a ovest di Brescia. Superficie: 7.84 km². Densit
 - [Maclodio](../maclodio/) — 4.2 km
 - [Pompiano](../pompiano/) — 4.6 km
 - [Brandico](../brandico/) — 4.9 km
+
+## Comuni confinanti
+
+- [Barbariga](../barbariga/)
+- [Brandico](../brandico/)
+- [Comezzano Cizzago](../comezzano-cizzago/)
+- [Dello](../dello/)
+- [Longhena](../longhena/)
+- [Pompiano](../pompiano/)
+- [Trenzano](../trenzano/)

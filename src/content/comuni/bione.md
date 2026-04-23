@@ -3,14 +3,26 @@ name: "Bione"
 slug: "bione"
 province: "BS"
 population: 1391
-area: 14.72
+area: 17.33
 coordinates: [45.6631, 10.3283]
+centroid: [45.67528, 10.33822]
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 9
 nearby:
   - "agnosine"
   - "casto"
   - "odolo"
   - "preseglie"
   - "mura"
+bordering:
+  - "agnosine"
+  - "casto"
+  - "lumezzane"
+  - "preseglie"
+  - "vestone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +37,28 @@ fact: ""
 
 ## Contesto geografico
 
-Bione si trova a circa 16 km a nord-est di Brescia. Superficie: 14.72 km². Densità abitativa: 94 ab/km².
+Bione si trova a circa 16 km a nord-est di Brescia. Superficie: 17.33 km². Densità abitativa: 80 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Arrampicata: **Falesia di Bione**
+- Büs de la Stria
+- Dosso di Cè (1138 m)
+- Monte Coca (1070 m)
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **Rock** (Ristorante)
+
+## Dove dormire
+
+- **Bivacco Eremo di San Virgilio** (Bivacco)
 
 ## Come arrivare
 
@@ -50,3 +71,11 @@ Bione si trova a circa 16 km a nord-est di Brescia. Superficie: 14.72 km². Dens
 - [Odolo](../odolo/) — 4.8 km
 - [Preseglie](../preseglie/) — 4.8 km
 - [Mura](../mura/) — 5.2 km
+
+## Comuni confinanti
+
+- [Agnosine](../agnosine/)
+- [Casto](../casto/)
+- [Lumezzane](../lumezzane/)
+- [Preseglie](../preseglie/)
+- [Vestone](../vestone/)

@@ -3,14 +3,26 @@ name: "Capovalle"
 slug: "capovalle"
 province: "BS"
 population: 377
-area: 16.24
+area: 22.79
 coordinates: [45.75, 10.52]
+centroid: [45.74526, 10.53866]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 25
 nearby:
   - "anfo"
   - "idro"
   - "valvestino"
   - "treviso-bresciano"
   - "lavenone"
+bordering:
+  - "gargnano"
+  - "idro"
+  - "treviso-bresciano"
+  - "valvestino"
+  - "vobarno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +37,35 @@ fact: ""
 
 ## Contesto geografico
 
-Capovalle si trova a circa 33 km a nord-est di Brescia. Superficie: 16.24 km². Densità abitativa: 23 ab/km².
+Capovalle si trova a circa 33 km a nord-est di Brescia. Superficie: 22.79 km². Densità abitativa: 17 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Monte Manos (1516 m)
+- Cima Ingorello (1365 m)
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **Bar Pineta** (Caffè)
+- **Stella** (Bar)
+- **Rifugio Passo Cavallino da Giada** (Ristorante)
+
+## Dove dormire
+
+- **Colonia di Coccaveglie** (Ostello)
+- **Colonia Coccaveglie Bis** (Ostello)
+- **Rifugio Monte Stino** (Rifugio alpino)
+
+## Servizi
+
+- **Bottega Agricola** — Alimentari
 
 ## Come arrivare
 
@@ -50,3 +78,11 @@ Capovalle si trova a circa 33 km a nord-est di Brescia. Superficie: 16.24 km². 
 - [Valvestino](../valvestino/) — 5.9 km
 - [Treviso Bresciano](../treviso-bresciano/) — 6.4 km
 - [Lavenone](../lavenone/) — 6.4 km
+
+## Comuni confinanti
+
+- [Gargnano](../gargnano/)
+- [Idro](../idro/)
+- [Treviso Bresciano](../treviso-bresciano/)
+- [Valvestino](../valvestino/)
+- [Vobarno](../vobarno/)

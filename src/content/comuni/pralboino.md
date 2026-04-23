@@ -3,14 +3,24 @@ name: "Pralboino"
 slug: "pralboino"
 province: "BS"
 population: 2961
-area: 16.89
+area: 17.24
 coordinates: [45.268, 10.2152]
+centroid: [45.26439, 10.23286]
+hasHistoric: true
+poiCount: 3
 nearby:
   - "san-paolo"
   - "pavone-del-mella"
   - "alfianello"
   - "cigole"
   - "gottolengo"
+bordering:
+  - "gambara"
+  - "gottolengo"
+  - "milzano"
+  - "ostiano"
+  - "pavone-del-mella"
+  - "seniga"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +35,20 @@ fact: ""
 
 ## Contesto geografico
 
-Pralboino si trova a circa 30 km a sud di Brescia. Superficie: 16.89 km². Densità abitativa: 175 ab/km².
+Pralboino si trova a circa 30 km a sud di Brescia. Superficie: 17.24 km². Densità abitativa: 172 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Castello Gambara**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello Gambara** — Castello
+
+## Servizi
+
+- **Farmacia Ingardi Dr. Antonio & C. snc** — Farmacia
+- **Italmark** — Supermercato
 
 ## Come arrivare
 
@@ -50,3 +61,12 @@ Pralboino si trova a circa 30 km a sud di Brescia. Superficie: 16.89 km². Densi
 - [Alfianello](../alfianello/) — 5.2 km
 - [Cigole](../cigole/) — 5.5 km
 - [Gottolengo](../gottolengo/) — 5.9 km
+
+## Comuni confinanti
+
+- [Gambara](../gambara/)
+- [Gottolengo](../gottolengo/)
+- [Milzano](../milzano/)
+- [Ostiano](../ostiano/)
+- [Pavone Del Mella](../pavone-del-mella/)
+- [Seniga](../seniga/)

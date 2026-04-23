@@ -3,14 +3,24 @@ name: "Sirmione"
 slug: "sirmione"
 province: "BS"
 population: 8125
-area: 33.71
+area: 28.98
 coordinates: [45.496, 10.6075]
+centroid: [45.48165, 10.61567]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 109
 nearby:
   - "desenzano-del-garda"
   - "moniga-del-garda"
   - "manerba-del-garda"
   - "padenghe-sul-garda"
   - "soiano-del-lago"
+bordering:
+  - "desenzano-del-garda"
+  - "padenghe-sul-garda"
+  - "peschiera-del-garda"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +35,52 @@ fact: "Le Grotte di Catullo e il Castello Scaligero la rendono una delle mete pi
 
 ## Contesto geografico
 
-Sirmione si trova a circa 31 km a est di Brescia. Superficie: 33.71 km². Densità abitativa: 241 ab/km².
+Sirmione si trova a circa 31 km a est di Brescia. Superficie: 28.98 km². Densità abitativa: 280 ab/km². Strade principali: SS11.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Veduta Sandro Pertini
+- Punto panoramico
+- Parco San Vito — Parco
+- Parco Don Lino Zorzi — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Rocca Scaligera** — Castello
+- **Salvo D'Acquisto** — Monumento
+- **Maria Callas** — Monumento
+- **Grotte di Catullo** — Sito archeologico
+
+## Dove mangiare
+
+- **Alleria** (Ristorante)
+- **Casa Dei Pescatori** (Ristorante)
+- **Tancredi** (Ristorante)
+- **Villa Pioppi Ristorante** (Ristorante)
+- **Baya Catullo** (Ristorante)
+- **Erica** (Ristorante)
+
+## Dove dormire
+
+- **Aurora** (Hotel)
+- **Casa Dei Pescatori** (Hotel)
+- **Hotel Smeraldo** (Hotel)
+- **Hotel Saviola** (Hotel)
+- **Sirmio Apartments - Primavera Stay** (B&B / Affittacamere)
+- **Hotel Suisse** (Hotel)
+
+## Servizi
+
+- **Alimentari** — Alimentari
+- **Alimentari** — Alimentari
+- **Salus Vitae** — Farmacia
+- **Farmacia** — Farmacia
+- **Farmacia Internazionale Dr. Luisa Cornacchione** — Farmacia
+- **Coop** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Superstrada: **SS11**
 
 ## Lo sapevi?
 
@@ -54,3 +93,9 @@ Le Grotte di Catullo e il Castello Scaligero la rendono una delle mete più visi
 - [Manerba del Garda](../manerba-del-garda/) — 7.5 km
 - [Padenghe sul Garda](../padenghe-sul-garda/) — 8.1 km
 - [Soiano del Lago](../soiano-del-lago/) — 9.3 km
+
+## Comuni confinanti
+
+- [Desenzano Del Garda](../desenzano-del-garda/)
+- [Padenghe Sul Garda](../padenghe-sul-garda/)
+- [Peschiera Del Garda](../peschiera-del-garda/)

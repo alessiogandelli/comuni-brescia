@@ -3,14 +3,29 @@ name: "Sabbio Chiese"
 slug: "sabbio-chiese"
 province: "BS"
 population: 3787
-area: 19.4
+area: 18.36
 coordinates: [45.6581, 10.4178]
+centroid: [45.64408, 10.43185]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 15
 nearby:
   - "preseglie"
   - "barghe"
   - "odolo"
   - "provaglio-val-sabbia"
   - "agnosine"
+bordering:
+  - "barghe"
+  - "gavardo"
+  - "odolo"
+  - "preseglie"
+  - "provaglio-val-sabbia"
+  - "vallio-terme"
+  - "villanuova-sul-clisi"
+  - "vobarno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +40,38 @@ fact: ""
 
 ## Contesto geografico
 
-Sabbio Chiese si trova a circa 21 km a nord-est di Brescia. Superficie: 19.4 km². Densità abitativa: 195 ab/km².
+Sabbio Chiese si trova a circa 21 km a nord-est di Brescia. Superficie: 18.36 km². Densità abitativa: 206 ab/km². Strade principali: SPBS237d1.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Monte Rasina (493 m)
+- Monte Mignon (485 m)
+- Piazza della Memoria — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Piaggio Rio 440 Jet** — Sito archeologico
+
+## Dove mangiare
+
+- **Bar Malpensaà** (Caffè)
+- **Ai Due Ponti** (Caffè)
+- **Bicigrill La Staffetta** (Caffè)
+- **Semtex Pub** (Pub)
+- **Ristorante La Ruota** (Ristorante)
+
+## Dove dormire
+
+- **Agriturismo Incanti** (B&B / Affittacamere)
+
+## Servizi
+
+- **Oratorio** — Centro civico
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Superstrada: **SPBS237d1**
 
 ## Comuni vicini
 
@@ -50,3 +80,14 @@ Sabbio Chiese si trova a circa 21 km a nord-est di Brescia. Superficie: 19.4 km�
 - [Odolo](../odolo/) — 2.9 km
 - [Provaglio Val Sabbia](../provaglio-val-sabbia/) — 3.6 km
 - [Agnosine](../agnosine/) — 5.2 km
+
+## Comuni confinanti
+
+- [Barghe](../barghe/)
+- [Gavardo](../gavardo/)
+- [Odolo](../odolo/)
+- [Preseglie](../preseglie/)
+- [Provaglio Val Sabbia](../provaglio-val-sabbia/)
+- [Vallio Terme](../vallio-terme/)
+- [Villanuova Sul Clisi](../villanuova-sul-clisi/)
+- [Vobarno](../vobarno/)

@@ -3,14 +3,26 @@ name: "Villanuova sul Clisi"
 slug: "villanuova-sul-clisi"
 province: "BS"
 population: 5865
-area: 6.75
+area: 9.15
 coordinates: [45.5974, 10.4573]
+centroid: [45.61073, 10.46416]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 35
 nearby:
   - "vallio-terme"
   - "gavardo"
   - "roe-volciano"
   - "muscoline"
   - "salo"
+bordering:
+  - "gavardo"
+  - "roe-volciano"
+  - "sabbio-chiese"
+  - "vobarno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +37,47 @@ fact: ""
 
 ## Contesto geografico
 
-Villanuova sul Clisi si trova a circa 20 km a est di Brescia. Superficie: 6.75 km². Densità abitativa: 869 ab/km².
+Villanuova sul Clisi si trova a circa 20 km a est di Brescia. Superficie: 9.15 km². Densità abitativa: 641 ab/km². Strade principali: SS45bis, SS45ter.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Arrampicata: **Climber Lesi**
+- Arrampicata: **Falesia del Renico**
+- Arrampicata: **Falesia Di Villanuova Sul Clisi - Settore Basso**
+- Grotta
+- Büs de la Fam
+- Punto panoramico
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Riparo Persi** — Sito archeologico
+- **Riparo Cavallino** — Sito archeologico
+
+## Dove mangiare
+
+- **Bar Trattoria Al Volt** (Ristorante)
+- **Bar dell'Angolo** (Caffè)
+- **Azazi kebab** (Fast food)
+- **Trattoria ristorante All'italiana** (Ristorante)
+- **Bar One** (Bar)
+- **Trattoria da Emma** (Ristorante)
+
+## Dove dormire
+
+- **B&B / Affittacamere** (B&B / Affittacamere)
+
+## Servizi
+
+- **Italmark** — Supermercato
+- **Parafarmacia San Matteo** — Farmacia
+- **Farmacia** — Farmacia
+- **ALDI** — Supermercato
+- **Forneria Flori** — Panificio
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Superstrada: **SS45bis**
+- Superstrada: **SS45ter**
 
 ## Comuni vicini
 
@@ -50,3 +86,10 @@ Villanuova sul Clisi si trova a circa 20 km a est di Brescia. Superficie: 6.75 k
 - [Roè Volciano](../roe-volciano/) — 2.6 km
 - [Muscoline](../muscoline/) — 4.8 km
 - [Salò](../salo/) — 4.9 km
+
+## Comuni confinanti
+
+- [Gavardo](../gavardo/)
+- [Roe Volciano](../roe-volciano/)
+- [Sabbio Chiese](../sabbio-chiese/)
+- [Vobarno](../vobarno/)

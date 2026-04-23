@@ -3,14 +3,27 @@ name: "Cividate Camuno"
 slug: "cividate-camuno"
 province: "BS"
 population: 2752
-area: 5.5
+area: 3.29
 coordinates: [45.9373, 10.2764]
+centroid: [45.93918, 10.26675]
+hasHistoric: true
+hasFood: true
+hasStation: true
+poiCount: 16
 nearby:
   - "bienno"
   - "malegno"
   - "prestine"
   - "esine"
   - "breno"
+bordering:
+  - "berzo-inferiore"
+  - "bienno"
+  - "breno"
+  - "esine"
+  - "malegno"
+  - "ossimo"
+  - "piancogno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +38,36 @@ fact: "Antica città romana con teatro e anfiteatro"
 
 ## Contesto geografico
 
-Cividate Camuno si trova a circa 44 km a nord di Brescia. Superficie: 5.5 km². Densità abitativa: 500 ab/km².
+Cividate Camuno si trova a circa 44 km a nord di Brescia. Superficie: 3.29 km². Densità abitativa: 836 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Parco sud di Cividate — Parco
+- Parco Nikolajewka — Parco
+- Visita: **Terme Romane**
+- Visita: **Edificio dei Gladiatori**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Terme Romane** — Sito archeologico
+- **Edificio dei Gladiatori** — Sito archeologico
+- **Anfiteatro Romano** — Sito archeologico
+- **Teatro Romano** — Sito archeologico
+
+## Dove mangiare
+
+- **Ristorante Pizzeria Vannia** (Ristorante)
+- **Break Bar** (Caffè)
+
+## Servizi
+
+- **Farmacia Comunale** — Farmacia
+- **Due Ruote** — Ciclofficina
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Cividate-Malegno**
+- Superstrada: **SS42**
 
 ## Lo sapevi?
 
@@ -54,3 +80,13 @@ Antica città romana con teatro e anfiteatro
 - [Prestine](../prestine/) — 1.8 km
 - [Esine](../esine/) — 2.1 km
 - [Breno](../breno/) — 3.0 km
+
+## Comuni confinanti
+
+- [Berzo Inferiore](../berzo-inferiore/)
+- [Bienno](../bienno/)
+- [Breno](../breno/)
+- [Esine](../esine/)
+- [Malegno](../malegno/)
+- [Ossimo](../ossimo/)
+- [Piancogno](../piancogno/)

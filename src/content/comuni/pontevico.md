@@ -3,12 +3,24 @@ name: "Pontevico"
 slug: "pontevico"
 province: "BS"
 population: 7174
-area: 30.38
+area: 29.26
 coordinates: [45.2731, 10.087]
+centroid: [45.28023, 10.10177]
+hasHistoric: true
+hasFood: true
+poiCount: 7
 nearby:
   - "seniga"
   - "alfianello"
   - "quinzano-doglio"
+  - "verolanuova"
+  - "verolavecchia"
+bordering:
+  - "alfianello"
+  - "bassano-bresciano"
+  - "corte-de'-frati"
+  - "robecco-d'oglio"
+  - "san-gervasio-bresciano"
   - "verolanuova"
   - "verolavecchia"
 # ── Enrichment (fill via AI or manually) ──
@@ -25,23 +37,33 @@ fact: ""
 
 ## Contesto geografico
 
-Pontevico si trova a circa 31 km a sud-ovest di Brescia. Superficie: 30.38 km². Densità abitativa: 236 ab/km².
+Pontevico si trova a circa 31 km a sud-ovest di Brescia. Superficie: 29.26 km². Densità abitativa: 245 ab/km². Strade principali: A21, SP64, SPBS45bis, SPBS45bis B1, Via San Rocco.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Castello di Pontevico**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Pontevico** — Castello
+
+## Dove mangiare
+
+- **Pizzeria Coccinella** (Ristorante)
+- **Keeper 88** (Bar)
+- **Caffè Mazzini** (Caffè)
+- **Soho** (Bar)
+
+## Servizi
+
+- **Conad** — Supermercato
+- **Aldi** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Autostrada: **A21**
+- Strada provinciale: **SP64**
+- Strada provinciale: **SPBS45bis**
 
 ## Comuni vicini
 
@@ -50,3 +72,13 @@ Pontevico si trova a circa 31 km a sud-ovest di Brescia. Superficie: 30.38 km².
 - [Quinzano d'Oglio](../quinzano-doglio/) — 5.0 km
 - [Verolanuova](../verolanuova/) — 6.0 km
 - [Verolavecchia](../verolavecchia/) — 6.6 km
+
+## Comuni confinanti
+
+- [Alfianello](../alfianello/)
+- [Bassano Bresciano](../bassano-bresciano/)
+- [Corte De' Frati](../corte-de'-frati/)
+- [Robecco D'oglio](../robecco-d'oglio/)
+- [San Gervasio Bresciano](../san-gervasio-bresciano/)
+- [Verolanuova](../verolanuova/)
+- [Verolavecchia](../verolavecchia/)

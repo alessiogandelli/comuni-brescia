@@ -3,13 +3,26 @@ name: "Montichiari"
 slug: "montichiari"
 province: "BS"
 population: 25200
-area: 81
+area: 81.2
 coordinates: [45.4134, 10.3971]
+centroid: [45.41119, 10.38187]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 65
 nearby:
   - "calcinato"
   - "carpenedolo"
   - "calvisano"
   - "lonato-del-garda"
+  - "ghedi"
+bordering:
+  - "calcinato"
+  - "calvisano"
+  - "carpenedolo"
+  - "castenedolo"
+  - "castiglione-delle-stiviere"
   - "ghedi"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -25,23 +38,51 @@ fact: "Sede dell'Aeroporto di Brescia-Montichiari e del castello Bonoris"
 
 ## Contesto geografico
 
-Montichiari si trova a circa 20 km a sud-est di Brescia. Superficie: 81 km². Densità abitativa: 311 ab/km².
+Montichiari si trova a circa 20 km a sud-est di Brescia. Superficie: 81.2 km². Densità abitativa: 310 ab/km². Strade principali: SPexSS567, Via Brescia, SPBS236, Via Tito Speri, SS343.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Castello Bonoris (132 m)
+- Monte San Pancrazio (145 m)
+- Pieve di San Pancrazio (135 m)
+- Parco Caduti di Nassiriya — Parco
+- PARCO NOVARESE — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello Bonoris** — Castello
+- **Ai caduti del lavoro** — Monumento
+
+## Dove mangiare
+
+- **My Tay** (Bar)
+- **Body and soul** (Bar)
+- **Bar Ferdy** (Caffè)
+- **Kebab** (Fast food)
+- **Pizzeria Aquila d'oro** (Ristorante)
+- **Carpe Diem** (Ristorante)
+
+## Dove dormire
+
+- **Hotel Elefante** (Hotel)
+- **Garda** (Hotel)
+- **Hotel Faro** (Hotel)
+- **Monticlaris** (B&B / Affittacamere)
+
+## Servizi
+
+- **Lugotto** — Centro civico
+- **O.A.S.I.** — Centro civico
+- **Farmacia Centrale** — Farmacia
+- **Biblioteca Comunale "Giovanni Treccani degli Alfieri" di Montichiari** — Biblioteca
+- **Farmacia Comunale 2** — Farmacia
+- **LIDL** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Superstrada: **SPexSS567**
+- Superstrada: **Via Brescia**
+- Superstrada: **SPBS236**
 
 ## Lo sapevi?
 
@@ -54,3 +95,12 @@ Sede dell'Aeroporto di Brescia-Montichiari e del castello Bonoris
 - [Calvisano](../calvisano/) — 7.9 km
 - [Lonato del Garda](../lonato-del-garda/) — 8.7 km
 - [Ghedi](../ghedi/) — 9.6 km
+
+## Comuni confinanti
+
+- [Calcinato](../calcinato/)
+- [Calvisano](../calvisano/)
+- [Carpenedolo](../carpenedolo/)
+- [Castenedolo](../castenedolo/)
+- [Castiglione Delle Stiviere](../castiglione-delle-stiviere/)
+- [Ghedi](../ghedi/)

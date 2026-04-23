@@ -3,14 +3,21 @@ name: "Irma"
 slug: "irma"
 province: "BS"
 population: 140
-area: 8.44
+area: 5.04
 coordinates: [45.757, 10.283]
+centroid: [45.77476, 10.29934]
+hasNature: true
+hasFood: true
+poiCount: 4
 nearby:
   - "marmentino"
   - "tavernole-sul-mella"
   - "lodrino"
   - "bovegno"
   - "pezzaze"
+bordering:
+  - "bovegno"
+  - "marmentino"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +32,26 @@ fact: "Uno dei comuni più piccoli della provincia per popolazione"
 
 ## Contesto geografico
 
-Irma si trova a circa 25 km a nord di Brescia. Superficie: 8.44 km². Densità abitativa: 17 ab/km².
+Irma si trova a circa 25 km a nord di Brescia. Superficie: 5.04 km². Densità abitativa: 28 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Grotta
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **Ristoro Marilisa** (Ristorante)
+- **Bar Trattoria Raèi** (Ristorante)
+
+## Servizi
+
+- **Biblioteca** — Biblioteca
 
 ## Come arrivare
 
@@ -54,3 +68,8 @@ Uno dei comuni più piccoli della provincia per popolazione
 - [Lodrino](../lodrino/) — 3.9 km
 - [Bovegno](../bovegno/) — 4.2 km
 - [Pezzaze](../pezzaze/) — 4.5 km
+
+## Comuni confinanti
+
+- [Bovegno](../bovegno/)
+- [Marmentino](../marmentino/)

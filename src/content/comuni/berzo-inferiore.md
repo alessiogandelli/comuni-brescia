@@ -3,13 +3,23 @@ name: "Berzo Inferiore"
 slug: "berzo-inferiore"
 province: "BS"
 population: 2410
-area: 12.49
+area: 22
 coordinates: [45.9513, 10.2001]
+centroid: [45.8977, 10.29563]
+hasHistoric: true
+hasNature: true
+hasFood: true
+poiCount: 19
 nearby:
   - "borno"
   - "ossimo"
   - "piancogno"
   - "brione"
+  - "esine"
+bordering:
+  - "bienno"
+  - "bovegno"
+  - "cividate-camuno"
   - "esine"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -25,19 +35,33 @@ fact: ""
 
 ## Contesto geografico
 
-Berzo Inferiore si trova a circa 46 km a nord di Brescia. Superficie: 12.49 km². Densità abitativa: 193 ab/km².
+Berzo Inferiore si trova a circa 46 km a nord di Brescia. Superficie: 22 km². Densità abitativa: 110 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Bodrello (1725 m)
+- Dosso Acuto (1888 m)
+- Dosso dell'Asino (1906 m)
+- Parco di Berzo Inferiore — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Baitel dè Lescio** — Rovine
+- **Malga di Val Bresciana Inferiore** — Rovine
+
+## Dove mangiare
+
+- **Freeway** (Caffè)
+- **Al Centro** (Caffè)
+- **La Romantica** (Ristorante)
+- **La Coccinella 2** (Ristorante)
+
+## Servizi
+
+- **Biblioteca comunale di Berzo Inferiore** — Biblioteca
+- **Farmacia** — Farmacia
+- **Oratorio di Berzo Inferiore** — Centro civico
+- **Crai** — Supermercato
 
 ## Come arrivare
 
@@ -50,3 +74,10 @@ Berzo Inferiore si trova a circa 46 km a nord di Brescia. Superficie: 12.49 km²
 - [Piancogno](../piancogno/) — 2.6 km
 - [Brione](../brione/) — 4.5 km
 - [Esine](../esine/) — 4.5 km
+
+## Comuni confinanti
+
+- [Bienno](../bienno/)
+- [Bovegno](../bovegno/)
+- [Cividate Camuno](../cividate-camuno/)
+- [Esine](../esine/)

@@ -3,14 +3,23 @@ name: "Flero"
 slug: "flero"
 province: "BS"
 population: 8643
-area: 11
+area: 9.88
 coordinates: [45.4837, 10.1764]
+centroid: [45.48062, 10.17215]
+hasFood: true
+poiCount: 21
 nearby:
   - "poncarale"
   - "san-zeno-naviglio"
   - "castel-mella"
   - "capriano-del-colle"
   - "borgosatollo"
+bordering:
+  - "brescia"
+  - "capriano-del-colle"
+  - "castel-mella"
+  - "poncarale"
+  - "san-zeno-naviglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +34,11 @@ fact: ""
 
 ## Contesto geografico
 
-Flero si trova a circa 7 km a sud-ovest di Brescia. Superficie: 11 km². Densità abitativa: 786 ab/km².
+Flero si trova a circa 7 km a sud-ovest di Brescia. Superficie: 9.88 km². Densità abitativa: 875 ab/km². Strade principali: A21racc, SCBS, SPIX, Tangenziale Ovest, Via Quinzano.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Giardino marinai d'Italia — Parco
 
 ## Luoghi importanti
 
@@ -39,9 +46,29 @@ Flero si trova a circa 7 km a sud-ovest di Brescia. Superficie: 11 km². Densit�
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Reginella** (Ristorante)
+- **Bar Centrale** (Caffè)
+- **Bar** (Caffè)
+- **El Cumino** (Caffè)
+- **BEFeD Flero** (Ristorante)
+- **Effebar** (Bar)
+
+## Servizi
+
+- **Oratorio don Bosco** — Centro civico
+- **Farmacia dott. Cavalli** — Farmacia
+- **Biblioteca di Flero** — Biblioteca
+- **Centro ricreativo Mario Pellegrini** — Centro civico
+- **Gruppo Alpini Flero** — Centro civico
+- **Italmark** — Supermercato
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Autostrada: **A21racc**
+- Strada provinciale: **SCBS**
+- Strada provinciale: **SPIX**
 
 ## Comuni vicini
 
@@ -50,3 +77,11 @@ Flero si trova a circa 7 km a sud-ovest di Brescia. Superficie: 11 km². Densit�
 - [Castel Mella](../castel-mella/) — 3.2 km
 - [Capriano del Colle](../capriano-del-colle/) — 4.1 km
 - [Borgosatollo](../borgosatollo/) — 4.5 km
+
+## Comuni confinanti
+
+- [Brescia](../brescia/)
+- [Capriano Del Colle](../capriano-del-colle/)
+- [Castel Mella](../castel-mella/)
+- [Poncarale](../poncarale/)
+- [San Zeno Naviglio](../san-zeno-naviglio/)

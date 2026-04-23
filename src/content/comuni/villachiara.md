@@ -3,14 +3,24 @@ name: "Villachiara"
 slug: "villachiara"
 province: "BS"
 population: 1391
-area: 14.82
+area: 16.75
 coordinates: [45.3597, 9.9345]
+centroid: [45.35431, 9.91769]
+hasHistoric: true
+hasFood: true
+poiCount: 6
 nearby:
   - "orzinuovi"
   - "borgo-san-giacomo"
   - "orzivecchi"
   - "pompiano"
   - "verolavecchia"
+bordering:
+  - "azzanello"
+  - "borgo-san-giacomo"
+  - "genivolta"
+  - "orzinuovi"
+  - "soncino"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +35,24 @@ fact: ""
 
 ## Contesto geografico
 
-Villachiara si trova a circa 30 km a sud-ovest di Brescia. Superficie: 14.82 km². Densità abitativa: 94 ab/km².
+Villachiara si trova a circa 30 km a sud-ovest di Brescia. Superficie: 16.75 km². Densità abitativa: 83 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Castello Martinengo**
+- Visita: **Castello di Villagana**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello Martinengo** — Castello
+- **Castello di Villagana** — Castello
+- **Palazzo Martinengo** — Castello
+
+## Dove mangiare
+
+- **Osteria a Porto d'Oglio** (Ristorante)
+- **Ristorante Pizzeria San Giorgio** (Ristorante)
+- **La Ganea** (Ristorante)
 
 ## Come arrivare
 
@@ -50,3 +65,11 @@ Villachiara si trova a circa 30 km a sud-ovest di Brescia. Superficie: 14.82 km�
 - [Orzivecchi](../orzivecchi/) — 7.5 km
 - [Pompiano](../pompiano/) — 8.5 km
 - [Verolavecchia](../verolavecchia/) — 10.1 km
+
+## Comuni confinanti
+
+- [Azzanello](../azzanello/)
+- [Borgo San Giacomo](../borgo-san-giacomo/)
+- [Genivolta](../genivolta/)
+- [Orzinuovi](../orzinuovi/)
+- [Soncino](../soncino/)

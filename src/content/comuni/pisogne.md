@@ -3,14 +3,34 @@ name: "Pisogne"
 slug: "pisogne"
 province: "BS"
 population: 8040
-area: 48.74
+area: 49.36
 coordinates: [45.799, 10.1082]
+centroid: [45.79672, 10.13735]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+hasStation: true
+poiCount: 61
 nearby:
   - "zone"
   - "artogne"
   - "pian-camuno"
   - "marone"
   - "monte-isola"
+bordering:
+  - "artogne"
+  - "castro"
+  - "costa-volpino"
+  - "lovere"
+  - "marone"
+  - "pezzaze"
+  - "pian-camuno"
+  - "riva-di-solto"
+  - "solto-collina"
+  - "tavernole-sul-mella"
+  - "zone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +45,53 @@ fact: "La chiesa di Santa Maria della Neve conserva affreschi del Romanino"
 
 ## Contesto geografico
 
-Pisogne si trova a circa 30 km a nord di Brescia. Superficie: 48.74 km². Densità abitativa: 165 ab/km².
+Pisogne si trova a circa 30 km a nord di Brescia. Superficie: 49.36 km². Densità abitativa: 163 ab/km². Strade principali: SPBS510.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Seggiovia: **Duadello**
+- Dosso Camussone (1433 m)
+- Cima di Tet (1366 m)
+- Dosso della Pedona (1413 m)
+- Parco della Pieve — Parco
+- Parco Comunale Damioli — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Rocce istoriate Pè de l'Aden** — Sito archeologico
+
+## Dove mangiare
+
+- **Il Melograno** (Ristorante)
+- **Trattoria Dosso Seradino** (Ristorante)
+- **Bar Marconi** (Bar)
+- **Pizza D'Asporto Europizza** (Ristorante)
+- **Taverna del vescovo** (Ristorante)
+- **Barbai** (Caffè)
+
+## Dove dormire
+
+- **La Pieve di Pisogne** (Hotel)
+- **Capovilla** (Hotel)
+- **Alpino** (B&B / Affittacamere)
+- **Camping Eden** (Campeggio)
+- **Albergo Ristorante Nuova Stella** (Hotel)
+- **Rifugio Medelet** (Rifugio alpino)
+
+## Servizi
+
+- **Biblioteca comunale** — Biblioteca
+- **Formagio** — Alimentari
+- **Bonetti & Bulgari** — Farmacia
+- **Oratorio di Pisogne** — Centro civico
+- **Italmark** — Supermercato
+- **Il fornaio** — Panificio
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Pisogne**
+- Seggiovia: **Duadello**
+- Superstrada: **SPBS510**
 
 ## Lo sapevi?
 
@@ -54,3 +104,17 @@ La chiesa di Santa Maria della Neve conserva affreschi del Romanino
 - [Pian Camuno](../pian-camuno/) — 7.5 km
 - [Marone](../marone/) — 7.5 km
 - [Monte Isola](../monte-isola/) — 9.8 km
+
+## Comuni confinanti
+
+- [Artogne](../artogne/)
+- [Castro](../castro/)
+- [Costa Volpino](../costa-volpino/)
+- [Lovere](../lovere/)
+- [Marone](../marone/)
+- [Pezzaze](../pezzaze/)
+- [Pian Camuno](../pian-camuno/)
+- [Riva Di Solto](../riva-di-solto/)
+- [Solto Collina](../solto-collina/)
+- [Tavernole Sul Mella](../tavernole-sul-mella/)
+- [Zone](../zone/)

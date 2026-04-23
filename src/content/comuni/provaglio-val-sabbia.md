@@ -3,14 +3,24 @@ name: "Provaglio Val Sabbia"
 slug: "provaglio-val-sabbia"
 province: "BS"
 population: 929
-area: 13.74
+area: 14.91
 coordinates: [45.69, 10.4088]
+centroid: [45.68685, 10.44447]
+hasNature: true
+hasAccommodation: true
+poiCount: 11
 nearby:
   - "barghe"
   - "vestone"
   - "preseglie"
   - "sabbio-chiese"
   - "pertica-bassa"
+bordering:
+  - "barghe"
+  - "sabbio-chiese"
+  - "treviso-bresciano"
+  - "vestone"
+  - "vobarno"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +35,27 @@ fact: ""
 
 ## Contesto geografico
 
-Provaglio Val Sabbia si trova a circa 23 km a nord-est di Brescia. Superficie: 13.74 km². Densità abitativa: 68 ab/km².
+Provaglio Val Sabbia si trova a circa 23 km a nord-est di Brescia. Superficie: 14.91 km². Densità abitativa: 62 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Castello (1071 m)
+- Monte Besum (1115 m)
+- Monte Folmone (1061 m)
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove dormire
+
+- **B&B Asinochevola** (B&B / Affittacamere)
+
+## Servizi
+
+- **Biblioteca comunale** — Biblioteca
 
 ## Come arrivare
 
@@ -50,3 +68,11 @@ Provaglio Val Sabbia si trova a circa 23 km a nord-est di Brescia. Superficie: 1
 - [Preseglie](../preseglie/) — 2.6 km
 - [Sabbio Chiese](../sabbio-chiese/) — 3.6 km
 - [Pertica Bassa](../pertica-bassa/) — 4.0 km
+
+## Comuni confinanti
+
+- [Barghe](../barghe/)
+- [Sabbio Chiese](../sabbio-chiese/)
+- [Treviso Bresciano](../treviso-bresciano/)
+- [Vestone](../vestone/)
+- [Vobarno](../vobarno/)

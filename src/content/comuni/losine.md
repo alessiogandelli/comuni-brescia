@@ -3,14 +3,25 @@ name: "Losine"
 slug: "losine"
 province: "BS"
 population: 546
-area: 5.48
+area: 6.34
 coordinates: [46.0031, 10.265]
+centroid: [45.97946, 10.30785]
+hasNature: true
+hasFood: true
+poiCount: 2
 nearby:
   - "lozio"
   - "cerveno"
   - "berzo-demo"
   - "malegno"
   - "breno"
+bordering:
+  - "braone"
+  - "breno"
+  - "cerveno"
+  - "ceto"
+  - "malegno"
+  - "niardo"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +36,21 @@ fact: ""
 
 ## Contesto geografico
 
-Losine si trova a circa 51 km a nord di Brescia. Superficie: 5.48 km². Densità abitativa: 100 ab/km².
+Losine si trova a circa 51 km a nord di Brescia. Superficie: 6.34 km². Densità abitativa: 86 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Manede (1149 m)
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **Bar Piera** (Bar)
 
 ## Come arrivare
 
@@ -50,3 +63,12 @@ Losine si trova a circa 51 km a nord di Brescia. Superficie: 5.48 km². Densità
 - [Berzo Demo](../berzo-demo/) — 5.1 km
 - [Malegno](../malegno/) — 5.7 km
 - [Breno](../breno/) — 5.9 km
+
+## Comuni confinanti
+
+- [Braone](../braone/)
+- [Breno](../breno/)
+- [Cerveno](../cerveno/)
+- [Ceto](../ceto/)
+- [Malegno](../malegno/)
+- [Niardo](../niardo/)

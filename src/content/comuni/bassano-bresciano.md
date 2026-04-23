@@ -3,13 +3,20 @@ name: "Bassano Bresciano"
 slug: "bassano-bresciano"
 province: "BS"
 population: 2209
-area: 16.77
+area: 9.6
 coordinates: [45.3402, 10.1315]
+centroid: [45.32419, 10.12867]
+poiCount: 1
 nearby:
   - "manerbio"
   - "san-gervasio-bresciano"
   - "milzano"
   - "quinzano-doglio"
+  - "verolanuova"
+bordering:
+  - "manerbio"
+  - "pontevico"
+  - "san-gervasio-bresciano"
   - "verolanuova"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
@@ -25,7 +32,7 @@ fact: ""
 
 ## Contesto geografico
 
-Bassano Bresciano si trova a circa 23 km a sud di Brescia. Superficie: 16.77 km². Densità abitativa: 132 ab/km².
+Bassano Bresciano si trova a circa 23 km a sud di Brescia. Superficie: 9.6 km². Densità abitativa: 230 ab/km². Strade principali: A21, SPBS45bis.
 
 ## Cosa fare
 
@@ -39,9 +46,14 @@ Bassano Bresciano si trova a circa 23 km a sud di Brescia. Superficie: 16.77 km�
 - Piazza principale
 - Palazzo municipale
 
+## Servizi
+
+- **Conad** — Supermercato
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Autostrada: **A21**
+- Strada provinciale: **SPBS45bis**
 
 ## Comuni vicini
 
@@ -50,3 +62,10 @@ Bassano Bresciano si trova a circa 23 km a sud di Brescia. Superficie: 16.77 km�
 - [Milzano](../milzano/) — 3.6 km
 - [Quinzano d'Oglio](../quinzano-doglio/) — 3.8 km
 - [Verolanuova](../verolanuova/) — 4.1 km
+
+## Comuni confinanti
+
+- [Manerbio](../manerbio/)
+- [Pontevico](../pontevico/)
+- [San Gervasio Bresciano](../san-gervasio-bresciano/)
+- [Verolanuova](../verolanuova/)

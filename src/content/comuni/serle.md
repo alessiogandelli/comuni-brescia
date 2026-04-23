@@ -3,14 +3,28 @@ name: "Serle"
 slug: "serle"
 province: "BS"
 population: 3095
-area: 18.03
+area: 18.57
 coordinates: [45.5576, 10.3636]
+centroid: [45.57864, 10.35878]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 41
 nearby:
   - "nuvolento"
   - "paitone"
   - "nuvolera"
   - "prevalle"
   - "mazzano"
+bordering:
+  - "botticino"
+  - "caino"
+  - "nave"
+  - "nuvolento"
+  - "nuvolera"
+  - "paitone"
+  - "vallio-terme"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +39,38 @@ fact: "Le grotte carsiche e il Buco del Frate sono tesori geologici"
 
 ## Contesto geografico
 
-Serle si trova a circa 12 km a est di Brescia. Superficie: 18.03 km². Densità abitativa: 172 ab/km².
+Serle si trova a circa 12 km a est di Brescia. Superficie: 18.57 km². Densità abitativa: 167 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Omber de Calamòr (810 m)
+- Monte San Bartolomeo (933 m)
+- Buco della Mandria
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Fienile Canali** — Rovine
+
+## Dove mangiare
+
+- **Trattoria Pizzeria Cervo** (Ristorante)
+- **Ristorante La Collina del Fante** (Ristorante)
+- **Bar Gelateria Dolce Vita** (Caffè)
+- **Trattoria Valpiana** (Ristorante)
+- **Agriturismo Casinetto** (Ristorante)
+- **Agriturismo L'Aquila Solitaria** (Ristorante)
+
+## Dove dormire
+
+- **Rifugio Alpini di Serle** (Rifugio alpino)
+- **Agriturismo dell'Altopiano** (B&B / Affittacamere)
+
+## Servizi
+
+- **Casa dei Serlesi** — Centro civico
+- **Sala ritrovo Don Antonio Morettini** — Centro civico
+- **Alimentari** — Alimentari
+- **Non solo pane** — Panificio
 
 ## Come arrivare
 
@@ -54,3 +87,13 @@ Le grotte carsiche e il Buco del Frate sono tesori geologici
 - [Nuvolera](../nuvolera/) — 2.4 km
 - [Prevalle](../prevalle/) — 4.2 km
 - [Mazzano](../mazzano/) — 4.3 km
+
+## Comuni confinanti
+
+- [Botticino](../botticino/)
+- [Caino](../caino/)
+- [Nave](../nave/)
+- [Nuvolento](../nuvolento/)
+- [Nuvolera](../nuvolera/)
+- [Paitone](../paitone/)
+- [Vallio Terme](../vallio-terme/)

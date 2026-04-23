@@ -3,14 +3,25 @@ name: "Vione"
 slug: "vione"
 province: "BS"
 population: 643
-area: 36.87
+area: 35.46
 coordinates: [46.2407, 10.4367]
+centroid: [46.26072, 10.44056]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 31
 nearby:
   - "temu"
   - "vezza-doglio"
   - "ponte-di-legno"
   - "incudine"
   - "monno"
+bordering:
+  - "edolo"
+  - "ponte-di-legno"
+  - "temu"
+  - "vezza-d'oglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +36,42 @@ fact: ""
 
 ## Contesto geografico
 
-Vione si trova a circa 80 km a nord di Brescia. Superficie: 36.87 km². Densità abitativa: 17 ab/km².
+Vione si trova a circa 80 km a nord di Brescia. Superficie: 35.46 km². Densità abitativa: 18 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Corni della Torre (2235 m)
+- Cima Muralta (2523 m)
+- Corno di Bles (2750 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Vecchia Segheria di Stadolina** — Sito archeologico
+
+## Dove mangiare
+
+- **AlpinBar** (Bar)
+- **Trattoria Cavallino** (Ristorante)
+- **Bar Cavallino** (Caffè)
+- **Osteria Lissidini** (Ristorante)
+
+## Dove dormire
+
+- **Bivacco Case di Bles** (Bivacco)
+- **Bivacco Plassa Gerù** (Bivacco)
+- **Agriturismo Val di Canè** (B&B / Affittacamere)
+- **Hotel Garnì Alta Valle** (Hotel)
+- **Capanna Sociale Val Vallaro** (Bivacco)
+- **Bivacco Valzaroten** (Bivacco)
+
+## Servizi
+
+- **Farmacia** — Farmacia
+- **Alimentari** — Alimentari
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SS42**
 
 ## Comuni vicini
 
@@ -50,3 +80,10 @@ Vione si trova a circa 80 km a nord di Brescia. Superficie: 36.87 km². Densità
 - [Ponte di Legno](../ponte-di-legno/) — 5.9 km
 - [Incudine](../incudine/) — 7.3 km
 - [Monno](../monno/) — 8.0 km
+
+## Comuni confinanti
+
+- [Edolo](../edolo/)
+- [Ponte Di Legno](../ponte-di-legno/)
+- [Temu](../temu/)
+- [Vezza D'oglio](../vezza-d'oglio/)

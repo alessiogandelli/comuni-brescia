@@ -3,14 +3,24 @@ name: "Anfo"
 slug: "anfo"
 province: "BS"
 population: 471
-area: 21.43
+area: 23.9
 coordinates: [45.7677, 10.4925]
+centroid: [45.78456, 10.48149]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 36
 nearby:
   - "idro"
   - "capovalle"
   - "lavenone"
   - "treviso-bresciano"
   - "bagolino"
+bordering:
+  - "bagolino"
+  - "idro"
+  - "lavenone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +35,46 @@ fact: "Ospita la Rocca d'Anfo, fortezza napoleonica sul lago d'Idro"
 
 ## Contesto geografico
 
-Anfo si trova a circa 33 km a nord-est di Brescia. Superficie: 21.43 km². Densità abitativa: 22 ab/km².
+Anfo si trova a circa 33 km a nord-est di Brescia. Superficie: 23.9 km². Densità abitativa: 20 ab/km². Strade principali: SPBS237.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Cima Cereto Chetoi (934 m)
+- Punto panoramico
+- Cima Valcaelli (1360 m)
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Rocca d'Anfo - Edificio 'Batteria Statuto'** — Rovine
+
+## Dove mangiare
+
+- **Al Carèl** (Ristorante)
+- **Trattoria La Lanterna** (Ristorante)
+- **La Boa** (Ristorante)
+- **Caffè degli Alpini** (Bar)
+- **Al Lago** (Ristorante)
+- **Hotel Albergo Al Lago** (Ristorante)
+
+## Dove dormire
+
+- **Baita Gatole** (Bivacco)
+- **Bivacco Vedetta del Censo** (Bivacco)
+- **I tre casali** (B&B / Affittacamere)
+- **Rifugio Rosa di Baremone** (Hotel)
+- **Porto Vecchio** (B&B / Affittacamere)
+- **Hotel Albergo Al Lago** (Hotel)
+
+## Servizi
+
+- **Farmacia San Rocco** — Farmacia
+- **L'Antica Bottega** — Alimentari
+- **Alimentari** — Alimentari
+- **Biblioteca** — Biblioteca
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS237**
 
 ## Lo sapevi?
 
@@ -54,3 +87,9 @@ Ospita la Rocca d'Anfo, fortezza napoleonica sul lago d'Idro
 - [Lavenone](../lavenone/) — 5.3 km
 - [Treviso Bresciano](../treviso-bresciano/) — 6.3 km
 - [Bagolino](../bagolino/) — 6.4 km
+
+## Comuni confinanti
+
+- [Bagolino](../bagolino/)
+- [Idro](../idro/)
+- [Lavenone](../lavenone/)

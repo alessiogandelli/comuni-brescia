@@ -3,14 +3,24 @@ name: "Capriano del Colle"
 slug: "capriano-del-colle"
 province: "BS"
 population: 4535
-area: 13.16
+area: 13.99
 coordinates: [45.4688, 10.1286]
+centroid: [45.45207, 10.13773]
+hasFood: true
+poiCount: 5
 nearby:
   - "azzano-mella"
   - "castel-mella"
   - "poncarale"
   - "barbariga"
   - "flero"
+bordering:
+  - "azzano-mella"
+  - "bagnolo-mella"
+  - "castel-mella"
+  - "dello"
+  - "flero"
+  - "poncarale"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,7 +35,7 @@ fact: ""
 
 ## Contesto geografico
 
-Capriano del Colle si trova a circa 10 km a sud-ovest di Brescia. Superficie: 13.16 km². Densità abitativa: 345 ab/km².
+Capriano del Colle si trova a circa 10 km a sud-ovest di Brescia. Superficie: 13.99 km². Densità abitativa: 324 ab/km². Strade principali: A21racc, SPIX, Strada Provinciale IX Quinzanese.
 
 ## Cosa fare
 
@@ -39,9 +49,22 @@ Capriano del Colle si trova a circa 10 km a sud-ovest di Brescia. Superficie: 13
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Bar Veschetti** (Bar)
+- **La Rosa 2** (Ristorante)
+- **Pizzeria da asporto Sultan** (Fast food)
+
+## Servizi
+
+- **Salumeria Annamaria** — Alimentari
+- **Farmacia Coppini** — Farmacia
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Autostrada: **A21racc**
+- Strada provinciale: **SPIX**
+- Strada provinciale: **Strada Provinciale IX Quinzanese**
 
 ## Comuni vicini
 
@@ -50,3 +73,12 @@ Capriano del Colle si trova a circa 10 km a sud-ovest di Brescia. Superficie: 13
 - [Poncarale](../poncarale/) — 3.7 km
 - [Barbariga](../barbariga/) — 3.9 km
 - [Flero](../flero/) — 4.1 km
+
+## Comuni confinanti
+
+- [Azzano Mella](../azzano-mella/)
+- [Bagnolo Mella](../bagnolo-mella/)
+- [Castel Mella](../castel-mella/)
+- [Dello](../dello/)
+- [Flero](../flero/)
+- [Poncarale](../poncarale/)

@@ -3,14 +3,25 @@ name: "Mairano"
 slug: "mairano"
 province: "BS"
 population: 3398
-area: 12.11
+area: 11.59
 coordinates: [45.4441, 10.0824]
+centroid: [45.45533, 10.08318]
+hasHistoric: true
+hasFood: true
+poiCount: 11
 nearby:
   - "longhena"
   - "azzano-mella"
   - "dello"
   - "barbariga"
   - "capriano-del-colle"
+bordering:
+  - "azzano-mella"
+  - "brandico"
+  - "dello"
+  - "lograto"
+  - "longhena"
+  - "maclodio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +36,31 @@ fact: ""
 
 ## Contesto geografico
 
-Mairano si trova a circa 15 km a sud-ovest di Brescia. Superficie: 12.11 km². Densità abitativa: 281 ab/km².
+Mairano si trova a circa 15 km a sud-ovest di Brescia. Superficie: 11.59 km². Densità abitativa: 293 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Statua Alpini**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Statua Alpini** — Monumento
+
+## Dove mangiare
+
+- **Pizzeria da asporto Doppio zero** (Ristorante)
+- **Latteria 2** (Bar)
+- **Bar Oratorio** (Bar)
+- **Bar RitrovArci** (Bar)
+- **Juliette caffetteria** (Bar)
+
+## Servizi
+
+- **Biblioteca** — Biblioteca
+- **Farmacia Mussio** — Farmacia
+- **Panizzeria 96.** — Panificio
+- **Forneria Baldi** — Panificio
+- **Panificio Bonsi Patrizia** — Panificio
 
 ## Come arrivare
 
@@ -50,3 +73,12 @@ Mairano si trova a circa 15 km a sud-ovest di Brescia. Superficie: 12.11 km². D
 - [Dello](../dello/) — 3.0 km
 - [Barbariga](../barbariga/) — 3.1 km
 - [Capriano del Colle](../capriano-del-colle/) — 4.5 km
+
+## Comuni confinanti
+
+- [Azzano Mella](../azzano-mella/)
+- [Brandico](../brandico/)
+- [Dello](../dello/)
+- [Lograto](../lograto/)
+- [Longhena](../longhena/)
+- [Maclodio](../maclodio/)

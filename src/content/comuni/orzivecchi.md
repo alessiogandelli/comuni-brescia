@@ -3,14 +3,24 @@ name: "Orzivecchi"
 slug: "orzivecchi"
 province: "BS"
 population: 2448
-area: 12.03
+area: 9.89
 coordinates: [45.4237, 9.9648]
+centroid: [45.42164, 9.96436]
+hasHistoric: true
+hasFood: true
+hasAccommodation: true
+poiCount: 5
 nearby:
   - "pompiano"
   - "orzinuovi"
   - "corzano"
   - "comezzano-cizzago"
   - "trenzano"
+bordering:
+  - "comezzano-cizzago"
+  - "orzinuovi"
+  - "pompiano"
+  - "roccafranca"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +35,11 @@ fact: ""
 
 ## Contesto geografico
 
-Orzivecchi si trova a circa 23 km a sud-ovest di Brescia. Superficie: 12.03 km². Densità abitativa: 203 ab/km².
+Orzivecchi si trova a circa 23 km a sud-ovest di Brescia. Superficie: 9.89 km². Densità abitativa: 248 ab/km². Strade principali: SPBS235, SPBS668, Via Repubblica.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Parco degli Urcei — Parco
 
 ## Luoghi importanti
 
@@ -39,9 +47,20 @@ Orzivecchi si trova a circa 23 km a sud-ovest di Brescia. Superficie: 12.03 km²
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **Bar Mary** (Caffè)
+- **IPNES** (Ristorante)
+
+## Dove dormire
+
+- **Orzihotel** (Hotel)
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SPBS235**
+- Strada provinciale: **SPBS668**
+- Strada provinciale: **Via Repubblica**
 
 ## Comuni vicini
 
@@ -50,3 +69,10 @@ Orzivecchi si trova a circa 23 km a sud-ovest di Brescia. Superficie: 12.03 km²
 - [Corzano](../corzano/) — 5.5 km
 - [Comezzano-Cizzago](../comezzano-cizzago/) — 6.3 km
 - [Trenzano](../trenzano/) — 6.8 km
+
+## Comuni confinanti
+
+- [Comezzano Cizzago](../comezzano-cizzago/)
+- [Orzinuovi](../orzinuovi/)
+- [Pompiano](../pompiano/)
+- [Roccafranca](../roccafranca/)

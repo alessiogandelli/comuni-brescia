@@ -3,14 +3,22 @@ name: "Rudiano"
 slug: "rudiano"
 province: "BS"
 population: 5827
-area: 8.34
+area: 9.78
 coordinates: [45.4868, 9.8833]
+centroid: [45.4879, 9.89355]
+poiCount: 2
 nearby:
   - "urago-doglio"
   - "chiari"
   - "comezzano-cizzago"
   - "castelcovati"
   - "castrezzato"
+bordering:
+  - "calcio"
+  - "chiari"
+  - "pumenengo"
+  - "roccafranca"
+  - "urago-d'oglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,7 +33,7 @@ fact: ""
 
 ## Contesto geografico
 
-Rudiano si trova a circa 26 km a ovest di Brescia. Superficie: 8.34 km². Densità abitativa: 699 ab/km².
+Rudiano si trova a circa 26 km a ovest di Brescia. Superficie: 9.78 km². Densità abitativa: 596 ab/km².
 
 ## Cosa fare
 
@@ -39,6 +47,11 @@ Rudiano si trova a circa 26 km a ovest di Brescia. Superficie: 8.34 km². Densit
 - Piazza principale
 - Palazzo municipale
 
+## Servizi
+
+- **Sigma** — Supermercato
+- **Famila Superstore - Rudiano** — Supermercato
+
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -50,3 +63,11 @@ Rudiano si trova a circa 26 km a ovest di Brescia. Superficie: 8.34 km². Densit
 - [Comezzano-Cizzago](../comezzano-cizzago/) — 6.6 km
 - [Castelcovati](../castelcovati/) — 7.8 km
 - [Castrezzato](../castrezzato/) — 9.1 km
+
+## Comuni confinanti
+
+- [Calcio](../calcio/)
+- [Chiari](../chiari/)
+- [Pumenengo](../pumenengo/)
+- [Roccafranca](../roccafranca/)
+- [Urago D'oglio](../urago-d'oglio/)

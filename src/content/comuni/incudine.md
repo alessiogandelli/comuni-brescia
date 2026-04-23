@@ -3,14 +3,22 @@ name: "Incudine"
 slug: "incudine"
 province: "BS"
 population: 365
-area: 15.37
+area: 20
 coordinates: [46.21, 10.3534]
+centroid: [46.22793, 10.3653]
+hasHistoric: true
+hasNature: true
+poiCount: 7
 nearby:
   - "monno"
   - "edolo"
   - "vezza-doglio"
   - "sonico"
   - "vione"
+bordering:
+  - "edolo"
+  - "monno"
+  - "vezza-d'oglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +33,13 @@ fact: ""
 
 ## Contesto geografico
 
-Incudine si trova a circa 75 km a nord di Brescia. Superficie: 15.37 km². Densità abitativa: 24 ab/km².
+Incudine si trova a circa 75 km a nord di Brescia. Superficie: 20 km². Densità abitativa: 18 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Monte Plazza (2107 m)
+- La Porta (2582 m)
 
 ## Luoghi importanti
 
@@ -39,9 +47,14 @@ Incudine si trova a circa 75 km a nord di Brescia. Superficie: 15.37 km². Densi
 - Piazza principale
 - Palazzo municipale
 
+## Servizi
+
+- **Farmacia** — Farmacia
+- **Alimentari le Stelle** — Alimentari
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SS42**
 
 ## Comuni vicini
 
@@ -50,3 +63,9 @@ Incudine si trova a circa 75 km a nord di Brescia. Superficie: 15.37 km². Densi
 - [Vezza d'Oglio](../vezza-doglio/) — 4.7 km
 - [Sonico](../sonico/) — 5.0 km
 - [Vione](../vione/) — 7.3 km
+
+## Comuni confinanti
+
+- [Edolo](../edolo/)
+- [Monno](../monno/)
+- [Vezza D'oglio](../vezza-d'oglio/)

@@ -3,14 +3,25 @@ name: "Cologne"
 slug: "cologne"
 province: "BS"
 population: 7731
-area: 12.7
+area: 13.89
 coordinates: [45.5887, 9.9401]
+centroid: [45.57712, 9.93127]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+poiCount: 29
 nearby:
   - "coccaglio"
   - "adro"
   - "palazzolo-sulloglio"
   - "erbusco"
   - "rovato"
+bordering:
+  - "chiari"
+  - "coccaglio"
+  - "erbusco"
+  - "palazzolo-sull'oglio"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,13 +36,13 @@ fact: ""
 
 ## Contesto geografico
 
-Cologne si trova a circa 22 km a ovest di Brescia. Superficie: 12.7 km². Densità abitativa: 609 ab/km².
+Cologne si trova a circa 22 km a ovest di Brescia. Superficie: 13.89 km². Densità abitativa: 557 ab/km². Strade principali: SPBS469D1, SCexBS573, SP17var, SPBS573.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Orfano (452 m)
+- Parco "Unità d'Italia" — Parco
+- Parco "Don Francesco Borra" — Parco
 
 ## Luoghi importanti
 
@@ -39,9 +50,32 @@ Cologne si trova a circa 22 km a ovest di Brescia. Superficie: 12.7 km². Densit
 - Piazza principale
 - Palazzo municipale
 
+## Dove mangiare
+
+- **MEGA PIZZERIA** (Ristorante)
+- **Sisma** (Pub)
+- **Bierbauch** (Pub)
+- **Quadra** (Ristorante)
+- **Cappuccini** (Ristorante)
+
+## Dove dormire
+
+- **Rifugio degli Alpini** (Rifugio alpino)
+
+## Servizi
+
+- **Farmacia Comunale** — Farmacia
+- **Tigota** — Supermercato
+- **MD** — Supermercato
+- **Oratorio "Maria Immacolata"** — Centro civico
+- **Conad City** — Supermercato
+- **PENNY** — Supermercato
+
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Superstrada: **SPBS469D1**
+- Strada provinciale: **SCexBS573**
+- Strada provinciale: **SP17var**
 
 ## Comuni vicini
 
@@ -50,3 +84,10 @@ Cologne si trova a circa 22 km a ovest di Brescia. Superficie: 12.7 km². Densit
 - [Palazzolo sull'Oglio](../palazzolo-sulloglio/) — 4.4 km
 - [Erbusco](../erbusco/) — 4.9 km
 - [Rovato](../rovato/) — 5.4 km
+
+## Comuni confinanti
+
+- [Chiari](../chiari/)
+- [Coccaglio](../coccaglio/)
+- [Erbusco](../erbusco/)
+- [Palazzolo Sull'oglio](../palazzolo-sull'oglio/)

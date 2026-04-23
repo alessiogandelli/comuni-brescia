@@ -3,14 +3,27 @@ name: "Coccaglio"
 slug: "coccaglio"
 province: "BS"
 population: 8685
-area: 11.18
+area: 12
 coordinates: [45.5703, 9.9769]
+centroid: [45.55498, 9.96796]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+hasStation: true
+poiCount: 14
 nearby:
   - "rovato"
   - "cologne"
   - "erbusco"
   - "cazzago-san-martino"
   - "castrezzato"
+bordering:
+  - "castrezzato"
+  - "chiari"
+  - "cologne"
+  - "erbusco"
+  - "rovato"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +38,37 @@ fact: ""
 
 ## Contesto geografico
 
-Coccaglio si trova a circa 19 km a ovest di Brescia. Superficie: 11.18 km². Densità abitativa: 777 ab/km².
+Coccaglio si trova a circa 19 km a ovest di Brescia. Superficie: 12 km². Densità abitativa: 724 ab/km². Strade principali: SPBS11var, SPBS573, SS11, Tangenziale Sud, Via Guglielmo Marconi.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Parco degli Alpini — Parco
+- Parco del Municipio — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Torre romana** — Rovine
+- **Torre settentrionale** — Castello
+- **Obelisco Luca Marenzio** — Monumento
+
+## Dove mangiare
+
+- **Osteria degli Undici** (Ristorante)
+- **Villa Calini** (Ristorante)
+- **Genuisì** (Ristorante)
+- **Villa Valenca** (Ristorante)
+
+## Dove dormire
+
+- **Hotel Touring** (Hotel)
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Coccaglio**
+- Strada provinciale: **SPBS11var**
+- Strada provinciale: **SPBS573**
+- Strada provinciale: **SS11**
 
 ## Comuni vicini
 
@@ -50,3 +77,11 @@ Coccaglio si trova a circa 19 km a ovest di Brescia. Superficie: 11.18 km². Den
 - [Erbusco](../erbusco/) — 3.6 km
 - [Cazzago San Martino](../cazzago-san-martino/) — 3.9 km
 - [Castrezzato](../castrezzato/) — 4.2 km
+
+## Comuni confinanti
+
+- [Castrezzato](../castrezzato/)
+- [Chiari](../chiari/)
+- [Cologne](../cologne/)
+- [Erbusco](../erbusco/)
+- [Rovato](../rovato/)

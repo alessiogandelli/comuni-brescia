@@ -3,14 +3,31 @@ name: "Lumezzane"
 slug: "lumezzane"
 province: "BS"
 population: 22507
-area: 31.09
+area: 31.75
 coordinates: [45.6493, 10.2611]
+centroid: [45.64871, 10.26974]
+hasHistoric: true
+hasNature: true
+hasSport: true
+hasFood: true
+hasAccommodation: true
+poiCount: 63
 nearby:
   - "sarezzo"
   - "villa-carcina"
   - "bione"
   - "concesio"
   - "nave"
+bordering:
+  - "agnosine"
+  - "bione"
+  - "caino"
+  - "casto"
+  - "concesio"
+  - "marcheno"
+  - "nave"
+  - "sarezzo"
+  - "villa-carcina"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +42,43 @@ fact: "Distretto industriale della rubinetteria e delle posaterie"
 
 ## Contesto geografico
 
-Lumezzane si trova a circa 13 km a nord-est di Brescia. Superficie: 31.09 km². Densità abitativa: 724 ab/km².
+Lumezzane si trova a circa 13 km a nord-est di Brescia. Superficie: 31.75 km². Densità abitativa: 709 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Arrampicata: **Falesia Le Scale**
+- Colle Aventino (694 m)
+- Dosso Tagliata (786 m)
+- Grotta
+- Parco Giovanni Paolo Secondo — Parco
+- Parco Le Betulle — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Cascina Novegno** — Rovine
+- **Alfa Romeo Matta** — Sito archeologico
+
+## Dove mangiare
+
+- **Ristorante Ariston** (Ristorante)
+- **Bar Sport** (Caffè)
+- **Ristorante Cascina Costa** (Ristorante)
+- **La Piadineria** (Fast food)
+- **Ristorante La Perla del Monte** (Ristorante)
+- **Caffè del Pompiere** (Caffè)
+
+## Dove dormire
+
+- **Albergo La Perla del Monte** (Hotel)
+
+## Servizi
+
+- **Oratorio Centro Giovanile San Giovanni Bosco** — Centro civico
+- **Casa della Giovane** — Centro civico
+- **Farmacia Promase** — Farmacia
+- **Più Discount** — Supermercato
+- **Poliambulatorio** — Ambulatorio
+- **Family Market** — Supermercato
 
 ## Come arrivare
 
@@ -54,3 +95,15 @@ Distretto industriale della rubinetteria e delle posaterie
 - [Bione](../bione/) — 5.4 km
 - [Concesio](../concesio/) — 6.6 km
 - [Nave](../nave/) — 7.0 km
+
+## Comuni confinanti
+
+- [Agnosine](../agnosine/)
+- [Bione](../bione/)
+- [Caino](../caino/)
+- [Casto](../casto/)
+- [Concesio](../concesio/)
+- [Marcheno](../marcheno/)
+- [Nave](../nave/)
+- [Sarezzo](../sarezzo/)
+- [Villa Carcina](../villa-carcina/)

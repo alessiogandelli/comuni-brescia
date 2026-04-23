@@ -3,14 +3,24 @@ name: "Fiesse"
 slug: "fiesse"
 province: "BS"
 population: 2107
-area: 20.96
+area: 16.15
 coordinates: [45.2317, 10.3232]
+centroid: [45.22848, 10.33404]
+hasHistoric: true
+hasFood: true
+poiCount: 2
 nearby:
   - "gambara"
   - "remedello"
   - "gottolengo"
   - "isorella"
   - "pralboino"
+bordering:
+  - "asola"
+  - "casalromano"
+  - "gambara"
+  - "remedello"
+  - "volongo"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +35,23 @@ fact: ""
 
 ## Contesto geografico
 
-Fiesse si trova a circa 36 km a sud di Brescia. Superficie: 20.96 km². Densità abitativa: 101 ab/km².
+Fiesse si trova a circa 36 km a sud di Brescia. Superficie: 16.15 km². Densità abitativa: 130 ab/km². Strade principali: SP4.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Visita: **Monumenti ai Caduti di Fiesse**
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Monumenti ai Caduti di Fiesse** — Monumento
+
+## Dove mangiare
+
+- **Cascina Cerri Ristorante** (Ristorante)
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Strada provinciale: **SP4**
 
 ## Comuni vicini
 
@@ -50,3 +60,11 @@ Fiesse si trova a circa 36 km a sud di Brescia. Superficie: 20.96 km². Densità
 - [Gottolengo](../gottolengo/) — 8.2 km
 - [Isorella](../isorella/) — 8.4 km
 - [Pralboino](../pralboino/) — 9.4 km
+
+## Comuni confinanti
+
+- [Asola](../asola/)
+- [Casalromano](../casalromano/)
+- [Gambara](../gambara/)
+- [Remedello](../remedello/)
+- [Volongo](../volongo/)

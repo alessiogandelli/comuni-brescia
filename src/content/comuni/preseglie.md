@@ -3,14 +3,25 @@ name: "Preseglie"
 slug: "preseglie"
 province: "BS"
 population: 1531
-area: 10.94
+area: 11.46
 coordinates: [45.6714, 10.3895]
+centroid: [45.66836, 10.38521]
+hasNature: true
+hasFood: true
+poiCount: 8
 nearby:
   - "barghe"
   - "provaglio-val-sabbia"
   - "sabbio-chiese"
   - "odolo"
   - "agnosine"
+bordering:
+  - "agnosine"
+  - "barghe"
+  - "bione"
+  - "odolo"
+  - "sabbio-chiese"
+  - "vestone"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,19 +36,28 @@ fact: ""
 
 ## Contesto geografico
 
-Preseglie si trova a circa 20 km a nord-est di Brescia. Superficie: 10.94 km². Densità abitativa: 140 ab/km².
+Preseglie si trova a circa 20 km a nord-est di Brescia. Superficie: 11.46 km². Densità abitativa: 134 ab/km².
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Monte Bambol (466 m)
+- Monte Poffe (855 m)
+- Dosso di Clivio (431 m)
 
 ## Luoghi importanti
 
 - Chiesa parrocchiale
 - Piazza principale
 - Palazzo municipale
+
+## Dove mangiare
+
+- **La Tenice** (Bar)
+- **Al Mulino Snack Bar** (Caffè)
+
+## Servizi
+
+- **Maxi Supermercati** — Supermercato
 
 ## Come arrivare
 
@@ -50,3 +70,12 @@ Preseglie si trova a circa 20 km a nord-est di Brescia. Superficie: 10.94 km². 
 - [Sabbio Chiese](../sabbio-chiese/) — 2.7 km
 - [Odolo](../odolo/) — 2.8 km
 - [Agnosine](../agnosine/) — 3.8 km
+
+## Comuni confinanti
+
+- [Agnosine](../agnosine/)
+- [Barghe](../barghe/)
+- [Bione](../bione/)
+- [Odolo](../odolo/)
+- [Sabbio Chiese](../sabbio-chiese/)
+- [Vestone](../vestone/)

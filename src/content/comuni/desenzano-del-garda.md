@@ -3,14 +3,27 @@ name: "Desenzano del Garda"
 slug: "desenzano-del-garda"
 province: "BS"
 population: 28919
-area: 59.44
+area: 60.75
 coordinates: [45.4705, 10.5373]
+centroid: [45.45485, 10.56407]
+hasHistoric: true
+hasNature: true
+hasFood: true
+hasAccommodation: true
+hasStation: true
+poiCount: 118
 nearby:
   - "lonato-del-garda"
   - "padenghe-sul-garda"
   - "sirmione"
   - "moniga-del-garda"
   - "soiano-del-lago"
+bordering:
+  - "lonato-del-garda"
+  - "padenghe-sul-garda"
+  - "peschiera-del-garda"
+  - "pozzolengo"
+  - "sirmione"
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -25,23 +38,55 @@ fact: "La città più popolosa del Lago di Garda, con una villa romana del IV se
 
 ## Contesto geografico
 
-Desenzano del Garda si trova a circa 27 km a est di Brescia. Superficie: 59.44 km². Densità abitativa: 487 ab/km².
+Desenzano del Garda si trova a circa 27 km a est di Brescia. Superficie: 60.75 km². Densità abitativa: 476 ab/km². Strade principali: A4, SPBS567, SS11, SP BS 572, Località Massadrino.
 
 ## Cosa fare
 
-- Passeggiata nel centro storico
-- Percorsi ciclopedonali nei dintorni
-- Visita alle chiese e architetture locali
+- Punto panoramico
+- Monte Alto (168 m)
+- Monte Lungo (169 m)
+- Giardini Marinai d'Italia — Parco
+- Parco Renzo Tira — Parco
 
 ## Luoghi importanti
 
-- Chiesa parrocchiale
-- Piazza principale
-- Palazzo municipale
+- **Castello di Desenzano del Garda** — Castello
+- **Sito Archeologico del Lavagnone** — Rovine
+- **Villa romana di Desenzano del Garda** — Sito archeologico
+
+## Dove mangiare
+
+- **Trattoria Gin Gin** (Ristorante)
+- **Meastri** (Ristorante)
+- **Time Out Café** (Caffè)
+- **Bar pasticceria caffè Diemme** (Caffè)
+- **Rossi&Rossi** (Ristorante)
+- **Trattoria dell'Abate** (Ristorante)
+
+## Dove dormire
+
+- **Hotel Villa Maria** (Hotel)
+- **Admiral Hotel Villa Erme** (Hotel)
+- **Lake view loft** (B&B / Affittacamere)
+- **Albergo Enrichetta** (Hotel)
+- **Acquaviva** (Hotel)
+- **Così fan tutte B&B** (B&B / Affittacamere)
+
+## Servizi
+
+- **Conad** — Supermercato
+- **Oratorio di San Michele Arcangelo** — Centro civico
+- **Penny Market** — Supermercato
+- **Villa Brunati** — Biblioteca
+- **Ospedale** — Ospedale
+- **Mix Markt** — Supermercato
 
 ## Come arrivare
 
-- Raggiungibile in auto via strade provinciali
+- Stazione ferroviaria: **Desenzano del Garda-Sirmione**
+- Autostrada: **A4**
+- Superstrada: **SPBS567**
+- Superstrada: **SS11**
 
 ## Lo sapevi?
 
@@ -54,3 +99,11 @@ La città più popolosa del Lago di Garda, con una villa romana del IV secolo
 - [Sirmione](../sirmione/) — 6.2 km
 - [Moniga del Garda](../moniga-del-garda/) — 6.4 km
 - [Soiano del Lago](../soiano-del-lago/) — 8.1 km
+
+## Comuni confinanti
+
+- [Lonato Del Garda](../lonato-del-garda/)
+- [Padenghe Sul Garda](../padenghe-sul-garda/)
+- [Peschiera Del Garda](../peschiera-del-garda/)
+- [Pozzolengo](../pozzolengo/)
+- [Sirmione](../sirmione/)
