@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
+import Footer from '../components/Footer.astro';
 
 interface Props {
   title: string;
@@ -18,15 +19,14 @@ const {
   image
 } = Astro.props;
 
-const siteTitle = 'Comuni Brescia';
-const siteName = 'Comuni di Brescia';
+const siteTitle = 'Ranturismo';
+const siteName = 'Ranturismo';
 const fullTitle = title === siteTitle ? title : `${title} | ${siteTitle}`;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteUrl = 'https://ranturismo.com';
 const currentUrl = canonicalUrl || `${siteUrl}${Astro.url.pathname}`;
 const ogImage = image || `${siteUrl}/og-image.png`;
 
-// Structured data for SEO
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': type === 'article' ? 'Article' : 'WebSite',
@@ -52,19 +52,15 @@ const structuredData = {
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
     
-    <!-- SEO -->
     <link rel="canonical" href={currentUrl} />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Ranturismo" />
     
-    <!-- Theme -->
     <meta name="theme-color" content="#2563EB" />
     
-    <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
     <link rel="alternate icon" href={`${base}/favicon.ico`} />
     
-    <!-- Open Graph -->
     <meta property="og:site_name" content={siteName} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -73,33 +69,34 @@ const structuredData = {
     <meta property="og:image" content={ogImage} />
     <meta property="og:locale" content="it_IT" />
     
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
     
-    <!-- Structured Data -->
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     
-    <!-- Preload key fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <a class="site-logo" href={base || '/'}>Comuni Brescia</a>
-        <nav class="site-nav" aria-label="Navigazione principale">
-          <a href={base || '/'}>
+  <body class="min-h-screen bg-background text-foreground antialiased">
+    <header class="sticky top-0 z-50 backdrop-blur-xl saturate-180 bg-background/90 border-b border-border/40">
+      <div class="mx-auto max-w-5xl px-6 h-16 flex items-center justify-between gap-6">
+        <a class="font-bold text-lg tracking-tight text-foreground hover:text-primary transition-colors shrink-0" href={base || '/'}>
+          Ranturismo
+        </a>
+        <nav class="flex items-center gap-2" aria-label="Navigazione principale">
+          <a href={base || '/'} class="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent px-3 py-2 rounded-lg transition-all">
             <Icon name="home" size={16} />
             <span>Home</span>
           </a>
-          <a href={`${base}/comuni`}>
+          <a href={`${base}/comuni`} class="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent px-3 py-2 rounded-lg transition-all">
             <Icon name="map" size={16} />
             <span>Comuni</span>
           </a>
-          <a class="nav-cta" href="https://app.ranturismo.com/randocomune" target="_blank" rel="noopener noreferrer">
+          
+          <a class="inline-flex items-center gap-2 text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-lg transition-all shadow-md shadow-primary/20" href="https://app.ranturismo.com/randocomune" target="_blank" rel="noopener noreferrer">
             <Icon name="compass" size={16} />
             Randocomune
           </a>
@@ -107,33 +104,12 @@ const structuredData = {
       </div>
     </header>
 
-    <main>
-      <div class="container">
-        <slot />
-      </div>
+    
+
+    <main class="mx-auto max-w-5xl px-6 py-12 flex-1">
+      <slot />
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-brand">
-          <strong>Comuni Brescia</strong>
-          <span>Guida ai comuni della provincia di Brescia</span>
-          <span>© {new Date().getFullYear()} Ranturismo</span>
-        </div>
-        <div class="footer-links">
-          <a href={base || '/'}>Home</a>
-          <a href={`${base}/comuni`}>Tutti i comuni</a>
-          <a
-            class="footer-rando-link"
-            href="https://app.ranturismo.com/randocomune"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Scopri Randocomune
-            <Icon name="external-link" size={14} />
-          </a>
-        </div>
-      </div>
-    </footer>
+    <Footer />
   </body>
 </html>

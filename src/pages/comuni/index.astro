@@ -9,7 +9,6 @@ comuni.sort((a, b) => a.data.name.localeCompare(b.data.name, 'it'));
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Calculate stats
 const totalPopulation = comuni.reduce((sum, c) => sum + c.data.population, 0);
 const totalArea = comuni.reduce((sum, c) => sum + (c.data.area || 0), 0);
 const comuniWithPOIs = comuni.filter((c) => c.data.poiCount && c.data.poiCount > 0).length;
@@ -21,44 +20,49 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
   description="Elenco completo dei comuni della provincia di Brescia con informazioni su popolazione, posizione e luoghi da visitare."
   canonicalUrl={`${import.meta.env.SITE}${base}/comuni`}
 >
-  <div class="page-header">
-    <h1>Tutti i Comuni di Brescia</h1>
-    <p class="page-description">
-      Esplora i {comuni.length} comuni della provincia di Brescia con informazioni dettagliate su popolazione, luoghi da visitare e servizi.
-    </p>
+  <div class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-foreground mb-3 tracking-tight">Tutti i Comuni di Brescia</h1>
+    <p class="text-muted-foreground max-w-xl mx-auto">Esplora i {comuni.length} comuni della provincia di Brescia con informazioni dettagliate su popolazione, luoghi da visitare e servizi.</p>
   </div>
 
-  <!-- Stats row -->
-  <div class="stats-row">
-    <div class="stat-pill">
-      <Icon name="map-pin" size={16} />
-      <span><strong>{comuni.length}</strong> comuni</span>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+    <div class="flex items-center justify-center gap-3 p-4 bg-card border border-border rounded-xl transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-primary/20">
+      <Icon name="map-pin" size={20} class="text-primary shrink-0" />
+      <div class="text-left">
+        <div class="text-2xl font-bold text-foreground">{comuni.length}</div>
+        <div class="text-sm text-muted-foreground">comuni</div>
+      </div>
     </div>
-    <div class="stat-pill">
-      <Icon name="users" size={16} />
-      <span><strong>{(totalPopulation / 1000000).toFixed(2)}M</strong> abitanti</span>
+    <div class="flex items-center justify-center gap-3 p-4 bg-card border border-border rounded-xl transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-primary/20">
+      <Icon name="users" size={20} class="text-primary shrink-0" />
+      <div class="text-left">
+        <div class="text-2xl font-bold text-foreground">{(totalPopulation / 1000000).toFixed(2)}M</div>
+        <div class="text-sm text-muted-foreground">abitanti</div>
+      </div>
     </div>
-    <div class="stat-pill">
-      <Icon name="maximize" size={16} />
-      <span><strong>{Math.round(totalArea)}</strong> km²</span>
+    <div class="flex items-center justify-center gap-3 p-4 bg-card border border-border rounded-xl transition-all hover:-translate-y-0.5 hover:shadow-md hover:border-primary/20 col-span-2 md:col-span-1">
+      <Icon name="maximize" size={20} class="text-primary shrink-0" />
+      <div class="text-left">
+        <div class="text-2xl font-bold text-foreground">{Math.round(totalArea)}</div>
+        <div class="text-sm text-muted-foreground">km²</div>
+      </div>
     </div>
   </div>
 
-  <!-- Search bar -->
-  <div class="filter-bar">
-    <div class="search-container">
-      <Icon name="search" size={18} class="search-icon" />
+  <div class="mb-8">
+    <div class="relative">
+      <Icon name="search" size={18} class="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none" />
       <input
         type="search"
         id="search-input"
         placeholder="Cerca un comune..."
         aria-label="Cerca un comune"
+        class="w-full pl-11 pr-4 py-3 border-2 border-input bg-background rounded-xl text-base outline-none transition-all placeholder:text-muted-foreground focus:border-primary focus:ring-4 focus:ring-primary/10 shadow-sm"
       />
     </div>
   </div>
 
-  <!-- Feature filters -->
-  <div class="feature-filters" id="feature-filters">
+  <div class="flex flex-wrap gap-3 mb-10 justify-center" id="feature-filters">
     <button 
       class="filter-badge" 
       data-filter="hasHistoric"
@@ -120,9 +124,8 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
       <span>Stazione</span>
     </button>
     <button 
-      class="clear-filters" 
+      class="clear-filters hidden" 
       id="clear-filters"
-      style="display: none;"
       title="Rimuovi tutti i filtri"
     >
       <Icon name="x" size={16} />
@@ -130,8 +133,7 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     </button>
   </div>
 
-  <!-- Cards grid -->
-  <div class="card-grid" id="comuni-grid">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="comuni-grid">
     {comuni.map((comune) => {
       const features = [];
       if (comune.data.hasHistoric) features.push('hasHistoric');
@@ -166,7 +168,7 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     })}
   </div>
 
-  <p class="results-count" id="results-count"></p>
+  <p class="text-center text-muted-foreground text-base mt-10 italic" id="results-count"></p>
 </Layout>
 
 <script>
@@ -176,10 +178,8 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
   const filterBadges = document.querySelectorAll<HTMLButtonElement>('.filter-badge');
   const clearFiltersBtn = document.getElementById('clear-filters') as HTMLButtonElement;
   
-  // Track active filters
   const activeFilters = new Set<string>();
 
-  // Apply search and feature filters
   function applyFilters() {
     const query = searchInput?.value.toLowerCase().trim() || '';
     let visibleCount = 0;
@@ -188,10 +188,7 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
       const name = card.dataset.name ?? '';
       const cardFeatures = card.dataset.features?.split(',').filter(Boolean) || [];
       
-      // Check if card matches search query
       const matchesSearch = !query || name.includes(query);
-      
-      // Check if card matches all active filters (AND logic)
       const matchesFilters = activeFilters.size === 0 || 
         Array.from(activeFilters).every(filter => cardFeatures.includes(filter));
 
@@ -200,7 +197,6 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
       if (isVisible) visibleCount++;
     });
 
-    // Update results count
     if (resultsCount) {
       if (visibleCount === cards.length) {
         resultsCount.textContent = '';
@@ -209,13 +205,11 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
       }
     }
     
-    // Show/hide clear filters button
     if (clearFiltersBtn) {
-      clearFiltersBtn.style.display = activeFilters.size > 0 ? '' : 'none';
+      clearFiltersBtn.classList.toggle('hidden', activeFilters.size === 0);
     }
   }
 
-  // Toggle filter
   filterBadges.forEach((badge) => {
     badge.addEventListener('click', () => {
       const filter = badge.dataset.filter;
@@ -237,7 +231,6 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     });
   });
   
-  // Clear all filters
   clearFiltersBtn?.addEventListener('click', () => {
     activeFilters.clear();
     filterBadges.forEach((badge) => {
@@ -247,13 +240,9 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     applyFilters();
   });
 
-  // Search input handler
   searchInput?.addEventListener('input', applyFilters);
-
-  // Initial count (all visible)
   applyFilters();
   
-  // Scroll reveal animation
   if (typeof IntersectionObserver !== 'undefined') {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, index) => {
@@ -276,137 +265,20 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
 </script>
 
 <style>
-  .breadcrumb {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.875rem;
-    color: var(--color-text-muted);
-    margin-bottom: var(--spacing-2xl);
-  }
-
-  .breadcrumb a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.375rem;
-    color: var(--color-text-muted);
-    transition: color var(--transition);
-  }
-
-  .breadcrumb a:hover {
-    color: var(--color-primary);
-  }
-
-  .page-header {
-    text-align: center;
-    margin-bottom: var(--spacing-2xl);
-  }
-
-  .page-header h1 {
-    font-family: var(--font-sans);
-    font-size: 2.5rem;
-    color: var(--color-text);
-    margin-bottom: var(--spacing-sm);
-    font-weight: 700;
-  }
-
-  .page-description {
-    font-size: 1.0625rem;
-    color: var(--color-text-secondary);
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-
-  .stats-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-2xl);
-  }
-
-  .stat-pill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-sm);
-    background-color: var(--color-bg-alt);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    padding: var(--spacing-md);
-    transition: all var(--transition);
-  }
-
-  .stat-pill:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow);
-    border-color: var(--color-primary-muted);
-  }
-
-  .stat-pill svg {
-    color: var(--color-primary);
-    flex-shrink: 0;
-  }
-
-  .stat-pill span {
-    font-size: 0.9375rem;
-    color: var(--color-text-secondary);
-  }
-
-  .stat-pill strong {
-    color: var(--color-text);
-    font-weight: 700;
-  }
-
-  .search-container {
-    position: relative;
-  }
-
-  .search-icon {
-    position: absolute;
-    left: 1.25rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--color-text-muted);
-    pointer-events: none;
-  }
-
-  .search-container input {
-    padding-left: 3rem;
-  }
-
-  .results-count {
-    text-align: center;
-    color: var(--color-text-muted);
-    font-size: 0.9375rem;
-    margin-top: var(--spacing-2xl);
-    font-style: italic;
-  }
-
-  /* Feature Filters */
-  .feature-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.625rem;
-    margin-bottom: var(--spacing-2xl);
-    justify-content: center;
-    padding: 0 var(--spacing-md);
-  }
-
   .filter-badge {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     padding: 0.625rem 1rem;
-    background-color: #F8FAFC;
-    border: 2px solid #E2E8F0;
-    border-radius: 2rem;
+    background-color: hsl(var(--background));
+    border: 2px solid hsl(var(--border));
+    border-radius: 9999px;
     font-size: 0.875rem;
     font-weight: 600;
-    color: #64748B;
+    color: hsl(var(--muted-foreground));
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: var(--font-sans);
+    font-family: inherit;
   }
 
   .filter-badge svg {
@@ -414,17 +286,16 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
   }
 
   .filter-badge:hover {
-    background-color: #F1F5F9;
-    border-color: #CBD5E1;
+    background-color: hsl(var(--accent));
+    border-color: hsl(var(--muted-foreground) / 0.3);
     transform: translateY(-2px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
 
   .filter-badge.active {
-    background-color: var(--badge-color, #3B82F6);
-    border-color: var(--badge-color, #3B82F6);
-    color: #FFFFFF;
-    box-shadow: 0 4px 12px -2px var(--badge-color, rgba(59, 130, 246, 0.4));
+    background-color: var(--badge-color, hsl(var(--primary)));
+    border-color: var(--badge-color, hsl(var(--primary)));
+    color: hsl(var(--primary-foreground));
+    box-shadow: 0 4px 12px -2px var(--badge-color, hsl(var(--primary) / 0.4));
   }
 
   .filter-badge.active svg {
@@ -435,7 +306,6 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     transform: translateY(0);
   }
 
-  /* Dynamic color for each filter badge when active */
   .filter-badge[data-filter="hasHistoric"].active {
     --badge-color: #F59E0B;
   }
@@ -465,29 +335,27 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     align-items: center;
     gap: 0.5rem;
     padding: 0.625rem 1rem;
-    background-color: #FEE2E2;
-    border: 2px solid #FCA5A5;
-    border-radius: 2rem;
+    background-color: hsl(0 84% 60% / 0.1);
+    border: 2px solid hsl(0 84% 60% / 0.3);
+    border-radius: 9999px;
     font-size: 0.875rem;
     font-weight: 600;
-    color: #991B1B;
+    color: hsl(var(--destructive));
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: var(--font-sans);
+    font-family: inherit;
   }
 
   .clear-filters:hover {
-    background-color: #FEF2F2;
-    border-color: #F87171;
+    background-color: hsl(0 84% 60% / 0.15);
+    border-color: hsl(0 84% 60% / 0.5);
     transform: translateY(-2px);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
 
   .clear-filters:active {
     transform: translateY(0);
   }
 
-  /* Card Reveal Animation */
   #comuni-grid > div {
     opacity: 0;
     transform: translateY(20px);
@@ -499,31 +367,7 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     transform: translateY(0);
   }
 
-  @media (max-width: 768px) {
-    .page-header h1 {
-      font-size: 2rem;
-    }
-
-    .stats-row {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .feature-filters {
-      gap: 0.5rem;
-    }
-    
-    .filter-badge,
-    .clear-filters {
-      padding: 0.5rem 0.875rem;
-      font-size: 0.8125rem;
-    }
-  }
-
   @media (max-width: 640px) {
-    .stats-row {
-      grid-template-columns: 1fr;
-    }
-    
     .filter-badge span,
     .clear-filters span {
       display: none;
@@ -532,7 +376,6 @@ const comuniWithHistoric = comuni.filter(c => c.data.hasHistoric).length;
     .filter-badge,
     .clear-filters {
       padding: 0.625rem;
-      border-radius: 50%;
       width: 42px;
       height: 42px;
       justify-content: center;

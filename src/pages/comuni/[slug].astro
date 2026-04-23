@@ -14,13 +14,11 @@ export async function getStaticPaths() {
 const { comune } = Astro.props;
 const { Content } = await render(comune);
 
-// Resolve nearby comuni entries
 const allComuni = await getCollection('comuni');
 const nearbyComuni = comune.data.nearby
   .map((slug) => allComuni.find((c) => c.id === slug))
   .filter(Boolean) as CollectionEntry<'comuni'>[];
 
-// Resolve bordering comuni entries
 const borderingComuni = comune.data.bordering
   ? comune.data.bordering
       .map((slug) => allComuni.find((c) => c.id === slug))
@@ -35,10 +33,8 @@ const pageDescription = comune.data.intro
   
 const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.id}`;
 
-// Helper to format numbers
 const formatNumber = (num: number | undefined) => num?.toLocaleString('it-IT') || '—';
 
-// Feature badges configuration
 const featureBadges = [
   { key: 'hasHistoric', icon: 'landmark', label: 'Patrimonio storico' },
   { key: 'hasNature', icon: 'tree-pine', label: 'Natura' },
@@ -52,14 +48,12 @@ const activeFeatures = featureBadges.filter(
   (badge) => comune.data[badge.key as keyof typeof comune.data]
 );
 
-// Determine hero gradient based on primary feature
-let heroGradient = 'from-blue-600 to-blue-800';
+let heroGradient = 'from-primary to-primary/80';
 if (comune.data.hasHistoric) heroGradient = 'from-purple-600 to-purple-800';
-else if (comune.data.hasNature) heroGradient = 'from-green-600 to-green-800';
+else if (comune.data.hasNature) heroGradient = 'from-emerald-600 to-emerald-800';
 else if (comune.data.hasFood) heroGradient = 'from-orange-600 to-orange-800';
 else if (comune.data.hasSport) heroGradient = 'from-amber-600 to-amber-800';
 
-// Enhanced structured data for Place
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Place',
@@ -86,67 +80,68 @@ const structuredData = {
   canonicalUrl={canonicalUrl}
   type="article"
 >
-  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} slot="head" />
-
-  <!-- Hero Section -->
-  <header class={`relative bg-gradient-to-br ${heroGradient} text-white overflow-hidden`}>
-    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_70%)]"></div>
+  <header class={`relative bg-gradient-to-br ${heroGradient} text-primary-foreground overflow-hidden -mx-6 -mt-12 px-6 pt-12 pb-10 rounded-3xl mb-10`}>
+    <div class="absolute inset-0 opacity-10" style="background-image: url(&quot;data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E&quot;);"></div>
     
-    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 drop-shadow-lg">
+    <div class="relative z-10">
+      <div class="flex flex-wrap items-center gap-3 mb-4">
+        <a href={`${base}/comuni`} class="inline-flex items-center gap-2 text-sm font-medium opacity-80 hover:opacity-100 transition-opacity">
+          <Icon name="arrow-left" size={16} />
+          Tutti i comuni
+        </a>
+      </div>
+      
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black mb-4 tracking-tight leading-[1.05]">
         {comune.data.name}
       </h1>
       
-      <div class="mb-6">
-        <span class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white/30">
-          <Icon name="map-pin" size={14} />
-          Provincia di {comune.data.province}
-        </span>
-      </div>
+      <span class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border border-white/30">
+        <Icon name="map-pin" size={14} />
+        Provincia di {comune.data.province}
+      </span>
 
-      <!-- Stats Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-2xl">
-        <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-lg p-3">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-xl mt-6">
+        <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-xl p-3">
           <div class="flex items-center gap-2">
-            <Icon name="users" size={18} />
+            <Icon name="users" size={18} class="opacity-90" />
             <div>
               <div class="text-lg font-bold">{formatNumber(comune.data.population)}</div>
-              <div class="text-xs opacity-90 uppercase tracking-wide">Abitanti</div>
+              <div class="text-xs opacity-80 uppercase tracking-wide">Abitanti</div>
             </div>
           </div>
         </div>
 
         {comune.data.area && (
-          <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-lg p-3">
+          <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-xl p-3">
             <div class="flex items-center gap-2">
-              <Icon name="maximize" size={18} />
+              <Icon name="maximize" size={18} class="opacity-90" />
               <div>
                 <div class="text-lg font-bold">{comune.data.area.toFixed(1)} km²</div>
-                <div class="text-xs opacity-90 uppercase tracking-wide">Superficie</div>
+                <div class="text-xs opacity-80 uppercase tracking-wide">Superficie</div>
               </div>
             </div>
           </div>
         )}
 
         {comune.data.elevation && (
-          <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-lg p-3">
+          <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-xl p-3">
             <div class="flex items-center gap-2">
-              <Icon name="Mountain" size={18} />
+              <Icon name="mountain" size={18} class="opacity-90" />
               <div>
                 <div class="text-lg font-bold">{comune.data.elevation} m</div>
-                <div class="text-xs opacity-90 uppercase tracking-wide">Altitudine</div>
+                <div class="text-xs opacity-80 uppercase tracking-wide">Altitudine</div>
               </div>
             </div>
           </div>
         )}
 
         {comune.data.poiCount && comune.data.poiCount > 0 && (
-          <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-lg p-3">
+          <div class="bg-white/15 backdrop-blur-sm border border-white/25 rounded-xl p-3">
             <div class="flex items-center gap-2">
-              <Icon name="map-pin" size={18} />
+              <Icon name="map-pin" size={18} class="opacity-90" />
               <div>
                 <div class="text-lg font-bold">{comune.data.poiCount}</div>
-                <div class="text-xs opacity-90 uppercase tracking-wide">POI</div>
+                <div class="text-xs opacity-80 uppercase tracking-wide">POI</div>
               </div>
             </div>
           </div>
@@ -155,141 +150,125 @@ const structuredData = {
     </div>
   </header>
 
-  <!-- Feature Badges -->
   {activeFeatures.length > 0 && (
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div class="flex flex-wrap gap-2">
-        {activeFeatures.map((feature) => (
-          <span class="inline-flex items-center gap-2 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-full text-sm font-medium border border-gray-300 dark:border-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 dark:hover:bg-blue-900/30 dark:hover:border-blue-600 dark:hover:text-blue-300 transition-all">
-            <Icon name={feature.icon} size={16} />
-            {feature.label}
-          </span>
-        ))}
+    <div class="flex flex-wrap gap-2 mb-10">
+      {activeFeatures.map((feature) => (
+        <span class="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium border border-border hover:bg-accent transition-colors">
+          <Icon name={feature.icon} size={16} />
+          {feature.label}
+        </span>
+      ))}
+    </div>
+  )}
+
+  {comune.data.intro && comune.data.intro.trim() && (
+    <div class="bg-primary/5 border-l-4 border-primary rounded-r-xl p-6 mb-10">
+      <div class="flex gap-4">
+        <Icon name="info" size={20} class="text-primary shrink-0 mt-0.5" />
+        <p class="text-lg leading-relaxed text-foreground">{comune.data.intro}</p>
       </div>
     </div>
   )}
 
-  <!-- Main Content -->
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    
-    <!-- Intro -->
-    {comune.data.intro && comune.data.intro.trim() && (
-      <div class="bg-blue-50 dark:bg-blue-950/30 border-l-4 border-blue-600 rounded-lg p-6 mb-8">
-        <div class="flex gap-4">
-          <Icon name="info" size={20} class="text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5" />
-          <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">{comune.data.intro}</p>
+  <article class="prose prose-lg max-w-none mb-10
+    prose-headings:font-bold prose-headings:text-foreground prose-headings:tracking-tight
+    prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:pb-3 prose-h2:border-b prose-h2:border-border
+    prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3
+    prose-p:text-muted-foreground prose-p:leading-relaxed
+    prose-a:text-primary prose-a:no-underline hover:prose-a:underline
+    prose-strong:text-foreground
+    prose-ul:my-4 prose-li:my-1.5">
+    <Content />
+  </article>
+
+  {comune.data.fact && comune.data.fact.trim() && (
+    <aside class="bg-amber-50 dark:bg-amber-950/30 border-2 border-amber-200 dark:border-amber-800 rounded-xl p-6 mb-10">
+      <div class="flex gap-4">
+        <Icon name="lightbulb" size={24} class="text-amber-600 dark:text-amber-400 shrink-0" />
+        <div>
+          <h3 class="text-lg font-bold text-foreground mb-2">Lo sapevi?</h3>
+          <p class="text-foreground/80 leading-relaxed">{comune.data.fact}</p>
         </div>
       </div>
-    )}
+    </aside>
+  )}
 
-    <!-- Main Content -->
-    <article class="prose prose-lg dark:prose-invert max-w-none mb-8
-      prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-gray-100
-      prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b-2 prose-h2:border-gray-200 dark:prose-h2:border-gray-700
-      prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-      prose-p:text-gray-600 dark:prose-p:text-gray-400 prose-p:leading-relaxed
-      prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
-      prose-strong:text-gray-900 dark:prose-strong:text-gray-100
-      prose-ul:my-6 prose-li:my-2">
-      <Content />
-    </article>
-
-    <!-- Fun Fact -->
-    {comune.data.fact && comune.data.fact.trim() && (
-      <aside class="bg-gradient-to-br from-amber-50 to-yellow-50 dark:from-amber-950/40 dark:to-yellow-950/40 border-2 border-amber-400 dark:border-amber-700 rounded-xl p-6 shadow-lg">
-        <div class="flex gap-4">
-          <Icon name="lightbulb" size={28} class="text-amber-600 dark:text-amber-400 flex-shrink-0" />
-          <div>
-            <h3 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">Lo sapevi?</h3>
-            <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">{comune.data.fact}</p>
-          </div>
-        </div>
-      </aside>
-    )}
-  </div>
-
-  <!-- Nearby Section -->
   {(borderingComuni.length > 0 || nearbyComuni.length > 0) && (
-    <section class="bg-gray-50 dark:bg-gray-900 border-y border-gray-200 dark:border-gray-800 py-12 mt-12">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="flex items-center gap-3 text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">
-          <Icon name="map" size={28} />
-          Esplora i dintorni
-        </h2>
-        
-        <div class="grid md:grid-cols-2 gap-6">
-          {borderingComuni.length > 0 && (
-            <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 hover:shadow-xl transition-shadow">
-              <h3 class="flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-                <Icon name="map" size={20} />
-                Comuni confinanti
-              </h3>
-              <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">Comuni che condividono il confine</p>
-              <ul class="space-y-2">
-                {borderingComuni.map((bordering) => (
-                  <li>
-                    <a 
-                      href={`${base}/comuni/${bordering.id}`}
-                      class="flex items-center gap-2 bg-gray-50 dark:bg-gray-700 hover:bg-blue-600 dark:hover:bg-blue-600 border border-gray-200 dark:border-gray-600 hover:border-blue-600 text-gray-700 dark:text-gray-200 hover:text-white rounded-lg px-4 py-3 font-medium transition-all hover:translate-x-1 hover:shadow-md"
-                    >
-                      <Icon name="map-pin" size={14} class="opacity-70" />
-                      {bordering.data.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+    <section class="bg-muted/50 border border-border rounded-2xl p-8 mb-10">
+      <h2 class="flex items-center gap-3 text-2xl font-bold text-foreground mb-6">
+        <Icon name="map" size={24} />
+        Esplora i dintorni
+      </h2>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        {borderingComuni.length > 0 && (
+          <div class="bg-card border border-border rounded-xl p-6">
+            <h3 class="flex items-center gap-2 text-lg font-bold text-foreground mb-1">
+              <Icon name="map" size={18} />
+              Comuni confinanti
+            </h3>
+            <p class="text-sm text-muted-foreground mb-4">Comuni che condividono il confine</p>
+            <ul class="space-y-2">
+              {borderingComuni.map((bordering) => (
+                <li>
+                  <a 
+                    href={`${base}/comuni/${bordering.id}`}
+                    class="flex items-center gap-2 bg-secondary hover:bg-primary hover:border-primary text-secondary-foreground hover:text-primary-foreground border border-border hover:shadow-md px-4 py-3 rounded-lg font-medium transition-all hover:-translate-x-1"
+                  >
+                    <Icon name="map-pin" size={14} class="opacity-70" />
+                    {bordering.data.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
-          {nearbyComuni.length > 0 && (
-            <div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 hover:shadow-xl transition-shadow">
-              <h3 class="flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-                <Icon name="compass" size={20} />
-                Comuni vicini
-              </h3>
-              <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">Altri comuni nelle vicinanze</p>
-              <ul class="space-y-2">
-                {nearbyComuni.map((nearby) => (
-                  <li>
-                    <a 
-                      href={`${base}/comuni/${nearby.id}`}
-                      class="flex items-center gap-2 bg-gray-50 dark:bg-gray-700 hover:bg-blue-600 dark:hover:bg-blue-600 border border-gray-200 dark:border-gray-600 hover:border-blue-600 text-gray-700 dark:text-gray-200 hover:text-white rounded-lg px-4 py-3 font-medium transition-all hover:translate-x-1 hover:shadow-md"
-                    >
-                      <Icon name="map-pin" size={14} class="opacity-70" />
-                      {nearby.data.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
+        {nearbyComuni.length > 0 && (
+          <div class="bg-card border border-border rounded-xl p-6">
+            <h3 class="flex items-center gap-2 text-lg font-bold text-foreground mb-1">
+              <Icon name="compass" size={18} />
+              Comuni vicini
+            </h3>
+            <p class="text-sm text-muted-foreground mb-4">Altri comuni nelle vicinanze</p>
+            <ul class="space-y-2">
+              {nearbyComuni.map((nearby) => (
+                <li>
+                  <a 
+                    href={`${base}/comuni/${nearby.id}`}
+                    class="flex items-center gap-2 bg-secondary hover:bg-primary hover:border-primary text-secondary-foreground hover:text-primary-foreground border border-border hover:shadow-md px-4 py-3 rounded-lg font-medium transition-all hover:-translate-x-1"
+                  >
+                    <Icon name="map-pin" size={14} class="opacity-70" />
+                    {nearby.data.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </section>
   )}
 
-  <!-- CTA -->
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-950/40 dark:to-amber-950/40 border-2 border-orange-500 dark:border-orange-700 rounded-2xl p-8 shadow-xl">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="flex-1 text-center md:text-left">
-          <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-            Esplora altri comuni
-          </h3>
-          <p class="text-gray-700 dark:text-gray-300 text-lg">
-            Hai visitato {comune.data.name}? Con <strong>Randocomune</strong> scopri un comune a caso e pianifica la prossima avventura nella provincia di Brescia.
-          </p>
-        </div>
-        <a
-          href="https://app.ranturismo.com/randocomune"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-semibold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all whitespace-nowrap"
-        >
-          <Icon name="compass" size={20} />
-          Prova Randocomune
-        </a>
+  <div class="bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 rounded-2xl p-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex-1 text-center md:text-left">
+        <h3 class="text-2xl font-bold text-foreground mb-2">
+          Esplora altri comuni
+        </h3>
+        <p class="text-muted-foreground">
+          Hai visitato {comune.data.name}? Con <strong>Randocomune</strong> scopri un comune a caso e pianifica la prossima avventura nella provincia di Brescia.
+        </p>
       </div>
+      <a
+        href="https://app.ranturismo.com/randocomune"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 font-semibold text-lg px-6 py-3 rounded-xl shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 transition-all whitespace-nowrap"
+      >
+        <Icon name="compass" size={20} />
+        Prova Randocomune
+      </a>
     </div>
   </div>
 </Layout>
