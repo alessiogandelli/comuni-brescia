@@ -33,8 +33,6 @@ bordering:
   - "tovo-di-sant'agata"
   - "vezza-d'oglio"
   - "vione"
-subcomuni:
-  - cap: "25048", area: 88.72, coords: [46.18108131826081, 10.373060061753248], incomePerCapita: 23027, taxpayers: 3468
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -46,10 +44,6 @@ fact: "Nodo ferroviario della Val Camonica, punto di partenza per il Passo del T
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Edolo si trova a circa 71 km a nord di Brescia. Superficie: 89.12 km². Densità abitativa: 50 ab/km². Strade principali: SS39, SS42.
 
 ## Cosa fare
 
@@ -83,15 +77,6 @@ Edolo si trova a circa 71 km a nord di Brescia. Superficie: 89.12 km². Densità
 - **Euro Hotel** (Hotel)
 - **Touring** (Hotel)
 
-## Servizi
-
-- **Centro Medico San Giorgio** — Ambulatorio
-- **U2 Supermercato** — Supermercato
-- **MD** — Supermercato
-- **Alimentari** — Alimentari
-- **Biblioteca comunale di Edolo** — Biblioteca
-- **Farmacia all'ospedale** — Farmacia
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Edolo**
@@ -103,26 +88,3 @@ Edolo si trova a circa 71 km a nord di Brescia. Superficie: 89.12 km². Densità
 
 Nodo ferroviario della Val Camonica, punto di partenza per il Passo del Tonale
 
-## Comuni vicini
-
-- [Sonico](../sonico/) — 2.5 km
-- [Incudine](../incudine/) — 4.0 km
-- [Monno](../monno/) — 4.2 km
-- [Malonno](../malonno/) — 6.3 km
-- [Corteno Golgi](../corteno-golgi/) — 6.5 km
-
-## Comuni confinanti
-
-- [Corteno Golgi](../corteno-golgi/)
-- [Incudine](../incudine/)
-- [Lovero](../lovero/)
-- [Malonno](../malonno/)
-- [Monno](../monno/)
-- [Ponte Di Legno](../ponte-di-legno/)
-- [Saviore Dell'adamello](../saviore-dell'adamello/)
-- [Sernio](../sernio/)
-- [Sonico](../sonico/)
-- [Temu](../temu/)
-- [Tovo Di Sant'agata](../tovo-di-sant'agata/)
-- [Vezza D'oglio](../vezza-d'oglio/)
-- [Vione](../vione/)

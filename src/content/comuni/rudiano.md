@@ -19,8 +19,6 @@ bordering:
   - "pumenengo"
   - "roccafranca"
   - "urago-d'oglio"
-subcomuni:
-  - cap: "25030", area: 9.83, coords: [45.486283451017414, 9.886589031773314], incomePerCapita: 21543, taxpayers: 4158
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -32,10 +30,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Rudiano si trova a circa 26 km a ovest di Brescia. Superficie: 9.78 km². Densità abitativa: 596 ab/km².
 
 ## Cosa fare
 
@@ -49,27 +43,7 @@ Rudiano si trova a circa 26 km a ovest di Brescia. Superficie: 9.78 km². Densit
 - Piazza principale
 - Palazzo municipale
 
-## Servizi
-
-- **Sigma** — Supermercato
-- **Famila Superstore - Rudiano** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Urago d'Oglio](../urago-doglio/) — 3.8 km
-- [Chiari](../chiari/) — 6.6 km
-- [Comezzano-Cizzago](../comezzano-cizzago/) — 6.6 km
-- [Castelcovati](../castelcovati/) — 7.8 km
-- [Castrezzato](../castrezzato/) — 9.1 km
-
-## Comuni confinanti
-
-- [Calcio](../calcio/)
-- [Chiari](../chiari/)
-- [Pumenengo](../pumenengo/)
-- [Roccafranca](../roccafranca/)
-- [Urago D'oglio](../urago-d'oglio/)

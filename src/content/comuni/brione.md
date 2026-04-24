@@ -23,8 +23,6 @@ bordering:
   - "polaveno"
   - "sarezzo"
   - "villa-carcina"
-subcomuni:
-  - cap: "25060", area: 6.88, coords: [45.6405759489587, 10.15377246118344], incomePerCapita: 22444, taxpayers: 586
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Brione si trova a circa 41 km a nord di Brescia. Superficie: 6.81 km². Densità abitativa: 102 ab/km².
 
 ## Cosa fare
 
@@ -65,27 +59,7 @@ Brione si trova a circa 41 km a nord di Brescia. Superficie: 6.81 km². Densità
 - **Agriturismo La Ruer Verda** (B&B / Affittacamere)
 - **Casa Cinelli** (B&B / Affittacamere)
 
-## Servizi
-
-- **Centro Civico - Culturale di Brione** — Centro civico
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Darfo Boario Terme](../darfo-boario-terme/) — 3.4 km
-- [Piancogno](../piancogno/) — 3.7 km
-- [Borno](../borno/) — 3.9 km
-- [Angolo Terme](../angolo-terme/) — 4.1 km
-- [Berzo Inferiore](../berzo-inferiore/) — 4.5 km
-
-## Comuni confinanti
-
-- [Gussago](../gussago/)
-- [Ome](../ome/)
-- [Polaveno](../polaveno/)
-- [Sarezzo](../sarezzo/)
-- [Villa Carcina](../villa-carcina/)

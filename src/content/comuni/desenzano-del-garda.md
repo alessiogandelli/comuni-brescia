@@ -24,8 +24,6 @@ bordering:
   - "peschiera-del-garda"
   - "pozzolengo"
   - "sirmione"
-subcomuni:
-  - cap: "25015", area: 59.13, coords: [45.43892072760314, 10.568479032662674], incomePerCapita: 30025, taxpayers: 22171
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "La città più popolosa del Lago di Garda, con una villa romana del IV se
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Desenzano del Garda si trova a circa 27 km a est di Brescia. Superficie: 60.75 km². Densità abitativa: 476 ab/km². Strade principali: A4, SPBS567, SS11, SP BS 572, Località Massadrino.
 
 ## Cosa fare
 
@@ -74,15 +68,6 @@ Desenzano del Garda si trova a circa 27 km a est di Brescia. Superficie: 60.75 k
 - **Acquaviva** (Hotel)
 - **Così fan tutte B&B** (B&B / Affittacamere)
 
-## Servizi
-
-- **Conad** — Supermercato
-- **Oratorio di San Michele Arcangelo** — Centro civico
-- **Penny Market** — Supermercato
-- **Villa Brunati** — Biblioteca
-- **Ospedale** — Ospedale
-- **Mix Markt** — Supermercato
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Desenzano del Garda-Sirmione**
@@ -94,18 +79,3 @@ Desenzano del Garda si trova a circa 27 km a est di Brescia. Superficie: 60.75 k
 
 La città più popolosa del Lago di Garda, con una villa romana del IV secolo
 
-## Comuni vicini
-
-- [Lonato del Garda](../lonato-del-garda/) — 4.3 km
-- [Padenghe sul Garda](../padenghe-sul-garda/) — 4.9 km
-- [Sirmione](../sirmione/) — 6.2 km
-- [Moniga del Garda](../moniga-del-garda/) — 6.4 km
-- [Soiano del Lago](../soiano-del-lago/) — 8.1 km
-
-## Comuni confinanti
-
-- [Lonato Del Garda](../lonato-del-garda/)
-- [Padenghe Sul Garda](../padenghe-sul-garda/)
-- [Peschiera Del Garda](../peschiera-del-garda/)
-- [Pozzolengo](../pozzolengo/)
-- [Sirmione](../sirmione/)

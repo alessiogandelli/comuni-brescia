@@ -20,8 +20,6 @@ bordering:
   - "lograto"
   - "mairano"
   - "trenzano"
-subcomuni:
-  - cap: "25030", area: 5.09, coords: [45.47887356371202, 10.041763930088857], incomePerCapita: 22342, taxpayers: 1023
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: "Sede della storica battaglia tra Visconti e Malatesta nel 1427"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Maclodio si trova a circa 15 km a ovest di Brescia. Superficie: 5.07 km². Densità abitativa: 307 ab/km². Strade principali: SPBS235.
 
 ## Cosa fare
 
@@ -63,18 +57,3 @@ Maclodio si trova a circa 15 km a ovest di Brescia. Superficie: 5.07 km². Densi
 
 Sede della storica battaglia tra Visconti e Malatesta nel 1427
 
-## Comuni vicini
-
-- [Berlingo](../berlingo/) — 1.5 km
-- [Brandico](../brandico/) — 1.7 km
-- [Trenzano](../trenzano/) — 2.8 km
-- [Lograto](../lograto/) — 2.9 km
-- [Castelcovati](../castelcovati/) — 4.0 km
-
-## Comuni confinanti
-
-- [Berlingo](../berlingo/)
-- [Brandico](../brandico/)
-- [Lograto](../lograto/)
-- [Mairano](../mairano/)
-- [Trenzano](../trenzano/)

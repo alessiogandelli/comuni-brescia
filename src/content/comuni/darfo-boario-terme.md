@@ -26,8 +26,6 @@ bordering:
   - "gianico"
   - "piancogno"
   - "rogno"
-subcomuni:
-  - cap: "25047", area: 36, coords: [45.887328081979234, 10.186268972075556], incomePerCapita: 23709, taxpayers: 11835
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: "Importante centro termale della Val Camonica"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Darfo Boario Terme si trova a circa 38 km a nord di Brescia. Superficie: 36.28 km². Densità abitativa: 433 ab/km². Strade principali: SS294, SS42, Corso Italia, SPBS294, Via Roccole.
 
 ## Cosa fare
 
@@ -77,15 +71,6 @@ Darfo Boario Terme si trova a circa 38 km a nord di Brescia. Superficie: 36.28 k
 - **Hotel Excelsior** (Hotel)
 - **Hotel San Martino** (Hotel)
 
-## Servizi
-
-- **Simply Market** — Supermercato
-- **Italmark** — Supermercato
-- **Oratorio di Darfo** — Centro civico
-- **Lidl** — Supermercato
-- **MD Market** — Supermercato
-- **Alimentari** — Alimentari
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Darfo-Corna**
@@ -97,19 +82,3 @@ Darfo Boario Terme si trova a circa 38 km a nord di Brescia. Superficie: 36.28 k
 
 Importante centro termale della Val Camonica
 
-## Comuni vicini
-
-- [Gianico](../gianico/) — 1.4 km
-- [Angolo Terme](../angolo-terme/) — 3.2 km
-- [Brione](../brione/) — 3.4 km
-- [Pian Camuno](../pian-camuno/) — 3.5 km
-- [Artogne](../artogne/) — 3.8 km
-
-## Comuni confinanti
-
-- [Angolo Terme](../angolo-terme/)
-- [Artogne](../artogne/)
-- [Esine](../esine/)
-- [Gianico](../gianico/)
-- [Piancogno](../piancogno/)
-- [Rogno](../rogno/)

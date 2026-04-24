@@ -24,8 +24,6 @@ bordering:
   - "cimbergo"
   - "saviore-dell'adamello"
   - "sonico"
-subcomuni:
-  - cap: "25040", area: 35.39, coords: [46.0671901771499, 10.433510199370485], incomePerCapita: 21461, taxpayers: 621
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Cevo si trova a circa 62 km a nord di Brescia. Superficie: 35.27 km². Densità abitativa: 25 ab/km².
 
 ## Cosa fare
 
@@ -69,30 +63,7 @@ Cevo si trova a circa 62 km a nord di Brescia. Superficie: 35.27 km². Densità 
 - **Casa del Parco Adamello** (Ostello)
 - **Camping Pian della Regina** (Campeggio)
 
-## Servizi
-
-- **Alimentari panificio Bazzana** — Supermercato
-- **Adamello Market** — Supermercato
-- **Farmacia** — Farmacia
-- **Pasticceria Forneria Belotti** — Panificio
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Cedegolo](../cedegolo/) — 1.5 km
-- [Saviore dell'Adamello](../saviore-delladamello/) — 2.7 km
-- [Sellero](../sellero/) — 4.1 km
-- [Malonno](../malonno/) — 5.4 km
-- [Paspardo](../paspardo/) — 6.9 km
-
-## Comuni confinanti
-
-- [Berzo Demo](../berzo-demo/)
-- [Cedegolo](../cedegolo/)
-- [Ceto](../ceto/)
-- [Cimbergo](../cimbergo/)
-- [Saviore Dell'adamello](../saviore-dell'adamello/)
-- [Sonico](../sonico/)

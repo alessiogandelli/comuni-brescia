@@ -23,8 +23,6 @@ bordering:
   - "nave"
   - "serle"
   - "vallio-terme"
-subcomuni:
-  - cap: "25070", area: 17.27, coords: [45.6171100579709, 10.325576838360437], incomePerCapita: 24737, taxpayers: 1600
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Caino si trova a circa 10 km a nord-est di Brescia. Superficie: 17.26 km². Densità abitativa: 121 ab/km².
 
 ## Cosa fare
 
@@ -64,30 +58,7 @@ Caino si trova a circa 10 km a nord-est di Brescia. Superficie: 17.26 km². Dens
 
 - **Bivacco** (Bivacco)
 
-## Servizi
-
-- **Oratorio di Caino** — Centro civico
-- **Alimentari La Delizia** — Alimentari
-- **Biblioteca Flavio Emer** — Biblioteca
-- **Farmacia Tomasoni Dottor Giovanni** — Farmacia
-- **Forneria Betella** — Panificio
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Nave](../nave/) — 3.3 km
-- [Serle](../serle/) — 5.0 km
-- [Botticino](../botticino/) — 6.7 km
-- [Paitone](../paitone/) — 6.9 km
-- [Nuvolento](../nuvolento/) — 7.0 km
-
-## Comuni confinanti
-
-- [Agnosine](../agnosine/)
-- [Lumezzane](../lumezzane/)
-- [Nave](../nave/)
-- [Serle](../serle/)
-- [Vallio Terme](../vallio-terme/)

@@ -21,8 +21,6 @@ bordering:
   - "genivolta"
   - "orzinuovi"
   - "soncino"
-subcomuni:
-  - cap: "25030", area: 16.84, coords: [45.349642233738194, 9.920701500469002], incomePerCapita: 22102, taxpayers: 1002
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Villachiara si trova a circa 30 km a sud-ovest di Brescia. Superficie: 16.75 km². Densità abitativa: 83 ab/km².
 
 ## Cosa fare
 
@@ -60,18 +54,3 @@ Villachiara si trova a circa 30 km a sud-ovest di Brescia. Superficie: 16.75 km�
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Orzinuovi](../orzinuovi/) — 4.3 km
-- [Borgo San Giacomo](../borgo-san-giacomo/) — 6.7 km
-- [Orzivecchi](../orzivecchi/) — 7.5 km
-- [Pompiano](../pompiano/) — 8.5 km
-- [Verolavecchia](../verolavecchia/) — 10.1 km
-
-## Comuni confinanti
-
-- [Azzanello](../azzanello/)
-- [Borgo San Giacomo](../borgo-san-giacomo/)
-- [Genivolta](../genivolta/)
-- [Orzinuovi](../orzinuovi/)
-- [Soncino](../soncino/)

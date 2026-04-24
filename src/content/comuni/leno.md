@@ -23,8 +23,6 @@ bordering:
   - "gottolengo"
   - "manerbio"
   - "pavone-del-mella"
-subcomuni:
-  - cap: "25024", area: 58.34, coords: [45.35808470994075, 10.212302133859016], incomePerCapita: 24213, taxpayers: 10287
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Ospitò un'importante abbazia benedettina fondata nel 758"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Leno si trova a circa 20 km a sud di Brescia. Superficie: 58.75 km². Densità abitativa: 248 ab/km². Strade principali: A21, SPBS668.
 
 ## Cosa fare
 
@@ -69,15 +63,6 @@ Leno si trova a circa 20 km a sud di Brescia. Superficie: 58.75 km². Densità a
 - **Il Colibrì** (B&B / Affittacamere)
 - **Lenotel** (Hotel)
 
-## Servizi
-
-- **Alimentari Moretti Alfredo** — Alimentari
-- **Ospedale di Leno** — Ospedale
-- **Oratorio San Luigi** — Centro civico
-- **Farmacia Bravi** — Farmacia
-- **Farmacia Sartirana** — Farmacia
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Autostrada: **A21**
@@ -87,19 +72,3 @@ Leno si trova a circa 20 km a sud di Brescia. Superficie: 58.75 km². Densità a
 
 Ospitò un'importante abbazia benedettina fondata nel 758
 
-## Comuni vicini
-
-- [Offlaga](../offlaga/) — 1.3 km
-- [Milzano](../milzano/) — 5.3 km
-- [Manerbio](../manerbio/) — 6.1 km
-- [Ghedi](../ghedi/) — 6.1 km
-- [Pavone del Mella](../pavone-del-mella/) — 6.3 km
-
-## Comuni confinanti
-
-- [Bagnolo Mella](../bagnolo-mella/)
-- [Cigole](../cigole/)
-- [Ghedi](../ghedi/)
-- [Gottolengo](../gottolengo/)
-- [Manerbio](../manerbio/)
-- [Pavone Del Mella](../pavone-del-mella/)

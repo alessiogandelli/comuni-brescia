@@ -23,8 +23,6 @@ bordering:
   - "rodengo-saiano"
   - "roncadelle"
   - "travagliato"
-subcomuni:
-  - cap: "25045", area: 9.19, coords: [45.55896375175936, 10.115623304453692], incomePerCapita: 25633, taxpayers: 6191
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Castegnato si trova a circa 8 km a ovest di Brescia. Superficie: 9.24 km². Densità abitativa: 882 ab/km². Strade principali: A35, A4, SPBS510, SPBS510quinques, SS11.
 
 ## Cosa fare
 
@@ -60,15 +54,6 @@ Castegnato si trova a circa 8 km a ovest di Brescia. Superficie: 9.24 km². Dens
 - **Nagoya X Castegnato** (Ristorante)
 - **Gasoline Road Bar** (Pub)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Prix** — Supermercato
-- **Lidl** — Supermercato
-- **Biblioteca Martin Luther King** — Biblioteca
-- **Dolce e Salato** — Alimentari
-- **Oratorio San Filippo Neri** — Centro civico
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Castegnato**
@@ -76,20 +61,3 @@ Castegnato si trova a circa 8 km a ovest di Brescia. Superficie: 9.24 km². Dens
 - Autostrada: **A4**
 - Superstrada: **SPBS510**
 
-## Comuni vicini
-
-- [Paderno Franciacorta](../paderno-franciacorta/) — 2.9 km
-- [Ospitaletto](../ospitaletto/) — 3.3 km
-- [Rodengo-Saiano](../rodengo-saiano/) — 4.0 km
-- [Roncadelle](../roncadelle/) — 4.3 km
-- [Gussago](../gussago/) — 4.6 km
-
-## Comuni confinanti
-
-- [Gussago](../gussago/)
-- [Ospitaletto](../ospitaletto/)
-- [Paderno Franciacorta](../paderno-franciacorta/)
-- [Passirano](../passirano/)
-- [Rodengo Saiano](../rodengo-saiano/)
-- [Roncadelle](../roncadelle/)
-- [Travagliato](../travagliato/)

@@ -29,8 +29,6 @@ bordering:
   - "toscolano-maderno"
   - "treviso-bresciano"
   - "villanuova-sul-clisi"
-subcomuni:
-  - cap: "25079", area: 53.1, coords: [45.66912664779269, 10.499348717837112], incomePerCapita: 22543, taxpayers: 6130
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -42,10 +40,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Vobarno si trova a circa 25 km a est di Brescia. Superficie: 53.32 km². Densità abitativa: 148 ab/km². Strade principali: SPBS237d1, SS45ter.
 
 ## Cosa fare
 
@@ -75,37 +69,8 @@ Vobarno si trova a circa 25 km a est di Brescia. Superficie: 53.32 km². Densit�
 - **Agriturismo Biobiò** (B&B / Affittacamere)
 - **B&B Locus Amoenus** (B&B / Affittacamere)
 
-## Servizi
-
-- **Biblioteca Comunale** — Biblioteca
-- **Farmacia** — Farmacia
-- **Italmark** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **Family Market** — Supermercato
-- **EuroSpin** — Supermercato
-
 ## Come arrivare
 
 - Superstrada: **SPBS237d1**
 - Superstrada: **SS45ter**
 
-## Comuni vicini
-
-- [Salò](../salo/) — 3.7 km
-- [Gardone Riviera](../gardone-riviera/) — 5.2 km
-- [Roè Volciano](../roe-volciano/) — 5.3 km
-- [Villanuova sul Clisi](../villanuova-sul-clisi/) — 5.5 km
-- [Sabbio Chiese](../sabbio-chiese/) — 6.8 km
-
-## Comuni confinanti
-
-- [Capovalle](../capovalle/)
-- [Gardone Riviera](../gardone-riviera/)
-- [Gargnano](../gargnano/)
-- [Provaglio Val Sabbia](../provaglio-val-sabbia/)
-- [Roe Volciano](../roe-volciano/)
-- [Sabbio Chiese](../sabbio-chiese/)
-- [Salo](../salo/)
-- [Toscolano Maderno](../toscolano-maderno/)
-- [Treviso Bresciano](../treviso-bresciano/)
-- [Villanuova Sul Clisi](../villanuova-sul-clisi/)

@@ -23,8 +23,6 @@ bordering:
   - "longhena"
   - "pompiano"
   - "trenzano"
-subcomuni:
-  - cap: "25030", area: 12.27, coords: [45.440324071936054, 10.019386133419008], incomePerCapita: 23369, taxpayers: 1114
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Corzano si trova a circa 18 km a ovest di Brescia. Superficie: 12.25 km². Densità abitativa: 117 ab/km². Strade principali: SPBS235.
 
 ## Cosa fare
 
@@ -58,20 +52,3 @@ Corzano si trova a circa 18 km a ovest di Brescia. Superficie: 12.25 km². Densi
 
 - Strada provinciale: **SPBS235**
 
-## Comuni vicini
-
-- [Trenzano](../trenzano/) — 1.4 km
-- [Comezzano-Cizzago](../comezzano-cizzago/) — 4.1 km
-- [Maclodio](../maclodio/) — 4.2 km
-- [Pompiano](../pompiano/) — 4.6 km
-- [Brandico](../brandico/) — 4.9 km
-
-## Comuni confinanti
-
-- [Barbariga](../barbariga/)
-- [Brandico](../brandico/)
-- [Comezzano Cizzago](../comezzano-cizzago/)
-- [Dello](../dello/)
-- [Longhena](../longhena/)
-- [Pompiano](../pompiano/)
-- [Trenzano](../trenzano/)

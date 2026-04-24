@@ -28,8 +28,6 @@ bordering:
   - "losine"
   - "malegno"
   - "niardo"
-subcomuni:
-  - cap: "25043", area: 59.81, coords: [45.942453443684165, 10.395662434614096], incomePerCapita: 25049, taxpayers: 3556
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -41,10 +39,6 @@ fact: "Capoluogo storico della Val Camonica con un imponente castello medievale"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Breno si trova a circa 47 km a nord di Brescia. Superficie: 59.86 km². Densità abitativa: 82 ab/km². Strade principali: SS 42, SS42.
 
 ## Cosa fare
 
@@ -79,15 +73,6 @@ Breno si trova a circa 47 km a nord di Brescia. Superficie: 59.86 km². Densità
 - **Rifugio Passo Crocedomini** (Hotel)
 - **Albergo Gaver** (Hotel)
 
-## Servizi
-
-- **Iperal** — Supermercato
-- **Lidl** — Supermercato
-- **Aldi** — Supermercato
-- **DeSpar** — Supermercato
-- **Farmacia Murachelli** — Farmacia
-- **Biblioteca** — Biblioteca
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Breno**
@@ -98,21 +83,3 @@ Breno si trova a circa 47 km a nord di Brescia. Superficie: 59.86 km². Densità
 
 Capoluogo storico della Val Camonica con un imponente castello medievale
 
-## Comuni vicini
-
-- [Prestine](../prestine/) — 2.1 km
-- [Bienno](../bienno/) — 2.4 km
-- [Malegno](../malegno/) — 2.7 km
-- [Cividate Camuno](../cividate-camuno/) — 3.0 km
-- [Niardo](../niardo/) — 3.1 km
-
-## Comuni confinanti
-
-- [Bagolino](../bagolino/)
-- [Bienno](../bienno/)
-- [Braone](../braone/)
-- [Ceto](../ceto/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Losine](../losine/)
-- [Malegno](../malegno/)
-- [Niardo](../niardo/)

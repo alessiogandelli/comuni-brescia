@@ -24,8 +24,6 @@ bordering:
   - "nuvolento"
   - "nuvolera"
   - "prevalle"
-subcomuni:
-  - cap: "25081", area: 26.39, coords: [45.4986927483237, 10.422876411564602], incomePerCapita: 24543, taxpayers: 8950
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Bedizzole si trova a circa 17 km a est di Brescia. Superficie: 26.45 km². Densità abitativa: 470 ab/km². Strade principali: SS11.
 
 ## Cosa fare
 
@@ -67,33 +61,7 @@ Bedizzole si trova a circa 17 km a est di Brescia. Superficie: 26.45 km². Densi
 
 - **Agriturismo Parco del Chiese** (B&B / Affittacamere)
 
-## Servizi
-
-- **Biblioteca comunale Primo Levi** — Biblioteca
-- **Farmacia Barba Dott. Giulio** — Farmacia
-- **Farmacia Comunale di Bedizzole** — Farmacia
-- **Penny Market** — Supermercato
-- **Conad** — Supermercato
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Superstrada: **SS11**
 
-## Comuni vicini
-
-- [Calvagese della Riviera](../calvagese-della-riviera/) — 3.0 km
-- [Prevalle](../prevalle/) — 4.5 km
-- [Nuvolento](../nuvolento/) — 4.9 km
-- [Nuvolera](../nuvolera/) — 5.2 km
-- [Mazzano](../mazzano/) — 5.2 km
-
-## Comuni confinanti
-
-- [Calcinato](../calcinato/)
-- [Calvagese Della Riviera](../calvagese-della-riviera/)
-- [Lonato Del Garda](../lonato-del-garda/)
-- [Mazzano](../mazzano/)
-- [Nuvolento](../nuvolento/)
-- [Nuvolera](../nuvolera/)
-- [Prevalle](../prevalle/)

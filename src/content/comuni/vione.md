@@ -22,8 +22,6 @@ bordering:
   - "ponte-di-legno"
   - "temu"
   - "vezza-d'oglio"
-subcomuni:
-  - cap: "25050", area: 35.19, coords: [46.2576198259515, 10.44102044594491], incomePerCapita: 21509, taxpayers: 527
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Vione si trova a circa 80 km a nord di Brescia. Superficie: 35.46 km². Densità abitativa: 18 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -66,26 +60,7 @@ Vione si trova a circa 80 km a nord di Brescia. Superficie: 35.46 km². Densità
 - **Capanna Sociale Val Vallaro** (Bivacco)
 - **Bivacco Valzaroten** (Bivacco)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Alimentari** — Alimentari
-
 ## Come arrivare
 
 - Strada provinciale: **SS42**
 
-## Comuni vicini
-
-- [Temù](../temu/) — 2.3 km
-- [Vezza d'Oglio](../vezza-doglio/) — 2.9 km
-- [Ponte di Legno](../ponte-di-legno/) — 5.9 km
-- [Incudine](../incudine/) — 7.3 km
-- [Monno](../monno/) — 8.0 km
-
-## Comuni confinanti
-
-- [Edolo](../edolo/)
-- [Ponte Di Legno](../ponte-di-legno/)
-- [Temu](../temu/)
-- [Vezza D'oglio](../vezza-d'oglio/)

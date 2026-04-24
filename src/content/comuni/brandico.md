@@ -20,8 +20,6 @@ bordering:
   - "maclodio"
   - "mairano"
   - "trenzano"
-subcomuni:
-  - cap: "25030", area: 8.37, coords: [45.455000217442915, 10.045951868172445], incomePerCapita: 22110, taxpayers: 1237
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Brandico si trova a circa 13 km a ovest di Brescia. Superficie: 8.45 km². Densità abitativa: 217 ab/km². Strade principali: SPBS235.
 
 ## Cosa fare
 
@@ -50,18 +44,3 @@ Brandico si trova a circa 13 km a ovest di Brescia. Superficie: 8.45 km². Densi
 
 - Strada provinciale: **SPBS235**
 
-## Comuni vicini
-
-- [Berlingo](../berlingo/) — 1.0 km
-- [Lograto](../lograto/) — 1.2 km
-- [Maclodio](../maclodio/) — 1.7 km
-- [Barbariga](../barbariga/) — 3.2 km
-- [Trenzano](../trenzano/) — 3.8 km
-
-## Comuni confinanti
-
-- [Corzano](../corzano/)
-- [Longhena](../longhena/)
-- [Maclodio](../maclodio/)
-- [Mairano](../mairano/)
-- [Trenzano](../trenzano/)

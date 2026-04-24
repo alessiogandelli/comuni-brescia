@@ -25,8 +25,6 @@ bordering:
   - "collio"
   - "idro"
   - "lavenone"
-subcomuni:
-  - cap: "25072", area: 108.96, coords: [45.85844201587792, 10.475836690858241], incomePerCapita: 22596, taxpayers: 3026
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Famoso per il Carnevale più antico della provincia e il formaggio Bagòs
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Bagolino si trova a circa 37 km a nord-est di Brescia. Superficie: 109.93 km². Densità abitativa: 35 ab/km². Strade principali: SPBS237, SS237.
 
 ## Cosa fare
 
@@ -76,15 +70,6 @@ Bagolino si trova a circa 37 km a nord-est di Brescia. Superficie: 109.93 km². 
 - **Al Tempo Perduto** (Hotel)
 - **Agriturismo Alpe Vaia** (B&B / Affittacamere)
 
-## Servizi
-
-- **Alimentari Scavoni Paolo** — Alimentari
-- **Gran Posteria** — Alimentari
-- **Farmacia San Rocco** — Farmacia
-- **Da sgàrzä** — Alimentari
-- **Biblioteca Comunale** — Biblioteca
-- **Despar** — Supermercato
-
 ## Come arrivare
 
 - Seggiovia: **Fienili Barard**
@@ -96,19 +81,3 @@ Bagolino si trova a circa 37 km a nord-est di Brescia. Superficie: 109.93 km². 
 
 Famoso per il Carnevale più antico della provincia e il formaggio Bagòss
 
-## Comuni vicini
-
-- [Anfo](../anfo/) — 6.4 km
-- [Idro](../idro/) — 8.8 km
-- [Capovalle](../capovalle/) — 9.1 km
-- [Lavenone](../lavenone/) — 9.6 km
-- [Collio](../collio/) — 10.1 km
-
-## Comuni confinanti
-
-- [Anfo](../anfo/)
-- [Bienno](../bienno/)
-- [Breno](../breno/)
-- [Collio](../collio/)
-- [Idro](../idro/)
-- [Lavenone](../lavenone/)

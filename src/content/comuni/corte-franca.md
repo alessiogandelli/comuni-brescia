@@ -25,8 +25,6 @@ bordering:
   - "iseo"
   - "passirano"
   - "provaglio-d'iseo"
-subcomuni:
-  - cap: "25040", area: 13.95, coords: [45.63128044219624, 10.005310586491492], incomePerCapita: 25716, taxpayers: 5431
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Corte Franca si trova a circa 18 km a nord-ovest di Brescia. Superficie: 14.02 km². Densità abitativa: 519 ab/km².
 
 ## Cosa fare
 
@@ -68,29 +62,7 @@ Corte Franca si trova a circa 18 km a nord-ovest di Brescia. Superficie: 14.02 k
 
 - **Relais Franciacorta** (Hotel)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Esselunga** — Supermercato
-- **Cicli Eugenio Gotti S.r.l.** — Ciclofficina
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Borgonato-Adro**
 
-## Comuni vicini
-
-- [Provaglio d'Iseo](../provaglio-diseo/) — 3.1 km
-- [Erbusco](../erbusco/) — 3.3 km
-- [Adro](../adro/) — 4.5 km
-- [Iseo](../iseo/) — 4.6 km
-- [Cazzago San Martino](../cazzago-san-martino/) — 5.0 km
-
-## Comuni confinanti
-
-- [Adro](../adro/)
-- [Capriolo](../capriolo/)
-- [Cazzago San Martino](../cazzago-san-martino/)
-- [Iseo](../iseo/)
-- [Passirano](../passirano/)
-- [Provaglio D'iseo](../provaglio-d'iseo/)

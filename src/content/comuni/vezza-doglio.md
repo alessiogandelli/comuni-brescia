@@ -26,8 +26,6 @@ bordering:
   - "sondalo"
   - "temu"
   - "vione"
-subcomuni:
-  - cap: "25059", area: 54.03, coords: [46.26605370243315, 10.400366636483446], incomePerCapita: 23606, taxpayers: 1177
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Vezza d'Oglio si trova a circa 79 km a nord di Brescia. Superficie: 54.16 km². Densità abitativa: 27 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -71,32 +65,7 @@ Vezza d'Oglio si trova a circa 79 km a nord di Brescia. Superficie: 54.16 km². 
 - **Bivacco Saverio Occhi** (Bivacco)
 - **Rifugio Alla Cascata** (Hotel)
 
-## Servizi
-
-- **Biblioteca** — Biblioteca
-- **Farmacia** — Farmacia
-- **Panificio Pasticceria Guizzardi** — Panificio
-- **Forneria Salvetti** — Panificio
-
 ## Come arrivare
 
 - Strada provinciale: **SS42**
 
-## Comuni vicini
-
-- [Vione](../vione/) — 2.9 km
-- [Incudine](../incudine/) — 4.7 km
-- [Temù](../temu/) — 5.1 km
-- [Monno](../monno/) — 5.3 km
-- [Edolo](../edolo/) — 8.6 km
-
-## Comuni confinanti
-
-- [Edolo](../edolo/)
-- [Grosio](../grosio/)
-- [Incudine](../incudine/)
-- [Monno](../monno/)
-- [Ponte Di Legno](../ponte-di-legno/)
-- [Sondalo](../sondalo/)
-- [Temu](../temu/)
-- [Vione](../vione/)

@@ -23,8 +23,6 @@ bordering:
   - "isorella"
   - "montichiari"
   - "visano"
-subcomuni:
-  - cap: "25012", area: 44.73, coords: [45.351273783035445, 10.356314178316579], incomePerCapita: 23298, taxpayers: 6046
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Calvisano si trova a circa 23 km a sud-est di Brescia. Superficie: 45.07 km². Densità abitativa: 192 ab/km².
 
 ## Cosa fare
 
@@ -62,19 +56,3 @@ Calvisano si trova a circa 23 km a sud-est di Brescia. Superficie: 45.07 km². D
 
 - Stazione ferroviaria: **Viadana Bresciana**
 
-## Comuni vicini
-
-- [Visano](../visano/) — 4.9 km
-- [Isorella](../isorella/) — 5.5 km
-- [Carpenedolo](../carpenedolo/) — 7.1 km
-- [Ghedi](../ghedi/) — 7.5 km
-- [Acquafredda](../acquafredda/) — 7.6 km
-
-## Comuni confinanti
-
-- [Acquafredda](../acquafredda/)
-- [Carpenedolo](../carpenedolo/)
-- [Ghedi](../ghedi/)
-- [Isorella](../isorella/)
-- [Montichiari](../montichiari/)
-- [Visano](../visano/)

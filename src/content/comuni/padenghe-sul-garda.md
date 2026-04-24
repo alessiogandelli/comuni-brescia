@@ -25,8 +25,6 @@ bordering:
   - "moniga-del-garda"
   - "sirmione"
   - "soiano-del-lago"
-subcomuni:
-  - cap: "25080", area: 26.75, coords: [45.5079128466678, 10.50354922888789], incomePerCapita: 37988, taxpayers: 3666
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Padenghe sul Garda si trova a circa 23 km a est di Brescia. Superficie: 22.11 km². Densità abitativa: 203 ab/km². Strade principali: SP BS 572, Via Guglielmo Marconi, Via Pergola.
 
 ## Cosa fare
 
@@ -72,33 +66,9 @@ Padenghe sul Garda si trova a circa 23 km a est di Brescia. Superficie: 22.11 km
 - **Hotel Ketty** (Hotel)
 - **La Rocchetta** (Hotel)
 
-## Servizi
-
-- **Conad** — Supermercato
-- **Beretta** — Farmacia
-- **Alimentari e Tabacchi** — Alimentari
-- **Biblioteca Comunale Alda Merini** — Biblioteca
-- **Panedolci** — Panificio
-
 ## Come arrivare
 
 - Strada provinciale: **SP BS 572**
 - Strada provinciale: **Via Guglielmo Marconi**
 - Strada provinciale: **Via Pergola**
 
-## Comuni vicini
-
-- [Moniga del Garda](../moniga-del-garda/) — 2.8 km
-- [Soiano del Lago](../soiano-del-lago/) — 3.4 km
-- [Calvagese della Riviera](../calvagese-della-riviera/) — 4.9 km
-- [Polpenazze del Garda](../polpenazze-del-garda/) — 4.9 km
-- [Desenzano del Garda](../desenzano-del-garda/) — 4.9 km
-
-## Comuni confinanti
-
-- [Calvagese Della Riviera](../calvagese-della-riviera/)
-- [Desenzano Del Garda](../desenzano-del-garda/)
-- [Lonato Del Garda](../lonato-del-garda/)
-- [Moniga Del Garda](../moniga-del-garda/)
-- [Sirmione](../sirmione/)
-- [Soiano Del Lago](../soiano-del-lago/)

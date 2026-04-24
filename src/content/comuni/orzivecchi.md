@@ -21,8 +21,6 @@ bordering:
   - "orzinuovi"
   - "pompiano"
   - "roccafranca"
-subcomuni:
-  - cap: "25030", area: 9.92, coords: [45.424040606534156, 9.960781538949908], incomePerCapita: 22290, taxpayers: 1805
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Orzivecchi si trova a circa 23 km a sud-ovest di Brescia. Superficie: 9.89 km². Densità abitativa: 248 ab/km². Strade principali: SPBS235, SPBS668, Via Repubblica.
 
 ## Cosa fare
 
@@ -64,17 +58,3 @@ Orzivecchi si trova a circa 23 km a sud-ovest di Brescia. Superficie: 9.89 km².
 - Strada provinciale: **SPBS668**
 - Strada provinciale: **Via Repubblica**
 
-## Comuni vicini
-
-- [Pompiano](../pompiano/) — 2.8 km
-- [Orzinuovi](../orzinuovi/) — 4.3 km
-- [Corzano](../corzano/) — 5.5 km
-- [Comezzano-Cizzago](../comezzano-cizzago/) — 6.3 km
-- [Trenzano](../trenzano/) — 6.8 km
-
-## Comuni confinanti
-
-- [Comezzano Cizzago](../comezzano-cizzago/)
-- [Orzinuovi](../orzinuovi/)
-- [Pompiano](../pompiano/)
-- [Roccafranca](../roccafranca/)

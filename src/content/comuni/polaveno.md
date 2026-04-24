@@ -26,8 +26,6 @@ bordering:
   - "sale-marasino"
   - "sarezzo"
   - "sulzano"
-subcomuni:
-  - cap: "25060", area: 9.18, coords: [45.66365123582259, 10.135171348052676], incomePerCapita: 23797, taxpayers: 1919
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Polaveno si trova a circa 15 km a nord-ovest di Brescia. Superficie: 9.16 km². Densità abitativa: 306 ab/km².
 
 ## Cosa fare
 
@@ -67,31 +61,7 @@ Polaveno si trova a circa 15 km a nord-ovest di Brescia. Superficie: 9.16 km². 
 
 - **Rifugio Alpino Gruppo di Polaveno** (Rifugio alpino)
 
-## Servizi
-
-- **Farmacia Donati Luciano** — Farmacia
-- **Alimentari Mingardi** — Alimentari
-- **Oratorio San Giovanni di Polaveno** — Centro civico
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Ome](../ome/) — 3.2 km
-- [Monticelli Brusati](../monticelli-brusati/) — 4.5 km
-- [Sulzano](../sulzano/) — 4.9 km
-- [Iseo](../iseo/) — 5.3 km
-- [Provaglio d'Iseo](../provaglio-diseo/) — 5.5 km
-
-## Comuni confinanti
-
-- [Brione](../brione/)
-- [Gardone Val Trompia](../gardone-val-trompia/)
-- [Iseo](../iseo/)
-- [Monticelli Brusati](../monticelli-brusati/)
-- [Ome](../ome/)
-- [Sale Marasino](../sale-marasino/)
-- [Sarezzo](../sarezzo/)
-- [Sulzano](../sulzano/)

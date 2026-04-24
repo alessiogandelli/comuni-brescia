@@ -25,8 +25,6 @@ bordering:
   - "paitone"
   - "sabbio-chiese"
   - "serle"
-subcomuni:
-  - cap: "25080", area: 14.83, coords: [45.61311497492257, 10.389637498002031], incomePerCapita: 23598, taxpayers: 1100
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Vallio Terme si trova a circa 18 km a est di Brescia. Superficie: 14.88 km². Densità abitativa: 91 ab/km².
 
 ## Cosa fare
 
@@ -68,31 +62,7 @@ Vallio Terme si trova a circa 18 km a est di Brescia. Superficie: 14.88 km². De
 - **Villa Giulia** (B&B / Affittacamere)
 - **Rifugio degli Alpini di Vallio** (Rifugio alpino)
 
-## Servizi
-
-- **Biblioteca Lino Monchieri** — Biblioteca
-- **Alimentari Fabio** — Alimentari
-- **Centro civico** — Centro civico
-- **Farmacia Vallio Terme** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Gavardo](../gavardo/) — 1.4 km
-- [Villanuova sul Clisi](../villanuova-sul-clisi/) — 1.8 km
-- [Roè Volciano](../roe-volciano/) — 4.2 km
-- [Muscoline](../muscoline/) — 4.7 km
-- [Prevalle](../prevalle/) — 5.1 km
-
-## Comuni confinanti
-
-- [Agnosine](../agnosine/)
-- [Caino](../caino/)
-- [Gavardo](../gavardo/)
-- [Odolo](../odolo/)
-- [Paitone](../paitone/)
-- [Sabbio Chiese](../sabbio-chiese/)
-- [Serle](../serle/)

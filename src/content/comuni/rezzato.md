@@ -24,8 +24,6 @@ bordering:
   - "castenedolo"
   - "mazzano"
   - "nuvolera"
-subcomuni:
-  - cap: "25086", area: 18.17, coords: [45.508027272038845, 10.32063872131224], incomePerCapita: 26034, taxpayers: 10165
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Rezzato si trova a circa 9 km a est di Brescia. Superficie: 18.29 km². Densità abitativa: 740 ab/km². Strade principali: A4, SPBS11TS, SS11, SS45bis, Tangenziale Est.
 
 ## Cosa fare
 
@@ -76,33 +70,9 @@ Rezzato si trova a circa 9 km a est di Brescia. Superficie: 18.29 km². Densità
 - **Rifugio Aldo Vitali** (Rifugio alpino)
 - **Centro Ricreativo Estivo** (Ostello)
 
-## Servizi
-
-- **Lidl** — Supermercato
-- **Farmacia Comunale San Carlo** — Farmacia
-- **Sala Civica Italo Calvino** — Centro civico
-- **Biblioteca Comunale di Rezzato** — Biblioteca
-- **Oratorio Don Bosco** — Centro civico
-- **Azienda Tutela Salute** — Ospedale
-
 ## Come arrivare
 
 - Autostrada: **A4**
 - Superstrada: **SPBS11TS**
 - Superstrada: **SS11**
 
-## Comuni vicini
-
-- [Botticino](../botticino/) — 1.2 km
-- [Mazzano](../mazzano/) — 2.8 km
-- [Nuvolera](../nuvolera/) — 4.1 km
-- [Nuvolento](../nuvolento/) — 5.3 km
-- [Serle](../serle/) — 5.5 km
-
-## Comuni confinanti
-
-- [Botticino](../botticino/)
-- [Brescia](../brescia/)
-- [Castenedolo](../castenedolo/)
-- [Mazzano](../mazzano/)
-- [Nuvolera](../nuvolera/)

@@ -22,8 +22,6 @@ bordering:
   - "mairano"
   - "torbole-casaglia"
   - "travagliato"
-subcomuni:
-  - cap: "25030", area: 12.41, coords: [45.48752520344942, 10.066444571454705], incomePerCapita: 24784, taxpayers: 2729
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Lograto si trova a circa 13 km a ovest di Brescia. Superficie: 12.38 km². Densità abitativa: 310 ab/km². Strade principali: A21racc, SPBS235.
 
 ## Cosa fare
 
@@ -55,29 +49,8 @@ Lograto si trova a circa 13 km a ovest di Brescia. Superficie: 12.38 km². Densi
 - **Bar Oratorio San Filippo Neri** (Bar)
 - **Bar gelateria Dora** (Caffè)
 
-## Servizi
-
-- **Biblioteca di Lograto** — Biblioteca
-- **Ambulatorio medico** — Ospedale
-
 ## Come arrivare
 
 - Autostrada: **A21racc**
 - Strada provinciale: **SPBS235**
 
-## Comuni vicini
-
-- [Brandico](../brandico/) — 1.2 km
-- [Berlingo](../berlingo/) — 2.1 km
-- [Barbariga](../barbariga/) — 2.1 km
-- [Maclodio](../maclodio/) — 2.9 km
-- [Torbole Casaglia](../torbole-casaglia/) — 3.8 km
-
-## Comuni confinanti
-
-- [Azzano Mella](../azzano-mella/)
-- [Berlingo](../berlingo/)
-- [Maclodio](../maclodio/)
-- [Mairano](../mairano/)
-- [Torbole Casaglia](../torbole-casaglia/)
-- [Travagliato](../travagliato/)

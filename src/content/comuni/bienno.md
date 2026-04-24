@@ -24,8 +24,6 @@ bordering:
   - "breno"
   - "cividate-camuno"
   - "collio"
-subcomuni:
-  - cap: "25040", area: 46.71, coords: [45.90636602797289, 10.35396979192147], incomePerCapita: 23306, taxpayers: 2866
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "Borgo tra i più belli d'Italia, celebre per le fucine medievali"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Bienno si trova a circa 44 km a nord di Brescia. Superficie: 46.88 km². Densità abitativa: 77 ab/km².
 
 ## Cosa fare
 
@@ -75,15 +69,6 @@ Bienno si trova a circa 44 km a nord di Brescia. Superficie: 46.88 km². Densit�
 - **Il Semprevivo** (Hotel)
 - **Casina Vecchia di Campolungo** (B&B / Affittacamere)
 
-## Servizi
-
-- **Crai** — Alimentari
-- **Farmacia** — Farmacia
-- **Biblioteca** — Biblioteca
-- **Centro civico** — Centro civico
-- **Ambulatorio** — Ambulatorio
-- **Fresco Mio** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -92,19 +77,3 @@ Bienno si trova a circa 44 km a nord di Brescia. Superficie: 46.88 km². Densit�
 
 Borgo tra i più belli d'Italia, celebre per le fucine medievali
 
-## Comuni vicini
-
-- [Prestine](../prestine/) — 0.6 km
-- [Cividate Camuno](../cividate-camuno/) — 1.2 km
-- [Breno](../breno/) — 2.4 km
-- [Malegno](../malegno/) — 2.5 km
-- [Esine](../esine/) — 3.3 km
-
-## Comuni confinanti
-
-- [Bagolino](../bagolino/)
-- [Berzo Inferiore](../berzo-inferiore/)
-- [Bovegno](../bovegno/)
-- [Breno](../breno/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Collio](../collio/)

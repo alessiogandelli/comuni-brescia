@@ -23,8 +23,6 @@ bordering:
   - "mazzano"
   - "montichiari"
   - "rezzato"
-subcomuni:
-  - cap: "25014", area: 26.14, coords: [45.46911261579188, 10.292698951295042], incomePerCapita: 25670, taxpayers: 8710
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Sede della celebre battaglia del 1859 durante la Seconda Guerra d'Indipen
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Castenedolo si trova a circa 10 km a sud-est di Brescia. Superficie: 26.29 km². Densità abitativa: 427 ab/km². Strade principali: A21racc, A4, Tangenziale Est, SPBS236, Piazza Camillo Benso Conte di Cavour.
 
 ## Cosa fare
 
@@ -66,15 +60,6 @@ Castenedolo si trova a circa 10 km a sud-est di Brescia. Superficie: 26.29 km².
 - **Majestic** (Hotel)
 - **Blu Hotel Brixia** (Hotel)
 
-## Servizi
-
-- **Family Market** — Supermercato
-- **Biblioteca Comunale di Castenedolo** — Biblioteca
-- **Migross** — Supermercato
-- **Il Rossetto** — Supermercato
-- **Prix** — Supermercato
-- **Panificio Piubeni** — Panificio
-
 ## Come arrivare
 
 - Autostrada: **A21racc**
@@ -85,20 +70,3 @@ Castenedolo si trova a circa 10 km a sud-est di Brescia. Superficie: 26.29 km².
 
 Sede della celebre battaglia del 1859 durante la Seconda Guerra d'Indipendenza
 
-## Comuni vicini
-
-- [Borgosatollo](../borgosatollo/) — 5.3 km
-- [Rezzato](../rezzato/) — 5.5 km
-- [Montirone](../montirone/) — 6.1 km
-- [Botticino](../botticino/) — 6.6 km
-- [Mazzano](../mazzano/) — 6.9 km
-
-## Comuni confinanti
-
-- [Borgosatollo](../borgosatollo/)
-- [Brescia](../brescia/)
-- [Calcinato](../calcinato/)
-- [Ghedi](../ghedi/)
-- [Mazzano](../mazzano/)
-- [Montichiari](../montichiari/)
-- [Rezzato](../rezzato/)

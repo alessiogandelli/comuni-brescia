@@ -25,8 +25,6 @@ bordering:
   - "lavenone"
   - "treviso-bresciano"
   - "valvestino"
-subcomuni:
-  - cap: "25074", area: 22.84, coords: [45.75916370818218, 10.5002842611533], incomePerCapita: 24486, taxpayers: 1477
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Affacciato sull'omonimo lago, il più piccolo dei laghi prealpini brescia
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Idro si trova a circa 31 km a nord-est di Brescia. Superficie: 22.35 km². Densità abitativa: 84 ab/km². Strade principali: SPBS237.
 
 ## Cosa fare
 
@@ -76,15 +70,6 @@ Idro si trova a circa 31 km a nord-est di Brescia. Superficie: 22.35 km². Densi
 - **Albergo Milano** (Hotel)
 - **La Wanda** (Hotel)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Minimarkt** — Alimentari
-- **Jolly Market** — Supermercato
-- **Alimentari Carla Rambaldini** — Alimentari
-- **Casa delle Associazioni** — Centro civico
-- **La Bottega** — Alimentari
-
 ## Come arrivare
 
 - Strada provinciale: **SPBS237**
@@ -93,19 +78,3 @@ Idro si trova a circa 31 km a nord-est di Brescia. Superficie: 22.35 km². Densi
 
 Affacciato sull'omonimo lago, il più piccolo dei laghi prealpini bresciani
 
-## Comuni vicini
-
-- [Anfo](../anfo/) — 2.8 km
-- [Capovalle](../capovalle/) — 3.0 km
-- [Lavenone](../lavenone/) — 3.4 km
-- [Treviso Bresciano](../treviso-bresciano/) — 3.7 km
-- [Pertica Alta](../pertica-alta/) — 7.2 km
-
-## Comuni confinanti
-
-- [Anfo](../anfo/)
-- [Bagolino](../bagolino/)
-- [Capovalle](../capovalle/)
-- [Lavenone](../lavenone/)
-- [Treviso Bresciano](../treviso-bresciano/)
-- [Valvestino](../valvestino/)

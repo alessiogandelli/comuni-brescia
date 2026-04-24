@@ -25,8 +25,6 @@ bordering:
   - "erbusco"
   - "travagliato"
   - "trenzano"
-subcomuni:
-  - cap: "25038", area: 26.05, coords: [45.550059787988886, 10.009069710237203], incomePerCapita: 23818, taxpayers: 13750
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Sede di uno dei mercati più antichi della Lombardia"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Rovato si trova a circa 17 km a ovest di Brescia. Superficie: 26.15 km². Densità abitativa: 731 ab/km². Strade principali: A35, A4, SP16, SPBS11, SPBS11var.
 
 ## Cosa fare
 
@@ -69,15 +63,6 @@ Rovato si trova a circa 17 km a ovest di Brescia. Superficie: 26.15 km². Densit
 - **Agriturismo Alberelle** (B&B / Affittacamere)
 - **Casa Dublato** (B&B / Affittacamere)
 
-## Servizi
-
-- **MD** — Supermercato
-- **MiniMarket** — Supermercato
-- **Lidl** — Supermercato
-- **Conad** — Supermercato
-- **A.O. Mellino Mellini** — Ospedale
-- **Biblioteca Centro Culturale Cesare Cantù di Rovato** — Biblioteca
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Rovato**
@@ -90,20 +75,3 @@ Rovato si trova a circa 17 km a ovest di Brescia. Superficie: 26.15 km². Densit
 
 Sede di uno dei mercati più antichi della Lombardia
 
-## Comuni vicini
-
-- [Coccaglio](../coccaglio/) — 2.0 km
-- [Cazzago San Martino](../cazzago-san-martino/) — 2.3 km
-- [Erbusco](../erbusco/) — 3.5 km
-- [Castrezzato](../castrezzato/) — 4.2 km
-- [Passirano](../passirano/) — 5.4 km
-
-## Comuni confinanti
-
-- [Berlingo](../berlingo/)
-- [Castrezzato](../castrezzato/)
-- [Cazzago San Martino](../cazzago-san-martino/)
-- [Coccaglio](../coccaglio/)
-- [Erbusco](../erbusco/)
-- [Travagliato](../travagliato/)
-- [Trenzano](../trenzano/)

@@ -22,8 +22,6 @@ bordering:
   - "prevalle"
   - "serle"
   - "vallio-terme"
-subcomuni:
-  - cap: "25080", area: 7.99, coords: [45.57086079903944, 10.397115091978323], incomePerCapita: 22164, taxpayers: 1634
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Paitone si trova a circa 14 km a est di Brescia. Superficie: 7.86 km². Densità abitativa: 266 ab/km².
 
 ## Cosa fare
 
@@ -65,29 +59,7 @@ Paitone si trova a circa 14 km a est di Brescia. Superficie: 7.86 km². Densità
 - **Rifugio degli Alpini** (Rifugio alpino)
 - **Hotel** (Hotel)
 
-## Servizi
-
-- **Oratorio Beata Vergine di Paitone** — Centro civico
-- **Farmacia** — Farmacia
-- **Mario Filippini** — Libreria
-- **Xtech Sport Design** — Negozio outdoor
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Nuvolento](../nuvolento/) — 1.9 km
-- [Prevalle](../prevalle/) — 1.9 km
-- [Serle](../serle/) — 2.3 km
-- [Nuvolera](../nuvolera/) — 3.0 km
-- [Gavardo](../gavardo/) — 4.6 km
-
-## Comuni confinanti
-
-- [Gavardo](../gavardo/)
-- [Nuvolento](../nuvolento/)
-- [Prevalle](../prevalle/)
-- [Serle](../serle/)
-- [Vallio Terme](../vallio-terme/)

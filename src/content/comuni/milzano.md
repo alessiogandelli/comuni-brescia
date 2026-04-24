@@ -21,8 +21,6 @@ bordering:
   - "pralboino"
   - "san-gervasio-bresciano"
   - "seniga"
-subcomuni:
-  - cap: "25020", area: 8.48, coords: [45.27373394916095, 10.19657436202241], incomePerCapita: 22150, taxpayers: 1276
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Milzano si trova a circa 24 km a sud di Brescia. Superficie: 8.52 km². Densità abitativa: 213 ab/km².
 
 ## Cosa fare
 
@@ -56,27 +50,7 @@ Milzano si trova a circa 24 km a sud di Brescia. Superficie: 8.52 km². Densità
 - **Le Campagnole** (Ristorante)
 - **Al Ponte** (Ristorante)
 
-## Servizi
-
-- **Maxi** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Cigole](../cigole/) — 1.8 km
-- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 2.1 km
-- [Pavone del Mella](../pavone-del-mella/) — 3.1 km
-- [Bassano Bresciano](../bassano-bresciano/) — 3.6 km
-- [Manerbio](../manerbio/) — 4.2 km
-
-## Comuni confinanti
-
-- [Alfianello](../alfianello/)
-- [Cigole](../cigole/)
-- [Pavone Del Mella](../pavone-del-mella/)
-- [Pralboino](../pralboino/)
-- [San Gervasio Bresciano](../san-gervasio-bresciano/)
-- [Seniga](../seniga/)

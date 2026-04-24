@@ -35,25 +35,6 @@ const canonicalUrl = `${import.meta.env.SITE}${base}/comuni/${comune.id}`;
 
 const formatNumber = (num: number | undefined) => num?.toLocaleString('it-IT') || '—';
 
-const featureBadges = [
-  { key: 'hasHistoric', icon: 'landmark', label: 'Patrimonio storico' },
-  { key: 'hasNature', icon: 'tree-pine', label: 'Natura' },
-  { key: 'hasSport', icon: 'bike', label: 'Sport' },
-  { key: 'hasFood', icon: 'utensils', label: 'Ristoranti' },
-  { key: 'hasAccommodation', icon: 'bed', label: 'Alloggi' },
-  { key: 'hasStation', icon: 'train', label: 'Stazione' },
-] as const;
-
-const activeFeatures = featureBadges.filter(
-  (badge) => comune.data[badge.key as keyof typeof comune.data]
-);
-
-let heroGradient = 'from-primary to-primary/80';
-if (comune.data.hasHistoric) heroGradient = 'from-purple-600 to-purple-800';
-else if (comune.data.hasNature) heroGradient = 'from-emerald-600 to-emerald-800';
-else if (comune.data.hasFood) heroGradient = 'from-orange-600 to-orange-800';
-else if (comune.data.hasSport) heroGradient = 'from-amber-600 to-amber-800';
-
 const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'Place',
@@ -80,7 +61,7 @@ const structuredData = {
   canonicalUrl={canonicalUrl}
   type="article"
 >
-  <header class={`relative bg-gradient-to-br ${heroGradient} text-primary-foreground overflow-hidden -mx-6 -mt-12 px-6 pt-12 pb-10 rounded-3xl mb-10`}>
+  <header class={`relative text-foreground overflow-hidden -mx-6 -mt-12 px-6 pt-12 pb-10 rounded-3xl mb-10`}>
     <div class="absolute inset-0 opacity-10" style="background-image: url(&quot;data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E&quot;);"></div>
     
     <div class="relative z-10">
@@ -150,16 +131,7 @@ const structuredData = {
     </div>
   </header>
 
-  {activeFeatures.length > 0 && (
-    <div class="flex flex-wrap gap-2 mb-10">
-      {activeFeatures.map((feature) => (
-        <span class="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium border border-border hover:bg-accent transition-colors">
-          <Icon name={feature.icon} size={16} />
-          {feature.label}
-        </span>
-      ))}
-    </div>
-  )}
+  </header>
 
   {comune.data.intro && comune.data.intro.trim() && (
     <div class="bg-primary/5 border-l-4 border-primary rounded-r-xl p-6 mb-10">

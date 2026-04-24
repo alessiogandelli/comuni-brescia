@@ -25,8 +25,6 @@ bordering:
   - "passirano"
   - "rovato"
   - "travagliato"
-subcomuni:
-  - cap: "25046", area: 22.3, coords: [45.56785911494818, 10.03695772860441], incomePerCapita: 24689, taxpayers: 7930
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Cuore della Franciacorta, terra di bollicine pregiate"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Cazzago San Martino si trova a circa 15 km a ovest di Brescia. Superficie: 22.24 km². Densità abitativa: 501 ab/km². Strade principali: A21racc, A35, A4, SS11, Via Padana Superiore.
 
 ## Cosa fare
 
@@ -69,13 +63,6 @@ Cazzago San Martino si trova a circa 15 km a ovest di Brescia. Superficie: 22.24
 - **Ophelia Hotel** (Hotel)
 - **Hotel** (Hotel)
 
-## Servizi
-
-- **Oratorio di Cazzago San Martino** — Centro civico
-- **Comunale** — Farmacia
-- **Dispensario Farmaceutico comunale** — Farmacia
-- **San Giorgio** — Panificio
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Cazzago San Martino**
@@ -88,20 +75,3 @@ Cazzago San Martino si trova a circa 15 km a ovest di Brescia. Superficie: 22.24
 
 Cuore della Franciacorta, terra di bollicine pregiate
 
-## Comuni vicini
-
-- [Rovato](../rovato/) — 2.3 km
-- [Erbusco](../erbusco/) — 2.7 km
-- [Passirano](../passirano/) — 3.2 km
-- [Coccaglio](../coccaglio/) — 3.9 km
-- [Paderno Franciacorta](../paderno-franciacorta/) — 4.6 km
-
-## Comuni confinanti
-
-- [Adro](../adro/)
-- [Corte Franca](../corte-franca/)
-- [Erbusco](../erbusco/)
-- [Ospitaletto](../ospitaletto/)
-- [Passirano](../passirano/)
-- [Rovato](../rovato/)
-- [Travagliato](../travagliato/)

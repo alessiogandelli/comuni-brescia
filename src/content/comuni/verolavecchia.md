@@ -22,8 +22,6 @@ bordering:
   - "quinzano-d'oglio"
   - "robecco-d'oglio"
   - "verolanuova"
-subcomuni:
-  - cap: "25029", area: 21.03, coords: [45.30472032891569, 10.048512543713152], incomePerCapita: 24610, taxpayers: 2976
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Verolavecchia si trova a circa 27 km a sud-ovest di Brescia. Superficie: 21.07 km². Densità abitativa: 182 ab/km².
 
 ## Cosa fare
 
@@ -55,28 +49,7 @@ Verolavecchia si trova a circa 27 km a sud-ovest di Brescia. Superficie: 21.07 k
 - **Pastïc'** (Caffè)
 - **Buona Pizza** (Ristorante)
 
-## Servizi
-
-- **PENNY** — Supermercato
-- **Biblioteca di verolavecchia** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Verolanuova](../verolanuova/) — 2.1 km
-- [Quinzano d'Oglio](../quinzano-doglio/) — 3.3 km
-- [Borgo San Giacomo](../borgo-san-giacomo/) — 3.6 km
-- [Bassano Bresciano](../bassano-bresciano/) — 6.1 km
-- [Seniga](../seniga/) — 6.5 km
-
-## Comuni confinanti
-
-- [Borgo San Giacomo](../borgo-san-giacomo/)
-- [Corte De' Cortesi Con Cignone](../corte-de'-cortesi-con-cignone/)
-- [Pontevico](../pontevico/)
-- [Quinzano D'oglio](../quinzano-d'oglio/)
-- [Robecco D'oglio](../robecco-d'oglio/)
-- [Verolanuova](../verolanuova/)

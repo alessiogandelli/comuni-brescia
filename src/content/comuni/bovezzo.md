@@ -20,8 +20,6 @@ bordering:
   - "brescia"
   - "concesio"
   - "nave"
-subcomuni:
-  - cap: "25073", area: 6.4, coords: [45.60007842473922, 10.249452444488048], incomePerCapita: 27682, taxpayers: 5653
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Bovezzo si trova a circa 4 km a nord-est di Brescia. Superficie: 6.41 km². Densità abitativa: 1173 ab/km².
 
 ## Cosa fare
 
@@ -64,29 +58,7 @@ Bovezzo si trova a circa 4 km a nord-est di Brescia. Superficie: 6.41 km². Dens
 
 - **Rifugio Rosa - Santo** (Bivacco)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Casa delle Associazioni** — Centro civico
-- **Biblioteca Comunale di Bovezzo Peppino Impastato** — Biblioteca
-- **Farmacia Comunale di Bovezzo** — Farmacia
-- **Farmacia De Michelis** — Farmacia
-- **Conad** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Collebeato](../collebeato/) — 1.8 km
-- [Concesio](../concesio/) — 2.6 km
-- [Nave](../nave/) — 3.9 km
-- [Brescia](../brescia/) — 4.2 km
-- [Cellatica](../cellatica/) — 4.3 km
-
-## Comuni confinanti
-
-- [Brescia](../brescia/)
-- [Concesio](../concesio/)
-- [Nave](../nave/)

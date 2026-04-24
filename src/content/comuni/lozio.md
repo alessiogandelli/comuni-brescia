@@ -22,8 +22,6 @@ bordering:
   - "malegno"
   - "ossimo"
   - "schilpario"
-subcomuni:
-  - cap: "25040", area: 23.7, coords: [45.99852053867485, 10.238831628810239], incomePerCapita: 18986, taxpayers: 304
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Lozio si trova a circa 51 km a nord di Brescia. Superficie: 23.68 km². Densità abitativa: 15 ab/km².
 
 ## Cosa fare
 
@@ -67,27 +61,7 @@ Lozio si trova a circa 51 km a nord di Brescia. Superficie: 23.68 km². Densità
 - **Bed & Breakfast Alla Fontana** (B&B / Affittacamere)
 - **B&B Orsolina** (B&B / Affittacamere)
 
-## Servizi
-
-- **In Bottega** — Alimentari
-- **Auditorium Madre di Misericordia e Madre di Speranza** — Centro civico
-- **Forneria Franco** — Panificio
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Losine](../losine/) — 1.1 km
-- [Berzo Demo](../berzo-demo/) — 5.0 km
-- [Ossimo](../ossimo/) — 5.4 km
-- [Cerveno](../cerveno/) — 5.5 km
-- [Malegno](../malegno/) — 5.6 km
-
-## Comuni confinanti
-
-- [Cerveno](../cerveno/)
-- [Malegno](../malegno/)
-- [Ossimo](../ossimo/)
-- [Schilpario](../schilpario/)

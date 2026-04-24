@@ -20,8 +20,6 @@ bordering:
   - "salo"
   - "villanuova-sul-clisi"
   - "vobarno"
-subcomuni:
-  - cap: "25077", area: 5.81, coords: [45.61792842566188, 10.498279453822532], incomePerCapita: 25349, taxpayers: 3414
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Roè Volciano si trova a circa 22 km a est di Brescia. Superficie: 5.79 km². Densità abitativa: 772 ab/km². Strade principali: SS45bis, SP116, SPV, Via dei Colli, Via Gardesana.
 
 ## Cosa fare
 
@@ -64,32 +58,9 @@ Roè Volciano si trova a circa 22 km a est di Brescia. Superficie: 5.79 km². De
 - **Casa di Minola** (B&B / Affittacamere)
 - **La gemma bed & breakfast** (B&B / Affittacamere)
 
-## Servizi
-
-- **Farmacia Rigattieri Dottor Stefano** — Farmacia
-- **Despar** — Supermercato
-- **Italmark** — Supermercato
-- **Alimentari** — Alimentari
-- **Panificio Rugenini** — Panificio
-- **Manuel Bike** — Ciclofficina
-
 ## Come arrivare
 
 - Superstrada: **SS45bis**
 - Strada provinciale: **SP116**
 - Strada provinciale: **SPV**
 
-## Comuni vicini
-
-- [Villanuova sul Clisi](../villanuova-sul-clisi/) — 2.6 km
-- [Salò](../salo/) — 2.9 km
-- [Puegnago del Garda](../puegnago-del-garda/) — 3.1 km
-- [Gavardo](../gavardo/) — 4.0 km
-- [Vallio Terme](../vallio-terme/) — 4.2 km
-
-## Comuni confinanti
-
-- [Gavardo](../gavardo/)
-- [Salo](../salo/)
-- [Villanuova Sul Clisi](../villanuova-sul-clisi/)
-- [Vobarno](../vobarno/)

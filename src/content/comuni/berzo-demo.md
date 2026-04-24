@@ -24,8 +24,6 @@ bordering:
   - "paisco-loveno"
   - "sellero"
   - "sonico"
-subcomuni:
-  - cap: "25040", area: 15.43, coords: [46.10208802671248, 10.341494912714309], incomePerCapita: 23165, taxpayers: 1140
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Berzo Demo si trova a circa 56 km a nord di Brescia. Superficie: 16.06 km². Densità abitativa: 108 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -70,30 +64,7 @@ Berzo Demo si trova a circa 56 km a nord di Brescia. Superficie: 16.06 km². Den
 - **B&B Valtili** (B&B / Affittacamere)
 - **Ristorante Tipico Albergo Vivione** (Hotel)
 
-## Servizi
-
-- **Casa della Cultura** — Centro civico
-- **Farmacia** — Farmacia
-- **Augusto Abbigliamento** — Articoli sportivi
-- **Panificio Pasticceria Formis** — Panificio
-
 ## Come arrivare
 
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Paisco Loveno](../paisco-loveno/) — 1.3 km
-- [Lozio](../lozio/) — 5.0 km
-- [Losine](../losine/) — 5.1 km
-- [Cerveno](../cerveno/) — 7.9 km
-- [Sellero](../sellero/) — 8.1 km
-
-## Comuni confinanti
-
-- [Cedegolo](../cedegolo/)
-- [Cevo](../cevo/)
-- [Malonno](../malonno/)
-- [Paisco Loveno](../paisco-loveno/)
-- [Sellero](../sellero/)
-- [Sonico](../sonico/)

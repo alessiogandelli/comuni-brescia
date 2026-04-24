@@ -21,8 +21,6 @@ bordering:
   - "manerba-del-garda"
   - "puegnago-del-garda"
   - "salo"
-subcomuni:
-  - cap: "25010", area: 20.17, coords: [45.59074730278358, 10.545861886358205], incomePerCapita: 29006, taxpayers: 2734
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-San Felice del Benaco si trova a circa 26 km a est di Brescia. Superficie: 22.14 km². Densità abitativa: 160 ab/km².
 
 ## Cosa fare
 
@@ -66,29 +60,7 @@ San Felice del Benaco si trova a circa 26 km a est di Brescia. Superficie: 22.14
 - **Hotel Sogno** (Hotel)
 - **La Criolda** (B&B / Affittacamere)
 
-## Servizi
-
-- **Fornella Camping Market** — Alimentari
-- **Farmacia** — Farmacia
-- **Farmacia de Giuli** — Farmacia
-- **F&D** — Supermercato
-- **Ambulatorio** — Ambulatorio
-- **Market al Weekend** — Alimentari
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Puegnago del Garda](../puegnago-del-garda/) — 2.8 km
-- [Manerba del Garda](../manerba-del-garda/) — 3.0 km
-- [Polpenazze del Garda](../polpenazze-del-garda/) — 3.7 km
-- [Salò](../salo/) — 3.9 km
-- [Roè Volciano](../roe-volciano/) — 4.8 km
-
-## Comuni confinanti
-
-- [Manerba Del Garda](../manerba-del-garda/)
-- [Puegnago Del Garda](../puegnago-del-garda/)
-- [Salo](../salo/)

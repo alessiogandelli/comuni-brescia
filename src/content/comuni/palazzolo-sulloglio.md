@@ -28,8 +28,6 @@ bordering:
   - "palosco"
   - "pontoglio"
   - "telgate"
-subcomuni:
-  - cap: "25036", area: 23, coords: [45.59600580697694, 9.891663041969625], incomePerCapita: 25308, taxpayers: 14912
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -41,10 +39,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Palazzolo sull'Oglio si trova a circa 26 km a ovest di Brescia. Superficie: 23.05 km². Densità abitativa: 877 ab/km². Strade principali: A4, SPBS469D1, SCexBS573, SPBS573, SS573.
 
 ## Cosa fare
 
@@ -72,15 +66,6 @@ Palazzolo sull'Oglio si trova a circa 26 km a ovest di Brescia. Superficie: 23.0
 
 - **Villa & Roma** (Hotel)
 
-## Servizi
-
-- **PENNY** — Supermercato
-- **Benu Farmacia** — Farmacia
-- **Spazio Conad** — Supermercato
-- **Italmark** — Supermercato
-- **EuroSpin** — Supermercato
-- **Mercatone One** — Supermercato
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Palazzolo sull'Oglio**
@@ -88,23 +73,3 @@ Palazzolo sull'Oglio si trova a circa 26 km a ovest di Brescia. Superficie: 23.0
 - Superstrada: **SPBS469D1**
 - Strada provinciale: **SCexBS573**
 
-## Comuni vicini
-
-- [Pontoglio](../pontoglio/) — 3.9 km
-- [Cologne](../cologne/) — 4.4 km
-- [Capriolo](../capriolo/) — 5.5 km
-- [Adro](../adro/) — 6.4 km
-- [Coccaglio](../coccaglio/) — 7.8 km
-
-## Comuni confinanti
-
-- [Adro](../adro/)
-- [Capriolo](../capriolo/)
-- [Castelli Calepio](../castelli-calepio/)
-- [Chiari](../chiari/)
-- [Cologne](../cologne/)
-- [Erbusco](../erbusco/)
-- [Grumello Del Monte](../grumello-del-monte/)
-- [Palosco](../palosco/)
-- [Pontoglio](../pontoglio/)
-- [Telgate](../telgate/)

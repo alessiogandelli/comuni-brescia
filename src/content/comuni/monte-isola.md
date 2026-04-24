@@ -24,8 +24,6 @@ bordering:
   - "sale-marasino"
   - "sulzano"
   - "tavernola-bergamasca"
-subcomuni:
-  - cap: "25050", area: 12.58, coords: [45.710881193503404, 10.070250708914003], incomePerCapita: 21308, taxpayers: 1277
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "L'isola lacustre abitata più grande d'Europa, nel Lago d'Iseo"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Monte Isola si trova a circa 22 km a nord-ovest di Brescia. Superficie: 11.13 km². Densità abitativa: 150 ab/km².
 
 ## Cosa fare
 
@@ -70,15 +64,6 @@ Monte Isola si trova a circa 22 km a nord-ovest di Brescia. Superficie: 11.13 km
 - **Sensole Locanda Contemporanea** (Hotel)
 - **Verdeisola** (B&B / Affittacamere)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Bar Alimentari da Ernesta** — Caffè
-- **Supermercato** — Supermercato
-- **Biblioteca di Monte Isola** — Biblioteca
-- **Alimentari Bertelli** — Alimentari
-- **Farmacia Monte Isola** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -87,19 +72,3 @@ Monte Isola si trova a circa 22 km a nord-ovest di Brescia. Superficie: 11.13 km
 
 L'isola lacustre abitata più grande d'Europa, nel Lago d'Iseo
 
-## Comuni vicini
-
-- [Sulzano](../sulzano/) — 2.3 km
-- [Marone](../marone/) — 2.3 km
-- [Sale Marasino](../sale-marasino/) — 2.6 km
-- [Zone](../zone/) — 6.1 km
-- [Iseo](../iseo/) — 6.4 km
-
-## Comuni confinanti
-
-- [Iseo](../iseo/)
-- [Marone](../marone/)
-- [Parzanica](../parzanica/)
-- [Sale Marasino](../sale-marasino/)
-- [Sulzano](../sulzano/)
-- [Tavernola Bergamasca](../tavernola-bergamasca/)

@@ -22,8 +22,6 @@ bordering:
   - "capo-di-ponte"
   - "cedegolo"
   - "paisco-loveno"
-subcomuni:
-  - cap: "25050", area: 14.44, coords: [46.0664305775266, 10.330541519657421], incomePerCapita: 21572, taxpayers: 1011
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Sellero si trova a circa 59 km a nord di Brescia. Superficie: 14 km². Densità abitativa: 102 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -61,17 +55,3 @@ Sellero si trova a circa 59 km a nord di Brescia. Superficie: 14 km². Densità 
 - Stazione ferroviaria: **Sellero**
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Capo di Ponte](../capo-di-ponte/) — 3.3 km
-- [Cedegolo](../cedegolo/) — 3.5 km
-- [Cevo](../cevo/) — 4.1 km
-- [Paspardo](../paspardo/) — 4.3 km
-- [Cimbergo](../cimbergo/) — 4.6 km
-
-## Comuni confinanti
-
-- [Berzo Demo](../berzo-demo/)
-- [Capo Di Ponte](../capo-di-ponte/)
-- [Cedegolo](../cedegolo/)
-- [Paisco Loveno](../paisco-loveno/)

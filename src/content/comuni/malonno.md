@@ -24,8 +24,6 @@ bordering:
   - "edolo"
   - "paisco-loveno"
   - "sonico"
-subcomuni:
-  - cap: "25040", area: 31.39, coords: [46.12212805024385, 10.306511035640654], incomePerCapita: 21417, taxpayers: 2328
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Malonno si trova a circa 65 km a nord di Brescia. Superficie: 30.71 km². Densità abitativa: 104 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -69,28 +63,8 @@ Malonno si trova a circa 65 km a nord di Brescia. Superficie: 30.71 km². Densit
 - **B&B Il Pettirosso** (B&B / Affittacamere)
 - **Albergo Eternità** (Hotel)
 
-## Servizi
-
-- **L'Antica Bottega** — Alimentari
-- **Forneria Pasticceria Salvetti** — Panificio
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Malonno**
 - Strada provinciale: **SS42**
 
-## Comuni vicini
-
-- [Cedegolo](../cedegolo/) — 4.3 km
-- [Cevo](../cevo/) — 5.4 km
-- [Sonico](../sonico/) — 5.6 km
-- [Edolo](../edolo/) — 6.3 km
-- [Saviore dell'Adamello](../saviore-delladamello/) — 6.9 km
-
-## Comuni confinanti
-
-- [Berzo Demo](../berzo-demo/)
-- [Corteno Golgi](../corteno-golgi/)
-- [Edolo](../edolo/)
-- [Paisco Loveno](../paisco-loveno/)
-- [Sonico](../sonico/)

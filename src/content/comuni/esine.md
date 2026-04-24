@@ -24,8 +24,6 @@ bordering:
   - "darfo-boario-terme"
   - "gianico"
   - "piancogno"
-subcomuni:
-  - cap: "25040", area: 30.25, coords: [45.88960081648588, 10.258016954728369], incomePerCapita: 22832, taxpayers: 3784
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Esine si trova a circa 43 km a nord di Brescia. Superficie: 31.08 km². Densità abitativa: 172 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -69,31 +63,7 @@ Esine si trova a circa 43 km a nord di Brescia. Superficie: 31.08 km². Densità
 - **Rifugio Elena Tironi** (Rifugio alpino)
 - **Bivacco Marino Bassi** (Bivacco)
 
-## Servizi
-
-- **Iperal** — Supermercato
-- **MD** — Supermercato
-- **Conad** — Supermercato
-- **Parafarmacia Conad** — Farmacia
-- **Ospedale di Vallecamonica** — Ospedale
-
 ## Come arrivare
 
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Cividate Camuno](../cividate-camuno/) — 2.1 km
-- [Piancogno](../piancogno/) — 2.2 km
-- [Malegno](../malegno/) — 2.7 km
-- [Ossimo](../ossimo/) — 3.2 km
-- [Bienno](../bienno/) — 3.3 km
-
-## Comuni confinanti
-
-- [Berzo Inferiore](../berzo-inferiore/)
-- [Bovegno](../bovegno/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Darfo Boario Terme](../darfo-boario-terme/)
-- [Gianico](../gianico/)
-- [Piancogno](../piancogno/)

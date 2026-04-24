@@ -11,8 +11,6 @@ nearby:
   - "salo"
   - "san-felice-del-benaco"
   - "vobarno"
-subcomuni:
-  - cap: "25088", area: 58.04, coords: [45.66941892649967, 10.585581290365349], incomePerCapita: 23376, taxpayers: 6199
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -24,10 +22,6 @@ fact: "Valle delle Cartiere: secoli di produzione cartaria dal '300"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Toscolano-Maderno si trova a circa 33 km a est di Brescia. Superficie: 57.46 km². Densità abitativa: 142 ab/km².
 
 ## Cosa fare
 
@@ -49,10 +43,3 @@ Toscolano-Maderno si trova a circa 33 km a est di Brescia. Superficie: 57.46 km�
 
 Valle delle Cartiere: secoli di produzione cartaria dal '300
 
-## Comuni vicini
-
-- [Gardone Riviera](../gardone-riviera/) — 4.4 km
-- [Gargnano](../gargnano/) — 6.5 km
-- [Salò](../salo/) — 8.2 km
-- [San Felice del Benaco](../san-felice-del-benaco/) — 8.8 km
-- [Vobarno](../vobarno/) — 8.8 km

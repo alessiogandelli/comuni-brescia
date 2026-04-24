@@ -25,8 +25,6 @@ bordering:
   - "pontevico"
   - "san-paolo"
   - "verolavecchia"
-subcomuni:
-  - cap: "25028", area: 25.71, coords: [45.331603451897806, 10.081887448047503], incomePerCapita: 24261, taxpayers: 6283
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "La Basilica di San Lorenzo custodisce tele del Tiepolo"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Verolanuova si trova a circa 26 km a sud-ovest di Brescia. Superficie: 25.8 km². Densità abitativa: 317 ab/km². Strade principali: SPBS45bis.
 
 ## Cosa fare
 
@@ -73,15 +67,6 @@ Verolanuova si trova a circa 26 km a sud-ovest di Brescia. Superficie: 25.8 km²
 - **Casa Vacanze Anacleto** (Hotel)
 - **Hotel** (Hotel)
 
-## Servizi
-
-- **Italmark** — Supermercato
-- **Conad** — Supermercato
-- **Biblioteca Comunale di Verolanuova** — Biblioteca
-- **Lidl** — Supermercato
-- **Bennet** — Supermercato
-- **Il Forno** — Panificio
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Verolanuova**
@@ -91,20 +76,3 @@ Verolanuova si trova a circa 26 km a sud-ovest di Brescia. Superficie: 25.8 km²
 
 La Basilica di San Lorenzo custodisce tele del Tiepolo
 
-## Comuni vicini
-
-- [Quinzano d'Oglio](../quinzano-doglio/) — 1.5 km
-- [Verolavecchia](../verolavecchia/) — 2.1 km
-- [Bassano Bresciano](../bassano-bresciano/) — 4.1 km
-- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 5.3 km
-- [Borgo San Giacomo](../borgo-san-giacomo/) — 5.5 km
-
-## Comuni confinanti
-
-- [Bassano Bresciano](../bassano-bresciano/)
-- [Borgo San Giacomo](../borgo-san-giacomo/)
-- [Manerbio](../manerbio/)
-- [Offlaga](../offlaga/)
-- [Pontevico](../pontevico/)
-- [San Paolo](../san-paolo/)
-- [Verolavecchia](../verolavecchia/)

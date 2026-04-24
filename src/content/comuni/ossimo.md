@@ -24,8 +24,6 @@ bordering:
   - "malegno"
   - "piancogno"
   - "schilpario"
-subcomuni:
-  - cap: "25050", area: 14.83, coords: [45.9713373959354, 10.224122620605652], incomePerCapita: 21490, taxpayers: 1093
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Ossimo si trova a circa 46 km a nord di Brescia. Superficie: 14.88 km². Densità abitativa: 98 ab/km².
 
 ## Cosa fare
 
@@ -65,32 +59,7 @@ Ossimo si trova a circa 46 km a nord di Brescia. Superficie: 14.88 km². Densit�
 
 - **Agriturismo Rosa dei Venti** (B&B / Affittacamere)
 
-## Servizi
-
-- **Il Pane Alimentari e Tabacchi** — Alimentari
-- **Farmacia** — Farmacia
-- **Alimentari gastronomia La Plana** — Alimentari
-- **Farmacia Venturelli** — Farmacia
-- **Edicola alimentari da Emma** — Alimentari
-- **Farmacia dott. Venturelli** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Berzo Inferiore](../berzo-inferiore/) — 2.2 km
-- [Piancogno](../piancogno/) — 2.5 km
-- [Borno](../borno/) — 2.5 km
-- [Malegno](../malegno/) — 3.1 km
-- [Esine](../esine/) — 3.2 km
-
-## Comuni confinanti
-
-- [Borno](../borno/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Lozio](../lozio/)
-- [Malegno](../malegno/)
-- [Piancogno](../piancogno/)
-- [Schilpario](../schilpario/)

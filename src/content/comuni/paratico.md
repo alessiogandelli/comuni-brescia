@@ -25,8 +25,6 @@ bordering:
   - "iseo"
   - "sarnico"
   - "villongo"
-subcomuni:
-  - cap: "25030", area: 6.17, coords: [45.655478060149484, 9.954559206505001], incomePerCapita: 28437, taxpayers: 3786
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Pittoresco borgo sulle rive del Lago d'Iseo"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Paratico si trova a circa 24 km a nord-ovest di Brescia. Superficie: 6.19 km². Densità abitativa: 738 ab/km². Strade principali: SP12, SPBS469.
 
 ## Cosa fare
 
@@ -69,15 +63,6 @@ Paratico si trova a circa 24 km a nord-ovest di Brescia. Superficie: 6.19 km². 
 - **S.MART San Martino** (Hotel)
 - **B&B / Affittacamere** (B&B / Affittacamere)
 
-## Servizi
-
-- **Italmark** — Supermercato
-- **Spazio Giovani** — Centro civico
-- **Biblioteca** — Biblioteca
-- **Oratorio** — Centro civico
-- **Lidl** — Supermercato
-- **Farmacia Perani** — Farmacia
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Paratico-Sarnico**
@@ -88,18 +73,3 @@ Paratico si trova a circa 24 km a nord-ovest di Brescia. Superficie: 6.19 km². 
 
 Pittoresco borgo sulle rive del Lago d'Iseo
 
-## Comuni vicini
-
-- [Capriolo](../capriolo/) — 3.2 km
-- [Adro](../adro/) — 4.0 km
-- [Corte Franca](../corte-franca/) — 6.2 km
-- [Iseo](../iseo/) — 7.4 km
-- [Erbusco](../erbusco/) — 7.9 km
-
-## Comuni confinanti
-
-- [Capriolo](../capriolo/)
-- [Credaro](../credaro/)
-- [Iseo](../iseo/)
-- [Sarnico](../sarnico/)
-- [Villongo](../villongo/)

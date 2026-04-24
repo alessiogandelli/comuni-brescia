@@ -25,8 +25,6 @@ bordering:
   - "darfo-boario-terme"
   - "esine"
   - "ossimo"
-subcomuni:
-  - cap: "25052", area: 14.27, coords: [45.93088531646736, 10.197881014996813], incomePerCapita: 23485, taxpayers: 3458
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Piancogno si trova a circa 44 km a nord di Brescia. Superficie: 13.42 km². Densità abitativa: 353 ab/km².
 
 ## Cosa fare
 
@@ -74,30 +68,8 @@ Piancogno si trova a circa 44 km a nord di Brescia. Superficie: 13.42 km². Dens
 - **Ristorante Miravalle Bed & Breakfast Bar** (B&B / Affittacamere)
 - **Casa per Vacanze Marco Nodari** (B&B / Affittacamere)
 
-## Servizi
-
-- **Farmacia di Pianborno** — Farmacia
-- **Centro civico** — Centro civico
-- **Oratorio di Cogno** — Centro civico
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Cogno-Esine**
 - Seggiovia: **Le Ogne - Plai**
 
-## Comuni vicini
-
-- [Esine](../esine/) — 2.2 km
-- [Borno](../borno/) — 2.4 km
-- [Ossimo](../ossimo/) — 2.5 km
-- [Berzo Inferiore](../berzo-inferiore/) — 2.6 km
-- [Brione](../brione/) — 3.7 km
-
-## Comuni confinanti
-
-- [Angolo Terme](../angolo-terme/)
-- [Borno](../borno/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Darfo Boario Terme](../darfo-boario-terme/)
-- [Esine](../esine/)
-- [Ossimo](../ossimo/)

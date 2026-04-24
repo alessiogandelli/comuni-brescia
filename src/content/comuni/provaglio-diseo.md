@@ -23,8 +23,6 @@ bordering:
   - "iseo"
   - "monticelli-brusati"
   - "passirano"
-subcomuni:
-  - cap: "25050", area: 16.13, coords: [45.62987188418321, 10.05543246649086], incomePerCapita: 25272, taxpayers: 5295
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Sede del monastero cluniacense di San Pietro in Lamosa"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Provaglio d'Iseo si trova a circa 16 km a nord-ovest di Brescia. Superficie: 16.21 km². Densità abitativa: 449 ab/km². Strade principali: SPBS510.
 
 ## Cosa fare
 
@@ -69,15 +63,6 @@ Provaglio d'Iseo si trova a circa 16 km a nord-ovest di Brescia. Superficie: 16.
 - **Madonna del Corno** (Rifugio alpino)
 - **B&B / Affittacamere** (B&B / Affittacamere)
 
-## Servizi
-
-- **Il Fornaio** — Alimentari
-- **Coop** — Supermercato
-- **Farmacia Cuccia** — Farmacia
-- **Biblioteca Civica Beppe Fenoglio** — Biblioteca
-- **Farmacia** — Farmacia
-- **Alimentari** — Alimentari
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Provaglio-Timoline**
@@ -87,17 +72,3 @@ Provaglio d'Iseo si trova a circa 16 km a nord-ovest di Brescia. Superficie: 16.
 
 Sede del monastero cluniacense di San Pietro in Lamosa
 
-## Comuni vicini
-
-- [Iseo](../iseo/) — 2.6 km
-- [Corte Franca](../corte-franca/) — 3.1 km
-- [Monticelli Brusati](../monticelli-brusati/) — 3.9 km
-- [Passirano](../passirano/) — 5.2 km
-- [Polaveno](../polaveno/) — 5.5 km
-
-## Comuni confinanti
-
-- [Corte Franca](../corte-franca/)
-- [Iseo](../iseo/)
-- [Monticelli Brusati](../monticelli-brusati/)
-- [Passirano](../passirano/)

@@ -21,8 +21,6 @@ bordering:
   - "bagolino"
   - "idro"
   - "lavenone"
-subcomuni:
-  - cap: "25070", area: 23.78, coords: [45.786799162525035, 10.46363090231648], incomePerCapita: 22403, taxpayers: 344
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: "Ospita la Rocca d'Anfo, fortezza napoleonica sul lago d'Idro"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Anfo si trova a circa 33 km a nord-est di Brescia. Superficie: 23.9 km². Densità abitativa: 20 ab/km². Strade principali: SPBS237.
 
 ## Cosa fare
 
@@ -67,13 +61,6 @@ Anfo si trova a circa 33 km a nord-est di Brescia. Superficie: 23.9 km². Densit
 - **Porto Vecchio** (B&B / Affittacamere)
 - **Hotel Albergo Al Lago** (Hotel)
 
-## Servizi
-
-- **Farmacia San Rocco** — Farmacia
-- **L'Antica Bottega** — Alimentari
-- **Alimentari** — Alimentari
-- **Biblioteca** — Biblioteca
-
 ## Come arrivare
 
 - Strada provinciale: **SPBS237**
@@ -82,16 +69,3 @@ Anfo si trova a circa 33 km a nord-est di Brescia. Superficie: 23.9 km². Densit
 
 Ospita la Rocca d'Anfo, fortezza napoleonica sul lago d'Idro
 
-## Comuni vicini
-
-- [Idro](../idro/) — 2.8 km
-- [Capovalle](../capovalle/) — 2.9 km
-- [Lavenone](../lavenone/) — 5.3 km
-- [Treviso Bresciano](../treviso-bresciano/) — 6.3 km
-- [Bagolino](../bagolino/) — 6.4 km
-
-## Comuni confinanti
-
-- [Bagolino](../bagolino/)
-- [Idro](../idro/)
-- [Lavenone](../lavenone/)

@@ -28,8 +28,6 @@ bordering:
   - "nave"
   - "sarezzo"
   - "villa-carcina"
-subcomuni:
-  - cap: "25065", area: 31.65, coords: [45.649976851523725, 10.27189371553848], incomePerCapita: 25965, taxpayers: 15968
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -41,10 +39,6 @@ fact: "Distretto industriale della rubinetteria e delle posaterie"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Lumezzane si trova a circa 13 km a nord-est di Brescia. Superficie: 31.75 km². Densità abitativa: 709 ab/km².
 
 ## Cosa fare
 
@@ -73,15 +67,6 @@ Lumezzane si trova a circa 13 km a nord-est di Brescia. Superficie: 31.75 km². 
 
 - **Albergo La Perla del Monte** (Hotel)
 
-## Servizi
-
-- **Oratorio Centro Giovanile San Giovanni Bosco** — Centro civico
-- **Casa della Giovane** — Centro civico
-- **Farmacia Promase** — Farmacia
-- **Più Discount** — Supermercato
-- **Poliambulatorio** — Ambulatorio
-- **Family Market** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -90,22 +75,3 @@ Lumezzane si trova a circa 13 km a nord-est di Brescia. Superficie: 31.75 km². 
 
 Distretto industriale della rubinetteria e delle posaterie
 
-## Comuni vicini
-
-- [Sarezzo](../sarezzo/) — 4.7 km
-- [Villa Carcina](../villa-carcina/) — 5.4 km
-- [Bione](../bione/) — 5.4 km
-- [Concesio](../concesio/) — 6.6 km
-- [Nave](../nave/) — 7.0 km
-
-## Comuni confinanti
-
-- [Agnosine](../agnosine/)
-- [Bione](../bione/)
-- [Caino](../caino/)
-- [Casto](../casto/)
-- [Concesio](../concesio/)
-- [Marcheno](../marcheno/)
-- [Nave](../nave/)
-- [Sarezzo](../sarezzo/)
-- [Villa Carcina](../villa-carcina/)

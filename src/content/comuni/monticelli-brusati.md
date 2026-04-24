@@ -25,8 +25,6 @@ bordering:
   - "polaveno"
   - "provaglio-d'iseo"
   - "rodengo-saiano"
-subcomuni:
-  - cap: "25040", area: 10.87, coords: [45.63548407588315, 10.096989556176053], incomePerCapita: 29136, taxpayers: 3462
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Monticelli Brusati si trova a circa 12 km a nord-ovest di Brescia. Superficie: 10.87 km². Densità abitativa: 409 ab/km².
 
 ## Cosa fare
 
@@ -69,30 +63,7 @@ Monticelli Brusati si trova a circa 12 km a nord-ovest di Brescia. Superficie: 1
 - **Agriturismo Villa Gradoni** (B&B / Affittacamere)
 - **Agriturismo Dosso Badino** (B&B / Affittacamere)
 
-## Servizi
-
-- **Supermercato** — Supermercato
-- **Farmacia** — Farmacia
-- **Oratorio San Giovanni Bosco** — Centro civico
-- **Centro civico** — Centro civico
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Ome](../ome/) — 2.3 km
-- [Rodengo-Saiano](../rodengo-saiano/) — 2.8 km
-- [Provaglio d'Iseo](../provaglio-diseo/) — 3.9 km
-- [Passirano](../passirano/) — 4.1 km
-- [Polaveno](../polaveno/) — 4.5 km
-
-## Comuni confinanti
-
-- [Iseo](../iseo/)
-- [Ome](../ome/)
-- [Passirano](../passirano/)
-- [Polaveno](../polaveno/)
-- [Provaglio D'iseo](../provaglio-d'iseo/)
-- [Rodengo Saiano](../rodengo-saiano/)

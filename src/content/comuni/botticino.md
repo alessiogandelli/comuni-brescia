@@ -24,8 +24,6 @@ bordering:
   - "nuvolera"
   - "rezzato"
   - "serle"
-subcomuni:
-  - cap: "25082", area: 18.44, coords: [45.54848456882337, 10.315117489905058], incomePerCapita: 26776, taxpayers: 8203
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "Famoso per il marmo Botticino, usato in edifici di tutto il mondo"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Botticino si trova a circa 8 km a est di Brescia. Superficie: 18.57 km². Densità abitativa: 588 ab/km².
 
 ## Cosa fare
 
@@ -73,15 +67,6 @@ Botticino si trova a circa 8 km a est di Brescia. Superficie: 18.57 km². Densit
 - **Agriturismo La Marogna** (B&B / Affittacamere)
 - **Rifugio Gruppo Difesa Ambiente Naturale** (Rifugio alpino)
 
-## Servizi
-
-- **Oratorio San Giovanni Bosco** — Centro civico
-- **Sala Parrocchiale Don Arcangelo Tadini** — Centro civico
-- **Biblioteca Comunale di Botticino Libero Dordoni** — Biblioteca
-- **Centro civico** — Centro civico
-- **Oratorio Don Giovanni Bosco** — Centro civico
-- **Farmacia Valverde** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -90,18 +75,3 @@ Botticino si trova a circa 8 km a est di Brescia. Superficie: 18.57 km². Densit
 
 Famoso per il marmo Botticino, usato in edifici di tutto il mondo
 
-## Comuni vicini
-
-- [Rezzato](../rezzato/) — 1.2 km
-- [Mazzano](../mazzano/) — 3.2 km
-- [Nuvolera](../nuvolera/) — 3.9 km
-- [Serle](../serle/) — 4.8 km
-- [Nuvolento](../nuvolento/) — 4.9 km
-
-## Comuni confinanti
-
-- [Brescia](../brescia/)
-- [Nave](../nave/)
-- [Nuvolera](../nuvolera/)
-- [Rezzato](../rezzato/)
-- [Serle](../serle/)

@@ -25,8 +25,6 @@ bordering:
   - "mazzo-di-valtellina"
   - "tovo-di-sant'agata"
   - "vezza-d'oglio"
-subcomuni:
-  - cap: "25040", area: 30.96, coords: [46.23952179438613, 10.326423957944785], incomePerCapita: 19475, taxpayers: 430
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Monno si trova a circa 76 km a nord di Brescia. Superficie: 31.08 km². Densità abitativa: 18 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -73,30 +67,7 @@ Monno si trova a circa 76 km a nord di Brescia. Superficie: 31.08 km². Densità
 - **Albergo Quai** (Hotel)
 - **Hotel** (Hotel)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Market Centro Spesa Mossini** — Alimentari
-- **Oratorio Don Rinaldo Rodella** — Centro civico
-
 ## Come arrivare
 
 - Strada provinciale: **SS42**
 
-## Comuni vicini
-
-- [Incudine](../incudine/) — 1.3 km
-- [Edolo](../edolo/) — 4.2 km
-- [Vezza d'Oglio](../vezza-doglio/) — 5.3 km
-- [Sonico](../sonico/) — 5.7 km
-- [Vione](../vione/) — 8.0 km
-
-## Comuni confinanti
-
-- [Edolo](../edolo/)
-- [Grosio](../grosio/)
-- [Grosotto](../grosotto/)
-- [Incudine](../incudine/)
-- [Mazzo Di Valtellina](../mazzo-di-valtellina/)
-- [Tovo Di Sant'agata](../tovo-di-sant'agata/)
-- [Vezza D'oglio](../vezza-d'oglio/)

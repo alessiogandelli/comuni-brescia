@@ -23,8 +23,6 @@ bordering:
   - "gussago"
   - "lumezzane"
   - "sarezzo"
-subcomuni:
-  - cap: "25069", area: 14.19, coords: [45.63733889101256, 10.194935016421416], incomePerCapita: 24986, taxpayers: 7885
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Villa Carcina si trova a circa 10 km a nord di Brescia. Superficie: 14.44 km². Densità abitativa: 751 ab/km².
 
 ## Cosa fare
 
@@ -68,31 +62,7 @@ Villa Carcina si trova a circa 10 km a nord di Brescia. Superficie: 14.44 km². 
 
 - **Casa Carlì** (Bivacco)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **LIDL** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **Oratorio San Luigi** — Centro civico
-- **Biblioteca comunale di Villa Carcina Paolo da Caylina** — Biblioteca
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Sarezzo](../sarezzo/) — 2.3 km
-- [Concesio](../concesio/) — 4.2 km
-- [Lumezzane](../lumezzane/) — 5.4 km
-- [Collebeato](../collebeato/) — 5.4 km
-- [Ome](../ome/) — 5.6 km
-
-## Comuni confinanti
-
-- [Brione](../brione/)
-- [Concesio](../concesio/)
-- [Gussago](../gussago/)
-- [Lumezzane](../lumezzane/)
-- [Sarezzo](../sarezzo/)

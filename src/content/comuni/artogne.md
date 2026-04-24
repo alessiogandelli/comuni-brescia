@@ -26,8 +26,6 @@ bordering:
   - "pian-camuno"
   - "pisogne"
   - "rogno"
-subcomuni:
-  - cap: "25040", area: 20.98, coords: [45.84012525867843, 10.192676478840262], incomePerCapita: 22341, taxpayers: 2687
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Artogne si trova a circa 35 km a nord di Brescia. Superficie: 20.94 km². Densità abitativa: 171 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -73,33 +67,9 @@ Artogne si trova a circa 35 km a nord di Brescia. Superficie: 20.94 km². Densit
 - **Albergo Legazzuolo** (Hotel)
 - **Rifugio Dosso Rotondo** (Rifugio alpino)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Crai** — Alimentari
-- **Dylan** — Articoli sportivi
-- **Dylan Sport** — Articoli sportivi
-
 ## Come arrivare
 
 - Seggiovia: **Gardena**
 - Seggiovia: **Monte Corniolo**
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Pian Camuno](../pian-camuno/) — 0.8 km
-- [Gianico](../gianico/) — 2.5 km
-- [Darfo Boario Terme](../darfo-boario-terme/) — 3.8 km
-- [Angolo Terme](../angolo-terme/) — 4.5 km
-- [Brione](../brione/) — 7.0 km
-
-## Comuni confinanti
-
-- [Bovegno](../bovegno/)
-- [Darfo Boario Terme](../darfo-boario-terme/)
-- [Gianico](../gianico/)
-- [Pezzaze](../pezzaze/)
-- [Pian Camuno](../pian-camuno/)
-- [Pisogne](../pisogne/)
-- [Rogno](../rogno/)

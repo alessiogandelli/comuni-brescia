@@ -23,8 +23,6 @@ bordering:
   - "lonato-del-garda"
   - "mazzano"
   - "montichiari"
-subcomuni:
-  - cap: "25011", area: 33.23, coords: [45.45925926853319, 10.411797538580036], incomePerCapita: 24612, taxpayers: 9191
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Calcinato si trova a circa 18 km a sud-est di Brescia. Superficie: 33.35 km². Densità abitativa: 385 ab/km². Strade principali: A4, SS11.
 
 ## Cosa fare
 
@@ -61,32 +55,8 @@ Calcinato si trova a circa 18 km a sud-est di Brescia. Superficie: 33.35 km². D
 - **Baratello** (Ristorante)
 - **Capokiwi Café** (Caffè)
 
-## Servizi
-
-- **EuroSpin** — Supermercato
-- **3S** — Alimentari
-- **Farmacia** — Farmacia
-- **Supermercato** — Supermercato
-- **Chef Express** — Caffè
-
 ## Come arrivare
 
 - Autostrada: **A4**
 - Superstrada: **SS11**
 
-## Comuni vicini
-
-- [Montichiari](../montichiari/) — 5.0 km
-- [Lonato del Garda](../lonato-del-garda/) — 5.5 km
-- [Bedizzole](../bedizzole/) — 6.1 km
-- [Mazzano](../mazzano/) — 8.3 km
-- [Calvagese della Riviera](../calvagese-della-riviera/) — 8.6 km
-
-## Comuni confinanti
-
-- [Bedizzole](../bedizzole/)
-- [Castenedolo](../castenedolo/)
-- [Castiglione Delle Stiviere](../castiglione-delle-stiviere/)
-- [Lonato Del Garda](../lonato-del-garda/)
-- [Mazzano](../mazzano/)
-- [Montichiari](../montichiari/)

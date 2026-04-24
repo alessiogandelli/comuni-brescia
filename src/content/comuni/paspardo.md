@@ -22,8 +22,6 @@ bordering:
   - "capo-di-ponte"
   - "cedegolo"
   - "cimbergo"
-subcomuni:
-  - cap: "25050", area: 11.13, coords: [46.04189509157802, 10.382299048241874], incomePerCapita: 22552, taxpayers: 462
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: "Ricco di incisioni rupestri preistoriche"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Paspardo si trova a circa 56 km a nord di Brescia. Superficie: 11.23 km². Densità abitativa: 57 ab/km².
 
 ## Cosa fare
 
@@ -74,16 +68,3 @@ Paspardo si trova a circa 56 km a nord di Brescia. Superficie: 11.23 km². Densi
 
 Ricco di incisioni rupestri preistoriche
 
-## Comuni vicini
-
-- [Cimbergo](../cimbergo/) — 1.0 km
-- [Ceto](../ceto/) — 1.8 km
-- [Capo di Ponte](../capo-di-ponte/) — 2.3 km
-- [Ono San Pietro](../ono-san-pietro/) — 2.7 km
-- [Braone](../braone/) — 3.3 km
-
-## Comuni confinanti
-
-- [Capo Di Ponte](../capo-di-ponte/)
-- [Cedegolo](../cedegolo/)
-- [Cimbergo](../cimbergo/)

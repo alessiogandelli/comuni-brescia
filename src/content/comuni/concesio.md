@@ -27,8 +27,6 @@ bordering:
   - "lumezzane"
   - "nave"
   - "villa-carcina"
-subcomuni:
-  - cap: "25062", area: 19.04, coords: [45.609095881406304, 10.213021068356872], incomePerCapita: 28646, taxpayers: 11936
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: "Città natale di Papa Paolo VI (Giovanni Battista Montini)"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Concesio si trova a circa 6 km a nord di Brescia. Superficie: 19.14 km². Densità abitativa: 804 ab/km². Strade principali: SP19, SPBS345.
 
 ## Cosa fare
 
@@ -75,15 +69,6 @@ Concesio si trova a circa 6 km a nord di Brescia. Superficie: 19.14 km². Densit
 - **Agriturismo Cascina Valsorda** (B&B / Affittacamere)
 - **Casina del Dosso Barafonte** (Bivacco)
 
-## Servizi
-
-- **Opera per l'Educazione Cristiana di Brescia** — Centro civico
-- **Casa del Giovane** — Centro civico
-- **Rossetto** — Supermercato
-- **Biblioteca di Concesio** — Biblioteca
-- **Oratorio Paolo VI e Giovanni Paolo II** — Centro civico
-- **Farmacia San Vigilio** — Farmacia
-
 ## Come arrivare
 
 - Strada provinciale: **SP19**
@@ -93,21 +78,3 @@ Concesio si trova a circa 6 km a nord di Brescia. Superficie: 19.14 km². Densit
 
 Città natale di Papa Paolo VI (Giovanni Battista Montini)
 
-## Comuni vicini
-
-- [Collebeato](../collebeato/) — 1.7 km
-- [Bovezzo](../bovezzo/) — 2.6 km
-- [Villa Carcina](../villa-carcina/) — 4.2 km
-- [Cellatica](../cellatica/) — 4.6 km
-- [Nave](../nave/) — 4.8 km
-
-## Comuni confinanti
-
-- [Bovezzo](../bovezzo/)
-- [Brescia](../brescia/)
-- [Cellatica](../cellatica/)
-- [Collebeato](../collebeato/)
-- [Gussago](../gussago/)
-- [Lumezzane](../lumezzane/)
-- [Nave](../nave/)
-- [Villa Carcina](../villa-carcina/)

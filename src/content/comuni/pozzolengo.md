@@ -24,8 +24,6 @@ bordering:
   - "monzambano"
   - "peschiera-del-garda"
   - "ponti-sul-mincio"
-subcomuni:
-  - cap: "25010", area: 21.28, coords: [45.413465587956416, 10.620351994857305], incomePerCapita: 24320, taxpayers: 2716
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "Cuore della DOC Lugana, vino bianco tra i più apprezzati del Garda"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Pozzolengo si trova a circa 35 km a est di Brescia. Superficie: 21.34 km². Densità abitativa: 168 ab/km². Strade principali: A4.
 
 ## Cosa fare
 
@@ -73,14 +67,6 @@ Pozzolengo si trova a circa 35 km a est di Brescia. Superficie: 21.34 km². Dens
 - **Albergo Quattro Pini** (Hotel)
 - **Locanda del Contrabbandiere** (B&B / Affittacamere)
 
-## Servizi
-
-- **Biblioteca Comunale** — Biblioteca
-- **Delizie e sapori dei colli Snc Di Riglietti Maria & C.** — Alimentari
-- **Farmacia** — Farmacia
-- **Supermercato Peroni** — Supermercato
-- **Panificio e pasticceria Pasquali Orlando** — Panificio
-
 ## Come arrivare
 
 - Autostrada: **A4**
@@ -89,19 +75,3 @@ Pozzolengo si trova a circa 35 km a est di Brescia. Superficie: 21.34 km². Dens
 
 Cuore della DOC Lugana, vino bianco tra i più apprezzati del Garda
 
-## Comuni vicini
-
-- [Desenzano del Garda](../desenzano-del-garda/) — 9.6 km
-- [Sirmione](../sirmione/) — 10.4 km
-- [Lonato del Garda](../lonato-del-garda/) — 12.0 km
-- [Padenghe sul Garda](../padenghe-sul-garda/) — 14.5 km
-- [Carpenedolo](../carpenedolo/) — 14.7 km
-
-## Comuni confinanti
-
-- [Cavriana](../cavriana/)
-- [Desenzano Del Garda](../desenzano-del-garda/)
-- [Lonato Del Garda](../lonato-del-garda/)
-- [Monzambano](../monzambano/)
-- [Peschiera Del Garda](../peschiera-del-garda/)
-- [Ponti Sul Mincio](../ponti-sul-mincio/)

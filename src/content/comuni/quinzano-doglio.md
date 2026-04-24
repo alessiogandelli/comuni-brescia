@@ -20,8 +20,6 @@ bordering:
   - "castelvisconti"
   - "corte-de'-cortesi-con-cignone"
   - "verolavecchia"
-subcomuni:
-  - cap: "25027", area: 21.42, coords: [45.312446134495254, 10.002519771529316], incomePerCapita: 22852, taxpayers: 4788
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Quinzano d'Oglio si trova a circa 27 km a sud-ovest di Brescia. Superficie: 21.44 km². Densità abitativa: 288 ab/km².
 
 ## Cosa fare
 
@@ -56,26 +50,7 @@ Quinzano d'Oglio si trova a circa 27 km a sud-ovest di Brescia. Superficie: 21.4
 - **Lo Storico** (Bar)
 - **Bar Lago La Leonessa** (Ristorante)
 
-## Servizi
-
-- **EuroSpin** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Verolanuova](../verolanuova/) — 1.5 km
-- [Verolavecchia](../verolavecchia/) — 3.3 km
-- [Bassano Bresciano](../bassano-bresciano/) — 3.8 km
-- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 4.2 km
-- [Pontevico](../pontevico/) — 5.0 km
-
-## Comuni confinanti
-
-- [Bordolano](../bordolano/)
-- [Borgo San Giacomo](../borgo-san-giacomo/)
-- [Castelvisconti](../castelvisconti/)
-- [Corte De' Cortesi Con Cignone](../corte-de'-cortesi-con-cignone/)
-- [Verolavecchia](../verolavecchia/)

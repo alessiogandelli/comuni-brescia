@@ -21,8 +21,6 @@ bordering:
   - "san-gervasio-bresciano"
   - "scandolara-ripa-d'oglio"
   - "seniga"
-subcomuni:
-  - cap: "25020", area: 13.69, coords: [45.26569783077479, 10.148839956027741], incomePerCapita: 23728, taxpayers: 1755
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Alfianello si trova a circa 31 km a sud di Brescia. Superficie: 13.68 km². Densità abitativa: 179 ab/km². Strade principali: A21.
 
 ## Cosa fare
 
@@ -51,27 +45,7 @@ Alfianello si trova a circa 31 km a sud di Brescia. Superficie: 13.68 km². Dens
 - Piazza principale
 - Palazzo municipale
 
-## Servizi
-
-- **Crai** — Supermercato
-
 ## Come arrivare
 
 - Autostrada: **A21**
 
-## Comuni vicini
-
-- [Pontevico](../pontevico/) — 4.9 km
-- [Pralboino](../pralboino/) — 5.2 km
-- [Cigole](../cigole/) — 5.5 km
-- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 5.8 km
-- [Pavone del Mella](../pavone-del-mella/) — 6.2 km
-
-## Comuni confinanti
-
-- [Corte De' Frati](../corte-de'-frati/)
-- [Milzano](../milzano/)
-- [Pontevico](../pontevico/)
-- [San Gervasio Bresciano](../san-gervasio-bresciano/)
-- [Scandolara Ripa D'oglio](../scandolara-ripa-d'oglio/)
-- [Seniga](../seniga/)

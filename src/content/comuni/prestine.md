@@ -23,10 +23,6 @@ fact: ""
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
 
-## Contesto geografico
-
-Prestine si trova a circa 45 km a nord di Brescia. Superficie: 5.4 km². Densità abitativa: 71 ab/km².
-
 ## Cosa fare
 
 - Passeggiata nel centro storico
@@ -43,10 +39,3 @@ Prestine si trova a circa 45 km a nord di Brescia. Superficie: 5.4 km². Densit�
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Bienno](../bienno/) — 0.6 km
-- [Cividate Camuno](../cividate-camuno/) — 1.8 km
-- [Breno](../breno/) — 2.1 km
-- [Malegno](../malegno/) — 2.8 km
-- [Esine](../esine/) — 3.9 km

@@ -22,8 +22,6 @@ bordering:
   - "corte-franca"
   - "erbusco"
   - "palazzolo-sull'oglio"
-subcomuni:
-  - cap: "25030", area: 14.26, coords: [45.61929428532798, 9.968508780189385], incomePerCapita: 24100, taxpayers: 5602
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: "Nota per i vigneti della Franciacorta"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Adro si trova a circa 22 km a ovest di Brescia. Superficie: 14.3 km². Densità abitativa: 507 ab/km². Strade principali: A4.
 
 ## Cosa fare
 
@@ -59,12 +53,6 @@ Adro si trova a circa 22 km a ovest di Brescia. Superficie: 14.3 km². Densità 
 - **Ristorante Locanda La Torre** (Ristorante)
 - **Eleve11** (Bar)
 
-## Servizi
-
-- **Sisa** — Supermercato
-- **Oratorio di Adro** — Centro civico
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Autostrada: **A4**
@@ -73,18 +61,3 @@ Adro si trova a circa 22 km a ovest di Brescia. Superficie: 14.3 km². Densità 
 
 Nota per i vigneti della Franciacorta
 
-## Comuni vicini
-
-- [Capriolo](../capriolo/) — 2.7 km
-- [Paratico](../paratico/) — 4.0 km
-- [Cologne](../cologne/) — 4.4 km
-- [Erbusco](../erbusco/) — 4.5 km
-- [Corte Franca](../corte-franca/) — 4.5 km
-
-## Comuni confinanti
-
-- [Capriolo](../capriolo/)
-- [Cazzago San Martino](../cazzago-san-martino/)
-- [Corte Franca](../corte-franca/)
-- [Erbusco](../erbusco/)
-- [Palazzolo Sull'oglio](../palazzolo-sull'oglio/)

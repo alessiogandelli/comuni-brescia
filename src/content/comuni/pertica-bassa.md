@@ -23,8 +23,6 @@ bordering:
   - "marmentino"
   - "pertica-alta"
   - "vestone"
-subcomuni:
-  - cap: "25078", area: 30.06, coords: [45.75762342583018, 10.37922397588198], incomePerCapita: 20181, taxpayers: 452
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Pertica Bassa si trova a circa 23 km a nord-est di Brescia. Superficie: 30.15 km². Densità abitativa: 21 ab/km².
 
 ## Cosa fare
 
@@ -66,18 +60,3 @@ Pertica Bassa si trova a circa 23 km a nord-est di Brescia. Superficie: 30.15 km
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Vestone](../vestone/) — 2.4 km
-- [Pertica Alta](../pertica-alta/) — 2.7 km
-- [Mura](../mura/) — 3.0 km
-- [Provaglio Val Sabbia](../provaglio-val-sabbia/) — 4.0 km
-- [Casto](../casto/) — 4.6 km
-
-## Comuni confinanti
-
-- [Collio](../collio/)
-- [Lavenone](../lavenone/)
-- [Marmentino](../marmentino/)
-- [Pertica Alta](../pertica-alta/)
-- [Vestone](../vestone/)

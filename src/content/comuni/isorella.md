@@ -22,8 +22,6 @@ bordering:
   - "gottolengo"
   - "remedello"
   - "visano"
-subcomuni:
-  - cap: "25010", area: 15.3, coords: [45.30259989314696, 10.321360756028357], incomePerCapita: 23008, taxpayers: 2918
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Isorella si trova a circa 27 km a sud-est di Brescia. Superficie: 15.37 km². Densità abitativa: 274 ab/km². Strade principali: SP24.
 
 ## Cosa fare
 
@@ -60,31 +54,7 @@ Isorella si trova a circa 27 km a sud-est di Brescia. Superficie: 15.37 km². De
 - **Paleo Pub** (Bar)
 - **Agriturismo Il Giardino** (Ristorante)
 
-## Servizi
-
-- **Biblioteca Comunale di Isorella** — Biblioteca
-- **Polimabulatori** — Ambulatorio
-- **Alimentari** — Alimentari
-- **Farmacia** — Farmacia
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Strada provinciale: **SP24**
 
-## Comuni vicini
-
-- [Gottolengo](../gottolengo/) — 3.4 km
-- [Visano](../visano/) — 4.6 km
-- [Remedello](../remedello/) — 5.2 km
-- [Calvisano](../calvisano/) — 5.5 km
-- [Gambara](../gambara/) — 6.3 km
-
-## Comuni confinanti
-
-- [Calvisano](../calvisano/)
-- [Gambara](../gambara/)
-- [Ghedi](../ghedi/)
-- [Gottolengo](../gottolengo/)
-- [Remedello](../remedello/)
-- [Visano](../visano/)

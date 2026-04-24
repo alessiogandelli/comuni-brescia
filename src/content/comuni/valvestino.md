@@ -23,8 +23,6 @@ bordering:
   - "idro"
   - "magasa"
   - "tignale"
-subcomuni:
-  - cap: "25080", area: 31.05, coords: [45.76906842467739, 10.59473216741033], incomePerCapita: 20258, taxpayers: 151
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Uno dei comuni più isolati della provincia, raggiungibile da una sola st
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Valvestino si trova a circa 38 km a nord-est di Brescia. Superficie: 31.27 km². Densità abitativa: 6 ab/km².
 
 ## Cosa fare
 
@@ -73,18 +67,3 @@ Valvestino si trova a circa 38 km a nord-est di Brescia. Superficie: 31.27 km².
 
 Uno dei comuni più isolati della provincia, raggiungibile da una sola strada
 
-## Comuni vicini
-
-- [Magasa](../magasa/) — 2.1 km
-- [Capovalle](../capovalle/) — 5.9 km
-- [Anfo](../anfo/) — 8.0 km
-- [Idro](../idro/) — 8.9 km
-- [Gargnano](../gargnano/) — 9.5 km
-
-## Comuni confinanti
-
-- [Capovalle](../capovalle/)
-- [Gargnano](../gargnano/)
-- [Idro](../idro/)
-- [Magasa](../magasa/)
-- [Tignale](../tignale/)

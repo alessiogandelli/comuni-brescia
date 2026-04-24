@@ -25,8 +25,6 @@ bordering:
   - "lavenone"
   - "marmentino"
   - "pertica-bassa"
-subcomuni:
-  - cap: "25060", area: 53.36, coords: [45.823453695821215, 10.350303934962485], incomePerCapita: 20687, taxpayers: 1511
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Collio si trova a circa 31 km a nord-est di Brescia. Superficie: 53.52 km². Densità abitativa: 40 ab/km².
 
 ## Cosa fare
 
@@ -76,32 +70,7 @@ Collio si trova a circa 31 km a nord-est di Brescia. Superficie: 53.52 km². Den
 - **Albergo Maniva** (Hotel)
 - **Albergo Naanì** (Hotel)
 
-## Servizi
-
-- **Alimentari Bruni** — Alimentari
-- **Oratorio San Colombano** — Centro civico
-- **Farmacia Gerola** — Farmacia
-- **Biblioteca** — Biblioteca
-- **Ortofrutta Stanciu e Spranzi** — Alimentari
-- **Dal Botegher** — Alimentari
-
 ## Come arrivare
 
 - Seggiovia: **Collio - Roccolo Crispe**
 
-## Comuni vicini
-
-- [Bovegno](../bovegno/) — 5.3 km
-- [Irma](../irma/) — 7.1 km
-- [Pertica Alta](../pertica-alta/) — 9.0 km
-- [Marmentino](../marmentino/) — 9.6 km
-- [Bagolino](../bagolino/) — 10.1 km
-
-## Comuni confinanti
-
-- [Bagolino](../bagolino/)
-- [Bienno](../bienno/)
-- [Bovegno](../bovegno/)
-- [Lavenone](../lavenone/)
-- [Marmentino](../marmentino/)
-- [Pertica Bassa](../pertica-bassa/)

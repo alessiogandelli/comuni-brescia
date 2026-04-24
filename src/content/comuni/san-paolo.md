@@ -21,8 +21,6 @@ bordering:
   - "offlaga"
   - "orzinuovi"
   - "verolanuova"
-subcomuni:
-  - cap: "25020", area: 18.78, coords: [45.37508418483306, 10.030921384794555], incomePerCapita: 21241, taxpayers: 3205
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-San Paolo si trova a circa 28 km a sud di Brescia. Superficie: 18.71 km². Densità abitativa: 248 ab/km². Strade principali: SPBS668.
 
 ## Cosa fare
 
@@ -60,30 +54,7 @@ San Paolo si trova a circa 28 km a sud di Brescia. Superficie: 18.71 km². Densi
 
 - **OneMhotel** (Hotel)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Biblioteca** — Biblioteca
-- **EffeEmme (Di Meglio)** — Supermercato
-- **Sisa Bonito** — Supermercato
-- **Centro culturale** — Centro civico
-
 ## Come arrivare
 
 - Strada provinciale: **SPBS668**
 
-## Comuni vicini
-
-- [Pralboino](../pralboino/) — 3.1 km
-- [Gottolengo](../gottolengo/) — 3.2 km
-- [Pavone del Mella](../pavone-del-mella/) — 3.4 km
-- [Cigole](../cigole/) — 5.0 km
-- [Gambara](../gambara/) — 6.4 km
-
-## Comuni confinanti
-
-- [Barbariga](../barbariga/)
-- [Borgo San Giacomo](../borgo-san-giacomo/)
-- [Offlaga](../offlaga/)
-- [Orzinuovi](../orzinuovi/)
-- [Verolanuova](../verolanuova/)

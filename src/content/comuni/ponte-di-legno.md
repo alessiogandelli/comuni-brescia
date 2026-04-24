@@ -26,8 +26,6 @@ bordering:
   - "valfurva"
   - "vezza-d'oglio"
   - "vione"
-subcomuni:
-  - cap: "25056", area: 100.2, coords: [46.27086586478132, 10.529171295746352], incomePerCapita: 29785, taxpayers: 1446
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: "Rinomata località sciistica ai piedi del Passo del Tonale"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Ponte di Legno si trova a circa 83 km a nord-est di Brescia. Superficie: 100.5 km². Densità abitativa: 17 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -76,15 +70,6 @@ Ponte di Legno si trova a circa 83 km a nord-est di Brescia. Superficie: 100.5 k
 - **Pensione Trattoria Sant'Angela** (B&B / Affittacamere)
 - **Hotel Acero Rosso** (Hotel)
 
-## Servizi
-
-- **Farmacia Dr. Petroboni** — Farmacia
-- **La Casetta dell'Oratorio** — Centro civico
-- **Biblioteca** — Biblioteca
-- **Supermarket BigMarket** — Supermercato
-- **BIG Market** — Supermercato
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Cabinovia: **Progetto Cabinovia**
@@ -95,20 +80,3 @@ Ponte di Legno si trova a circa 83 km a nord-est di Brescia. Superficie: 100.5 k
 
 Rinomata località sciistica ai piedi del Passo del Tonale
 
-## Comuni vicini
-
-- [Temù](../temu/) — 3.7 km
-- [Vione](../vione/) — 5.9 km
-- [Vezza d'Oglio](../vezza-doglio/) — 8.8 km
-- [Incudine](../incudine/) — 13.1 km
-- [Monno](../monno/) — 14.0 km
-
-## Comuni confinanti
-
-- [Edolo](../edolo/)
-- [Saviore Dell'adamello](../saviore-dell'adamello/)
-- [Sondalo](../sondalo/)
-- [Temu](../temu/)
-- [Valfurva](../valfurva/)
-- [Vezza D'oglio](../vezza-d'oglio/)
-- [Vione](../vione/)

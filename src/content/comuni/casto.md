@@ -27,8 +27,6 @@ bordering:
   - "pertica-alta"
   - "sarezzo"
   - "vestone"
-subcomuni:
-  - cap: "25070", area: 21.29, coords: [45.693192045070504, 10.306519280752388], incomePerCapita: 24849, taxpayers: 1237
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Casto si trova a circa 20 km a nord-est di Brescia. Superficie: 21.34 km². Densità abitativa: 84 ab/km².
 
 ## Cosa fare
 
@@ -73,30 +67,7 @@ Casto si trova a circa 20 km a nord-est di Brescia. Superficie: 21.34 km². Dens
 - **L'Acero** (B&B / Affittacamere)
 - **Rifugio Nasego** (Rifugio alpino)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Supermercato** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Mura](../mura/) — 1.6 km
-- [Lodrino](../lodrino/) — 3.9 km
-- [Bione](../bione/) — 4.1 km
-- [Marmentino](../marmentino/) — 4.4 km
-- [Pertica Bassa](../pertica-bassa/) — 4.6 km
-
-## Comuni confinanti
-
-- [Bione](../bione/)
-- [Lodrino](../lodrino/)
-- [Lumezzane](../lumezzane/)
-- [Marcheno](../marcheno/)
-- [Mura](../mura/)
-- [Pertica Alta](../pertica-alta/)
-- [Sarezzo](../sarezzo/)
-- [Vestone](../vestone/)

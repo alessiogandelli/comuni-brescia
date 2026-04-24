@@ -27,8 +27,6 @@ bordering:
   - "teglio"
   - "tirano"
   - "villa-di-tirano"
-subcomuni:
-  - cap: "25040", area: 82.44, coords: [46.141024719380155, 10.2210859988801], incomePerCapita: 22396, taxpayers: 1517
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: "Paese natale di Camillo Golgi, Nobel per la Medicina 1906"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Corteno Golgi si trova a circa 69 km a nord di Brescia. Superficie: 82.86 km². Densità abitativa: 23 ab/km². Strade principali: SS39.
 
 ## Cosa fare
 
@@ -74,15 +68,6 @@ Corteno Golgi si trova a circa 69 km a nord di Brescia. Superficie: 82.86 km². 
 - **Chalet Baradello** (Rifugio alpino)
 - **Camping Aprica** (Campeggio)
 
-## Servizi
-
-- **Pieracci** — Farmacia
-- **Farmacia** — Farmacia
-- **Alimentari** — Alimentari
-- **Alimentari 2000** — Alimentari
-- **Coop** — Supermercato
-- **Parafamacia Sole e Salute** — Farmacia
-
 ## Come arrivare
 
 - Seggiovia: **Baradello - Piana Galli**
@@ -92,21 +77,3 @@ Corteno Golgi si trova a circa 69 km a nord di Brescia. Superficie: 82.86 km². 
 
 Paese natale di Camillo Golgi, Nobel per la Medicina 1906
 
-## Comuni vicini
-
-- [Edolo](../edolo/) — 6.5 km
-- [Malonno](../malonno/) — 7.2 km
-- [Sonico](../sonico/) — 8.4 km
-- [Monno](../monno/) — 9.1 km
-- [Incudine](../incudine/) — 9.7 km
-
-## Comuni confinanti
-
-- [Aprica](../aprica/)
-- [Edolo](../edolo/)
-- [Malonno](../malonno/)
-- [Paisco Loveno](../paisco-loveno/)
-- [Sernio](../sernio/)
-- [Teglio](../teglio/)
-- [Tirano](../tirano/)
-- [Villa Di Tirano](../villa-di-tirano/)

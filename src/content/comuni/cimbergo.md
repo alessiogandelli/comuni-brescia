@@ -24,8 +24,6 @@ bordering:
   - "ceto"
   - "cevo"
   - "paspardo"
-subcomuni:
-  - cap: "25050", area: 24.66, coords: [46.02363113991243, 10.398572663134836], incomePerCapita: 22553, taxpayers: 433
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Cimbergo si trova a circa 55 km a nord di Brescia. Superficie: 24.58 km². Densità abitativa: 22 ab/km².
 
 ## Cosa fare
 
@@ -66,26 +60,7 @@ Cimbergo si trova a circa 55 km a nord di Brescia. Superficie: 24.58 km². Densi
 - **Bivacco della Fasa** (Bivacco)
 - **B&B Castello** (B&B / Affittacamere)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Ceto](../ceto/) — 0.8 km
-- [Paspardo](../paspardo/) — 1.0 km
-- [Ono San Pietro](../ono-san-pietro/) — 1.8 km
-- [Capo di Ponte](../capo-di-ponte/) — 1.9 km
-- [Braone](../braone/) — 2.3 km
-
-## Comuni confinanti
-
-- [Capo Di Ponte](../capo-di-ponte/)
-- [Cedegolo](../cedegolo/)
-- [Ceto](../ceto/)
-- [Cevo](../cevo/)
-- [Paspardo](../paspardo/)

@@ -21,8 +21,6 @@ bordering:
   - "bovegno"
   - "darfo-boario-terme"
   - "esine"
-subcomuni:
-  - cap: "25040", area: 13.36, coords: [45.85794749524793, 10.214095483641525], incomePerCapita: 22221, taxpayers: 1550
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Gianico si trova a circa 37 km a nord di Brescia. Superficie: 13.24 km². Densità abitativa: 169 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -63,17 +57,3 @@ Gianico si trova a circa 37 km a nord di Brescia. Superficie: 13.24 km². Densit
 
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Darfo Boario Terme](../darfo-boario-terme/) — 1.4 km
-- [Pian Camuno](../pian-camuno/) — 2.5 km
-- [Artogne](../artogne/) — 2.5 km
-- [Angolo Terme](../angolo-terme/) — 3.7 km
-- [Brione](../brione/) — 4.8 km
-
-## Comuni confinanti
-
-- [Artogne](../artogne/)
-- [Bovegno](../bovegno/)
-- [Darfo Boario Terme](../darfo-boario-terme/)
-- [Esine](../esine/)

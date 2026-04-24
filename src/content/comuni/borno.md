@@ -25,8 +25,6 @@ bordering:
   - "ossimo"
   - "piancogno"
   - "schilpario"
-subcomuni:
-  - cap: "25042", area: 30.44, coords: [45.95237302345797, 10.177015601692704], incomePerCapita: 23052, taxpayers: 1939
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Stazione sciistica della Val Camonica"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Borno si trova a circa 45 km a nord di Brescia. Superficie: 30.56 km². Densità abitativa: 85 ab/km².
 
 ## Cosa fare
 
@@ -76,15 +70,6 @@ Borno si trova a circa 45 km a nord di Brescia. Superficie: 30.56 km². Densità
 - **Hotel Korallo** (Hotel)
 - **Camping Village Boscoblù** (Campeggio)
 
-## Servizi
-
-- **Alimentari Gastronomia Cerese** — Alimentari
-- **Cristallo Blu Minimarket** — Alimentari
-- **Sigma** — Supermercato
-- **Carrefour express** — Supermercato
-- **Associazione Tapioca** — Alimentari
-- **Centro Sociale Anziani Pensionati Borno** — Centro civico
-
 ## Come arrivare
 
 - Seggiovia: **Ogne 1**
@@ -93,19 +78,3 @@ Borno si trova a circa 45 km a nord di Brescia. Superficie: 30.56 km². Densità
 
 Stazione sciistica della Val Camonica
 
-## Comuni vicini
-
-- [Berzo Inferiore](../berzo-inferiore/) — 0.5 km
-- [Piancogno](../piancogno/) — 2.4 km
-- [Ossimo](../ossimo/) — 2.5 km
-- [Brione](../brione/) — 3.9 km
-- [Esine](../esine/) — 4.4 km
-
-## Comuni confinanti
-
-- [Angolo Terme](../angolo-terme/)
-- [Azzone](../azzone/)
-- [Colere](../colere/)
-- [Ossimo](../ossimo/)
-- [Piancogno](../piancogno/)
-- [Schilpario](../schilpario/)

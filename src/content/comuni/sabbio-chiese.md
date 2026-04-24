@@ -26,8 +26,6 @@ bordering:
   - "vallio-terme"
   - "villanuova-sul-clisi"
   - "vobarno"
-subcomuni:
-  - cap: "25070", area: 18.41, coords: [45.643236528591906, 10.43314907213998], incomePerCapita: 25619, taxpayers: 2918
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Sabbio Chiese si trova a circa 21 km a nord-est di Brescia. Superficie: 18.36 km². Densità abitativa: 206 ab/km². Strade principali: SPBS237d1.
 
 ## Cosa fare
 
@@ -67,29 +61,7 @@ Sabbio Chiese si trova a circa 21 km a nord-est di Brescia. Superficie: 18.36 km
 
 - **Agriturismo Incanti** (B&B / Affittacamere)
 
-## Servizi
-
-- **Oratorio** — Centro civico
-
 ## Come arrivare
 
 - Superstrada: **SPBS237d1**
 
-## Comuni vicini
-
-- [Preseglie](../preseglie/) — 2.7 km
-- [Barghe](../barghe/) — 2.8 km
-- [Odolo](../odolo/) — 2.9 km
-- [Provaglio Val Sabbia](../provaglio-val-sabbia/) — 3.6 km
-- [Agnosine](../agnosine/) — 5.2 km
-
-## Comuni confinanti
-
-- [Barghe](../barghe/)
-- [Gavardo](../gavardo/)
-- [Odolo](../odolo/)
-- [Preseglie](../preseglie/)
-- [Provaglio Val Sabbia](../provaglio-val-sabbia/)
-- [Vallio Terme](../vallio-terme/)
-- [Villanuova Sul Clisi](../villanuova-sul-clisi/)
-- [Vobarno](../vobarno/)

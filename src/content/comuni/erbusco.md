@@ -23,8 +23,6 @@ bordering:
   - "cologne"
   - "palazzolo-sull'oglio"
   - "rovato"
-subcomuni:
-  - cap: "25030", area: 16.21, coords: [45.59437347790234, 9.96555242544094], incomePerCapita: 26403, taxpayers: 6663
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Capitale gastronomica della Franciacorta"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Erbusco si trova a circa 18 km a ovest di Brescia. Superficie: 16.2 km². Densità abitativa: 540 ab/km². Strade principali: A4, SPBS469D1.
 
 ## Cosa fare
 
@@ -67,15 +61,6 @@ Erbusco si trova a circa 18 km a ovest di Brescia. Superficie: 16.2 km². Densit
 
 - **Iris hotel** (Hotel)
 
-## Servizi
-
-- **Momento** — Alimentari
-- **Farmacia** — Farmacia
-- **Centro civico** — Centro civico
-- **ALDI** — Supermercato
-- **MD** — Supermercato
-- **Il Gigante** — Supermercato
-
 ## Come arrivare
 
 - Autostrada: **A4**
@@ -85,19 +70,3 @@ Erbusco si trova a circa 18 km a ovest di Brescia. Superficie: 16.2 km². Densit
 
 Capitale gastronomica della Franciacorta
 
-## Comuni vicini
-
-- [Cazzago San Martino](../cazzago-san-martino/) — 2.7 km
-- [Corte Franca](../corte-franca/) — 3.3 km
-- [Rovato](../rovato/) — 3.5 km
-- [Coccaglio](../coccaglio/) — 3.6 km
-- [Adro](../adro/) — 4.5 km
-
-## Comuni confinanti
-
-- [Adro](../adro/)
-- [Cazzago San Martino](../cazzago-san-martino/)
-- [Coccaglio](../coccaglio/)
-- [Cologne](../cologne/)
-- [Palazzolo Sull'oglio](../palazzolo-sull'oglio/)
-- [Rovato](../rovato/)

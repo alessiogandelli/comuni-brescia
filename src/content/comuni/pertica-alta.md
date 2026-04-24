@@ -24,8 +24,6 @@ bordering:
   - "mura"
   - "pertica-bassa"
   - "vestone"
-subcomuni:
-  - cap: "25070", area: 20.87, coords: [45.74272787197713, 10.342627034899591], incomePerCapita: 21607, taxpayers: 445
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Pertica Alta si trova a circa 26 km a nord-est di Brescia. Superficie: 20.91 km². Densità abitativa: 27 ab/km².
 
 ## Cosa fare
 
@@ -65,29 +59,7 @@ Pertica Alta si trova a circa 26 km a nord-est di Brescia. Superficie: 20.91 km�
 
 - **LE FRATTE** (B&B / Affittacamere)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Biblioteca** — Biblioteca
-- **Centro civico** — Centro civico
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Pertica Bassa](../pertica-bassa/) — 2.7 km
-- [Vestone](../vestone/) — 3.7 km
-- [Lavenone](../lavenone/) — 3.9 km
-- [Mura](../mura/) — 5.2 km
-- [Treviso Bresciano](../treviso-bresciano/) — 5.3 km
-
-## Comuni confinanti
-
-- [Casto](../casto/)
-- [Lodrino](../lodrino/)
-- [Marmentino](../marmentino/)
-- [Mura](../mura/)
-- [Pertica Bassa](../pertica-bassa/)
-- [Vestone](../vestone/)

@@ -21,8 +21,6 @@ bordering:
   - "milzano"
   - "pavone-del-mella"
   - "san-gervasio-bresciano"
-subcomuni:
-  - cap: "25020", area: 9.91, coords: [45.31338874489832, 10.189653442560795], incomePerCapita: 23216, taxpayers: 1108
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Cigole si trova a circa 26 km a sud di Brescia. Superficie: 9.97 km². Densità abitativa: 160 ab/km².
 
 ## Cosa fare
 
@@ -56,30 +50,7 @@ Cigole si trova a circa 26 km a sud di Brescia. Superficie: 9.97 km². Densità 
 - **Bar Portici** (Bar)
 - **Ninì - Bistrot Italiano** (Caffè)
 
-## Servizi
-
-- **Biblioteca Comunale di Cigole** — Biblioteca
-- **Micheli alimentari** — Alimentari
-- **Farmacia Tosoni** — Farmacia
-- **i Rossi** — Supermercato
-- **Forneria Regonini** — Panificio
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Pavone del Mella](../pavone-del-mella/) — 1.7 km
-- [Milzano](../milzano/) — 1.8 km
-- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 2.7 km
-- [San Paolo](../san-paolo/) — 5.0 km
-- [Bassano Bresciano](../bassano-bresciano/) — 5.0 km
-
-## Comuni confinanti
-
-- [Leno](../leno/)
-- [Manerbio](../manerbio/)
-- [Milzano](../milzano/)
-- [Pavone Del Mella](../pavone-del-mella/)
-- [San Gervasio Bresciano](../san-gervasio-bresciano/)

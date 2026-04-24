@@ -23,8 +23,6 @@ bordering:
   - "losine"
   - "lozio"
   - "ossimo"
-subcomuni:
-  - cap: "25053", area: 6.88, coords: [45.958198222773945, 10.272493504543348], incomePerCapita: 22680, taxpayers: 1424
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Malegno si trova a circa 46 km a nord di Brescia. Superficie: 6.94 km². Densità abitativa: 301 ab/km².
 
 ## Cosa fare
 
@@ -64,30 +58,7 @@ Malegno si trova a circa 46 km a nord di Brescia. Superficie: 6.94 km². Densit�
 
 - **Redolo** (B&B / Affittacamere)
 
-## Servizi
-
-- **Biblioteca Comunale di Malegno** — Biblioteca
-- **Oratorio di Malegno** — Centro civico
-- **Alimentari Carla** — Alimentari
-- **Farmacia Berzolla** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Cividate Camuno](../cividate-camuno/) — 1.7 km
-- [Bienno](../bienno/) — 2.5 km
-- [Esine](../esine/) — 2.7 km
-- [Breno](../breno/) — 2.7 km
-- [Prestine](../prestine/) — 2.8 km
-
-## Comuni confinanti
-
-- [Breno](../breno/)
-- [Cerveno](../cerveno/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Losine](../losine/)
-- [Lozio](../lozio/)
-- [Ossimo](../ossimo/)

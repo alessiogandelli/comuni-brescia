@@ -25,8 +25,6 @@ bordering:
   - "marcheno"
   - "polaveno"
   - "villa-carcina"
-subcomuni:
-  - cap: "25068", area: 17.64, coords: [45.66479479377197, 10.202842152113163], incomePerCapita: 25376, taxpayers: 9789
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Sarezzo si trova a circa 12 km a nord di Brescia. Superficie: 17.6 km². Densità abitativa: 763 ab/km².
 
 ## Cosa fare
 
@@ -69,33 +63,7 @@ Sarezzo si trova a circa 12 km a nord di Brescia. Superficie: 17.6 km². Densit�
 
 - **Rifugio alpino** (Rifugio alpino)
 
-## Servizi
-
-- **M&M Halal** — Alimentari
-- **Farmacia Comunale Dottoressa Maria Pia Mesiti** — Farmacia
-- **Centro Culturale e Sportivo Aldo Moro** — Centro civico
-- **Villa Usignolo** — Centro civico
-- **Dpiù** — Supermercato
-- **Li Lizhen Supermarket** — Alimentari
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Villa Carcina](../villa-carcina/) — 2.3 km
-- [Gardone Val Trompia](../gardone-val-trompia/) — 4.1 km
-- [Lumezzane](../lumezzane/) — 4.7 km
-- [Concesio](../concesio/) — 6.2 km
-- [Polaveno](../polaveno/) — 6.4 km
-
-## Comuni confinanti
-
-- [Brione](../brione/)
-- [Casto](../casto/)
-- [Gardone Val Trompia](../gardone-val-trompia/)
-- [Lumezzane](../lumezzane/)
-- [Marcheno](../marcheno/)
-- [Polaveno](../polaveno/)
-- [Villa Carcina](../villa-carcina/)

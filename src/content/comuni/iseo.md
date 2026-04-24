@@ -31,8 +31,6 @@ bordering:
   - "sarnico"
   - "sulzano"
   - "tavernola-bergamasca"
-subcomuni:
-  - cap: "25049", area: 28.37, coords: [45.65633256641358, 10.042078000991703], incomePerCapita: 28196, taxpayers: 7108
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -44,10 +42,6 @@ fact: "Porta del Lago d'Iseo, sede dell'installazione The Floating Piers di Chri
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Iseo si trova a circa 18 km a nord-ovest di Brescia. Superficie: 26.62 km². Densità abitativa: 343 ab/km². Strade principali: SPBS510;quater, SPBS510, SPBS510bis, SP12, SPXI.
 
 ## Cosa fare
 
@@ -81,15 +75,6 @@ Iseo si trova a circa 18 km a nord-ovest di Brescia. Superficie: 26.62 km². Den
 - **Sassabanek** (Campeggio)
 - **Iseolago hotel** (Hotel)
 
-## Servizi
-
-- **Alimentari** — Alimentari
-- **Farmacia CANDOSSI** — Farmacia
-- **Ospedale Civile di Iseo - A.S. Mellino Mellini** — Ospedale
-- **Conad** — Supermercato
-- **Dpiù** — Supermercato
-- **Parafarmacia Conad** — Farmacia
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Iseo**
@@ -101,24 +86,3 @@ Iseo si trova a circa 18 km a nord-ovest di Brescia. Superficie: 26.62 km². Den
 
 Porta del Lago d'Iseo, sede dell'installazione The Floating Piers di Christo nel 2016
 
-## Comuni vicini
-
-- [Provaglio d'Iseo](../provaglio-diseo/) — 2.6 km
-- [Corte Franca](../corte-franca/) — 4.6 km
-- [Sulzano](../sulzano/) — 5.1 km
-- [Polaveno](../polaveno/) — 5.3 km
-- [Monticelli Brusati](../monticelli-brusati/) — 5.8 km
-
-## Comuni confinanti
-
-- [Capriolo](../capriolo/)
-- [Corte Franca](../corte-franca/)
-- [Monte Isola](../monte-isola/)
-- [Monticelli Brusati](../monticelli-brusati/)
-- [Paratico](../paratico/)
-- [Polaveno](../polaveno/)
-- [Predore](../predore/)
-- [Provaglio D'iseo](../provaglio-d'iseo/)
-- [Sarnico](../sarnico/)
-- [Sulzano](../sulzano/)
-- [Tavernola Bergamasca](../tavernola-bergamasca/)

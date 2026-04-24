@@ -23,8 +23,6 @@ bordering:
   - "marmentino"
   - "pertica-alta"
   - "tavernole-sul-mella"
-subcomuni:
-  - cap: "25060", area: 16.47, coords: [45.71643516653216, 10.26699875593109], incomePerCapita: 26902, taxpayers: 1233
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Lodrino si trova a circa 21 km a nord di Brescia. Superficie: 16.46 km². Densità abitativa: 112 ab/km².
 
 ## Cosa fare
 
@@ -67,28 +61,7 @@ Lodrino si trova a circa 21 km a nord di Brescia. Superficie: 16.46 km². Densit
 - **Albergo Lodrino** (Hotel)
 - **B&B Isola Verde** (Hotel)
 
-## Servizi
-
-- **Alimentari Da Romy** — Supermercato
-- **Farmacia Rampini** — Farmacia
-- **Biblioteca comunale "Maestra Angelica Plebani"** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Marmentino](../marmentino/) — 1.1 km
-- [Irma](../irma/) — 3.9 km
-- [Casto](../casto/) — 3.9 km
-- [Tavernole sul Mella](../tavernole-sul-mella/) — 4.1 km
-- [Mura](../mura/) — 4.6 km
-
-## Comuni confinanti
-
-- [Casto](../casto/)
-- [Marcheno](../marcheno/)
-- [Marmentino](../marmentino/)
-- [Pertica Alta](../pertica-alta/)
-- [Tavernole Sul Mella](../tavernole-sul-mella/)

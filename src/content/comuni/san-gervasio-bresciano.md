@@ -21,8 +21,6 @@ bordering:
   - "manerbio"
   - "milzano"
   - "pontevico"
-subcomuni:
-  - cap: "25020", area: 10.52, coords: [45.29913132997402, 10.155353133821155], incomePerCapita: 23900, taxpayers: 1863
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-San Gervasio Bresciano si trova a circa 25 km a sud di Brescia. Superficie: 10.51 km². Densità abitativa: 241 ab/km². Strade principali: A21.
 
 ## Cosa fare
 
@@ -57,19 +51,3 @@ San Gervasio Bresciano si trova a circa 25 km a sud di Brescia. Superficie: 10.5
 
 - Autostrada: **A21**
 
-## Comuni vicini
-
-- [Milzano](../milzano/) — 2.1 km
-- [Bassano Bresciano](../bassano-bresciano/) — 2.6 km
-- [Cigole](../cigole/) — 2.7 km
-- [Manerbio](../manerbio/) — 4.2 km
-- [Quinzano d'Oglio](../quinzano-doglio/) — 4.2 km
-
-## Comuni confinanti
-
-- [Alfianello](../alfianello/)
-- [Bassano Bresciano](../bassano-bresciano/)
-- [Cigole](../cigole/)
-- [Manerbio](../manerbio/)
-- [Milzano](../milzano/)
-- [Pontevico](../pontevico/)

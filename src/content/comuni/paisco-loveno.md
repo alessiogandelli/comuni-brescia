@@ -26,8 +26,6 @@ bordering:
   - "schilpario"
   - "sellero"
   - "teglio"
-subcomuni:
-  - cap: "25050", area: 35.8, coords: [46.072300203849316, 10.240643837131257], incomePerCapita: 19895, taxpayers: 132
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 35.61 km². Densità abitativa: 5 ab/km².
 
 ## Cosa fare
 
@@ -63,22 +57,3 @@ Paisco Loveno si trova a circa 57 km a nord di Brescia. Superficie: 35.61 km². 
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Berzo Demo](../berzo-demo/) — 1.3 km
-- [Losine](../losine/) — 6.1 km
-- [Lozio](../lozio/) — 6.1 km
-- [Sellero](../sellero/) — 7.5 km
-- [Capo di Ponte](../capo-di-ponte/) — 8.3 km
-
-## Comuni confinanti
-
-- [Berzo Demo](../berzo-demo/)
-- [Capo Di Ponte](../capo-di-ponte/)
-- [Cerveno](../cerveno/)
-- [Corteno Golgi](../corteno-golgi/)
-- [Malonno](../malonno/)
-- [Ono San Pietro](../ono-san-pietro/)
-- [Schilpario](../schilpario/)
-- [Sellero](../sellero/)
-- [Teglio](../teglio/)

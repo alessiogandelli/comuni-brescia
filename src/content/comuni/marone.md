@@ -27,8 +27,6 @@ bordering:
   - "riva-di-solto"
   - "sale-marasino"
   - "zone"
-subcomuni:
-  - cap: "25054", area: 23.89, coords: [45.74517683062508, 10.12161153590732], incomePerCapita: 24523, taxpayers: 2378
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Marone si trova a circa 23 km a nord-ovest di Brescia. Superficie: 23.58 km². Densità abitativa: 140 ab/km². Strade principali: SPBS510;quater, SPBS510.
 
 ## Cosa fare
 
@@ -78,35 +72,9 @@ Marone si trova a circa 23 km a nord-ovest di Brescia. Superficie: 23.58 km². D
 - **Agriturismo cascina Carai** (B&B / Affittacamere)
 - **Rifugio Croce Di Marone** (Rifugio alpino)
 
-## Servizi
-
-- **Biblioteca Comunale Maresciallo Giacomo Felappi di Marone** — Biblioteca
-- **Farmacia Dentella** — Farmacia
-- **Conad City** — Supermercato
-- **Peccati di Gola** — Panificio
-- **Baia del Sol** — Ciclofficina
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Marone-Zone**
 - Superstrada: **SPBS510;quater**
 - Strada provinciale: **SPBS510**
 
-## Comuni vicini
-
-- [Monte Isola](../monte-isola/) — 2.3 km
-- [Sale Marasino](../sale-marasino/) — 3.1 km
-- [Zone](../zone/) — 3.8 km
-- [Sulzano](../sulzano/) — 4.2 km
-- [Pisogne](../pisogne/) — 7.5 km
-
-## Comuni confinanti
-
-- [Gardone Val Trompia](../gardone-val-trompia/)
-- [Marcheno](../marcheno/)
-- [Monte Isola](../monte-isola/)
-- [Parzanica](../parzanica/)
-- [Pisogne](../pisogne/)
-- [Riva Di Solto](../riva-di-solto/)
-- [Sale Marasino](../sale-marasino/)
-- [Zone](../zone/)

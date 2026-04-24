@@ -24,8 +24,6 @@ bordering:
   - "provaglio-val-sabbia"
   - "vestone"
   - "vobarno"
-subcomuni:
-  - cap: "25070", area: 17.69, coords: [45.71585654042289, 10.469608960528076], incomePerCapita: 20257, taxpayers: 411
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Treviso Bresciano si trova a circa 27 km a nord-est di Brescia. Superficie: 17.82 km². Densità abitativa: 31 ab/km².
 
 ## Cosa fare
 
@@ -66,19 +60,3 @@ Treviso Bresciano si trova a circa 27 km a nord-est di Brescia. Superficie: 17.8
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Lavenone](../lavenone/) — 2.3 km
-- [Idro](../idro/) — 3.7 km
-- [Vestone](../vestone/) — 4.1 km
-- [Provaglio Val Sabbia](../provaglio-val-sabbia/) — 4.6 km
-- [Pertica Alta](../pertica-alta/) — 5.3 km
-
-## Comuni confinanti
-
-- [Capovalle](../capovalle/)
-- [Idro](../idro/)
-- [Lavenone](../lavenone/)
-- [Provaglio Val Sabbia](../provaglio-val-sabbia/)
-- [Vestone](../vestone/)
-- [Vobarno](../vobarno/)

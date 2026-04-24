@@ -26,8 +26,6 @@ bordering:
   - "concesio"
   - "lumezzane"
   - "serle"
-subcomuni:
-  - cap: "25075", area: 27.16, coords: [45.594305753419576, 10.287716680603488], incomePerCapita: 25217, taxpayers: 8133
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Nave si trova a circa 7 km a nord-est di Brescia. Superficie: 27.14 km². Densità abitativa: 406 ab/km².
 
 ## Cosa fare
 
@@ -76,33 +70,7 @@ Nave si trova a circa 7 km a nord-est di Brescia. Superficie: 27.14 km². Densit
 - **La Corte di Gio'** (B&B / Affittacamere)
 - **Rifugio alpino** (Rifugio alpino)
 
-## Servizi
-
-- **Centro Socio Culturale Luigi Bussacchini** — Centro civico
-- **Biblioteca Comunale di Nave** — Biblioteca
-- **Farmacia Sant'Orso** — Farmacia
-- **Family Market** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **Il Mulino di Buffoli** — Alimentari
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Caino](../caino/) — 3.3 km
-- [Bovezzo](../bovezzo/) — 3.9 km
-- [Concesio](../concesio/) — 4.8 km
-- [Collebeato](../collebeato/) — 5.3 km
-- [Lumezzane](../lumezzane/) — 7.0 km
-
-## Comuni confinanti
-
-- [Botticino](../botticino/)
-- [Bovezzo](../bovezzo/)
-- [Brescia](../brescia/)
-- [Caino](../caino/)
-- [Concesio](../concesio/)
-- [Lumezzane](../lumezzane/)
-- [Serle](../serle/)

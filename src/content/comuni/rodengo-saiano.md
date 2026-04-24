@@ -23,10 +23,6 @@ fact: "Sede dell'Abbazia olivetana dei Santi Nicola e Paolo VI"
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
 
-## Contesto geografico
-
-Rodengo-Saiano si trova a circa 10 km a nord-ovest di Brescia. Superficie: 12.56 km². Densità abitativa: 719 ab/km².
-
 ## Cosa fare
 
 - Passeggiata nel centro storico
@@ -47,10 +43,3 @@ Rodengo-Saiano si trova a circa 10 km a nord-ovest di Brescia. Superficie: 12.56
 
 Sede dell'Abbazia olivetana dei Santi Nicola e Paolo VI
 
-## Comuni vicini
-
-- [Monticelli Brusati](../monticelli-brusati/) — 2.8 km
-- [Passirano](../passirano/) — 3.1 km
-- [Paderno Franciacorta](../paderno-franciacorta/) — 3.2 km
-- [Castegnato](../castegnato/) — 4.0 km
-- [Ome](../ome/) — 4.0 km

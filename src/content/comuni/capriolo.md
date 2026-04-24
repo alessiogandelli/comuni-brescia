@@ -25,8 +25,6 @@ bordering:
   - "iseo"
   - "palazzolo-sull'oglio"
   - "paratico"
-subcomuni:
-  - cap: "25031", area: 10.58, coords: [45.64074523684218, 9.940232160260043], incomePerCapita: 23138, taxpayers: 6894
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Capriolo si trova a circa 24 km a ovest di Brescia. Superficie: 10.83 km². Densità abitativa: 856 ab/km². Strade principali: SPBS469D1, SPBS469, Via Palazzolo.
 
 ## Cosa fare
 
@@ -70,35 +64,9 @@ Capriolo si trova a circa 24 km a ovest di Brescia. Superficie: 10.83 km². Dens
 - **Sole** (Hotel)
 - **Quagliodromo** (Rifugio alpino)
 
-## Servizi
-
-- **Biblioteca Comunale di Capriolo** — Biblioteca
-- **Farmacia Dottor Fenaroli** — Farmacia
-- **Farmacia Comunale** — Farmacia
-- **Eurospin** — Supermercato
-- **Conad** — Supermercato
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Superstrada: **SPBS469D1**
 - Strada provinciale: **SPBS469**
 - Strada provinciale: **Via Palazzolo**
 
-## Comuni vicini
-
-- [Adro](../adro/) — 2.7 km
-- [Paratico](../paratico/) — 3.2 km
-- [Palazzolo sull'Oglio](../palazzolo-sulloglio/) — 5.5 km
-- [Cologne](../cologne/) — 5.6 km
-- [Corte Franca](../corte-franca/) — 6.9 km
-
-## Comuni confinanti
-
-- [Adro](../adro/)
-- [Castelli Calepio](../castelli-calepio/)
-- [Corte Franca](../corte-franca/)
-- [Credaro](../credaro/)
-- [Iseo](../iseo/)
-- [Palazzolo Sull'oglio](../palazzolo-sull'oglio/)
-- [Paratico](../paratico/)

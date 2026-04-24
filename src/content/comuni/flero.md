@@ -20,8 +20,6 @@ bordering:
   - "castel-mella"
   - "poncarale"
   - "san-zeno-naviglio"
-subcomuni:
-  - cap: "25020", area: 9.82, coords: [45.48250940408738, 10.171847818248043], incomePerCapita: 25535, taxpayers: 6655
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Flero si trova a circa 7 km a sud-ovest di Brescia. Superficie: 9.88 km². Densità abitativa: 875 ab/km². Strade principali: A21racc, SCBS, SPIX, Tangenziale Ovest, Via Quinzano.
 
 ## Cosa fare
 
@@ -57,33 +51,9 @@ Flero si trova a circa 7 km a sud-ovest di Brescia. Superficie: 9.88 km². Densi
 - **BEFeD Flero** (Ristorante)
 - **Effebar** (Bar)
 
-## Servizi
-
-- **Oratorio don Bosco** — Centro civico
-- **Farmacia dott. Cavalli** — Farmacia
-- **Biblioteca di Flero** — Biblioteca
-- **Centro ricreativo Mario Pellegrini** — Centro civico
-- **Gruppo Alpini Flero** — Centro civico
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Autostrada: **A21racc**
 - Strada provinciale: **SCBS**
 - Strada provinciale: **SPIX**
 
-## Comuni vicini
-
-- [Poncarale](../poncarale/) — 2.8 km
-- [San Zeno Naviglio](../san-zeno-naviglio/) — 2.9 km
-- [Castel Mella](../castel-mella/) — 3.2 km
-- [Capriano del Colle](../capriano-del-colle/) — 4.1 km
-- [Borgosatollo](../borgosatollo/) — 4.5 km
-
-## Comuni confinanti
-
-- [Brescia](../brescia/)
-- [Capriano Del Colle](../capriano-del-colle/)
-- [Castel Mella](../castel-mella/)
-- [Poncarale](../poncarale/)
-- [San Zeno Naviglio](../san-zeno-naviglio/)

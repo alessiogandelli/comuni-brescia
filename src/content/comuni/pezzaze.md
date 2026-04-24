@@ -24,8 +24,6 @@ bordering:
   - "marmentino"
   - "pisogne"
   - "tavernole-sul-mella"
-subcomuni:
-  - cap: "25060", area: 21.45, coords: [45.77780476964654, 10.227368664026008], incomePerCapita: 22502, taxpayers: 1074
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Pezzaze si trova a circa 24 km a nord di Brescia. Superficie: 21.62 km². Densità abitativa: 71 ab/km².
 
 ## Cosa fare
 
@@ -73,28 +67,7 @@ Pezzaze si trova a circa 24 km a nord di Brescia. Superficie: 21.62 km². Densit
 - **Rifugio Colle di San Zeno** (Hotel)
 - **Agriturismo Rebecco** (B&B / Affittacamere)
 
-## Servizi
-
-- **Minimarket Bregoli Remo** — Alimentari
-- **Alpi Market** — Supermercato
-- **Centro Polivalente della Comunità Montana di Valle Trompia** — Centro civico
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Tavernole sul Mella](../tavernole-sul-mella/) — 1.7 km
-- [Irma](../irma/) — 4.5 km
-- [Marcheno](../marcheno/) — 4.6 km
-- [Bovegno](../bovegno/) — 5.4 km
-- [Marmentino](../marmentino/) — 5.5 km
-
-## Comuni confinanti
-
-- [Artogne](../artogne/)
-- [Bovegno](../bovegno/)
-- [Marmentino](../marmentino/)
-- [Pisogne](../pisogne/)
-- [Tavernole Sul Mella](../tavernole-sul-mella/)

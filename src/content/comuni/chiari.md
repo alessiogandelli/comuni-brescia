@@ -28,8 +28,6 @@ bordering:
   - "roccafranca"
   - "rudiano"
   - "urago-d'oglio"
-subcomuni:
-  - cap: "25032", area: 37.9, coords: [45.52942098202937, 9.926363627411712], incomePerCapita: 24038, taxpayers: 14252
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -41,10 +39,6 @@ fact: "Centro storico con l'imponente Torre dell'Orologio"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Chiari si trova a circa 22 km a ovest di Brescia. Superficie: 38.05 km². Densità abitativa: 501 ab/km². Strade principali: A35, SS11dir, SP17var, SPBS11, SS11.
 
 ## Cosa fare
 
@@ -71,15 +65,6 @@ Chiari si trova a circa 22 km a ovest di Brescia. Superficie: 38.05 km². Densit
 - **B&B Centro Storico** (Hotel)
 - **Corte Breda** (B&B / Affittacamere)
 
-## Servizi
-
-- **Prix** — Supermercato
-- **Poliambulatorio medico BS Fisiomed** — Ambulatorio
-- **RSA Cadeo** — Ambulatorio
-- **Dpiù** — Supermercato
-- **Farmacia Lanzani Borsato** — Farmacia
-- **Dofarm** — Farmacia
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Chiari**
@@ -91,23 +76,3 @@ Chiari si trova a circa 22 km a ovest di Brescia. Superficie: 38.05 km². Densit
 
 Centro storico con l'imponente Torre dell'Orologio
 
-## Comuni vicini
-
-- [Castrezzato](../castrezzato/) — 3.9 km
-- [Urago d'Oglio](../urago-doglio/) — 5.0 km
-- [Coccaglio](../coccaglio/) — 5.3 km
-- [Castelcovati](../castelcovati/) — 5.5 km
-- [Cologne](../cologne/) — 5.9 km
-
-## Comuni confinanti
-
-- [Castelcovati](../castelcovati/)
-- [Castrezzato](../castrezzato/)
-- [Coccaglio](../coccaglio/)
-- [Cologne](../cologne/)
-- [Comezzano Cizzago](../comezzano-cizzago/)
-- [Palazzolo Sull'oglio](../palazzolo-sull'oglio/)
-- [Pontoglio](../pontoglio/)
-- [Roccafranca](../roccafranca/)
-- [Rudiano](../rudiano/)
-- [Urago D'oglio](../urago-d'oglio/)

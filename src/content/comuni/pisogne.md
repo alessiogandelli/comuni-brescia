@@ -31,8 +31,6 @@ bordering:
   - "solto-collina"
   - "tavernole-sul-mella"
   - "zone"
-subcomuni:
-  - cap: "25055", area: 49.13, coords: [45.7979180102552, 10.139100974309919], incomePerCapita: 25973, taxpayers: 6036
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -44,10 +42,6 @@ fact: "La chiesa di Santa Maria della Neve conserva affreschi del Romanino"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Pisogne si trova a circa 30 km a nord di Brescia. Superficie: 49.36 km². Densità abitativa: 163 ab/km². Strade principali: SPBS510.
 
 ## Cosa fare
 
@@ -80,15 +74,6 @@ Pisogne si trova a circa 30 km a nord di Brescia. Superficie: 49.36 km². Densit
 - **Albergo Ristorante Nuova Stella** (Hotel)
 - **Rifugio Medelet** (Rifugio alpino)
 
-## Servizi
-
-- **Biblioteca comunale** — Biblioteca
-- **Formagio** — Alimentari
-- **Bonetti & Bulgari** — Farmacia
-- **Oratorio di Pisogne** — Centro civico
-- **Italmark** — Supermercato
-- **Il fornaio** — Panificio
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Pisogne**
@@ -99,24 +84,3 @@ Pisogne si trova a circa 30 km a nord di Brescia. Superficie: 49.36 km². Densit
 
 La chiesa di Santa Maria della Neve conserva affreschi del Romanino
 
-## Comuni vicini
-
-- [Zone](../zone/) — 4.1 km
-- [Artogne](../artogne/) — 7.3 km
-- [Pian Camuno](../pian-camuno/) — 7.5 km
-- [Marone](../marone/) — 7.5 km
-- [Monte Isola](../monte-isola/) — 9.8 km
-
-## Comuni confinanti
-
-- [Artogne](../artogne/)
-- [Castro](../castro/)
-- [Costa Volpino](../costa-volpino/)
-- [Lovere](../lovere/)
-- [Marone](../marone/)
-- [Pezzaze](../pezzaze/)
-- [Pian Camuno](../pian-camuno/)
-- [Riva Di Solto](../riva-di-solto/)
-- [Solto Collina](../solto-collina/)
-- [Tavernole Sul Mella](../tavernole-sul-mella/)
-- [Zone](../zone/)

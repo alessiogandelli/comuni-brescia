@@ -23,8 +23,6 @@ bordering:
   - "polaveno"
   - "sale-marasino"
   - "tavernola-bergamasca"
-subcomuni:
-  - cap: "25058", area: 10.42, coords: [45.68063565342188, 10.1133824928593], incomePerCapita: 29534, taxpayers: 1459
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Sulzano si trova a circa 19 km a nord-ovest di Brescia. Superficie: 10.86 km². Densità abitativa: 176 ab/km². Strade principali: SPBS510 quater, SPBS510;quater.
 
 ## Cosa fare
 
@@ -67,31 +61,9 @@ Sulzano si trova a circa 19 km a nord-ovest di Brescia. Superficie: 10.86 km². 
 - **Albergo Ristorante Aquila** (Hotel)
 - **Hotel Rivalago** (Hotel)
 
-## Servizi
-
-- **Biblioteca di Sulzano** — Biblioteca
-- **La Bottega Frutta & Verdura** — Supermercato
-- **Farmacia Festa** — Farmacia
-- **E.G.S. Sulzano** — Alimentari
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Sulzano**
 - Superstrada: **SPBS510 quater**
 - Superstrada: **SPBS510;quater**
 
-## Comuni vicini
-
-- [Sale Marasino](../sale-marasino/) — 2.1 km
-- [Monte Isola](../monte-isola/) — 2.3 km
-- [Marone](../marone/) — 4.2 km
-- [Polaveno](../polaveno/) — 4.9 km
-- [Iseo](../iseo/) — 5.1 km
-
-## Comuni confinanti
-
-- [Iseo](../iseo/)
-- [Monte Isola](../monte-isola/)
-- [Polaveno](../polaveno/)
-- [Sale Marasino](../sale-marasino/)
-- [Tavernola Bergamasca](../tavernola-bergamasca/)

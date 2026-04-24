@@ -25,8 +25,6 @@ bordering:
   - "pertica-bassa"
   - "treviso-bresciano"
   - "vestone"
-subcomuni:
-  - cap: "25074", area: 31.76, coords: [45.76366473807405, 10.426806854256435], incomePerCapita: 20511, taxpayers: 407
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Lavenone si trova a circa 28 km a nord-est di Brescia. Superficie: 31.91 km². Densità abitativa: 17 ab/km². Strade principali: SPBS237.
 
 ## Cosa fare
 
@@ -69,29 +63,7 @@ Lavenone si trova a circa 28 km a nord-est di Brescia. Superficie: 31.91 km². D
 - **Ostello Sociale Borgo Venno** (Ostello)
 - **Capanna Tita Secchi** (Bivacco)
 
-## Servizi
-
-- **Farmacia Dottoressa Francesca Capocasale** — Farmacia
-- **CPF80** — Supermercato
-
 ## Come arrivare
 
 - Strada provinciale: **SPBS237**
 
-## Comuni vicini
-
-- [Treviso Bresciano](../treviso-bresciano/) — 2.3 km
-- [Idro](../idro/) — 3.4 km
-- [Pertica Alta](../pertica-alta/) — 3.9 km
-- [Vestone](../vestone/) — 4.5 km
-- [Anfo](../anfo/) — 5.3 km
-
-## Comuni confinanti
-
-- [Anfo](../anfo/)
-- [Bagolino](../bagolino/)
-- [Collio](../collio/)
-- [Idro](../idro/)
-- [Pertica Bassa](../pertica-bassa/)
-- [Treviso Bresciano](../treviso-bresciano/)
-- [Vestone](../vestone/)

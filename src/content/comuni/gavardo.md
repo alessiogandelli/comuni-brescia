@@ -27,8 +27,6 @@ bordering:
   - "salo"
   - "vallio-terme"
   - "villanuova-sul-clisi"
-subcomuni:
-  - cap: "25085", area: 29.73, coords: [45.58991587416444, 10.444885000721255], incomePerCapita: 23676, taxpayers: 9204
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Gavardo si trova a circa 18 km a est di Brescia. Superficie: 29.82 km². Densità abitativa: 411 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
@@ -77,35 +71,7 @@ Gavardo si trova a circa 18 km a est di Brescia. Superficie: 29.82 km². Densit�
 - **Boutique Villa dei Campi** (Ostello)
 - **Rifugio alpino** (Rifugio alpino)
 
-## Servizi
-
-- **Family Market** — Supermercato
-- **Ospedale di Gavardo** — Ospedale
-- **Oratorio San Filippo Neri** — Centro civico
-- **Lidl** — Supermercato
-- **Farmacia** — Farmacia
-- **Simply** — Supermercato
-
 ## Come arrivare
 
 - Superstrada: **SS45bis**
 
-## Comuni vicini
-
-- [Vallio Terme](../vallio-terme/) — 1.4 km
-- [Villanuova sul Clisi](../villanuova-sul-clisi/) — 2.2 km
-- [Muscoline](../muscoline/) — 3.4 km
-- [Prevalle](../prevalle/) — 3.9 km
-- [Roè Volciano](../roe-volciano/) — 4.0 km
-
-## Comuni confinanti
-
-- [Muscoline](../muscoline/)
-- [Paitone](../paitone/)
-- [Prevalle](../prevalle/)
-- [Puegnago Del Garda](../puegnago-del-garda/)
-- [Roe Volciano](../roe-volciano/)
-- [Sabbio Chiese](../sabbio-chiese/)
-- [Salo](../salo/)
-- [Vallio Terme](../vallio-terme/)
-- [Villanuova Sul Clisi](../villanuova-sul-clisi/)

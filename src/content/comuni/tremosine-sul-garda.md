@@ -22,8 +22,6 @@ bordering:
   - "limone-sul-garda"
   - "magasa"
   - "tignale"
-subcomuni:
-  - cap: "25010", area: 72.51, coords: [45.810508298575414, 10.711390113930086], incomePerCapita: 19738, taxpayers: 1795
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: "La Strada della Forra è stata definita da Churchill 'l'ottava meraviglia
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Tremosine sul Garda si trova a circa 49 km a nord-est di Brescia. Superficie: 72.77 km². Densità abitativa: 29 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
@@ -73,15 +67,6 @@ Tremosine sul Garda si trova a circa 49 km a nord-est di Brescia. Superficie: 72
 - **Hotel Residence La Berna** (Hotel)
 - **Hotel La Pertica** (Hotel)
 
-## Servizi
-
-- **Cooperativa di Consumo** — Supermercato
-- **Market Girardi** — Supermercato
-- **Conad** — Alimentari
-- **Supermercato** — Supermercato
-- **Farmacia** — Farmacia
-- **Magherita** — Supermercato
-
 ## Come arrivare
 
 - Strada provinciale: **SS45bis**
@@ -90,16 +75,3 @@ Tremosine sul Garda si trova a circa 49 km a nord-est di Brescia. Superficie: 72
 
 La Strada della Forra è stata definita da Churchill 'l'ottava meraviglia del mondo'
 
-## Comuni vicini
-
-- [Tignale](../tignale/) — 4.4 km
-- [Limone sul Garda](../limone-sul-garda/) — 5.7 km
-- [Magasa](../magasa/) — 10.1 km
-- [Gargnano](../gargnano/) — 11.3 km
-- [Valvestino](../valvestino/) — 12.1 km
-
-## Comuni confinanti
-
-- [Limone Sul Garda](../limone-sul-garda/)
-- [Magasa](../magasa/)
-- [Tignale](../tignale/)

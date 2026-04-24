@@ -23,8 +23,6 @@ bordering:
   - "paitone"
   - "prevalle"
   - "serle"
-subcomuni:
-  - cap: "25080", area: 7.44, coords: [45.54449740440708, 10.384355070161753], incomePerCapita: 24067, taxpayers: 2900
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Nuvolento si trova a circa 13 km a est di Brescia. Superficie: 7.44 km². Densità abitativa: 542 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
@@ -62,26 +56,7 @@ Nuvolento si trova a circa 13 km a est di Brescia. Superficie: 7.44 km². Densit
 
 - **Bed and Breakfast Al Mulino** (B&B / Affittacamere)
 
-## Servizi
-
-- **Oratorio San Luigi Gonzaga** — Centro civico
-
 ## Come arrivare
 
 - Superstrada: **SS45bis**
 
-## Comuni vicini
-
-- [Nuvolera](../nuvolera/) — 1.1 km
-- [Paitone](../paitone/) — 1.9 km
-- [Serle](../serle/) — 2.0 km
-- [Mazzano](../mazzano/) — 3.1 km
-- [Prevalle](../prevalle/) — 3.2 km
-
-## Comuni confinanti
-
-- [Bedizzole](../bedizzole/)
-- [Nuvolera](../nuvolera/)
-- [Paitone](../paitone/)
-- [Prevalle](../prevalle/)
-- [Serle](../serle/)

@@ -18,8 +18,6 @@ bordering:
   - "casto"
   - "pertica-alta"
   - "vestone"
-subcomuni:
-  - cap: "25070", area: 12.48, coords: [45.71397905026459, 10.345101771917092], incomePerCapita: 21666, taxpayers: 601
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -31,10 +29,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Mura si trova a circa 21 km a nord-est di Brescia. Superficie: 12.58 km². Densità abitativa: 59 ab/km².
 
 ## Cosa fare
 
@@ -58,16 +52,3 @@ Mura si trova a circa 21 km a nord-est di Brescia. Superficie: 12.58 km². Densi
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Casto](../casto/) — 1.6 km
-- [Pertica Bassa](../pertica-bassa/) — 3.0 km
-- [Lodrino](../lodrino/) — 4.6 km
-- [Marmentino](../marmentino/) — 4.7 km
-- [Vestone](../vestone/) — 5.0 km
-
-## Comuni confinanti
-
-- [Casto](../casto/)
-- [Pertica Alta](../pertica-alta/)
-- [Vestone](../vestone/)

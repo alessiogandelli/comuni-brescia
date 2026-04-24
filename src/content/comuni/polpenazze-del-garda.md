@@ -23,8 +23,6 @@ bordering:
   - "muscoline"
   - "puegnago-del-garda"
   - "soiano-del-lago"
-subcomuni:
-  - cap: "25080", area: 9.1, coords: [45.54670898993476, 10.502179511017554], incomePerCapita: 29584, taxpayers: 2178
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Polpenazze del Garda si trova a circa 24 km a est di Brescia. Superficie: 9.12 km². Densità abitativa: 283 ab/km². Strade principali: SP BS 572.
 
 ## Cosa fare
 
@@ -71,18 +65,3 @@ Polpenazze del Garda si trova a circa 24 km a est di Brescia. Superficie: 9.12 k
 
 - Strada provinciale: **SP BS 572**
 
-## Comuni vicini
-
-- [Soiano del Lago](../soiano-del-lago/) — 1.7 km
-- [Puegnago del Garda](../puegnago-del-garda/) — 1.8 km
-- [Manerba del Garda](../manerba-del-garda/) — 2.6 km
-- [Moniga del Garda](../moniga-del-garda/) — 2.9 km
-- [San Felice del Benaco](../san-felice-del-benaco/) — 3.7 km
-
-## Comuni confinanti
-
-- [Calvagese Della Riviera](../calvagese-della-riviera/)
-- [Manerba Del Garda](../manerba-del-garda/)
-- [Muscoline](../muscoline/)
-- [Puegnago Del Garda](../puegnago-del-garda/)
-- [Soiano Del Lago](../soiano-del-lago/)

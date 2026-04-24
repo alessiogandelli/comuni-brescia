@@ -26,8 +26,6 @@ bordering:
   - "ono-san-pietro"
   - "paisco-loveno"
   - "schilpario"
-subcomuni:
-  - cap: "25040", area: 21.51, coords: [46.014010947482134, 10.284865386384158], incomePerCapita: 22501, taxpayers: 544
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Cerveno si trova a circa 52 km a nord di Brescia. Superficie: 21.54 km². Densità abitativa: 29 ab/km².
 
 ## Cosa fare
 
@@ -68,30 +62,7 @@ Cerveno si trova a circa 52 km a nord di Brescia. Superficie: 21.54 km². Densit
 - **Bed & Breakfast i Pitoti** (B&B / Affittacamere)
 - **Baita Padre Daniele** (Ostello)
 
-## Servizi
-
-- **Farmacia Dott. T. Vespa** — Farmacia
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Braone](../braone/) — 1.8 km
-- [Ono San Pietro](../ono-san-pietro/) — 2.3 km
-- [Ceto](../ceto/) — 3.2 km
-- [Niardo](../niardo/) — 3.2 km
-- [Capo di Ponte](../capo-di-ponte/) — 3.5 km
-
-## Comuni confinanti
-
-- [Braone](../braone/)
-- [Ceto](../ceto/)
-- [Losine](../losine/)
-- [Lozio](../lozio/)
-- [Malegno](../malegno/)
-- [Ono San Pietro](../ono-san-pietro/)
-- [Paisco Loveno](../paisco-loveno/)
-- [Schilpario](../schilpario/)

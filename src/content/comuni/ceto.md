@@ -27,8 +27,6 @@ bordering:
   - "cimbergo"
   - "losine"
   - "ono-san-pietro"
-subcomuni:
-  - cap: "25040", area: 32.23, coords: [45.99962076960514, 10.403759965270789], incomePerCapita: 23339, taxpayers: 1322
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Ceto si trova a circa 54 km a nord di Brescia. Superficie: 33.1 km². Densità abitativa: 57 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -68,31 +62,8 @@ Ceto si trova a circa 54 km a nord di Brescia. Superficie: 33.1 km². Densità a
 - **Bivacco Capanna Mattia** (Bivacco)
 - **Rifugio Maria e Franco Lomini** (Rifugio alpino)
 
-## Servizi
-
-- **fresco mio** — Alimentari
-- **Farmacia Panteghini** — Farmacia
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Ceto - Cerveno**
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Cimbergo](../cimbergo/) — 0.8 km
-- [Ono San Pietro](../ono-san-pietro/) — 1.0 km
-- [Braone](../braone/) — 1.5 km
-- [Capo di Ponte](../capo-di-ponte/) — 1.7 km
-- [Paspardo](../paspardo/) — 1.8 km
-
-## Comuni confinanti
-
-- [Braone](../braone/)
-- [Breno](../breno/)
-- [Capo Di Ponte](../capo-di-ponte/)
-- [Cerveno](../cerveno/)
-- [Cevo](../cevo/)
-- [Cimbergo](../cimbergo/)
-- [Losine](../losine/)
-- [Ono San Pietro](../ono-san-pietro/)

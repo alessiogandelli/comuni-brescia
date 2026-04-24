@@ -24,8 +24,6 @@ bordering:
   - "castenedolo"
   - "nuvolera"
   - "rezzato"
-subcomuni:
-  - cap: "25080", area: 15.69, coords: [45.5049562439967, 10.349594364646311], incomePerCapita: 24922, taxpayers: 9456
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Mazzano si trova a circa 11 km a est di Brescia. Superficie: 15.65 km². Densità abitativa: 750 ab/km². Strade principali: A4, SS11, SS45bis.
 
 ## Cosa fare
 
@@ -66,33 +60,9 @@ Mazzano si trova a circa 11 km a est di Brescia. Superficie: 15.65 km². Densit�
 
 - **Hotel** (Hotel)
 
-## Servizi
-
-- **Farmacia Ferrari** — Farmacia
-- **IperTosano Mazzano** — Supermercato
-- **Farmacia Comunale** — Farmacia
-- **MD** — Supermercato
-- **Sigma** — Supermercato
-- **Happy Bike** — Ciclofficina
-
 ## Come arrivare
 
 - Autostrada: **A4**
 - Superstrada: **SS11**
 - Superstrada: **SS45bis**
 
-## Comuni vicini
-
-- [Nuvolera](../nuvolera/) — 2.1 km
-- [Rezzato](../rezzato/) — 2.8 km
-- [Nuvolento](../nuvolento/) — 3.1 km
-- [Botticino](../botticino/) — 3.2 km
-- [Serle](../serle/) — 4.3 km
-
-## Comuni confinanti
-
-- [Bedizzole](../bedizzole/)
-- [Calcinato](../calcinato/)
-- [Castenedolo](../castenedolo/)
-- [Nuvolera](../nuvolera/)
-- [Rezzato](../rezzato/)

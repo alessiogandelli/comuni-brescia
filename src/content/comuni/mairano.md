@@ -22,8 +22,6 @@ bordering:
   - "lograto"
   - "longhena"
   - "maclodio"
-subcomuni:
-  - cap: "25030", area: 11.51, coords: [45.45666585772698, 10.078768009512897], incomePerCapita: 24087, taxpayers: 2454
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Mairano si trova a circa 15 km a sud-ovest di Brescia. Superficie: 11.59 km². Densità abitativa: 293 ab/km².
 
 ## Cosa fare
 
@@ -56,31 +50,7 @@ Mairano si trova a circa 15 km a sud-ovest di Brescia. Superficie: 11.59 km². D
 - **Bar RitrovArci** (Bar)
 - **Juliette caffetteria** (Bar)
 
-## Servizi
-
-- **Biblioteca** — Biblioteca
-- **Farmacia Mussio** — Farmacia
-- **Panizzeria 96.** — Panificio
-- **Forneria Baldi** — Panificio
-- **Panificio Bonsi Patrizia** — Panificio
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Longhena](../longhena/) — 1.7 km
-- [Azzano Mella](../azzano-mella/) — 2.4 km
-- [Dello](../dello/) — 3.0 km
-- [Barbariga](../barbariga/) — 3.1 km
-- [Capriano del Colle](../capriano-del-colle/) — 4.5 km
-
-## Comuni confinanti
-
-- [Azzano Mella](../azzano-mella/)
-- [Brandico](../brandico/)
-- [Dello](../dello/)
-- [Lograto](../lograto/)
-- [Longhena](../longhena/)
-- [Maclodio](../maclodio/)

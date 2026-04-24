@@ -21,8 +21,6 @@ bordering:
   - "preseglie"
   - "sabbio-chiese"
   - "vallio-terme"
-subcomuni:
-  - cap: "25076", area: 6.53, coords: [45.63863312218914, 10.387220303820841], incomePerCapita: 26117, taxpayers: 1318
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Odolo si trova a circa 18 km a nord-est di Brescia. Superficie: 6.51 km². Densità abitativa: 317 ab/km².
 
 ## Cosa fare
 
@@ -60,25 +54,7 @@ Odolo si trova a circa 18 km a nord-est di Brescia. Superficie: 6.51 km². Densi
 - **Capanna Monte Cugni** (Rifugio alpino)
 - **Ristorante Albergo Rocca del Rovere** (Hotel)
 
-## Servizi
-
-- **Folini Alimentari** — Alimentari
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Agnosine](../agnosine/) — 2.6 km
-- [Preseglie](../preseglie/) — 2.8 km
-- [Sabbio Chiese](../sabbio-chiese/) — 2.9 km
-- [Barghe](../barghe/) — 4.4 km
-- [Bione](../bione/) — 4.8 km
-
-## Comuni confinanti
-
-- [Agnosine](../agnosine/)
-- [Preseglie](../preseglie/)
-- [Sabbio Chiese](../sabbio-chiese/)
-- [Vallio Terme](../vallio-terme/)

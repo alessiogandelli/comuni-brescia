@@ -23,8 +23,6 @@ bordering:
   - "edolo"
   - "ponte-di-legno"
   - "sonico"
-subcomuni:
-  - cap: "25040", area: 84.08, coords: [46.11483473711973, 10.492645089960966], incomePerCapita: 20543, taxpayers: 619
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Nel cuore del Parco dell'Adamello, con ghiacciai e cascate"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Saviore dell'Adamello si trova a circa 64 km a nord di Brescia. Superficie: 84.04 km². Densità abitativa: 12 ab/km².
 
 ## Cosa fare
 
@@ -71,15 +65,6 @@ Saviore dell'Adamello si trova a circa 64 km a nord di Brescia. Superficie: 84.0
 - **Bivacco Arrigo Giannantonj** (Bivacco)
 - **Rifugio Città di Lissone** (Rifugio alpino)
 
-## Servizi
-
-- **Oratorio San Giovanni Paolo II** — Centro civico
-- **Biblioteca comunale di Saviore dell'Adamello** — Biblioteca
-- **Farmacia Laffranchi** — Farmacia
-- **Gruppo alpini Valle** — Centro civico
-- **Centro anziani** — Centro civico
-- **Alimentari** — Alimentari
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -88,17 +73,3 @@ Saviore dell'Adamello si trova a circa 64 km a nord di Brescia. Superficie: 84.0
 
 Nel cuore del Parco dell'Adamello, con ghiacciai e cascate
 
-## Comuni vicini
-
-- [Cevo](../cevo/) — 2.7 km
-- [Cedegolo](../cedegolo/) — 4.2 km
-- [Sellero](../sellero/) — 6.6 km
-- [Malonno](../malonno/) — 6.9 km
-- [Sonico](../sonico/) — 7.8 km
-
-## Comuni confinanti
-
-- [Cevo](../cevo/)
-- [Edolo](../edolo/)
-- [Ponte Di Legno](../ponte-di-legno/)
-- [Sonico](../sonico/)

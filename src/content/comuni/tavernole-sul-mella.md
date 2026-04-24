@@ -24,8 +24,6 @@ bordering:
   - "pezzaze"
   - "pisogne"
   - "zone"
-subcomuni:
-  - cap: "25060", area: 19.77, coords: [45.75105778458271, 10.215123256271337], incomePerCapita: 25429, taxpayers: 919
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Tavernole sul Mella si trova a circa 23 km a nord di Brescia. Superficie: 19.9 km². Densità abitativa: 68 ab/km².
 
 ## Cosa fare
 
@@ -67,32 +61,7 @@ Tavernole sul Mella si trova a circa 23 km a nord di Brescia. Superficie: 19.9 k
 - **Rifugio Enzo Aldo in Pontogna** (Bivacco)
 - **Agriturismo Fontana Büna** (B&B / Affittacamere)
 
-## Servizi
-
-- **La Bottega - Alimentari** — Alimentari
-- **Centro civico** — Centro civico
-- **MB Market** — Supermercato
-- **Antica Farmacia Dottor Scarabello** — Farmacia
-- **Casa di Comunità Tavernole Sul Mella** — Centro civico
-- **Biblioteca Faustino Forlani e Luigi Riviera** — Biblioteca
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Pezzaze](../pezzaze/) — 1.7 km
-- [Irma](../irma/) — 3.5 km
-- [Marmentino](../marmentino/) — 3.8 km
-- [Marcheno](../marcheno/) — 3.9 km
-- [Lodrino](../lodrino/) — 4.1 km
-
-## Comuni confinanti
-
-- [Lodrino](../lodrino/)
-- [Marcheno](../marcheno/)
-- [Marmentino](../marmentino/)
-- [Pezzaze](../pezzaze/)
-- [Pisogne](../pisogne/)
-- [Zone](../zone/)

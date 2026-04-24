@@ -23,8 +23,6 @@ bordering:
   - "brescia"
   - "flero"
   - "poncarale"
-subcomuni:
-  - cap: "25010", area: 6.24, coords: [45.488090358971185, 10.217271139492489], incomePerCapita: 27130, taxpayers: 3563
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-San Zeno Naviglio si trova a circa 6 km a sud di Brescia. Superficie: 6.2 km². Densità abitativa: 783 ab/km². Strade principali: A21, A21racc, SP23, SPBS45bis, SPBS45Bis.
 
 ## Cosa fare
 
@@ -64,15 +58,6 @@ San Zeno Naviglio si trova a circa 6 km a sud di Brescia. Superficie: 6.2 km². 
 
 - **Hotel Nerina** (Hotel)
 
-## Servizi
-
-- **Sala Consiliare** — Centro civico
-- **Biblioteca comunale** — Biblioteca
-- **Farmacia Dott. Abbiati** — Farmacia
-- **ALERGO senza glutine** — Supermercato
-- **Tuttolibri** — Libreria
-- **Alpstation Brescia** — Negozio outdoor
-
 ## Come arrivare
 
 - Stazione ferroviaria: **San Zeno-Folzano**
@@ -80,17 +65,3 @@ San Zeno Naviglio si trova a circa 6 km a sud di Brescia. Superficie: 6.2 km². 
 - Autostrada: **A21racc**
 - Strada provinciale: **SP23**
 
-## Comuni vicini
-
-- [Borgosatollo](../borgosatollo/) — 1.6 km
-- [Flero](../flero/) — 2.9 km
-- [Poncarale](../poncarale/) — 4.2 km
-- [Montirone](../montirone/) — 4.7 km
-- [Castel Mella](../castel-mella/) — 5.9 km
-
-## Comuni confinanti
-
-- [Borgosatollo](../borgosatollo/)
-- [Brescia](../brescia/)
-- [Flero](../flero/)
-- [Poncarale](../poncarale/)

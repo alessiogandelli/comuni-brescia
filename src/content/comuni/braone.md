@@ -22,8 +22,6 @@ bordering:
   - "ceto"
   - "losine"
   - "niardo"
-subcomuni:
-  - cap: "25040", area: 13.33, coords: [45.97707547110275, 10.37038425580118], incomePerCapita: 23576, taxpayers: 501
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Braone si trova a circa 53 km a nord di Brescia. Superficie: 13.32 km². Densità abitativa: 48 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -62,29 +56,7 @@ Braone si trova a circa 53 km a nord di Brescia. Superficie: 13.32 km². Densit�
 - **Rifugio Prandini Franco** (Rifugio alpino)
 - **Rifugio Gheza** (Rifugio alpino)
 
-## Servizi
-
-- **Crai** — Alimentari
-- **Biblioteca** — Biblioteca
-- **Farmacia** — Farmacia
-- **Gnani Bike** — Ciclofficina
-
 ## Come arrivare
 
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Ono San Pietro](../ono-san-pietro/) — 0.7 km
-- [Ceto](../ceto/) — 1.5 km
-- [Cerveno](../cerveno/) — 1.8 km
-- [Capo di Ponte](../capo-di-ponte/) — 2.3 km
-- [Cimbergo](../cimbergo/) — 2.3 km
-
-## Comuni confinanti
-
-- [Breno](../breno/)
-- [Cerveno](../cerveno/)
-- [Ceto](../ceto/)
-- [Losine](../losine/)
-- [Niardo](../niardo/)

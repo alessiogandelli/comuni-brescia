@@ -24,8 +24,6 @@ bordering:
   - "polaveno"
   - "sale-marasino"
   - "sarezzo"
-subcomuni:
-  - cap: "25063", area: 26.61, coords: [45.70495277871454, 10.17995122311403], incomePerCapita: 24708, taxpayers: 8440
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "Capitale italiana della produzione di armi sportive e da caccia"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Gardone Val Trompia si trova a circa 17 km a nord di Brescia. Superficie: 26.6 km². Densità abitativa: 439 ab/km².
 
 ## Cosa fare
 
@@ -69,15 +63,6 @@ Gardone Val Trompia si trova a circa 17 km a nord di Brescia. Superficie: 26.6 k
 - **La casa di Pongo** (B&B / Affittacamere)
 - **Casa Vacanze Stallino** (Ostello)
 
-## Servizi
-
-- **Sala Civica ex Mulino** — Centro civico
-- **OK Sigma** — Alimentari
-- **Farmacia Comunale di Inzino** — Farmacia
-- **Sala Polifunzionale Don Antonio** — Centro civico
-- **Farmacia Gaburri** — Farmacia
-- **Family Market** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -86,18 +71,3 @@ Gardone Val Trompia si trova a circa 17 km a nord di Brescia. Superficie: 26.6 k
 
 Capitale italiana della produzione di armi sportive e da caccia
 
-## Comuni vicini
-
-- [Marcheno](../marcheno/) — 3.7 km
-- [Sarezzo](../sarezzo/) — 4.1 km
-- [Sale Marasino](../sale-marasino/) — 6.2 km
-- [Villa Carcina](../villa-carcina/) — 6.3 km
-- [Polaveno](../polaveno/) — 6.5 km
-
-## Comuni confinanti
-
-- [Marcheno](../marcheno/)
-- [Marone](../marone/)
-- [Polaveno](../polaveno/)
-- [Sale Marasino](../sale-marasino/)
-- [Sarezzo](../sarezzo/)

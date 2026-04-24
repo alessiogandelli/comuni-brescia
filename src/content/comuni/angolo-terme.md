@@ -25,8 +25,6 @@ bordering:
   - "darfo-boario-terme"
   - "piancogno"
   - "rogno"
-subcomuni:
-  - cap: "25040", area: 30.5, coords: [45.905994721194055, 10.139603898694155], incomePerCapita: 21217, taxpayers: 1807
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: "Rinomata stazione termale nella bassa Val Camonica"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Angolo Terme si trova a circa 39 km a nord di Brescia. Superficie: 30.54 km². Densità abitativa: 82 ab/km². Strade principali: SS294.
 
 ## Cosa fare
 
@@ -72,11 +66,6 @@ Angolo Terme si trova a circa 39 km a nord di Brescia. Superficie: 30.54 km². D
 - **Rifugio Colonnello Ferruccio Lorenzini** (Rifugio alpino)
 - **Bivacco Pratolungo** (Bivacco)
 
-## Servizi
-
-- **Crai** — Alimentari
-- **Forneria Pasticceria Rusconi** — Panificio
-
 ## Come arrivare
 
 - Seggiovia: **Vareno**
@@ -87,20 +76,3 @@ Angolo Terme si trova a circa 39 km a nord di Brescia. Superficie: 30.54 km². D
 
 Rinomata stazione termale nella bassa Val Camonica
 
-## Comuni vicini
-
-- [Darfo Boario Terme](../darfo-boario-terme/) — 3.2 km
-- [Gianico](../gianico/) — 3.7 km
-- [Pian Camuno](../pian-camuno/) — 3.8 km
-- [Brione](../brione/) — 4.1 km
-- [Artogne](../artogne/) — 4.5 km
-
-## Comuni confinanti
-
-- [Azzone](../azzone/)
-- [Borno](../borno/)
-- [Castione Della Presolana](../castione-della-presolana/)
-- [Colere](../colere/)
-- [Darfo Boario Terme](../darfo-boario-terme/)
-- [Piancogno](../piancogno/)
-- [Rogno](../rogno/)

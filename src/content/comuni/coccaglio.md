@@ -24,8 +24,6 @@ bordering:
   - "cologne"
   - "erbusco"
   - "rovato"
-subcomuni:
-  - cap: "25030", area: 12.03, coords: [45.55450241347005, 9.970844476773902], incomePerCapita: 24523, taxpayers: 6321
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Coccaglio si trova a circa 19 km a ovest di Brescia. Superficie: 12 km². Densità abitativa: 724 ab/km². Strade principali: SPBS11var, SPBS573, SS11, Tangenziale Sud, Via Guglielmo Marconi.
 
 ## Cosa fare
 
@@ -72,18 +66,3 @@ Coccaglio si trova a circa 19 km a ovest di Brescia. Superficie: 12 km². Densit
 - Strada provinciale: **SPBS573**
 - Strada provinciale: **SS11**
 
-## Comuni vicini
-
-- [Rovato](../rovato/) — 2.0 km
-- [Cologne](../cologne/) — 3.5 km
-- [Erbusco](../erbusco/) — 3.6 km
-- [Cazzago San Martino](../cazzago-san-martino/) — 3.9 km
-- [Castrezzato](../castrezzato/) — 4.2 km
-
-## Comuni confinanti
-
-- [Castrezzato](../castrezzato/)
-- [Chiari](../chiari/)
-- [Cologne](../cologne/)
-- [Erbusco](../erbusco/)
-- [Rovato](../rovato/)

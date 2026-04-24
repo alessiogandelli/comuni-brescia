@@ -21,8 +21,6 @@ bordering:
   - "tignale"
   - "tremosine-sul-garda"
   - "valvestino"
-subcomuni:
-  - cap: "25080", area: 19.07, coords: [45.78349443269704, 10.629307982044413], incomePerCapita: 17701, taxpayers: 102
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: "Uno dei comuni meno popolati della Lombardia"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Magasa si trova a circa 40 km a nord-est di Brescia. Superficie: 19.02 km². Densità abitativa: 6 ab/km².
 
 ## Cosa fare
 
@@ -71,16 +65,3 @@ Magasa si trova a circa 40 km a nord-est di Brescia. Superficie: 19.02 km². Den
 
 Uno dei comuni meno popolati della Lombardia
 
-## Comuni vicini
-
-- [Valvestino](../valvestino/) — 2.1 km
-- [Capovalle](../capovalle/) — 8.0 km
-- [Tignale](../tignale/) — 9.2 km
-- [Gargnano](../gargnano/) — 9.2 km
-- [Anfo](../anfo/) — 9.9 km
-
-## Comuni confinanti
-
-- [Tignale](../tignale/)
-- [Tremosine Sul Garda](../tremosine-sul-garda/)
-- [Valvestino](../valvestino/)

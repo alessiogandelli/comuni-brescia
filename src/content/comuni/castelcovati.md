@@ -19,8 +19,6 @@ bordering:
   - "castrezzato"
   - "chiari"
   - "comezzano-cizzago"
-subcomuni:
-  - cap: "25030", area: 6.13, coords: [45.50027459754669, 9.945705743760229], incomePerCapita: 21862, taxpayers: 4718
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -32,10 +30,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Castelcovati si trova a circa 19 km a ovest di Brescia. Superficie: 6.2 km². Densità abitativa: 1054 ab/km².
 
 ## Cosa fare
 
@@ -59,27 +53,7 @@ Castelcovati si trova a circa 19 km a ovest di Brescia. Superficie: 6.2 km². De
 - **Pizzeria l'Oasi del Grillo** (Ristorante)
 - **Pizza Express Amalfitana** (Ristorante)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Biblioteca Comunale Gianni Rodari** — Biblioteca
-- **Farmacia Zerbio** — Farmacia
-- **Kikki di Pane** — Panificio
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Comezzano-Cizzago](../comezzano-cizzago/) — 2.6 km
-- [Castrezzato](../castrezzato/) — 3.4 km
-- [Maclodio](../maclodio/) — 4.0 km
-- [Trenzano](../trenzano/) — 4.2 km
-- [Corzano](../corzano/) — 5.2 km
-
-## Comuni confinanti
-
-- [Castrezzato](../castrezzato/)
-- [Chiari](../chiari/)
-- [Comezzano Cizzago](../comezzano-cizzago/)

@@ -27,8 +27,6 @@ bordering:
   - "leno"
   - "montichiari"
   - "montirone"
-subcomuni:
-  - cap: "25016", area: 60.72, coords: [45.39968451104246, 10.271424731615486], incomePerCapita: 23885, taxpayers: 13265
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: "Ospita un'importante base dell'Aeronautica Militare Italiana"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Ghedi si trova a circa 16 km a sud-est di Brescia. Superficie: 60.76 km². Densità abitativa: 309 ab/km². Strade principali: A21racc, SP24, SP24d1, SPBS668.
 
 ## Cosa fare
 
@@ -71,15 +65,6 @@ Ghedi si trova a circa 16 km a sud-est di Brescia. Superficie: 60.76 km². Densi
 - **Hotel Ristorante Odeon** (Hotel)
 - **Hotel La Piana** (Hotel)
 
-## Servizi
-
-- **Laimai** — Supermercato
-- **Bottega dei popoli** — Alimentari
-- **Biblioteca** — Biblioteca
-- **Prix** — Supermercato
-- **Singh Market** — Supermercato
-- **Iper Famila** — Supermercato
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Ghedi**
@@ -91,22 +76,3 @@ Ghedi si trova a circa 16 km a sud-est di Brescia. Superficie: 60.76 km². Densi
 
 Ospita un'importante base dell'Aeronautica Militare Italiana
 
-## Comuni vicini
-
-- [Offlaga](../offlaga/) — 5.6 km
-- [Montirone](../montirone/) — 5.9 km
-- [Leno](../leno/) — 6.1 km
-- [Calvisano](../calvisano/) — 7.5 km
-- [Bagnolo Mella](../bagnolo-mella/) — 7.6 km
-
-## Comuni confinanti
-
-- [Bagnolo Mella](../bagnolo-mella/)
-- [Borgosatollo](../borgosatollo/)
-- [Calvisano](../calvisano/)
-- [Castenedolo](../castenedolo/)
-- [Gottolengo](../gottolengo/)
-- [Isorella](../isorella/)
-- [Leno](../leno/)
-- [Montichiari](../montichiari/)
-- [Montirone](../montirone/)

@@ -21,8 +21,6 @@ bordering:
   - "bovegno"
   - "cividate-camuno"
   - "esine"
-subcomuni:
-  - cap: "25040", area: 21.87, coords: [45.905881368678266, 10.292420876699836], incomePerCapita: 22293, taxpayers: 1833
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Berzo Inferiore si trova a circa 46 km a nord di Brescia. Superficie: 22 km². Densità abitativa: 110 ab/km².
 
 ## Cosa fare
 
@@ -58,28 +52,7 @@ Berzo Inferiore si trova a circa 46 km a nord di Brescia. Superficie: 22 km². D
 - **La Romantica** (Ristorante)
 - **La Coccinella 2** (Ristorante)
 
-## Servizi
-
-- **Biblioteca comunale di Berzo Inferiore** — Biblioteca
-- **Farmacia** — Farmacia
-- **Oratorio di Berzo Inferiore** — Centro civico
-- **Crai** — Supermercato
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Borno](../borno/) — 0.5 km
-- [Ossimo](../ossimo/) — 2.2 km
-- [Piancogno](../piancogno/) — 2.6 km
-- [Brione](../brione/) — 4.5 km
-- [Esine](../esine/) — 4.5 km
-
-## Comuni confinanti
-
-- [Bienno](../bienno/)
-- [Bovegno](../bovegno/)
-- [Cividate Camuno](../cividate-camuno/)
-- [Esine](../esine/)

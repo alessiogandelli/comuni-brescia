@@ -22,8 +22,6 @@ bordering:
   - "salo"
   - "toscolano-maderno"
   - "vobarno"
-subcomuni:
-  - cap: "25083", area: 21.34, coords: [45.642758773891785, 10.557054020227499], incomePerCapita: 33063, taxpayers: 2117
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: "Sede del Vittoriale degli Italiani, dimora di Gabriele D'Annunzio"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Gardone Riviera si trova a circa 29 km a est di Brescia. Superficie: 21.28 km². Densità abitativa: 125 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
@@ -71,13 +65,6 @@ Gardone Riviera si trova a circa 29 km a est di Brescia. Superficie: 21.28 km².
 - **Villa Florida** (Hotel)
 - **Hotel Ristorante Miramonti** (Hotel)
 
-## Servizi
-
-- **Casa di Cura Villa Gemma** — Ospedale
-- **Farmacia Internazionale** — Farmacia
-- **I gusti del Garda** — Alimentari
-- **Panificio Baldo** — Panificio
-
 ## Come arrivare
 
 - Strada provinciale: **SS45bis**
@@ -86,16 +73,3 @@ Gardone Riviera si trova a circa 29 km a est di Brescia. Superficie: 21.28 km².
 
 Sede del Vittoriale degli Italiani, dimora di Gabriele D'Annunzio
 
-## Comuni vicini
-
-- [Salò](../salo/) — 3.8 km
-- [Toscolano-Maderno](../toscolano-maderno/) — 4.4 km
-- [San Felice del Benaco](../san-felice-del-benaco/) — 5.1 km
-- [Vobarno](../vobarno/) — 5.2 km
-- [Roè Volciano](../roe-volciano/) — 6.7 km
-
-## Comuni confinanti
-
-- [Salo](../salo/)
-- [Toscolano Maderno](../toscolano-maderno/)
-- [Vobarno](../vobarno/)

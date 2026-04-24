@@ -27,8 +27,6 @@ bordering:
   - "paisco-loveno"
   - "paspardo"
   - "sellero"
-subcomuni:
-  - cap: "25044", area: 18.07, coords: [46.04470407121596, 10.311608604922828], incomePerCapita: 23286, taxpayers: 1708
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -40,10 +38,6 @@ fact: "Le incisioni rupestri della Val Camonica sono Patrimonio UNESCO"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Capo di Ponte si trova a circa 55 km a nord di Brescia. Superficie: 18.61 km². Densità abitativa: 133 ab/km². Strade principali: SS42.
 
 ## Cosa fare
 
@@ -72,10 +66,6 @@ Capo di Ponte si trova a circa 55 km a nord di Brescia. Superficie: 18.61 km². 
 - **Hotel Cumili Garni** (Hotel)
 - **Hotel Ristorante Bar Graffitipark** (Hotel)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Capo di Ponte**
@@ -85,20 +75,3 @@ Capo di Ponte si trova a circa 55 km a nord di Brescia. Superficie: 18.61 km². 
 
 Le incisioni rupestri della Val Camonica sono Patrimonio UNESCO
 
-## Comuni vicini
-
-- [Ono San Pietro](../ono-san-pietro/) — 1.6 km
-- [Ceto](../ceto/) — 1.7 km
-- [Cimbergo](../cimbergo/) — 1.9 km
-- [Braone](../braone/) — 2.3 km
-- [Paspardo](../paspardo/) — 2.3 km
-
-## Comuni confinanti
-
-- [Cedegolo](../cedegolo/)
-- [Ceto](../ceto/)
-- [Cimbergo](../cimbergo/)
-- [Ono San Pietro](../ono-san-pietro/)
-- [Paisco Loveno](../paisco-loveno/)
-- [Paspardo](../paspardo/)
-- [Sellero](../sellero/)

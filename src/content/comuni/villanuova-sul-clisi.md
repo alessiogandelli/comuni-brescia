@@ -23,8 +23,6 @@ bordering:
   - "roe-volciano"
   - "sabbio-chiese"
   - "vobarno"
-subcomuni:
-  - cap: "25089", area: 9.08, coords: [45.61003321319777, 10.463127079093342], incomePerCapita: 23350, taxpayers: 4470
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Villanuova sul Clisi si trova a circa 20 km a est di Brescia. Superficie: 9.15 km². Densità abitativa: 641 ab/km². Strade principali: SS45bis, SS45ter.
 
 ## Cosa fare
 
@@ -68,30 +62,8 @@ Villanuova sul Clisi si trova a circa 20 km a est di Brescia. Superficie: 9.15 k
 
 - **B&B / Affittacamere** (B&B / Affittacamere)
 
-## Servizi
-
-- **Italmark** — Supermercato
-- **Parafarmacia San Matteo** — Farmacia
-- **Farmacia** — Farmacia
-- **ALDI** — Supermercato
-- **Forneria Flori** — Panificio
-
 ## Come arrivare
 
 - Superstrada: **SS45bis**
 - Superstrada: **SS45ter**
 
-## Comuni vicini
-
-- [Vallio Terme](../vallio-terme/) — 1.8 km
-- [Gavardo](../gavardo/) — 2.2 km
-- [Roè Volciano](../roe-volciano/) — 2.6 km
-- [Muscoline](../muscoline/) — 4.8 km
-- [Salò](../salo/) — 4.9 km
-
-## Comuni confinanti
-
-- [Gavardo](../gavardo/)
-- [Roe Volciano](../roe-volciano/)
-- [Sabbio Chiese](../sabbio-chiese/)
-- [Vobarno](../vobarno/)

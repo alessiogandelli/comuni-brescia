@@ -22,8 +22,6 @@ bordering:
   - "magasa"
   - "tremosine-sul-garda"
   - "valvestino"
-subcomuni:
-  - cap: "25080", area: 45.75, coords: [45.75609292647134, 10.68926342728875], incomePerCapita: 18891, taxpayers: 1104
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: "Il Santuario di Montecastello è un balcone panoramico sul Garda"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Tignale si trova a circa 46 km a est di Brescia. Superficie: 45.46 km². Densità abitativa: 28 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
@@ -71,15 +65,6 @@ Tignale si trova a circa 46 km a est di Brescia. Superficie: 45.46 km². Densit�
 - **Albergo Castello** (Hotel)
 - **Hotel Tignale** (Hotel)
 
-## Servizi
-
-- **Biblioteca** — Biblioteca
-- **Latteria Turnaria di Tignale** — Alimentari
-- **Conad** — Supermercato
-- **Farmacia Frassine** — Farmacia
-- **Per Bacco** — Supermercato
-- **Centro Acquisti** — Supermercato
-
 ## Come arrivare
 
 - Strada provinciale: **SS45bis**
@@ -88,17 +73,3 @@ Tignale si trova a circa 46 km a est di Brescia. Superficie: 45.46 km². Densit�
 
 Il Santuario di Montecastello è un balcone panoramico sul Garda
 
-## Comuni vicini
-
-- [Tremosine sul Garda](../tremosine-sul-garda/) — 4.4 km
-- [Gargnano](../gargnano/) — 7.2 km
-- [Magasa](../magasa/) — 9.2 km
-- [Limone sul Garda](../limone-sul-garda/) — 10.0 km
-- [Valvestino](../valvestino/) — 10.8 km
-
-## Comuni confinanti
-
-- [Gargnano](../gargnano/)
-- [Magasa](../magasa/)
-- [Tremosine Sul Garda](../tremosine-sul-garda/)
-- [Valvestino](../valvestino/)

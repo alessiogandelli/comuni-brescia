@@ -22,8 +22,6 @@ bordering:
   - "borgosatollo"
   - "ghedi"
   - "poncarale"
-subcomuni:
-  - cap: "25010", area: 10.5, coords: [45.45118713763776, 10.23001828627071], incomePerCapita: 24468, taxpayers: 3624
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Montirone si trova a circa 11 km a sud di Brescia. Superficie: 10.53 km². Densità abitativa: 482 ab/km². Strade principali: A21, A21racc, SP24, Via del Palazzo.
 
 ## Cosa fare
 
@@ -65,15 +59,6 @@ Montirone si trova a circa 11 km a sud di Brescia. Superficie: 10.53 km². Densi
 
 - **Loco Novo B&B Agritursmo** (Hotel)
 
-## Servizi
-
-- **Biblioteca** — Biblioteca
-- **Farmacia Bicchierai Bandera** — Farmacia
-- **Farmacia Comunale** — Farmacia
-- **Italmark** — Supermercato
-- **Maxifit Montirone** — Supermercato
-- **Panificio Piubeni** — Panificio
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Montirone**
@@ -81,17 +66,3 @@ Montirone si trova a circa 11 km a sud di Brescia. Superficie: 10.53 km². Densi
 - Autostrada: **A21racc**
 - Strada provinciale: **SP24**
 
-## Comuni vicini
-
-- [Bagnolo Mella](../bagnolo-mella/) — 4.0 km
-- [Borgosatollo](../borgosatollo/) — 4.5 km
-- [San Zeno Naviglio](../san-zeno-naviglio/) — 4.7 km
-- [Poncarale](../poncarale/) — 4.8 km
-- [Ghedi](../ghedi/) — 5.9 km
-
-## Comuni confinanti
-
-- [Bagnolo Mella](../bagnolo-mella/)
-- [Borgosatollo](../borgosatollo/)
-- [Ghedi](../ghedi/)
-- [Poncarale](../poncarale/)

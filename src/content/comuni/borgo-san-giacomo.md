@@ -24,8 +24,6 @@ bordering:
   - "verolanuova"
   - "verolavecchia"
   - "villachiara"
-subcomuni:
-  - cap: "25022", area: 29.48, coords: [45.3377429097678, 9.969713884389078], incomePerCapita: 22490, taxpayers: 3847
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Borgo San Giacomo si trova a circa 26 km a sud-ovest di Brescia. Superficie: 29.31 km². Densità abitativa: 184 ab/km².
 
 ## Cosa fare
 
@@ -66,21 +60,3 @@ Borgo San Giacomo si trova a circa 26 km a sud-ovest di Brescia. Superficie: 29.
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Verolavecchia](../verolavecchia/) — 3.6 km
-- [Verolanuova](../verolanuova/) — 5.5 km
-- [Villachiara](../villachiara/) — 6.7 km
-- [Quinzano d'Oglio](../quinzano-doglio/) — 6.9 km
-- [Pompiano](../pompiano/) — 8.2 km
-
-## Comuni confinanti
-
-- [Azzanello](../azzanello/)
-- [Castelvisconti](../castelvisconti/)
-- [Orzinuovi](../orzinuovi/)
-- [Quinzano D'oglio](../quinzano-d'oglio/)
-- [San Paolo](../san-paolo/)
-- [Verolanuova](../verolanuova/)
-- [Verolavecchia](../verolavecchia/)
-- [Villachiara](../villachiara/)

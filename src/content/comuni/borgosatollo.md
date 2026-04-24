@@ -22,8 +22,6 @@ bordering:
   - "montirone"
   - "poncarale"
   - "san-zeno-naviglio"
-subcomuni:
-  - cap: "25010", area: 8.4, coords: [45.47967746388698, 10.234147656512713], incomePerCapita: 25222, taxpayers: 6742
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Borgosatollo si trova a circa 7 km a sud di Brescia. Superficie: 8.38 km². Densità abitativa: 1097 ab/km². Strade principali: A21.
 
 ## Cosa fare
 
@@ -59,32 +53,7 @@ Borgosatollo si trova a circa 7 km a sud di Brescia. Superficie: 8.38 km². Dens
 - **Pizzeria Bella Roma** (Ristorante)
 - **Bad Boys** (Caffè)
 
-## Servizi
-
-- **HR Minimarket** — Supermercato
-- **Conad** — Supermercato
-- **Farmacia Nuova** — Farmacia
-- **Sede territoriale neuropsichiatria infanzia e adolescenza** — Ospedale
-- **Biblioteca** — Biblioteca
-- **Febbrari Giulio Alimentari** — Supermercato
-
 ## Come arrivare
 
 - Autostrada: **A21**
 
-## Comuni vicini
-
-- [San Zeno Naviglio](../san-zeno-naviglio/) — 1.6 km
-- [Montirone](../montirone/) — 4.5 km
-- [Flero](../flero/) — 4.5 km
-- [Castenedolo](../castenedolo/) — 5.3 km
-- [Poncarale](../poncarale/) — 5.5 km
-
-## Comuni confinanti
-
-- [Brescia](../brescia/)
-- [Castenedolo](../castenedolo/)
-- [Ghedi](../ghedi/)
-- [Montirone](../montirone/)
-- [Poncarale](../poncarale/)
-- [San Zeno Naviglio](../san-zeno-naviglio/)

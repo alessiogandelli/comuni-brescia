@@ -23,8 +23,6 @@ bordering:
   - "odolo"
   - "preseglie"
   - "vallio-terme"
-subcomuni:
-  - cap: "25071", area: 13.53, coords: [45.64282422036402, 10.348442280332245], incomePerCapita: 24207, taxpayers: 1298
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 13.51 km². Densità abitativa: 128 ab/km².
 
 ## Cosa fare
 
@@ -61,19 +55,3 @@ Agnosine si trova a circa 16 km a nord-est di Brescia. Superficie: 13.51 km². D
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Bione](../bione/) — 2.4 km
-- [Odolo](../odolo/) — 2.6 km
-- [Preseglie](../preseglie/) — 3.8 km
-- [Sabbio Chiese](../sabbio-chiese/) — 5.2 km
-- [Barghe](../barghe/) — 5.6 km
-
-## Comuni confinanti
-
-- [Bione](../bione/)
-- [Caino](../caino/)
-- [Lumezzane](../lumezzane/)
-- [Odolo](../odolo/)
-- [Preseglie](../preseglie/)
-- [Vallio Terme](../vallio-terme/)

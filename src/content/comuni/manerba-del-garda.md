@@ -24,8 +24,6 @@ bordering:
   - "puegnago-del-garda"
   - "san-felice-del-benaco"
   - "soiano-del-lago"
-subcomuni:
-  - cap: "25080", area: 36.55, coords: [45.551627645300144, 10.539054100225254], incomePerCapita: 28806, taxpayers: 4114
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Manerba del Garda si trova a circa 26 km a est di Brescia. Superficie: 35.79 km². Densità abitativa: 142 ab/km². Strade principali: SP BS 572, Via Trevisago.
 
 ## Cosa fare
 
@@ -75,32 +69,8 @@ Manerba del Garda si trova a circa 26 km a est di Brescia. Superficie: 35.79 km�
 - **Camping San Biagio** (Campeggio)
 - **Miralago** (Hotel)
 
-## Servizi
-
-- **World Food** — Alimentari
-- **Alimentari** — Alimentari
-- **Farmacia Valverde** — Farmacia
-- **Biblioteca** — Biblioteca
-- **Alimentari Antonioli** — Alimentari
-- **Luna Market** — Alimentari
-
 ## Come arrivare
 
 - Strada provinciale: **SP BS 572**
 - Strada provinciale: **Via Trevisago**
 
-## Comuni vicini
-
-- [Polpenazze del Garda](../polpenazze-del-garda/) — 2.6 km
-- [San Felice del Benaco](../san-felice-del-benaco/) — 3.0 km
-- [Moniga del Garda](../moniga-del-garda/) — 3.0 km
-- [Puegnago del Garda](../puegnago-del-garda/) — 3.5 km
-- [Soiano del Lago](../soiano-del-lago/) — 3.7 km
-
-## Comuni confinanti
-
-- [Moniga Del Garda](../moniga-del-garda/)
-- [Polpenazze Del Garda](../polpenazze-del-garda/)
-- [Puegnago Del Garda](../puegnago-del-garda/)
-- [San Felice Del Benaco](../san-felice-del-benaco/)
-- [Soiano Del Lago](../soiano-del-lago/)

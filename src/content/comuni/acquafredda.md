@@ -20,8 +20,6 @@ bordering:
   - "castel-goffredo"
   - "remedello"
   - "visano"
-subcomuni:
-  - cap: "25010", area: 9.53, coords: [45.306179380067825, 10.405624645393571], incomePerCapita: 24088, taxpayers: 1106
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -33,10 +31,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Acquafredda si trova a circa 30 km a sud-est di Brescia. Superficie: 9.55 km². Densità abitativa: 163 ab/km². Strade principali: SS343.
 
 ## Cosa fare
 
@@ -50,27 +44,7 @@ Acquafredda si trova a circa 30 km a sud-est di Brescia. Superficie: 9.55 km². 
 - Piazza principale
 - Palazzo municipale
 
-## Servizi
-
-- **Farmacia Podavini** — Farmacia
-
 ## Come arrivare
 
 - Strada provinciale: **SS343**
 
-## Comuni vicini
-
-- [Visano](../visano/) — 3.4 km
-- [Remedello](../remedello/) — 4.8 km
-- [Carpenedolo](../carpenedolo/) — 6.0 km
-- [Calvisano](../calvisano/) — 7.6 km
-- [Isorella](../isorella/) — 7.8 km
-
-## Comuni confinanti
-
-- [Calvisano](../calvisano/)
-- [Carpenedolo](../carpenedolo/)
-- [Casalmoro](../casalmoro/)
-- [Castel Goffredo](../castel-goffredo/)
-- [Remedello](../remedello/)
-- [Visano](../visano/)

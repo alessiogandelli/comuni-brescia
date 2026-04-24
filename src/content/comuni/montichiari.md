@@ -24,8 +24,6 @@ bordering:
   - "castenedolo"
   - "castiglione-delle-stiviere"
   - "ghedi"
-subcomuni:
-  - cap: "25018", area: 81.49, coords: [45.40686752041911, 10.384985242079855], incomePerCapita: 24140, taxpayers: 19059
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: "Sede dell'Aeroporto di Brescia-Montichiari e del castello Bonoris"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Montichiari si trova a circa 20 km a sud-est di Brescia. Superficie: 81.2 km². Densità abitativa: 310 ab/km². Strade principali: SPexSS567, Via Brescia, SPBS236, Via Tito Speri, SS343.
 
 ## Cosa fare
 
@@ -71,15 +65,6 @@ Montichiari si trova a circa 20 km a sud-est di Brescia. Superficie: 81.2 km². 
 - **Hotel Faro** (Hotel)
 - **Monticlaris** (B&B / Affittacamere)
 
-## Servizi
-
-- **Lugotto** — Centro civico
-- **O.A.S.I.** — Centro civico
-- **Farmacia Centrale** — Farmacia
-- **Biblioteca Comunale "Giovanni Treccani degli Alfieri" di Montichiari** — Biblioteca
-- **Farmacia Comunale 2** — Farmacia
-- **LIDL** — Supermercato
-
 ## Come arrivare
 
 - Superstrada: **SPexSS567**
@@ -90,19 +75,3 @@ Montichiari si trova a circa 20 km a sud-est di Brescia. Superficie: 81.2 km². 
 
 Sede dell'Aeroporto di Brescia-Montichiari e del castello Bonoris
 
-## Comuni vicini
-
-- [Calcinato](../calcinato/) — 5.0 km
-- [Carpenedolo](../carpenedolo/) — 6.4 km
-- [Calvisano](../calvisano/) — 7.9 km
-- [Lonato del Garda](../lonato-del-garda/) — 8.7 km
-- [Ghedi](../ghedi/) — 9.6 km
-
-## Comuni confinanti
-
-- [Calcinato](../calcinato/)
-- [Calvisano](../calvisano/)
-- [Carpenedolo](../carpenedolo/)
-- [Castenedolo](../castenedolo/)
-- [Castiglione Delle Stiviere](../castiglione-delle-stiviere/)
-- [Ghedi](../ghedi/)

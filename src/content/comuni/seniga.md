@@ -22,8 +22,6 @@ bordering:
   - "ostiano"
   - "pralboino"
   - "scandolara-ripa-d'oglio"
-subcomuni:
-  - cap: "25020", area: 13.55, coords: [45.245204970206, 10.19186786409721], incomePerCapita: 22333, taxpayers: 1109
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -35,10 +33,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Seniga si trova a circa 33 km a sud-ovest di Brescia. Superficie: 13.62 km². Densità abitativa: 109 ab/km².
 
 ## Cosa fare
 
@@ -56,27 +50,7 @@ Seniga si trova a circa 33 km a sud-ovest di Brescia. Superficie: 13.62 km². De
 
 - **Bar Oratorio** (Bar)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Pontevico](../pontevico/) — 3.2 km
-- [Quinzano d'Oglio](../quinzano-doglio/) — 6.4 km
-- [Verolavecchia](../verolavecchia/) — 6.5 km
-- [Verolanuova](../verolanuova/) — 6.8 km
-- [Alfianello](../alfianello/) — 8.0 km
-
-## Comuni confinanti
-
-- [Alfianello](../alfianello/)
-- [Gabbioneta Binanuova](../gabbioneta-binanuova/)
-- [Milzano](../milzano/)
-- [Ostiano](../ostiano/)
-- [Pralboino](../pralboino/)
-- [Scandolara Ripa D'oglio](../scandolara-ripa-d'oglio/)

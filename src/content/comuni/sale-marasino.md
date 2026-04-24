@@ -25,8 +25,6 @@ bordering:
   - "monte-isola"
   - "polaveno"
   - "sulzano"
-subcomuni:
-  - cap: "25057", area: 16.56, coords: [45.70536815665472, 10.13624980021517], incomePerCapita: 26668, taxpayers: 2595
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Sale Marasino si trova a circa 20 km a nord-ovest di Brescia. Superficie: 16.41 km². Densità abitativa: 208 ab/km². Strade principali: SPBS510 quater, SPBS510;quater.
 
 ## Cosa fare
 
@@ -73,31 +67,9 @@ Sale Marasino si trova a circa 20 km a nord-ovest di Brescia. Superficie: 16.41 
 - **Villa Bredina** (Hotel)
 - **Ristorante Albergo Motta** (Hotel)
 
-## Servizi
-
-- **Biblioteca** — Biblioteca
-- **Biblioteca Costanzo Ferrari** — Biblioteca
-- **Market Macelleria** — Alimentari
-- **Panificio all’Angolo da Alice** — Panificio
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Sale Marasino**
 - Superstrada: **SPBS510 quater**
 - Superstrada: **SPBS510;quater**
 
-## Comuni vicini
-
-- [Sulzano](../sulzano/) — 2.1 km
-- [Monte Isola](../monte-isola/) — 2.6 km
-- [Marone](../marone/) — 3.1 km
-- [Polaveno](../polaveno/) — 6.0 km
-- [Zone](../zone/) — 6.0 km
-
-## Comuni confinanti
-
-- [Gardone Val Trompia](../gardone-val-trompia/)
-- [Marone](../marone/)
-- [Monte Isola](../monte-isola/)
-- [Polaveno](../polaveno/)
-- [Sulzano](../sulzano/)

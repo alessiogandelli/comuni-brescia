@@ -26,8 +26,6 @@ bordering:
   - "sarezzo"
   - "tavernole-sul-mella"
   - "zone"
-subcomuni:
-  - cap: "25060", area: 22.69, coords: [45.717352654406085, 10.21364871937485], incomePerCapita: 24780, taxpayers: 3093
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -39,10 +37,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Marcheno si trova a circa 19 km a nord di Brescia. Superficie: 22.76 km². Densità abitativa: 195 ab/km².
 
 ## Cosa fare
 
@@ -74,31 +68,7 @@ Marcheno si trova a circa 19 km a nord di Brescia. Superficie: 22.76 km². Densi
 - **Bar Ristorante Albergo La Fabbrica** (Hotel)
 - **Agriturismo La Valle** (B&B / Affittacamere)
 
-## Servizi
-
-- **Sigma Superstore** — Supermercato
-- **Oratorio San Giovanni Paolo II** — Centro civico
-- **Farmacia Ghidini Sonia** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Gardone Val Trompia](../gardone-val-trompia/) — 3.7 km
-- [Tavernole sul Mella](../tavernole-sul-mella/) — 3.9 km
-- [Pezzaze](../pezzaze/) — 4.6 km
-- [Lodrino](../lodrino/) — 5.2 km
-- [Marmentino](../marmentino/) — 5.8 km
-
-## Comuni confinanti
-
-- [Casto](../casto/)
-- [Gardone Val Trompia](../gardone-val-trompia/)
-- [Lodrino](../lodrino/)
-- [Lumezzane](../lumezzane/)
-- [Marone](../marone/)
-- [Sarezzo](../sarezzo/)
-- [Tavernole Sul Mella](../tavernole-sul-mella/)
-- [Zone](../zone/)

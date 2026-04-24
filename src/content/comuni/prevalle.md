@@ -24,8 +24,6 @@ bordering:
   - "muscoline"
   - "nuvolento"
   - "paitone"
-subcomuni:
-  - cap: "25080", area: 9.97, coords: [45.54538086535212, 10.421927275915566], incomePerCapita: 22627, taxpayers: 4956
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Prevalle si trova a circa 16 km a est di Brescia. Superficie: 9.94 km². Densità abitativa: 708 ab/km². Strade principali: SS45bis.
 
 ## Cosa fare
 
@@ -61,32 +55,7 @@ Prevalle si trova a circa 16 km a est di Brescia. Superficie: 9.94 km². Densit�
 - **Trattoria Antico Sapore** (Ristorante)
 - **Chiosco Agricolo La Gavardina Da Gabri** (Caffè)
 
-## Servizi
-
-- **Biblioteca Comunale Elio Caldera di Prevalle** — Biblioteca
-- **Superfilisina** — Supermercato
-- **Oratorio San Giovanni Bosco** — Centro civico
-- **Farmacia Colla** — Farmacia
-- **Ospedale di Comunità** — Ospedale
-- **Panificio Pasticceria Franzoni Roberto** — Panificio
-
 ## Come arrivare
 
 - Superstrada: **SS45bis**
 
-## Comuni vicini
-
-- [Paitone](../paitone/) — 1.9 km
-- [Muscoline](../muscoline/) — 2.9 km
-- [Nuvolento](../nuvolento/) — 3.2 km
-- [Calvagese della Riviera](../calvagese-della-riviera/) — 3.5 km
-- [Gavardo](../gavardo/) — 3.9 km
-
-## Comuni confinanti
-
-- [Bedizzole](../bedizzole/)
-- [Calvagese Della Riviera](../calvagese-della-riviera/)
-- [Gavardo](../gavardo/)
-- [Muscoline](../muscoline/)
-- [Nuvolento](../nuvolento/)
-- [Paitone](../paitone/)

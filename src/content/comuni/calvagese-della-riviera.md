@@ -25,8 +25,6 @@ bordering:
   - "polpenazze-del-garda"
   - "prevalle"
   - "soiano-del-lago"
-subcomuni:
-  - cap: "25080", area: 11.71, coords: [45.529287389652346, 10.458331618662132], incomePerCapita: 26782, taxpayers: 2722
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -38,10 +36,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Calvagese della Riviera si trova a circa 19 km a est di Brescia. Superficie: 11.78 km². Densità abitativa: 295 ab/km².
 
 ## Cosa fare
 
@@ -66,31 +60,7 @@ Calvagese della Riviera si trova a circa 19 km a est di Brescia. Superficie: 11.
 - **Casa Vacanze Il covo dei Ranocchi** (B&B / Affittacamere)
 - **QC Grand Hotel Villa Arzaga** (Hotel)
 
-## Servizi
-
-- **Biblioteca Comunale di Calvagese della Riviera** — Biblioteca
-- **Centro civico** — Centro civico
-- **Oratorio** — Centro civico
-- **Farmacia dr.ssa Barba Ornella** — Farmacia
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
 
-## Comuni vicini
-
-- [Muscoline](../muscoline/) — 2.8 km
-- [Bedizzole](../bedizzole/) — 3.0 km
-- [Prevalle](../prevalle/) — 3.5 km
-- [Soiano del Lago](../soiano-del-lago/) — 4.4 km
-- [Padenghe sul Garda](../padenghe-sul-garda/) — 4.9 km
-
-## Comuni confinanti
-
-- [Bedizzole](../bedizzole/)
-- [Lonato Del Garda](../lonato-del-garda/)
-- [Muscoline](../muscoline/)
-- [Padenghe Sul Garda](../padenghe-sul-garda/)
-- [Polpenazze Del Garda](../polpenazze-del-garda/)
-- [Prevalle](../prevalle/)
-- [Soiano Del Lago](../soiano-del-lago/)

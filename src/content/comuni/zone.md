@@ -23,8 +23,6 @@ bordering:
   - "marone"
   - "pisogne"
   - "tavernole-sul-mella"
-subcomuni:
-  - cap: "25050", area: 19.64, coords: [45.75829697741655, 10.13400388518463], incomePerCapita: 21774, taxpayers: 863
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: "Famosa per le Piramidi di Zone, erosioni naturali spettacolari"
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Zone si trova a circa 26 km a nord-ovest di Brescia. Superficie: 19.58 km². Densità abitativa: 53 ab/km².
 
 ## Cosa fare
 
@@ -73,13 +67,6 @@ Zone si trova a circa 26 km a nord-ovest di Brescia. Superficie: 19.58 km². Den
 - **Bivacco Baita Palmarusso di Sotto** (Bivacco)
 - **Hotel Conca Verde** (Hotel)
 
-## Servizi
-
-- **Biblioteca Comunale di Zone** — Biblioteca
-- **Farmacia Comunale** — Farmacia
-- **Oratorio La Casa** — Centro civico
-- **La bottega sotto casa** — Alimentari
-
 ## Come arrivare
 
 - Raggiungibile in auto via strade provinciali
@@ -88,17 +75,3 @@ Zone si trova a circa 26 km a nord-ovest di Brescia. Superficie: 19.58 km². Den
 
 Famosa per le Piramidi di Zone, erosioni naturali spettacolari
 
-## Comuni vicini
-
-- [Marone](../marone/) — 3.8 km
-- [Pisogne](../pisogne/) — 4.1 km
-- [Sale Marasino](../sale-marasino/) — 6.0 km
-- [Monte Isola](../monte-isola/) — 6.1 km
-- [Sulzano](../sulzano/) — 7.7 km
-
-## Comuni confinanti
-
-- [Marcheno](../marcheno/)
-- [Marone](../marone/)
-- [Pisogne](../pisogne/)
-- [Tavernole Sul Mella](../tavernole-sul-mella/)

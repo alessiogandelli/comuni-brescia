@@ -24,8 +24,6 @@ bordering:
   - "offlaga"
   - "san-gervasio-bresciano"
   - "verolanuova"
-subcomuni:
-  - cap: "25025", area: 27.83, coords: [45.352538291348694, 10.145067773461502], incomePerCapita: 24688, taxpayers: 9998
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -37,10 +35,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Manerbio si trova a circa 21 km a sud di Brescia. Superficie: 27.78 km². Densità abitativa: 484 ab/km². Strade principali: A21, SPBS45bis, SPBS668.
 
 ## Cosa fare
 
@@ -66,15 +60,6 @@ Manerbio si trova a circa 21 km a sud di Brescia. Superficie: 27.78 km². Densit
 
 - **Hotel Loft** (Hotel)
 
-## Servizi
-
-- **Supermercato Sigma** — Supermercato
-- **Ospedale di Manerbio** — Ospedale
-- **Farmacia Ospedale Dottor Clementu** — Farmacia
-- **Biblioteca civica di Manerbio** — Biblioteca
-- **Lidl** — Supermercato
-- **Italmark** — Supermercato
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Manerbio**
@@ -82,20 +67,3 @@ Manerbio si trova a circa 21 km a sud di Brescia. Superficie: 27.78 km². Densit
 - Strada provinciale: **SPBS45bis**
 - Strada provinciale: **SPBS668**
 
-## Comuni vicini
-
-- [Bassano Bresciano](../bassano-bresciano/) — 2.0 km
-- [San Gervasio Bresciano](../san-gervasio-bresciano/) — 4.2 km
-- [Milzano](../milzano/) — 4.2 km
-- [Verolanuova](../verolanuova/) — 5.6 km
-- [Quinzano d'Oglio](../quinzano-doglio/) — 5.6 km
-
-## Comuni confinanti
-
-- [Bagnolo Mella](../bagnolo-mella/)
-- [Bassano Bresciano](../bassano-bresciano/)
-- [Cigole](../cigole/)
-- [Leno](../leno/)
-- [Offlaga](../offlaga/)
-- [San Gervasio Bresciano](../san-gervasio-bresciano/)
-- [Verolanuova](../verolanuova/)

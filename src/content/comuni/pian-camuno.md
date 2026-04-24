@@ -23,8 +23,6 @@ bordering:
   - "costa-volpino"
   - "pisogne"
   - "rogno"
-subcomuni:
-  - cap: "25050", area: 10.92, coords: [45.83190694764948, 10.156034902542261], incomePerCapita: 22464, taxpayers: 3431
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -36,10 +34,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Pian Camuno si trova a circa 35 km a nord di Brescia. Superficie: 10.98 km². Densità abitativa: 405 ab/km². Strade principali: SPBS510, SS42.
 
 ## Cosa fare
 
@@ -67,28 +61,9 @@ Pian Camuno si trova a circa 35 km a nord di Brescia. Superficie: 10.98 km². De
 
 - **Spazio42** (B&B / Affittacamere)
 
-## Servizi
-
-- **Farmacia** — Farmacia
-- **Migross** — Alimentari
-
 ## Come arrivare
 
 - Stazione ferroviaria: **Piancamuno - Gratacasolo**
 - Superstrada: **SPBS510**
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Artogne](../artogne/) — 0.8 km
-- [Gianico](../gianico/) — 2.5 km
-- [Darfo Boario Terme](../darfo-boario-terme/) — 3.5 km
-- [Angolo Terme](../angolo-terme/) — 3.8 km
-- [Brione](../brione/) — 6.5 km
-
-## Comuni confinanti
-
-- [Artogne](../artogne/)
-- [Costa Volpino](../costa-volpino/)
-- [Pisogne](../pisogne/)
-- [Rogno](../rogno/)

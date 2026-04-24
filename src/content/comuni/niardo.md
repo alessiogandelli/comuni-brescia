@@ -21,8 +21,6 @@ bordering:
   - "braone"
   - "breno"
   - "losine"
-subcomuni:
-  - cap: "25050", area: 22.11, coords: [45.9600786493067, 10.36166161969163], incomePerCapita: 25985, taxpayers: 1419
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
@@ -34,10 +32,6 @@ fact: ""
 ## Introduzione
 
 <!-- ENRICHMENT: intro — max 2 frasi, fattuale, senza aggettivi generici -->
-
-## Contesto geografico
-
-Niardo si trova a circa 49 km a nord di Brescia. Superficie: 22.19 km². Densità abitativa: 84 ab/km². Strade principali: SS 42, SS42.
 
 ## Cosa fare
 
@@ -63,25 +57,8 @@ Niardo si trova a circa 49 km a nord di Brescia. Superficie: 22.19 km². Densit�
 
 - **Bivacco Malga Sambuco** (Bivacco)
 
-## Servizi
-
-- **Ducoli** — Panificio
-
 ## Come arrivare
 
 - Superstrada: **SS 42**
 - Superstrada: **SS42**
 
-## Comuni vicini
-
-- [Breno](../breno/) — 3.1 km
-- [Cerveno](../cerveno/) — 3.2 km
-- [Braone](../braone/) — 3.9 km
-- [Ono San Pietro](../ono-san-pietro/) — 4.6 km
-- [Prestine](../prestine/) — 4.9 km
-
-## Comuni confinanti
-
-- [Braone](../braone/)
-- [Breno](../breno/)
-- [Losine](../losine/)
