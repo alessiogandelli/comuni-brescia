@@ -24,6 +24,8 @@ bordering:
   - "edolo"
   - "paisco-loveno"
   - "sonico"
+subcomuni:
+  - cap: "25040", area: 31.39, coords: [46.12212805024385, 10.306511035640654], incomePerCapita: 21417, taxpayers: 2328
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

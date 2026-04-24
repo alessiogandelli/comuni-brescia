@@ -21,6 +21,8 @@ bordering:
   - "ostiano"
   - "pavone-del-mella"
   - "seniga"
+subcomuni:
+  - cap: "25020", area: 17.13, coords: [45.2647681912504, 10.225022080989437], incomePerCapita: 23074, taxpayers: 2073
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

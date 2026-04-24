@@ -25,6 +25,8 @@ bordering:
   - "iseo"
   - "passirano"
   - "provaglio-d'iseo"
+subcomuni:
+  - cap: "25040", area: 13.95, coords: [45.63128044219624, 10.005310586491492], incomePerCapita: 25716, taxpayers: 5431
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

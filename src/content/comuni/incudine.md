@@ -19,6 +19,8 @@ bordering:
   - "edolo"
   - "monno"
   - "vezza-d'oglio"
+subcomuni:
+  - cap: "25040", area: 19.62, coords: [46.230031571101684, 10.364313850912609], incomePerCapita: 18558, taxpayers: 268
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

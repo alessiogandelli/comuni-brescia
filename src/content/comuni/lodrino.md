@@ -23,6 +23,8 @@ bordering:
   - "marmentino"
   - "pertica-alta"
   - "tavernole-sul-mella"
+subcomuni:
+  - cap: "25060", area: 16.47, coords: [45.71643516653216, 10.26699875593109], incomePerCapita: 26902, taxpayers: 1233
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

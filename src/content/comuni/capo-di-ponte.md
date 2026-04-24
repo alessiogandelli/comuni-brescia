@@ -27,6 +27,8 @@ bordering:
   - "paisco-loveno"
   - "paspardo"
   - "sellero"
+subcomuni:
+  - cap: "25044", area: 18.07, coords: [46.04470407121596, 10.311608604922828], incomePerCapita: 23286, taxpayers: 1708
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

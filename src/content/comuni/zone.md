@@ -23,6 +23,8 @@ bordering:
   - "marone"
   - "pisogne"
   - "tavernole-sul-mella"
+subcomuni:
+  - cap: "25050", area: 19.64, coords: [45.75829697741655, 10.13400388518463], incomePerCapita: 21774, taxpayers: 863
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

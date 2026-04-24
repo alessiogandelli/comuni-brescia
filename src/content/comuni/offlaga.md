@@ -22,6 +22,8 @@ bordering:
   - "manerbio"
   - "san-paolo"
   - "verolanuova"
+subcomuni:
+  - cap: "25020", area: 22.99, coords: [45.38273380056879, 10.113491827749154], incomePerCapita: 22956, taxpayers: 2932
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

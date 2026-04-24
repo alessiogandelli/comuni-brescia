@@ -26,6 +26,8 @@ bordering:
   - "sale-marasino"
   - "sarezzo"
   - "sulzano"
+subcomuni:
+  - cap: "25060", area: 9.18, coords: [45.66365123582259, 10.135171348052676], incomePerCapita: 23797, taxpayers: 1919
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

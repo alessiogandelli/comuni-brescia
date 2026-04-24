@@ -22,6 +22,8 @@ bordering:
   - "lograto"
   - "longhena"
   - "maclodio"
+subcomuni:
+  - cap: "25030", area: 11.51, coords: [45.45666585772698, 10.078768009512897], incomePerCapita: 24087, taxpayers: 2454
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

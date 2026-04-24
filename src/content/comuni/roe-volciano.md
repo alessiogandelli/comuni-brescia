@@ -20,6 +20,8 @@ bordering:
   - "salo"
   - "villanuova-sul-clisi"
   - "vobarno"
+subcomuni:
+  - cap: "25077", area: 5.81, coords: [45.61792842566188, 10.498279453822532], incomePerCapita: 25349, taxpayers: 3414
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

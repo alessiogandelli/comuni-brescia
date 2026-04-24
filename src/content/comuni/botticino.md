@@ -24,6 +24,8 @@ bordering:
   - "nuvolera"
   - "rezzato"
   - "serle"
+subcomuni:
+  - cap: "25082", area: 18.44, coords: [45.54848456882337, 10.315117489905058], incomePerCapita: 26776, taxpayers: 8203
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

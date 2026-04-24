@@ -24,6 +24,8 @@ bordering:
   - "longhena"
   - "mairano"
   - "offlaga"
+subcomuni:
+  - cap: "25020", area: 23.28, coords: [45.41617239945942, 10.101289266601611], incomePerCapita: 24276, taxpayers: 4154
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

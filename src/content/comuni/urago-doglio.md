@@ -21,6 +21,8 @@ bordering:
   - "cividate-al-piano"
   - "pontoglio"
   - "rudiano"
+subcomuni:
+  - cap: "25030", area: 10.66, coords: [45.517865374941245, 9.867795234628336], incomePerCapita: 22246, taxpayers: 2631
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

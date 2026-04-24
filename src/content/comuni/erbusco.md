@@ -23,6 +23,8 @@ bordering:
   - "cologne"
   - "palazzolo-sull'oglio"
   - "rovato"
+subcomuni:
+  - cap: "25030", area: 16.21, coords: [45.59437347790234, 9.96555242544094], incomePerCapita: 26403, taxpayers: 6663
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

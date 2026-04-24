@@ -25,6 +25,8 @@ bordering:
   - "pertica-bassa"
   - "treviso-bresciano"
   - "vestone"
+subcomuni:
+  - cap: "25074", area: 31.76, coords: [45.76366473807405, 10.426806854256435], incomePerCapita: 20511, taxpayers: 407
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

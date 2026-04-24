@@ -27,6 +27,8 @@ bordering:
   - "teglio"
   - "tirano"
   - "villa-di-tirano"
+subcomuni:
+  - cap: "25040", area: 82.44, coords: [46.141024719380155, 10.2210859988801], incomePerCapita: 22396, taxpayers: 1517
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

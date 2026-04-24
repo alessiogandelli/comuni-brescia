@@ -20,6 +20,8 @@ bordering:
   - "brescia"
   - "concesio"
   - "nave"
+subcomuni:
+  - cap: "25073", area: 6.4, coords: [45.60007842473922, 10.249452444488048], incomePerCapita: 27682, taxpayers: 5653
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

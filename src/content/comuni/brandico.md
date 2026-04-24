@@ -20,6 +20,8 @@ bordering:
   - "maclodio"
   - "mairano"
   - "trenzano"
+subcomuni:
+  - cap: "25030", area: 8.37, coords: [45.455000217442915, 10.045951868172445], incomePerCapita: 22110, taxpayers: 1237
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

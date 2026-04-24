@@ -24,6 +24,8 @@ bordering:
   - "ceto"
   - "cevo"
   - "paspardo"
+subcomuni:
+  - cap: "25050", area: 24.66, coords: [46.02363113991243, 10.398572663134836], incomePerCapita: 22553, taxpayers: 433
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

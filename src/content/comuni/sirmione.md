@@ -21,6 +21,8 @@ bordering:
   - "desenzano-del-garda"
   - "padenghe-sul-garda"
   - "peschiera-del-garda"
+subcomuni:
+  - cap: "25019", area: 26.19, coords: [45.46040179727447, 10.62724658601614], incomePerCapita: 27073, taxpayers: 6583
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

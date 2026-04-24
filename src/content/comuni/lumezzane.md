@@ -28,6 +28,8 @@ bordering:
   - "nave"
   - "sarezzo"
   - "villa-carcina"
+subcomuni:
+  - cap: "25065", area: 31.65, coords: [45.649976851523725, 10.27189371553848], incomePerCapita: 25965, taxpayers: 15968
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

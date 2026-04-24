@@ -22,6 +22,8 @@ bordering:
   - "lograto"
   - "mairano"
   - "torbole-casaglia"
+subcomuni:
+  - cap: "25020", area: 10.55, coords: [45.47011233500587, 10.116659397408105], incomePerCapita: 25172, taxpayers: 2541
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

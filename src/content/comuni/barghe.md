@@ -21,6 +21,8 @@ bordering:
   - "provaglio-val-sabbia"
   - "sabbio-chiese"
   - "vestone"
+subcomuni:
+  - cap: "25070", area: 5.48, coords: [45.6813119013191, 10.406399687296242], incomePerCapita: 27577, taxpayers: 833
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

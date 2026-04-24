@@ -22,6 +22,8 @@ bordering:
   - "magasa"
   - "tremosine-sul-garda"
   - "valvestino"
+subcomuni:
+  - cap: "25080", area: 45.75, coords: [45.75609292647134, 10.68926342728875], incomePerCapita: 18891, taxpayers: 1104
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

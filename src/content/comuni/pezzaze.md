@@ -24,6 +24,8 @@ bordering:
   - "marmentino"
   - "pisogne"
   - "tavernole-sul-mella"
+subcomuni:
+  - cap: "25060", area: 21.45, coords: [45.77780476964654, 10.227368664026008], incomePerCapita: 22502, taxpayers: 1074
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

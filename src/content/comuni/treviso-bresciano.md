@@ -24,6 +24,8 @@ bordering:
   - "provaglio-val-sabbia"
   - "vestone"
   - "vobarno"
+subcomuni:
+  - cap: "25070", area: 17.69, coords: [45.71585654042289, 10.469608960528076], incomePerCapita: 20257, taxpayers: 411
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

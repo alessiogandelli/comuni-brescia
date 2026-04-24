@@ -22,6 +22,8 @@ bordering:
   - "ceto"
   - "losine"
   - "niardo"
+subcomuni:
+  - cap: "25040", area: 13.33, coords: [45.97707547110275, 10.37038425580118], incomePerCapita: 23576, taxpayers: 501
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

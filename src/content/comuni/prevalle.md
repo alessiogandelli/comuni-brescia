@@ -24,6 +24,8 @@ bordering:
   - "muscoline"
   - "nuvolento"
   - "paitone"
+subcomuni:
+  - cap: "25080", area: 9.97, coords: [45.54538086535212, 10.421927275915566], incomePerCapita: 22627, taxpayers: 4956
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

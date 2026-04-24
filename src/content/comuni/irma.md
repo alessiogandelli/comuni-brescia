@@ -18,6 +18,8 @@ nearby:
 bordering:
   - "bovegno"
   - "marmentino"
+subcomuni:
+  - cap: "25061", area: 4.92, coords: [45.77513096925388, 10.299687120918245], incomePerCapita: 21921, taxpayers: 103
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

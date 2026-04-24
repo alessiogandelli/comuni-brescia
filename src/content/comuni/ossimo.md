@@ -24,6 +24,8 @@ bordering:
   - "malegno"
   - "piancogno"
   - "schilpario"
+subcomuni:
+  - cap: "25050", area: 14.83, coords: [45.9713373959354, 10.224122620605652], incomePerCapita: 21490, taxpayers: 1093
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

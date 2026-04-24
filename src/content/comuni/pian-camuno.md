@@ -23,6 +23,8 @@ bordering:
   - "costa-volpino"
   - "pisogne"
   - "rogno"
+subcomuni:
+  - cap: "25050", area: 10.92, coords: [45.83190694764948, 10.156034902542261], incomePerCapita: 22464, taxpayers: 3431
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

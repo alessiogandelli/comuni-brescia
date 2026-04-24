@@ -20,6 +20,8 @@ bordering:
   - "cerveno"
   - "ceto"
   - "paisco-loveno"
+subcomuni:
+  - cap: "25040", area: 13.75, coords: [46.03504296677555, 10.291396549779554], incomePerCapita: 21173, taxpayers: 727
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

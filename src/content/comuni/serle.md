@@ -25,6 +25,8 @@ bordering:
   - "nuvolera"
   - "paitone"
   - "vallio-terme"
+subcomuni:
+  - cap: "25080", area: 18.39, coords: [45.57833321599664, 10.36007839815017], incomePerCapita: 21785, taxpayers: 2276
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -25,6 +25,8 @@ bordering:
   - "paitone"
   - "sabbio-chiese"
   - "serle"
+subcomuni:
+  - cap: "25080", area: 14.83, coords: [45.61311497492257, 10.389637498002031], incomePerCapita: 23598, taxpayers: 1100
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

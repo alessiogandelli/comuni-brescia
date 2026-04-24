@@ -25,6 +25,8 @@ bordering:
   - "polpenazze-del-garda"
   - "prevalle"
   - "soiano-del-lago"
+subcomuni:
+  - cap: "25080", area: 11.71, coords: [45.529287389652346, 10.458331618662132], incomePerCapita: 26782, taxpayers: 2722
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

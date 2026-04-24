@@ -29,6 +29,8 @@ bordering:
   - "toscolano-maderno"
   - "treviso-bresciano"
   - "villanuova-sul-clisi"
+subcomuni:
+  - cap: "25079", area: 53.1, coords: [45.66912664779269, 10.499348717837112], incomePerCapita: 22543, taxpayers: 6130
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

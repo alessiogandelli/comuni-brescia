@@ -23,6 +23,8 @@ bordering:
   - "iseo"
   - "monticelli-brusati"
   - "passirano"
+subcomuni:
+  - cap: "25050", area: 16.13, coords: [45.62987188418321, 10.05543246649086], incomePerCapita: 25272, taxpayers: 5295
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

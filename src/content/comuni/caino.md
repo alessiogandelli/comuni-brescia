@@ -23,6 +23,8 @@ bordering:
   - "nave"
   - "serle"
   - "vallio-terme"
+subcomuni:
+  - cap: "25070", area: 17.27, coords: [45.6171100579709, 10.325576838360437], incomePerCapita: 24737, taxpayers: 1600
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

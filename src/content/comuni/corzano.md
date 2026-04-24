@@ -23,6 +23,8 @@ bordering:
   - "longhena"
   - "pompiano"
   - "trenzano"
+subcomuni:
+  - cap: "25030", area: 12.27, coords: [45.440324071936054, 10.019386133419008], incomePerCapita: 23369, taxpayers: 1114
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -23,6 +23,8 @@ bordering:
   - "mazzano"
   - "montichiari"
   - "rezzato"
+subcomuni:
+  - cap: "25014", area: 26.14, coords: [45.46911261579188, 10.292698951295042], incomePerCapita: 25670, taxpayers: 8710
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -19,6 +19,8 @@ bordering:
   - "calvisano"
   - "isorella"
   - "remedello"
+subcomuni:
+  - cap: "25010", area: 11.2, coords: [45.31318322599038, 10.368907798119427], incomePerCapita: 26100, taxpayers: 1400
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

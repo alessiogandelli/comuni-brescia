@@ -22,6 +22,8 @@ bordering:
   - "capo-di-ponte"
   - "cedegolo"
   - "cimbergo"
+subcomuni:
+  - cap: "25050", area: 11.13, coords: [46.04189509157802, 10.382299048241874], incomePerCapita: 22552, taxpayers: 462
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

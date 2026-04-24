@@ -24,6 +24,8 @@ bordering:
   - "castenedolo"
   - "mazzano"
   - "nuvolera"
+subcomuni:
+  - cap: "25086", area: 18.17, coords: [45.508027272038845, 10.32063872131224], incomePerCapita: 26034, taxpayers: 10165
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

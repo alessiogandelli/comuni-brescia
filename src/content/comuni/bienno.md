@@ -24,6 +24,8 @@ bordering:
   - "breno"
   - "cividate-camuno"
   - "collio"
+subcomuni:
+  - cap: "25040", area: 46.71, coords: [45.90636602797289, 10.35396979192147], incomePerCapita: 23306, taxpayers: 2866
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -26,6 +26,8 @@ bordering:
   - "vallio-terme"
   - "villanuova-sul-clisi"
   - "vobarno"
+subcomuni:
+  - cap: "25070", area: 18.41, coords: [45.643236528591906, 10.43314907213998], incomePerCapita: 25619, taxpayers: 2918
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

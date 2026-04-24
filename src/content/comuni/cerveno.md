@@ -26,6 +26,8 @@ bordering:
   - "ono-san-pietro"
   - "paisco-loveno"
   - "schilpario"
+subcomuni:
+  - cap: "25040", area: 21.51, coords: [46.014010947482134, 10.284865386384158], incomePerCapita: 22501, taxpayers: 544
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

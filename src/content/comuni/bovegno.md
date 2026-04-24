@@ -27,6 +27,8 @@ bordering:
   - "irma"
   - "marmentino"
   - "pezzaze"
+subcomuni:
+  - cap: "25061", area: 47.89, coords: [45.811813016282265, 10.283267531469987], incomePerCapita: 21223, taxpayers: 1522
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -22,6 +22,8 @@ bordering:
   - "ceto"
   - "malegno"
   - "niardo"
+subcomuni:
+  - cap: "25050", area: 6.24, coords: [45.980594958690226, 10.310054687366787], incomePerCapita: 25171, taxpayers: 475
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

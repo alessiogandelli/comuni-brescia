@@ -22,6 +22,8 @@ bordering:
   - "mairano"
   - "torbole-casaglia"
   - "travagliato"
+subcomuni:
+  - cap: "25030", area: 12.41, coords: [45.48752520344942, 10.066444571454705], incomePerCapita: 24784, taxpayers: 2729
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

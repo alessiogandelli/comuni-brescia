@@ -27,6 +27,8 @@ bordering:
   - "rodengo-saiano"
   - "roncadelle"
   - "villa-carcina"
+subcomuni:
+  - cap: "25064", area: 25.04, coords: [45.59233635012495, 10.15106732126025], incomePerCapita: 28200, taxpayers: 12547
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

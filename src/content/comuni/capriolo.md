@@ -25,6 +25,8 @@ bordering:
   - "iseo"
   - "palazzolo-sull'oglio"
   - "paratico"
+subcomuni:
+  - cap: "25031", area: 10.58, coords: [45.64074523684218, 9.940232160260043], incomePerCapita: 23138, taxpayers: 6894
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

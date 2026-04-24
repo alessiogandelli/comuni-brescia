@@ -25,6 +25,8 @@ bordering:
   - "collio"
   - "idro"
   - "lavenone"
+subcomuni:
+  - cap: "25072", area: 108.96, coords: [45.85844201587792, 10.475836690858241], incomePerCapita: 22596, taxpayers: 3026
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

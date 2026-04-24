@@ -25,6 +25,8 @@ bordering:
   - "erbusco"
   - "travagliato"
   - "trenzano"
+subcomuni:
+  - cap: "25038", area: 26.05, coords: [45.550059787988886, 10.009069710237203], incomePerCapita: 23818, taxpayers: 13750
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

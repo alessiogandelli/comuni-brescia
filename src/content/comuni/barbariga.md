@@ -22,6 +22,8 @@ bordering:
   - "orzinuovi"
   - "pompiano"
   - "san-paolo"
+subcomuni:
+  - cap: "25030", area: 11.32, coords: [45.40635756281749, 10.050136801368438], incomePerCapita: 24117, taxpayers: 1737
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

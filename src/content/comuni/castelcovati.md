@@ -19,6 +19,8 @@ bordering:
   - "castrezzato"
   - "chiari"
   - "comezzano-cizzago"
+subcomuni:
+  - cap: "25030", area: 6.13, coords: [45.50027459754669, 9.945705743760229], incomePerCapita: 21862, taxpayers: 4718
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -21,6 +21,8 @@ bordering:
   - "collebeato"
   - "concesio"
   - "gussago"
+subcomuni:
+  - cap: "25060", area: 6.53, coords: [45.57703613500623, 10.176147623402741], incomePerCapita: 31939, taxpayers: 3755
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -23,6 +23,8 @@ bordering:
   - "gussago"
   - "torbole-casaglia"
   - "travagliato"
+subcomuni:
+  - cap: "25030", area: 9.36, coords: [45.53710651410389, 10.152359960668209], incomePerCapita: 24602, taxpayers: 6968
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

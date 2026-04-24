@@ -24,6 +24,8 @@ bordering:
   - "puegnago-del-garda"
   - "san-felice-del-benaco"
   - "soiano-del-lago"
+subcomuni:
+  - cap: "25080", area: 36.55, coords: [45.551627645300144, 10.539054100225254], incomePerCapita: 28806, taxpayers: 4114
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

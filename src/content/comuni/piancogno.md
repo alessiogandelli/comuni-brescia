@@ -25,6 +25,8 @@ bordering:
   - "darfo-boario-terme"
   - "esine"
   - "ossimo"
+subcomuni:
+  - cap: "25052", area: 14.27, coords: [45.93088531646736, 10.197881014996813], incomePerCapita: 23485, taxpayers: 3458
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

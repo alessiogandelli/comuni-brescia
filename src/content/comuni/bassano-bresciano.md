@@ -18,6 +18,8 @@ bordering:
   - "pontevico"
   - "san-gervasio-bresciano"
   - "verolanuova"
+subcomuni:
+  - cap: "25020", area: 9.4, coords: [45.324351333568266, 10.128351983423629], incomePerCapita: 25418, taxpayers: 1768
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

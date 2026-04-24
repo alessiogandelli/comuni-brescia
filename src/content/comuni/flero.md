@@ -20,6 +20,8 @@ bordering:
   - "castel-mella"
   - "poncarale"
   - "san-zeno-naviglio"
+subcomuni:
+  - cap: "25020", area: 9.82, coords: [45.48250940408738, 10.171847818248043], incomePerCapita: 25535, taxpayers: 6655
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -21,6 +21,8 @@ bordering:
   - "genivolta"
   - "orzinuovi"
   - "soncino"
+subcomuni:
+  - cap: "25030", area: 16.84, coords: [45.349642233738194, 9.920701500469002], incomePerCapita: 22102, taxpayers: 1002
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

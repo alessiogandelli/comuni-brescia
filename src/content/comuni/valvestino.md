@@ -23,6 +23,8 @@ bordering:
   - "idro"
   - "magasa"
   - "tignale"
+subcomuni:
+  - cap: "25080", area: 31.05, coords: [45.76906842467739, 10.59473216741033], incomePerCapita: 20258, taxpayers: 151
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

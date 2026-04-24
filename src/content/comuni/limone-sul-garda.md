@@ -20,6 +20,8 @@ nearby:
   - "gargnano"
 bordering:
   - "tremosine-sul-garda"
+subcomuni:
+  - cap: "25010", area: 22.97, coords: [45.829170564680545, 10.785842472566248], incomePerCapita: 26533, taxpayers: 1027
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

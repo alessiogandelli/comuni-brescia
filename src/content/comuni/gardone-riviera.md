@@ -22,6 +22,8 @@ bordering:
   - "salo"
   - "toscolano-maderno"
   - "vobarno"
+subcomuni:
+  - cap: "25083", area: 21.34, coords: [45.642758773891785, 10.557054020227499], incomePerCapita: 33063, taxpayers: 2117
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -20,6 +20,8 @@ bordering:
   - "castelvisconti"
   - "corte-de'-cortesi-con-cignone"
   - "verolavecchia"
+subcomuni:
+  - cap: "25027", area: 21.42, coords: [45.312446134495254, 10.002519771529316], incomePerCapita: 22852, taxpayers: 4788
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

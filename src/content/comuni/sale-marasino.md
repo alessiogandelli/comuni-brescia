@@ -25,6 +25,8 @@ bordering:
   - "monte-isola"
   - "polaveno"
   - "sulzano"
+subcomuni:
+  - cap: "25057", area: 16.56, coords: [45.70536815665472, 10.13624980021517], incomePerCapita: 26668, taxpayers: 2595
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

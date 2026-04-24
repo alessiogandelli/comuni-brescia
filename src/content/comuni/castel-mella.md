@@ -23,6 +23,8 @@ bordering:
   - "flero"
   - "roncadelle"
   - "torbole-casaglia"
+subcomuni:
+  - cap: "25030", area: 7.51, coords: [45.4994810191146, 10.142514576788717], incomePerCapita: 25314, taxpayers: 8174
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

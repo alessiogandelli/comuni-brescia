@@ -23,6 +23,8 @@ bordering:
   - "treviso-bresciano"
   - "valvestino"
   - "vobarno"
+subcomuni:
+  - cap: "25070", area: 22.9, coords: [45.74233088035432, 10.533196274015314], incomePerCapita: 19335, taxpayers: 271
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

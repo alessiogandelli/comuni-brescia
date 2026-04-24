@@ -24,6 +24,8 @@ bordering:
   - "polpenazze-del-garda"
   - "salo"
   - "san-felice-del-benaco"
+subcomuni:
+  - cap: "25080", area: 10.95, coords: [45.57088529466023, 10.511270799540833], incomePerCapita: 24982, taxpayers: 2689
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

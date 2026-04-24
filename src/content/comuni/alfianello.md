@@ -21,6 +21,8 @@ bordering:
   - "san-gervasio-bresciano"
   - "scandolara-ripa-d'oglio"
   - "seniga"
+subcomuni:
+  - cap: "25020", area: 13.69, coords: [45.26569783077479, 10.148839956027741], incomePerCapita: 23728, taxpayers: 1755
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

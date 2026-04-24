@@ -23,6 +23,8 @@ bordering:
   - "cimbergo"
   - "paspardo"
   - "sellero"
+subcomuni:
+  - cap: "25051", area: 11.06, coords: [46.06276470631154, 10.378184698776856], incomePerCapita: 22121, taxpayers: 847
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

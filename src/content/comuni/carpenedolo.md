@@ -23,6 +23,8 @@ bordering:
   - "castel-goffredo"
   - "castiglione-delle-stiviere"
   - "montichiari"
+subcomuni:
+  - cap: "25013", area: 29.78, coords: [45.347710238951564, 10.430383478070302], incomePerCapita: 24318, taxpayers: 9333
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

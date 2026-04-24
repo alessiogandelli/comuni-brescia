@@ -20,6 +20,8 @@ bordering:
   - "cazzago-san-martino"
   - "passirano"
   - "travagliato"
+subcomuni:
+  - cap: "25035", area: 9.27, coords: [45.55204823884364, 10.071546934560736], incomePerCapita: 24399, taxpayers: 10469
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

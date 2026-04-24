@@ -31,6 +31,8 @@ bordering:
   - "sarnico"
   - "sulzano"
   - "tavernola-bergamasca"
+subcomuni:
+  - cap: "25049", area: 28.37, coords: [45.65633256641358, 10.042078000991703], incomePerCapita: 28196, taxpayers: 7108
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -24,6 +24,8 @@ bordering:
   - "pralboino"
   - "remedello"
   - "volongo"
+subcomuni:
+  - cap: "25020", area: 31.52, coords: [45.25843431727716, 10.314408086522926], incomePerCapita: 22806, taxpayers: 3454
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -24,6 +24,8 @@ bordering:
   - "roncadelle"
   - "rovato"
   - "torbole-casaglia"
+subcomuni:
+  - cap: "25039", area: 17.7, coords: [45.5201673771601, 10.069530019241018], incomePerCapita: 24514, taxpayers: 10295
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

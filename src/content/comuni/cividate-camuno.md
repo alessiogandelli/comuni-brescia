@@ -24,6 +24,8 @@ bordering:
   - "malegno"
   - "ossimo"
   - "piancogno"
+subcomuni:
+  - cap: "25040", area: 3.3, coords: [45.941468390915865, 10.269359024487608], incomePerCapita: 24692, taxpayers: 1997
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

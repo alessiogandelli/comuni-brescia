@@ -23,6 +23,8 @@ bordering:
   - "brescia"
   - "flero"
   - "poncarale"
+subcomuni:
+  - cap: "25010", area: 6.24, coords: [45.488090358971185, 10.217271139492489], incomePerCapita: 27130, taxpayers: 3563
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

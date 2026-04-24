@@ -21,6 +21,8 @@ bordering:
   - "flero"
   - "montirone"
   - "san-zeno-naviglio"
+subcomuni:
+  - cap: "25020", area: 12.62, coords: [45.4589723689135, 10.188666695926015], incomePerCapita: 25125, taxpayers: 3840
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

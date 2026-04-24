@@ -23,6 +23,8 @@ bordering:
   - "gussago"
   - "lumezzane"
   - "sarezzo"
+subcomuni:
+  - cap: "25069", area: 14.19, coords: [45.63733889101256, 10.194935016421416], incomePerCapita: 24986, taxpayers: 7885
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

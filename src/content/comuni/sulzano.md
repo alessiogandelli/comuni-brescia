@@ -23,6 +23,8 @@ bordering:
   - "polaveno"
   - "sale-marasino"
   - "tavernola-bergamasca"
+subcomuni:
+  - cap: "25058", area: 10.42, coords: [45.68063565342188, 10.1133824928593], incomePerCapita: 29534, taxpayers: 1459
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

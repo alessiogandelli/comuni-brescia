@@ -23,6 +23,8 @@ bordering:
   - "isorella"
   - "montichiari"
   - "visano"
+subcomuni:
+  - cap: "25012", area: 44.73, coords: [45.351273783035445, 10.356314178316579], incomePerCapita: 23298, taxpayers: 6046
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

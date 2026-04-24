@@ -23,6 +23,8 @@ bordering:
   - "lumezzane"
   - "preseglie"
   - "vestone"
+subcomuni:
+  - cap: "25070", area: 17.25, coords: [45.67248850635152, 10.335691351089206], incomePerCapita: 24257, taxpayers: 1010
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

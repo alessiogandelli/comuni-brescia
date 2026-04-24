@@ -24,6 +24,8 @@ bordering:
   - "verolanuova"
   - "verolavecchia"
   - "villachiara"
+subcomuni:
+  - cap: "25022", area: 29.48, coords: [45.3377429097678, 9.969713884389078], incomePerCapita: 22490, taxpayers: 3847
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

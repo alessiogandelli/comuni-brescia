@@ -21,6 +21,8 @@ bordering:
   - "comezzano-cizzago"
   - "rovato"
   - "trenzano"
+subcomuni:
+  - cap: "25030", area: 13.61, coords: [45.510177898085935, 9.985897394019563], incomePerCapita: 22322, taxpayers: 5354
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

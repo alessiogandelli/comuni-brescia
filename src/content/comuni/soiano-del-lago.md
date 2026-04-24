@@ -23,6 +23,8 @@ bordering:
   - "moniga-del-garda"
   - "padenghe-sul-garda"
   - "polpenazze-del-garda"
+subcomuni:
+  - cap: "25080", area: 5.76, coords: [45.53086507669258, 10.506026844163191], incomePerCapita: 34819, taxpayers: 1473
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

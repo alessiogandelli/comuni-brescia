@@ -26,6 +26,8 @@ bordering:
   - "gianico"
   - "piancogno"
   - "rogno"
+subcomuni:
+  - cap: "25047", area: 36, coords: [45.887328081979234, 10.186268972075556], incomePerCapita: 23709, taxpayers: 11835
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

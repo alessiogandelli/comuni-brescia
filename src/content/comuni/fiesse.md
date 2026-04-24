@@ -21,6 +21,8 @@ bordering:
   - "gambara"
   - "remedello"
   - "volongo"
+subcomuni:
+  - cap: "25020", area: 15.98, coords: [45.22965413944242, 10.327491128873561], incomePerCapita: 21411, taxpayers: 1452
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

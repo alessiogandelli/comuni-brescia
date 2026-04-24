@@ -24,6 +24,8 @@ bordering:
   - "san-paolo"
   - "soncino"
   - "villachiara"
+subcomuni:
+  - cap: "25034", area: 47.79, coords: [45.39759113735548, 9.938801094910659], incomePerCapita: 26349, taxpayers: 9098
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

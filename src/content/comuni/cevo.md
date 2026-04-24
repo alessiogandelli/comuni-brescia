@@ -24,6 +24,8 @@ bordering:
   - "cimbergo"
   - "saviore-dell'adamello"
   - "sonico"
+subcomuni:
+  - cap: "25040", area: 35.39, coords: [46.0671901771499, 10.433510199370485], incomePerCapita: 21461, taxpayers: 621
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

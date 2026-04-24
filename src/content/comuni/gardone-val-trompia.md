@@ -24,6 +24,8 @@ bordering:
   - "polaveno"
   - "sale-marasino"
   - "sarezzo"
+subcomuni:
+  - cap: "25063", area: 26.61, coords: [45.70495277871454, 10.17995122311403], incomePerCapita: 24708, taxpayers: 8440
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

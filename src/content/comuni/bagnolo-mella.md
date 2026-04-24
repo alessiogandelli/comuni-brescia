@@ -25,6 +25,8 @@ bordering:
   - "montirone"
   - "offlaga"
   - "poncarale"
+subcomuni:
+  - cap: "25021", area: 31.29, coords: [45.420495327051, 10.184222002976908], incomePerCapita: 24790, taxpayers: 9178
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

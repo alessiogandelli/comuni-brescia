@@ -25,6 +25,8 @@ bordering:
   - "moniga-del-garda"
   - "sirmione"
   - "soiano-del-lago"
+subcomuni:
+  - cap: "25080", area: 26.75, coords: [45.5079128466678, 10.50354922888789], incomePerCapita: 37988, taxpayers: 3666
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

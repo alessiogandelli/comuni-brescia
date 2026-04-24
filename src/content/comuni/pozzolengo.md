@@ -24,6 +24,8 @@ bordering:
   - "monzambano"
   - "peschiera-del-garda"
   - "ponti-sul-mincio"
+subcomuni:
+  - cap: "25010", area: 21.28, coords: [45.413465587956416, 10.620351994857305], incomePerCapita: 24320, taxpayers: 2716
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

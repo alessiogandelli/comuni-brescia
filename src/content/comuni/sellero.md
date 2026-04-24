@@ -22,6 +22,8 @@ bordering:
   - "capo-di-ponte"
   - "cedegolo"
   - "paisco-loveno"
+subcomuni:
+  - cap: "25050", area: 14.44, coords: [46.0664305775266, 10.330541519657421], incomePerCapita: 21572, taxpayers: 1011
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -26,6 +26,8 @@ bordering:
   - "pian-camuno"
   - "pisogne"
   - "rogno"
+subcomuni:
+  - cap: "25040", area: 20.98, coords: [45.84012525867843, 10.192676478840262], incomePerCapita: 22341, taxpayers: 2687
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

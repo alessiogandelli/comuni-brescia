@@ -21,6 +21,8 @@ bordering:
   - "orzinuovi"
   - "pompiano"
   - "roccafranca"
+subcomuni:
+  - cap: "25030", area: 9.92, coords: [45.424040606534156, 9.960781538949908], incomePerCapita: 22290, taxpayers: 1805
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

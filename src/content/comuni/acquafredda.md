@@ -20,6 +20,8 @@ bordering:
   - "castel-goffredo"
   - "remedello"
   - "visano"
+subcomuni:
+  - cap: "25010", area: 9.53, coords: [45.306179380067825, 10.405624645393571], incomePerCapita: 24088, taxpayers: 1106
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

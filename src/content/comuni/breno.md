@@ -28,6 +28,8 @@ bordering:
   - "losine"
   - "malegno"
   - "niardo"
+subcomuni:
+  - cap: "25043", area: 59.81, coords: [45.942453443684165, 10.395662434614096], incomePerCapita: 25049, taxpayers: 3556
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

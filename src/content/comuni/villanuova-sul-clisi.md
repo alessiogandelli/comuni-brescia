@@ -23,6 +23,8 @@ bordering:
   - "roe-volciano"
   - "sabbio-chiese"
   - "vobarno"
+subcomuni:
+  - cap: "25089", area: 9.08, coords: [45.61003321319777, 10.463127079093342], incomePerCapita: 23350, taxpayers: 4470
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

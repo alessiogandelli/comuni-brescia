@@ -21,6 +21,8 @@ bordering:
   - "milzano"
   - "pavone-del-mella"
   - "san-gervasio-bresciano"
+subcomuni:
+  - cap: "25020", area: 9.91, coords: [45.31338874489832, 10.189653442560795], incomePerCapita: 23216, taxpayers: 1108
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

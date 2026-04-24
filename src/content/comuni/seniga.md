@@ -22,6 +22,8 @@ bordering:
   - "ostiano"
   - "pralboino"
   - "scandolara-ripa-d'oglio"
+subcomuni:
+  - cap: "25020", area: 13.55, coords: [45.245204970206, 10.19186786409721], incomePerCapita: 22333, taxpayers: 1109
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

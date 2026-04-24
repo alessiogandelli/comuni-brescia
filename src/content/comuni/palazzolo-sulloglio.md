@@ -28,6 +28,8 @@ bordering:
   - "palosco"
   - "pontoglio"
   - "telgate"
+subcomuni:
+  - cap: "25036", area: 23, coords: [45.59600580697694, 9.891663041969625], incomePerCapita: 25308, taxpayers: 14912
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

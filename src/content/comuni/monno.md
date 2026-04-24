@@ -25,6 +25,8 @@ bordering:
   - "mazzo-di-valtellina"
   - "tovo-di-sant'agata"
   - "vezza-d'oglio"
+subcomuni:
+  - cap: "25040", area: 30.96, coords: [46.23952179438613, 10.326423957944785], incomePerCapita: 19475, taxpayers: 430
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

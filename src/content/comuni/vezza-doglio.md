@@ -26,6 +26,8 @@ bordering:
   - "sondalo"
   - "temu"
   - "vione"
+subcomuni:
+  - cap: "25059", area: 54.03, coords: [46.26605370243315, 10.400366636483446], incomePerCapita: 23606, taxpayers: 1177
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

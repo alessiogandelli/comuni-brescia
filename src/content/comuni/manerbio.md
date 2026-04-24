@@ -24,6 +24,8 @@ bordering:
   - "offlaga"
   - "san-gervasio-bresciano"
   - "verolanuova"
+subcomuni:
+  - cap: "25025", area: 27.83, coords: [45.352538291348694, 10.145067773461502], incomePerCapita: 24688, taxpayers: 9998
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

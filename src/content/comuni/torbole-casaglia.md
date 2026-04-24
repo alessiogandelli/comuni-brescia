@@ -22,6 +22,8 @@ bordering:
   - "lograto"
   - "roncadelle"
   - "travagliato"
+subcomuni:
+  - cap: "25030", area: 13.41, coords: [45.50104588952183, 10.114359513761613], incomePerCapita: 23191, taxpayers: 4659
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -22,6 +22,8 @@ bordering:
   - "corte-franca"
   - "erbusco"
   - "palazzolo-sull'oglio"
+subcomuni:
+  - cap: "25030", area: 14.26, coords: [45.61929428532798, 9.968508780189385], incomePerCapita: 24100, taxpayers: 5602
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

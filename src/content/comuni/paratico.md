@@ -25,6 +25,8 @@ bordering:
   - "iseo"
   - "sarnico"
   - "villongo"
+subcomuni:
+  - cap: "25030", area: 6.17, coords: [45.655478060149484, 9.954559206505001], incomePerCapita: 28437, taxpayers: 3786
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

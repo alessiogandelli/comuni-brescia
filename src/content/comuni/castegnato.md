@@ -23,6 +23,8 @@ bordering:
   - "rodengo-saiano"
   - "roncadelle"
   - "travagliato"
+subcomuni:
+  - cap: "25045", area: 9.19, coords: [45.55896375175936, 10.115623304453692], incomePerCapita: 25633, taxpayers: 6191
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

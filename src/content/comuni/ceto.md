@@ -27,6 +27,8 @@ bordering:
   - "cimbergo"
   - "losine"
   - "ono-san-pietro"
+subcomuni:
+  - cap: "25040", area: 32.23, coords: [45.99962076960514, 10.403759965270789], incomePerCapita: 23339, taxpayers: 1322
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

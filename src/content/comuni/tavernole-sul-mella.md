@@ -24,6 +24,8 @@ bordering:
   - "pezzaze"
   - "pisogne"
   - "zone"
+subcomuni:
+  - cap: "25060", area: 19.77, coords: [45.75105778458271, 10.215123256271337], incomePerCapita: 25429, taxpayers: 919
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

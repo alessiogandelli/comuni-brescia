@@ -11,6 +11,8 @@ nearby:
   - "salo"
   - "san-felice-del-benaco"
   - "vobarno"
+subcomuni:
+  - cap: "25088", area: 58.04, coords: [45.66941892649967, 10.585581290365349], incomePerCapita: 23376, taxpayers: 6199
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

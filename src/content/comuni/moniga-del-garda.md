@@ -21,6 +21,8 @@ bordering:
   - "manerba-del-garda"
   - "padenghe-sul-garda"
   - "soiano-del-lago"
+subcomuni:
+  - cap: "25080", area: 14.62, coords: [45.528458700600574, 10.533765533005289], incomePerCapita: 28753, taxpayers: 2072
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

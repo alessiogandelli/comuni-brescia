@@ -25,6 +25,8 @@ bordering:
   - "ossimo"
   - "piancogno"
   - "schilpario"
+subcomuni:
+  - cap: "25042", area: 30.44, coords: [45.95237302345797, 10.177015601692704], incomePerCapita: 23052, taxpayers: 1939
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

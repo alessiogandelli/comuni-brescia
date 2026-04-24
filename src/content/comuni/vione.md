@@ -22,6 +22,8 @@ bordering:
   - "ponte-di-legno"
   - "temu"
   - "vezza-d'oglio"
+subcomuni:
+  - cap: "25050", area: 35.19, coords: [46.2576198259515, 10.44102044594491], incomePerCapita: 21509, taxpayers: 527
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

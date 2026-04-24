@@ -22,6 +22,8 @@ bordering:
   - "prevalle"
   - "serle"
   - "vallio-terme"
+subcomuni:
+  - cap: "25080", area: 7.99, coords: [45.57086079903944, 10.397115091978323], incomePerCapita: 22164, taxpayers: 1634
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

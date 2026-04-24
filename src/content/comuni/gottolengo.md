@@ -23,6 +23,8 @@ bordering:
   - "leno"
   - "pavone-del-mella"
   - "pralboino"
+subcomuni:
+  - cap: "25023", area: 29.23, coords: [45.30125573037441, 10.274306581776433], incomePerCapita: 22086, taxpayers: 3613
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

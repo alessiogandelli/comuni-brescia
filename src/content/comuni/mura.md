@@ -18,6 +18,8 @@ bordering:
   - "casto"
   - "pertica-alta"
   - "vestone"
+subcomuni:
+  - cap: "25070", area: 12.48, coords: [45.71397905026459, 10.345101771917092], incomePerCapita: 21666, taxpayers: 601
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

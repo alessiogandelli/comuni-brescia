@@ -23,6 +23,8 @@ bordering:
   - "lonato-del-garda"
   - "mazzano"
   - "montichiari"
+subcomuni:
+  - cap: "25011", area: 33.23, coords: [45.45925926853319, 10.411797538580036], incomePerCapita: 24612, taxpayers: 9191
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

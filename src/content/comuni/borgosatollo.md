@@ -22,6 +22,8 @@ bordering:
   - "montirone"
   - "poncarale"
   - "san-zeno-naviglio"
+subcomuni:
+  - cap: "25010", area: 8.4, coords: [45.47967746388698, 10.234147656512713], incomePerCapita: 25222, taxpayers: 6742
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

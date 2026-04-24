@@ -26,6 +26,8 @@ bordering:
   - "schilpario"
   - "sellero"
   - "teglio"
+subcomuni:
+  - cap: "25050", area: 35.8, coords: [46.072300203849316, 10.240643837131257], incomePerCapita: 19895, taxpayers: 132
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

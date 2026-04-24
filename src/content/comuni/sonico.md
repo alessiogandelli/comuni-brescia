@@ -24,6 +24,8 @@ bordering:
   - "edolo"
   - "malonno"
   - "saviore-dell'adamello"
+subcomuni:
+  - cap: "25048", area: 60.76, coords: [46.143032694500924, 10.402525911148171], incomePerCapita: 22440, taxpayers: 931
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

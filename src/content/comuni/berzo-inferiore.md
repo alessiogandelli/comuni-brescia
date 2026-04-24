@@ -21,6 +21,8 @@ bordering:
   - "bovegno"
   - "cividate-camuno"
   - "esine"
+subcomuni:
+  - cap: "25040", area: 21.87, coords: [45.905881368678266, 10.292420876699836], incomePerCapita: 22293, taxpayers: 1833
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -21,6 +21,8 @@ bordering:
   - "bagolino"
   - "idro"
   - "lavenone"
+subcomuni:
+  - cap: "25070", area: 23.78, coords: [45.786799162525035, 10.46363090231648], incomePerCapita: 22403, taxpayers: 344
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

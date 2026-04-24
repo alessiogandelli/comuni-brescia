@@ -23,6 +23,8 @@ bordering:
   - "losine"
   - "lozio"
   - "ossimo"
+subcomuni:
+  - cap: "25053", area: 6.88, coords: [45.958198222773945, 10.272493504543348], incomePerCapita: 22680, taxpayers: 1424
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

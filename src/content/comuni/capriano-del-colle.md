@@ -21,6 +21,8 @@ bordering:
   - "dello"
   - "flero"
   - "poncarale"
+subcomuni:
+  - cap: "25020", area: 13.94, coords: [45.44873058947876, 10.134627913467307], incomePerCapita: 25480, taxpayers: 3545
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

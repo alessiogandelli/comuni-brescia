@@ -21,6 +21,8 @@ bordering:
   - "manerba-del-garda"
   - "puegnago-del-garda"
   - "salo"
+subcomuni:
+  - cap: "25010", area: 20.17, coords: [45.59074730278358, 10.545861886358205], incomePerCapita: 29006, taxpayers: 2734
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

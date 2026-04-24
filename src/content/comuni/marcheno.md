@@ -26,6 +26,8 @@ bordering:
   - "sarezzo"
   - "tavernole-sul-mella"
   - "zone"
+subcomuni:
+  - cap: "25060", area: 22.69, coords: [45.717352654406085, 10.21364871937485], incomePerCapita: 24780, taxpayers: 3093
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

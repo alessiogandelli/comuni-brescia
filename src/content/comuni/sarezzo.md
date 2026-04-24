@@ -25,6 +25,8 @@ bordering:
   - "marcheno"
   - "polaveno"
   - "villa-carcina"
+subcomuni:
+  - cap: "25068", area: 17.64, coords: [45.66479479377197, 10.202842152113163], incomePerCapita: 25376, taxpayers: 9789
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

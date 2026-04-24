@@ -27,6 +27,8 @@ bordering:
   - "riva-di-solto"
   - "sale-marasino"
   - "zone"
+subcomuni:
+  - cap: "25054", area: 23.89, coords: [45.74517683062508, 10.12161153590732], incomePerCapita: 24523, taxpayers: 2378
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

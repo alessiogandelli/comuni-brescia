@@ -27,6 +27,8 @@ bordering:
   - "pertica-alta"
   - "sarezzo"
   - "vestone"
+subcomuni:
+  - cap: "25070", area: 21.29, coords: [45.693192045070504, 10.306519280752388], incomePerCapita: 24849, taxpayers: 1237
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

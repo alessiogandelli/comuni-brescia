@@ -21,6 +21,8 @@ bordering:
   - "pralboino"
   - "san-gervasio-bresciano"
   - "seniga"
+subcomuni:
+  - cap: "25020", area: 8.48, coords: [45.27373394916095, 10.19657436202241], incomePerCapita: 22150, taxpayers: 1276
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

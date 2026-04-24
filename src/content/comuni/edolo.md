@@ -33,6 +33,8 @@ bordering:
   - "tovo-di-sant'agata"
   - "vezza-d'oglio"
   - "vione"
+subcomuni:
+  - cap: "25048", area: 88.72, coords: [46.18108131826081, 10.373060061753248], incomePerCapita: 23027, taxpayers: 3468
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -23,6 +23,8 @@ bordering:
   - "muscoline"
   - "puegnago-del-garda"
   - "soiano-del-lago"
+subcomuni:
+  - cap: "25080", area: 9.1, coords: [45.54670898993476, 10.502179511017554], incomePerCapita: 29584, taxpayers: 2178
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

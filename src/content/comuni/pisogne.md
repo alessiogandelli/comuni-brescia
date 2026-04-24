@@ -31,6 +31,8 @@ bordering:
   - "solto-collina"
   - "tavernole-sul-mella"
   - "zone"
+subcomuni:
+  - cap: "25055", area: 49.13, coords: [45.7979180102552, 10.139100974309919], incomePerCapita: 25973, taxpayers: 6036
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

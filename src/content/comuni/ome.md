@@ -24,6 +24,8 @@ bordering:
   - "monticelli-brusati"
   - "polaveno"
   - "rodengo-saiano"
+subcomuni:
+  - cap: "25050", area: 9.83, coords: [45.630358163883784, 10.123963203221335], incomePerCapita: 24962, taxpayers: 2463
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

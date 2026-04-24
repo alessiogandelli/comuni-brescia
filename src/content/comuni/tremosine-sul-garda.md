@@ -22,6 +22,8 @@ bordering:
   - "limone-sul-garda"
   - "magasa"
   - "tignale"
+subcomuni:
+  - cap: "25010", area: 72.51, coords: [45.810508298575414, 10.711390113930086], incomePerCapita: 19738, taxpayers: 1795
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

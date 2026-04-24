@@ -19,6 +19,8 @@ bordering:
   - "pumenengo"
   - "roccafranca"
   - "urago-d'oglio"
+subcomuni:
+  - cap: "25030", area: 9.83, coords: [45.486283451017414, 9.886589031773314], incomePerCapita: 21543, taxpayers: 4158
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

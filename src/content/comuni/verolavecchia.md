@@ -22,6 +22,8 @@ bordering:
   - "quinzano-d'oglio"
   - "robecco-d'oglio"
   - "verolanuova"
+subcomuni:
+  - cap: "25029", area: 21.03, coords: [45.30472032891569, 10.048512543713152], incomePerCapita: 24610, taxpayers: 2976
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

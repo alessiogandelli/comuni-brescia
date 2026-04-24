@@ -23,6 +23,8 @@ bordering:
   - "corzano"
   - "maclodio"
   - "rovato"
+subcomuni:
+  - cap: "25030", area: 20.07, coords: [45.48274548584872, 10.003830043314327], incomePerCapita: 23022, taxpayers: 3840
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

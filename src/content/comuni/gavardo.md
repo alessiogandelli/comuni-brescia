@@ -27,6 +27,8 @@ bordering:
   - "salo"
   - "vallio-terme"
   - "villanuova-sul-clisi"
+subcomuni:
+  - cap: "25085", area: 29.73, coords: [45.58991587416444, 10.444885000721255], incomePerCapita: 23676, taxpayers: 9204
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

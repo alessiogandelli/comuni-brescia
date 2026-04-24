@@ -19,6 +19,8 @@ bordering:
   - "castegnato"
   - "passirano"
   - "rodengo-saiano"
+subcomuni:
+  - cap: "25050", area: 5.6, coords: [45.58396252752516, 10.08408713679173], incomePerCapita: 26121, taxpayers: 2750
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

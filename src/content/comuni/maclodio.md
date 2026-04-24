@@ -20,6 +20,8 @@ bordering:
   - "lograto"
   - "mairano"
   - "trenzano"
+subcomuni:
+  - cap: "25030", area: 5.09, coords: [45.47887356371202, 10.041763930088857], incomePerCapita: 22342, taxpayers: 1023
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

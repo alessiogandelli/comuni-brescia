@@ -20,6 +20,8 @@ bordering:
   - "leno"
   - "milzano"
   - "pralboino"
+subcomuni:
+  - cap: "25020", area: 11.59, coords: [45.30080833977485, 10.209749616526807], incomePerCapita: 23335, taxpayers: 1963
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

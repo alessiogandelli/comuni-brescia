@@ -21,6 +21,8 @@ bordering:
   - "manerbio"
   - "milzano"
   - "pontevico"
+subcomuni:
+  - cap: "25020", area: 10.52, coords: [45.29913132997402, 10.155353133821155], incomePerCapita: 23900, taxpayers: 1863
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

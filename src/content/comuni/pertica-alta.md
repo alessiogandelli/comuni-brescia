@@ -24,6 +24,8 @@ bordering:
   - "mura"
   - "pertica-bassa"
   - "vestone"
+subcomuni:
+  - cap: "25070", area: 20.87, coords: [45.74272787197713, 10.342627034899591], incomePerCapita: 21607, taxpayers: 445
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

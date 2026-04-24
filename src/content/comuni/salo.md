@@ -23,6 +23,8 @@ bordering:
   - "roe-volciano"
   - "san-felice-del-benaco"
   - "vobarno"
+subcomuni:
+  - cap: "25087", area: 27.24, coords: [45.60953628867622, 10.523566351028094], incomePerCapita: 30358, taxpayers: 8281
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

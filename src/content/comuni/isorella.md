@@ -22,6 +22,8 @@ bordering:
   - "gottolengo"
   - "remedello"
   - "visano"
+subcomuni:
+  - cap: "25010", area: 15.3, coords: [45.30259989314696, 10.321360756028357], incomePerCapita: 23008, taxpayers: 2918
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

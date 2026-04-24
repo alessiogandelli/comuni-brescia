@@ -25,6 +25,8 @@ bordering:
   - "pontevico"
   - "san-paolo"
   - "verolavecchia"
+subcomuni:
+  - cap: "25028", area: 25.71, coords: [45.331603451897806, 10.081887448047503], incomePerCapita: 24261, taxpayers: 6283
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

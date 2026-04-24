@@ -23,6 +23,8 @@ bordering:
   - "gottolengo"
   - "manerbio"
   - "pavone-del-mella"
+subcomuni:
+  - cap: "25024", area: 58.34, coords: [45.35808470994075, 10.212302133859016], incomePerCapita: 24213, taxpayers: 10287
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

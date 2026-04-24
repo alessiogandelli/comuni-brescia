@@ -21,6 +21,8 @@ bordering:
   - "preseglie"
   - "sabbio-chiese"
   - "vallio-terme"
+subcomuni:
+  - cap: "25076", area: 6.53, coords: [45.63863312218914, 10.387220303820841], incomePerCapita: 26117, taxpayers: 1318
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -24,6 +24,8 @@ bordering:
   - "darfo-boario-terme"
   - "gianico"
   - "piancogno"
+subcomuni:
+  - cap: "25040", area: 30.25, coords: [45.88960081648588, 10.258016954728369], incomePerCapita: 22832, taxpayers: 3784
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

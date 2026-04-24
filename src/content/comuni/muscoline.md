@@ -22,6 +22,8 @@ bordering:
   - "polpenazze-del-garda"
   - "prevalle"
   - "puegnago-del-garda"
+subcomuni:
+  - cap: "25080", area: 10.06, coords: [45.55867889705537, 10.466389799617913], incomePerCapita: 26537, taxpayers: 2022
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

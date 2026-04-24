@@ -24,6 +24,8 @@ bordering:
   - "castenedolo"
   - "castiglione-delle-stiviere"
   - "ghedi"
+subcomuni:
+  - cap: "25018", area: 81.49, coords: [45.40686752041911, 10.384985242079855], incomePerCapita: 24140, taxpayers: 19059
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

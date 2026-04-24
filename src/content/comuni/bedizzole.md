@@ -24,6 +24,8 @@ bordering:
   - "nuvolento"
   - "nuvolera"
   - "prevalle"
+subcomuni:
+  - cap: "25081", area: 26.39, coords: [45.4986927483237, 10.422876411564602], incomePerCapita: 24543, taxpayers: 8950
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

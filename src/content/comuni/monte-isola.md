@@ -24,6 +24,8 @@ bordering:
   - "sale-marasino"
   - "sulzano"
   - "tavernola-bergamasca"
+subcomuni:
+  - cap: "25050", area: 12.58, coords: [45.710881193503404, 10.070250708914003], incomePerCapita: 21308, taxpayers: 1277
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

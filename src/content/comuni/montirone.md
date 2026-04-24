@@ -22,6 +22,8 @@ bordering:
   - "borgosatollo"
   - "ghedi"
   - "poncarale"
+subcomuni:
+  - cap: "25010", area: 10.5, coords: [45.45118713763776, 10.23001828627071], incomePerCapita: 24468, taxpayers: 3624
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

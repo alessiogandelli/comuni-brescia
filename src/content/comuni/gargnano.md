@@ -24,6 +24,8 @@ bordering:
   - "toscolano-maderno"
   - "valvestino"
   - "vobarno"
+subcomuni:
+  - cap: "25084", area: 76.57, coords: [45.71261719743595, 10.6171211415422], incomePerCapita: 23562, taxpayers: 2208
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

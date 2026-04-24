@@ -28,6 +28,8 @@ bordering:
   - "padenghe-sul-garda"
   - "pozzolengo"
   - "solferino"
+subcomuni:
+  - cap: "25017", area: 68.05, coords: [45.44649027130231, 10.509077200113486], incomePerCapita: 25732, taxpayers: 12678
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

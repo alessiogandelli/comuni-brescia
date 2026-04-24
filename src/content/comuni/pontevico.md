@@ -23,6 +23,8 @@ bordering:
   - "san-gervasio-bresciano"
   - "verolanuova"
   - "verolavecchia"
+subcomuni:
+  - cap: "25026", area: 29.15, coords: [45.28000142313412, 10.098794479766726], incomePerCapita: 22633, taxpayers: 5358
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

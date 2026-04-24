@@ -22,6 +22,8 @@ bordering:
   - "odolo"
   - "sabbio-chiese"
   - "vestone"
+subcomuni:
+  - cap: "25070", area: 11.43, coords: [45.66724746335773, 10.386329317827165], incomePerCapita: 25500, taxpayers: 1106
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

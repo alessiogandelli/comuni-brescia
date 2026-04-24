@@ -24,6 +24,8 @@ bordering:
   - "peschiera-del-garda"
   - "pozzolengo"
   - "sirmione"
+subcomuni:
+  - cap: "25015", area: 59.13, coords: [45.43892072760314, 10.568479032662674], incomePerCapita: 30025, taxpayers: 22171
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

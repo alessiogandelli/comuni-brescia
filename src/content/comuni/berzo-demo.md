@@ -24,6 +24,8 @@ bordering:
   - "paisco-loveno"
   - "sellero"
   - "sonico"
+subcomuni:
+  - cap: "25040", area: 15.43, coords: [46.10208802671248, 10.341494912714309], incomePerCapita: 23165, taxpayers: 1140
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

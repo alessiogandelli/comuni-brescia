@@ -18,6 +18,8 @@ bordering:
   - "corzano"
   - "orzinuovi"
   - "orzivecchi"
+subcomuni:
+  - cap: "25030", area: 15.25, coords: [45.418225283805924, 9.991880802874338], incomePerCapita: 24062, taxpayers: 2669
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -26,6 +26,8 @@ bordering:
   - "pertica-bassa"
   - "pezzaze"
   - "tavernole-sul-mella"
+subcomuni:
+  - cap: "25060", area: 18, coords: [45.75762265376379, 10.293960395149524], incomePerCapita: 21604, taxpayers: 524
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

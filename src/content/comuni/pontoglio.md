@@ -20,6 +20,8 @@ bordering:
   - "palazzolo-sull'oglio"
   - "palosco"
   - "urago-d'oglio"
+subcomuni:
+  - cap: "25037", area: 11.07, coords: [45.56415191365972, 9.854344898799424], incomePerCapita: 22763, taxpayers: 4932
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -29,6 +29,8 @@ bordering:
   - "preseglie"
   - "provaglio-val-sabbia"
   - "treviso-bresciano"
+subcomuni:
+  - cap: "25078", area: 12.94, coords: [45.7087573523951, 10.40200848882367], incomePerCapita: 24494, taxpayers: 3061
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

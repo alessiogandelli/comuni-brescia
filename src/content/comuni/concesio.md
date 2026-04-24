@@ -27,6 +27,8 @@ bordering:
   - "lumezzane"
   - "nave"
   - "villa-carcina"
+subcomuni:
+  - cap: "25062", area: 19.04, coords: [45.609095881406304, 10.213021068356872], incomePerCapita: 28646, taxpayers: 11936
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

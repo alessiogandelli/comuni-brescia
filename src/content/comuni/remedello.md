@@ -23,6 +23,8 @@ bordering:
   - "gambara"
   - "isorella"
   - "visano"
+subcomuni:
+  - cap: "25010", area: 21.42, coords: [45.272204441733955, 10.371676238378184], incomePerCapita: 23976, taxpayers: 2346
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

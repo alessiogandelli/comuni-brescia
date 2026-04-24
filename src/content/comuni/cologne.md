@@ -22,6 +22,8 @@ bordering:
   - "coccaglio"
   - "erbusco"
   - "palazzolo-sull'oglio"
+subcomuni:
+  - cap: "25033", area: 13.76, coords: [45.57872417549595, 9.929705367682697], incomePerCapita: 26178, taxpayers: 5493
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

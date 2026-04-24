@@ -25,6 +25,8 @@ bordering:
   - "lavenone"
   - "treviso-bresciano"
   - "valvestino"
+subcomuni:
+  - cap: "25074", area: 22.84, coords: [45.75916370818218, 10.5002842611533], incomePerCapita: 24486, taxpayers: 1477
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

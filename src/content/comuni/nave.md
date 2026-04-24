@@ -26,6 +26,8 @@ bordering:
   - "concesio"
   - "lumezzane"
   - "serle"
+subcomuni:
+  - cap: "25075", area: 27.16, coords: [45.594305753419576, 10.287716680603488], incomePerCapita: 25217, taxpayers: 8133
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

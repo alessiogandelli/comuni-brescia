@@ -23,6 +23,8 @@ bordering:
   - "edolo"
   - "ponte-di-legno"
   - "sonico"
+subcomuni:
+  - cap: "25040", area: 84.08, coords: [46.11483473711973, 10.492645089960966], incomePerCapita: 20543, taxpayers: 619
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

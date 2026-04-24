@@ -27,6 +27,8 @@ bordering:
   - "leno"
   - "montichiari"
   - "montirone"
+subcomuni:
+  - cap: "25016", area: 60.72, coords: [45.39968451104246, 10.271424731615486], incomePerCapita: 23885, taxpayers: 13265
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

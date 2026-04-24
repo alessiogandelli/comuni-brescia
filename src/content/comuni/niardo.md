@@ -21,6 +21,8 @@ bordering:
   - "braone"
   - "breno"
   - "losine"
+subcomuni:
+  - cap: "25050", area: 22.11, coords: [45.9600786493067, 10.36166161969163], incomePerCapita: 25985, taxpayers: 1419
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

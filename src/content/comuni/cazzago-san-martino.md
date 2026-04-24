@@ -25,6 +25,8 @@ bordering:
   - "passirano"
   - "rovato"
   - "travagliato"
+subcomuni:
+  - cap: "25046", area: 22.3, coords: [45.56785911494818, 10.03695772860441], incomePerCapita: 24689, taxpayers: 7930
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

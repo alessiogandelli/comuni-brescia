@@ -21,6 +21,8 @@ bordering:
   - "tignale"
   - "tremosine-sul-garda"
   - "valvestino"
+subcomuni:
+  - cap: "25080", area: 19.07, coords: [45.78349443269704, 10.629307982044413], incomePerCapita: 17701, taxpayers: 102
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

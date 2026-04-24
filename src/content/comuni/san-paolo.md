@@ -21,6 +21,8 @@ bordering:
   - "offlaga"
   - "orzinuovi"
   - "verolanuova"
+subcomuni:
+  - cap: "25020", area: 18.78, coords: [45.37508418483306, 10.030921384794555], incomePerCapita: 21241, taxpayers: 3205
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

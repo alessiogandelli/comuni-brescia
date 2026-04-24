@@ -20,6 +20,8 @@ bordering:
   - "rovato"
   - "travagliato"
   - "trenzano"
+subcomuni:
+  - cap: "25030", area: 4.58, coords: [45.50509815686253, 10.035629064299062], incomePerCapita: 23215, taxpayers: 1953
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

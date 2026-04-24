@@ -25,6 +25,8 @@ bordering:
   - "lavenone"
   - "marmentino"
   - "pertica-bassa"
+subcomuni:
+  - cap: "25060", area: 53.36, coords: [45.823453695821215, 10.350303934962485], incomePerCapita: 20687, taxpayers: 1511
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

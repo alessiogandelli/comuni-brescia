@@ -23,6 +23,8 @@ bordering:
   - "ponte-di-legno"
   - "vezza-d'oglio"
   - "vione"
+subcomuni:
+  - cap: "25050", area: 43.16, coords: [46.257288388091645, 10.48076764746108], incomePerCapita: 23691, taxpayers: 902
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

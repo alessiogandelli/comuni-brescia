@@ -18,6 +18,8 @@ bordering:
   - "corzano"
   - "dello"
   - "mairano"
+subcomuni:
+  - cap: "25030", area: 3.46, coords: [45.43543740428304, 10.058771652634789], incomePerCapita: 22936, taxpayers: 437
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

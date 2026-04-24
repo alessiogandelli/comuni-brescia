@@ -21,6 +21,8 @@ bordering:
   - "bovegno"
   - "darfo-boario-terme"
   - "esine"
+subcomuni:
+  - cap: "25040", area: 13.36, coords: [45.85794749524793, 10.214095483641525], incomePerCapita: 22221, taxpayers: 1550
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

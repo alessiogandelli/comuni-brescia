@@ -25,6 +25,8 @@ bordering:
   - "polaveno"
   - "provaglio-d'iseo"
   - "rodengo-saiano"
+subcomuni:
+  - cap: "25040", area: 10.87, coords: [45.63548407588315, 10.096989556176053], incomePerCapita: 29136, taxpayers: 3462
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

@@ -26,6 +26,8 @@ bordering:
   - "valfurva"
   - "vezza-d'oglio"
   - "vione"
+subcomuni:
+  - cap: "25056", area: 100.2, coords: [46.27086586478132, 10.529171295746352], incomePerCapita: 29785, taxpayers: 1446
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

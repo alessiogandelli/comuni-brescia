@@ -23,6 +23,8 @@ bordering:
   - "polaveno"
   - "sarezzo"
   - "villa-carcina"
+subcomuni:
+  - cap: "25060", area: 6.88, coords: [45.6405759489587, 10.15377246118344], incomePerCapita: 22444, taxpayers: 586
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

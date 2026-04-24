@@ -23,6 +23,8 @@ bordering:
   - "odolo"
   - "preseglie"
   - "vallio-terme"
+subcomuni:
+  - cap: "25071", area: 13.53, coords: [45.64282422036402, 10.348442280332245], incomePerCapita: 24207, taxpayers: 1298
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

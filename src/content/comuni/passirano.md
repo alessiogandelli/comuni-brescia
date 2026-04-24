@@ -27,6 +27,8 @@ bordering:
   - "paderno-franciacorta"
   - "provaglio-d'iseo"
   - "rodengo-saiano"
+subcomuni:
+  - cap: "25050", area: 13.37, coords: [45.597742954509464, 10.06159971313553], incomePerCapita: 27123, taxpayers: 5228
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

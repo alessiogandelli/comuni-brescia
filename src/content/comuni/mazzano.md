@@ -24,6 +24,8 @@ bordering:
   - "castenedolo"
   - "nuvolera"
   - "rezzato"
+subcomuni:
+  - cap: "25080", area: 15.69, coords: [45.5049562439967, 10.349594364646311], incomePerCapita: 24922, taxpayers: 9456
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

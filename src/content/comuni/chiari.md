@@ -28,6 +28,8 @@ bordering:
   - "roccafranca"
   - "rudiano"
   - "urago-d'oglio"
+subcomuni:
+  - cap: "25032", area: 37.9, coords: [45.52942098202937, 9.926363627411712], incomePerCapita: 24038, taxpayers: 14252
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

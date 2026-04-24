@@ -24,6 +24,8 @@ bordering:
   - "cologne"
   - "erbusco"
   - "rovato"
+subcomuni:
+  - cap: "25030", area: 12.03, coords: [45.55450241347005, 9.970844476773902], incomePerCapita: 24523, taxpayers: 6321
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

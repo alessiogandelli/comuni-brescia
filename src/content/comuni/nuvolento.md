@@ -23,6 +23,8 @@ bordering:
   - "paitone"
   - "prevalle"
   - "serle"
+subcomuni:
+  - cap: "25080", area: 7.44, coords: [45.54449740440708, 10.384355070161753], incomePerCapita: 24067, taxpayers: 2900
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

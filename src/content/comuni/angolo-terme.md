@@ -25,6 +25,8 @@ bordering:
   - "darfo-boario-terme"
   - "piancogno"
   - "rogno"
+subcomuni:
+  - cap: "25040", area: 30.5, coords: [45.905994721194055, 10.139603898694155], incomePerCapita: 21217, taxpayers: 1807
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

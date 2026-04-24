@@ -24,6 +24,8 @@ bordering:
   - "pompiano"
   - "roccafranca"
   - "trenzano"
+subcomuni:
+  - cap: "25030", area: 15.41, coords: [45.464285936361, 9.958441502689276], incomePerCapita: 22204, taxpayers: 2817
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

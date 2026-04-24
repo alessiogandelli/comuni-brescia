@@ -23,6 +23,8 @@ bordering:
   - "marmentino"
   - "pertica-alta"
   - "vestone"
+subcomuni:
+  - cap: "25078", area: 30.06, coords: [45.75762342583018, 10.37922397588198], incomePerCapita: 20181, taxpayers: 452
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""

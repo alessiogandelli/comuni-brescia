@@ -21,6 +21,8 @@ bordering:
   - "brescia"
   - "cellatica"
   - "concesio"
+subcomuni:
+  - cap: "25060", area: 5.26, coords: [45.58459167362674, 10.20679570955897], incomePerCapita: 30102, taxpayers: 3572
 # ── Enrichment (fill via AI or manually) ──
 intro: ""
 context: ""
