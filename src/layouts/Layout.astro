@@ -82,11 +82,11 @@ const structuredData = {
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased">
     <header class="sticky top-0 z-50 backdrop-blur-xl saturate-180 bg-background/90 border-b border-border/40">
-      <div class="mx-auto max-w-5xl px-6 h-16 flex items-center justify-between gap-6">
+      <div class="mx-auto flex h-auto max-w-5xl flex-col gap-3 px-4 py-3 sm:h-16 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:px-5 sm:py-0 lg:px-6">
         <a class="font-bold text-lg tracking-tight text-foreground hover:text-primary transition-colors shrink-0" href={base || '/'}>
           Ranturismo
         </a>
-        <nav class="flex items-center gap-2" aria-label="Navigazione principale">
+        <nav class="flex w-full flex-wrap items-center gap-2 sm:w-auto sm:flex-nowrap" aria-label="Navigazione principale">
           <a href={base || '/'} class="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent px-3 py-2 rounded-lg transition-all">
             <Icon name="home" size={16} />
             <span>Home</span>
@@ -96,9 +96,9 @@ const structuredData = {
             <span>Comuni</span>
           </a>
           
-          <a class="inline-flex items-center gap-2 text-sm font-semibold bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-lg transition-all shadow-md shadow-primary/20" href="https://play.ranturismo.com/randocomune" target="_blank" rel="noopener noreferrer">
+          <a class="group inline-flex items-center gap-2 text-sm font-bold bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 text-white px-4 py-2 rounded-lg transition-all shadow-md shadow-violet-500/30 hover:shadow-lg hover:shadow-violet-500/40" href="https://play.ranturismo.com/randocomune" target="_blank" rel="noopener noreferrer">
             <Icon name="compass" size={16} />
-            Randocomune
+            <span>Randocomune</span>
           </a>
         </nav>
       </div>
@@ -106,7 +106,7 @@ const structuredData = {
 
     
 
-    <main class="mx-auto max-w-5xl px-6 py-12 flex-1">
+    <main class="mx-auto max-w-5xl px-4 py-8 flex-1 sm:px-5 sm:py-10 lg:px-6 lg:py-12">
       <slot />
     </main>
 
