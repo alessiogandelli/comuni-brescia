@@ -88,6 +88,10 @@ const boundariesUrl = `${import.meta.env.BASE_URL}comuni-boundaries.json`;
           attributionControl: false,
         });
 
+        leaflet.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+        }).addTo(map);
+
         const coordsArr = coords.map((coordinate) => [coordinate[1], coordinate[0]]);
 
         const layer = leaflet.polygon(coordsArr, {
